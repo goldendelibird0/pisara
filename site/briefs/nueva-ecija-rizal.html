@@ -100,15 +100,6 @@ h2.div{display:flex;align-items:center;gap:16px;font:600 15px/1 var(--sans);colo
 .legend{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:12.5px;color:var(--sec);margin:12px 0 0 148px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px}
 .levels{margin-top:32px}
-/* the four groups as a 2x2 */
-.mx{display:grid;grid-template-columns:132px 1fr 1fr;gap:8px}
-.mx .ax{font-size:13px;line-height:1.35;color:var(--mut);align-self:end;padding:0 4px 2px}
-.mx .ay{align-self:center;text-align:right;padding:0 8px 0 0}
-.cell{display:flex;flex-direction:column;gap:3px;padding:16px 18px;border-radius:8px;text-decoration:none;min-height:112px;transition:box-shadow .16s}
-.cell b{font:600 34px/1 var(--head)}.cell span{font-weight:600;font-size:14.5px;line-height:1.3;margin-top:4px}.cell small{font-size:12.5px;line-height:1.35;opacity:.88}
-.mx .c0,.mx a.c0:hover{background:var(--g0);color:#fff}.mx .c1,.mx a.c1:hover{background:var(--g1);color:var(--ink)}
-.mx .c2,.mx a.c2:hover{background:var(--g2);color:var(--ink)}.mx .c3,.mx a.c3:hover{background:var(--g3);color:var(--ink)}
-.mx a.cell:hover{box-shadow:0 0 0 3px var(--accent)}
 details{margin-top:14px;font-size:14px}summary{cursor:pointer;color:var(--accent);width:fit-content}
 .names{columns:2;column-gap:32px;margin:10px 0 0;padding:0;list-style:none;color:var(--sec);font-size:13.5px}.names li{break-inside:avoid;padding:2px 0}
 /* questions */
@@ -142,11 +133,16 @@ tbody tr:hover td{background:var(--soft)}
 .peek:hover{border-color:var(--accent);color:var(--ink);box-shadow:0 8px 24px -12px rgba(15,23,42,.25)}
 .peek .ph{font:600 22px/1.2 var(--head);margin:0 0 22px;text-wrap:balance}
 .peek .bars{grid-template-columns:112px 1fr;gap:6px 12px}.peek .bar{height:26px}.peek .legend{margin:10px 0 0;font-size:12px;gap:2px 12px}
-.peek .mx{grid-template-columns:88px 1fr 1fr;gap:6px}.peek .cell{min-height:0;padding:12px 14px}.peek .cell b{font-size:26px}.peek .cell span{font-size:13px}.peek .cell small{display:none}
-.peek .mx .ax{font-size:12px}
 .peek .ph{margin-bottom:0}.peek .memo{margin-bottom:14px;padding-bottom:14px}
 .peek .part+.part{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
 .peek .go{display:block;margin-top:20px;font-weight:500;color:var(--accent)}
+.peek .pbl{margin:8px 0 0;font-size:15px;color:var(--sec)}
+.pf{display:grid;grid-template-columns:repeat(3,1fr)}.pf div{padding-right:12px}.pf div+div{padding-left:12px;border-left:1px solid var(--line)}
+.pf b{display:block;font:600 24px/1.1 var(--head);margin-bottom:4px}.pf div:first-child b{color:var(--g0)}.pf b small{font:500 13px var(--sans);color:var(--mut)}
+.pf span{display:block;font-size:12.5px;line-height:1.35;color:var(--sec)}
+.pacts{list-style:none;margin:0;padding:0}.pacts li{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;padding:6px 0}
+.pacts li+li{border-top:1px solid var(--line)}.pacts .pc{background:var(--k);color:var(--kt);border-radius:6px;text-align:center;font:600 17px/30px var(--head)}
+.pacts span{font-size:14.5px;font-weight:500}.pacts small{font-size:12.5px;color:var(--mut)}
 .band{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:64px 0}
 .band h2{font-size:30px;margin-bottom:10px}
 .who4{font-size:17px;color:var(--sec);max-width:44em;margin:0}
@@ -173,16 +169,15 @@ tbody tr:hover td{background:var(--soft)}
 .mh{grid-template-columns:1fr;margin-bottom:28px}.mh div+div{border-left:0;border-top:1px solid var(--line)}.mh div{padding:10px 14px}.bl{font-size:18px}
 .acts>li{grid-template-columns:60px 1fr;gap:0 14px;padding:16px 0}.acts .cnt b{font-size:24px}.acts .lrn{grid-column:2;text-align:left;padding-top:8px}.acts .lrn b{display:inline;font-size:15px}
 .lat2{grid-template-columns:1fr;gap:16px}.supp{margin-top:48px}
-.mx,.peek .mx{grid-template-columns:72px 1fr 1fr;gap:6px}.cell{padding:12px;min-height:0}.cell b{font-size:26px}.cell small{display:none}.mx .ax{font-size:11.5px}
 .names{columns:1}
 .peek .bars{grid-template-columns:1fr;gap:4px}.bar span{font-size:11px}.ask li{grid-template-columns:32px 1fr;font-size:16px}.later{padding:22px 16px}.card{padding:22px 20px}.peek{padding:22px 18px}
 .intro h1{margin-bottom:22px;font-size:40px}.br-d{display:none}.pitch div{grid-template-columns:1fr;gap:2px}.pitch dd{font-size:16px}.find .row{flex-direction:column}.find .btn{justify-content:center}.exs a{height:36px;padding:0 14px}
 .hide-s{display:none}.rib .name{flex-direction:column;gap:4px}.rib .name span{font-size:11.5px}.rib nav{margin-left:-8px}.rib nav a{padding:6px 8px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 @media print{.org{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
-@media print{body{background:#fff;font-size:11pt}.rib nav,.noprint{display:none!important}.rib,.mx .cell,.bar span,.mh .dec{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+@media print{body{background:#fff;font-size:11pt}.rib nav,.noprint{display:none!important}.rib,.bar span,.mh .dec{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .wrap{padding:0}.sheet{border:0;max-width:none;margin:0;padding:16pt 0 0;animation:none}
-h2{break-after:avoid}table,.dots,.bars,.acts>li,.mx,.ask li,.later{break-inside:avoid}.appendix{break-before:page}a{color:inherit;text-decoration:none}summary{display:none}}
+h2{break-after:avoid}table,.dots,.bars,.acts>li,.ask li,.later{break-inside:avoid}.appendix{break-before:page}a{color:inherit;text-decoration:none}summary{display:none}}
 </style></head><body><header class='rib'><div class='in'><a class='name' href='../index.html' aria-label='PISARA home'>PISARA<span><b>P</b>ublic <b>I</b>nformation for <b>S</b>chool <b>A</b>llocation and <b>R</b>esource <b>A</b>ccountability</span></a><nav><a href='../index.html#how'>How it works</a><a href='../index.html#find'>Find a locality</a><a href='../about.html'>Technical write-up</a></nav></div></header><div class='wrap'><main class='sheet'>
 <dl class='mh'><div><dt>For</dt><dd>Local School Board of Rizal, Nueva Ecija</dd></div>
 <div class='dec'><dt>Decision</dt><dd>How to share next year's Special Education Fund</dd></div>
