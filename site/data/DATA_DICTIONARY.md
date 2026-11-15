@@ -38,5 +38,6 @@ reading-level shares, money fields (empty where a source is not yet connected), 
 
 `money.special_education_fund` holds the locality's FY2025 (preliminary) Special Education Fund figures from the
 Bureau of Local Government Finance (BLGF): `collected` (property-tax income), `spent` (total expenditure) and
-`by_office` (spending by the office it was charged to), in pesos. Credit BLGF when you use them. The full BLGF
+`by_office` (spending by the office it was charged to), in pesos. They are town-wide totals and are not shown in the
+brief, because they do not say which school received what. Credit BLGF when you use them. The full BLGF
 workbook is not republished here; it is at https://blgf.gov.ph/lgu-fiscal-data/.

@@ -24,20 +24,19 @@ sees which schools need what.
    Grades 1 to 3 learners at the lowest level) and space (learners per classroom). That sorts schools into four
    groups: needs reading help and more room, reading help only, more room only, or neither. Each group comes with
    what the board could look into.
-3. **Questions for the meeting.**
-4. **What the fund paid for in 2025.** What the city or town collected for its SEF and what its reported spending
-   was charged to (elementary schools, secondary schools, general administration and so on), from BLGF's FY2025
-   preliminary figures. These are town-wide totals, not per school.
-5. **Planned:** where the SEF goes school by school, and follow-up after the meeting (needs a local government's
-   quarterly SEF utilisation report).
-6. **Supporting detail:** the reading distribution, every school's figures, and how to read them.
+3. **Questions for the meeting.** One per group, plus one on how next year's fund will be split between reading
+   support, buildings and operations.
+4. **Planned:** where the SEF goes school by school (needs the board's own school-by-school budget; see Limits),
+   and follow-up after the meeting.
+5. **Supporting detail:** the reading distribution, every school's figures, and how to read them.
 
 ## Coverage of the current run
 
 - 256 cities and municipalities get a brief, covering 6,041 schools and 641,031 assessed learners
 - 6,113 of 6,121 schools in the reading file joined to the other files by DepEd School ID (99.9%)
 - 1,565 of 1,644 localities matched by name to DBM COMPASS (95.2%)
-- 1,570 of 1,644 localities matched by name to BLGF's SEF figures (95.5%), including all 256 with a brief
+- 1,570 of 1,644 localities matched by name to BLGF's SEF figures (95.5%), including all 256 with a brief (kept in
+  the JSON files, not shown in the brief; see Limits)
 - A locality gets a brief only if at least 90% of its public elementary schools are in the reading data, and at
   least 5 schools
 
@@ -89,9 +88,12 @@ Use (https://www.deped.gov.ph/machine-ready-files/). BLGF's workbook has no stab
 ## Limits
 
 - DepEd's public reading file covers five regions (I, III, VIII, IX, CAR), so only localities there get a brief.
-- The SEF figures are the treasurer's FY2025 statement as reported to BLGF, and are marked preliminary. They are
-  town-wide, not per school, and do not include the province's share of the fund. "General administration" can
-  include costs that support schools. A town that reported no spending may simply not have filed in time.
+- The brief cannot yet say how the SEF is split between schools. Public SEF data stops at the town: BLGF publishes
+  each town's income and its spending by office, and the quarterly SEF utilisation reports that local governments
+  post list spending by type of expense. Neither shows which school received what. BLGF's FY2025 town totals
+  (preliminary, without the province's share) are kept in each locality's JSON as the figure that per-school data
+  should add up to, but they are left out of the brief because they cannot be set against the school groups, and
+  the board already knows its own total.
 - The tax allotment shown "for scale" is not specific to education.
 - Teacher and classroom counts are from SY 2023-24; reading and enrolment are from SY 2025-26.
 - Localities are matched to COMPASS and BLGF by name, because DepEd's files carry no location code (PSGC).
@@ -100,8 +102,8 @@ Use (https://www.deped.gov.ph/machine-ready-files/). BLGF's workbook has no stab
 
 ## Roadmap for the fellowship
 
-1. Connect a pilot local government's quarterly SEF utilisation reports, so the brief shows where the money goes
-   school by school.
+1. Get one pilot board's school-by-school SEF budget, check it against BLGF's town total, and show each group's
+   share of the fund next to its share of the town's lowest-level readers. That is the split the board decides.
 2. Connect the COMPASS API for location codes and DepEd regional spending.
 3. Test the brief with one Local School Board and revise it from their meeting.
 4. Add a follow-up view, so a board can check next year what changed in the schools it chose.
@@ -112,8 +114,8 @@ Use (https://www.deped.gov.ph/machine-ready-files/). BLGF's workbook has no stab
 - Test results are not compared across school years.
 - DepEd is credited as the source; the DepEd logo is not used; no endorsement is implied.
 - Data derived from DepEd's files (`site/data`, `site/api`) is shared under the same terms as the source files.
-- BLGF is credited for the SEF figures. They appear in the briefs and the JSON files only; BLGF's full workbook is
-  not republished here.
+- BLGF is credited for the SEF figures. They appear in the JSON files only; BLGF's full workbook is not
+  republished here.
 
 ## Credits
 
