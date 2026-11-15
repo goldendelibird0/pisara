@@ -44,15 +44,15 @@ def _sef_places():
         r = r[c:] + [""] * 5
         if r[2] and r[3] in ("City", "Municipality"):
             places.setdefault((norm_place(r[1]), norm_place(r[2])), []).append(
-                {"blgf_name": r[2], "type": r[3].lower(), "collected": num(r[4]), "spent": None, "by_office": {}})
+                {"blgf_name": r[2], "type": r[3].lower(), "collected": round(num(r[4]), 2), "spent": None, "by_office": {}})
     rows, h, c = table("Expenditures")
     cats = [x for x in rows[h + 1][c:] if x]  # second header row: one column per office, then the total
     for r in rows[h + 2:]:
         r = r[c:] + [""] * (4 + len(cats))
         for rec in places.get((norm_place(r[1]), norm_place(r[2])), []):
             if rec["type"] == r[3].lower():
-                vals = dict(zip(cats, (num(x) for x in r[4:4 + len(cats)])))
-                rec["spent"] = vals.pop("Total Expenditures", sum(vals.values()))
+                vals = dict(zip(cats, (round(num(x), 2) for x in r[4:4 + len(cats)])))  # pesos and centavos
+                rec["spent"] = vals.pop("Total Expenditures", round(sum(vals.values()), 2))
                 rec["by_office"] = vals
     return places
 
