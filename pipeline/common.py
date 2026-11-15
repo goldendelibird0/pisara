@@ -48,7 +48,8 @@ def num(v):
         return 0.0
 
 
-PROVINCE_ALIASES = {"WESTERN SAMAR": "SAMAR", "NORTH COTABATO": "COTABATO", "COMPOSTELA VALLEY": "DAVAO DE ORO"}
+PROVINCE_ALIASES = {"WESTERN SAMAR": "SAMAR", "NORTH COTABATO": "COTABATO", "COMPOSTELA VALLEY": "DAVAO DE ORO",
+                    "BARAUEN": "BURAUEN"}  # DepEd spells Burauen, Leyte as "Barauen"
 
 
 def norm_place(name):

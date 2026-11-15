@@ -35,6 +35,8 @@ def run(accept_deped_terms=False):
         fname = s.get("filename") or s["url"].rsplit("/", 1)[-1]
         path = os.path.join(folder, fname)
         if not os.path.exists(path):
+            if s.get("manual"):  # the publisher lists files on a page; there is no stable direct link
+                raise SystemExit(f"{fname} is missing. {s['manual']}")
             if "deped.gov.ph" in s["url"] and not accept_deped_terms:
                 raise SystemExit(f"{fname} is missing. Read DepEd's terms at {cfg['deped_terms']} "
                                  "and re-run with --accept-deped-terms to download it.")

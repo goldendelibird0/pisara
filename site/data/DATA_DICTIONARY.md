@@ -35,3 +35,8 @@ Shared under the same terms as the DepEd source files; credit the Department of 
 
 The full content of one brief: locality values, regional, division and all-published benchmarks,
 reading-level shares, money fields (empty where a source is not yet connected), and one entry per school.
+
+`money.special_education_fund` holds the locality's FY2025 (preliminary) Special Education Fund figures from the
+Bureau of Local Government Finance (BLGF): `collected` (property-tax income), `spent` (total expenditure) and
+`by_office` (spending by the office it was charged to), in pesos. Credit BLGF when you use them. The full BLGF
+workbook is not republished here; it is at https://blgf.gov.ph/lgu-fiscal-data/.

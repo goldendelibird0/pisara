@@ -58,7 +58,8 @@ def run():
                 1 for r in flagged if r["more_need_than_region"].get("learners_per_classroom")),
             "money": {
                 "national_tax_allotment": loc["nta"],
-                "special_education_fund": None,
+                "special_education_fund": dict(loc["sef"], fiscal_year="FY 2025", status="preliminary",
+                                               source="Bureau of Local Government Finance") if loc["sef"] else None,
                 "deped_regional_spending": None,
             },
             "schools": school_rows,

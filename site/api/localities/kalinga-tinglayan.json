@@ -85,7 +85,27 @@
    "FY 2026": 204362117.0,
    "FY 2027": 226722346.0
   },
-  "special_education_fund": null,
+  "special_education_fund": {
+   "collected": 136868.46,
+   "spent": 0.0,
+   "by_office": {
+    "General Administration": 0.0,
+    "Education Subsidiary Services": 0.0,
+    "Elementary School": 0.0,
+    "Secondary School": 0.0,
+    "Vocational/Technical School": 0.0,
+    "University/College Education School": 0.0,
+    "Adult Education": 0.0,
+    "Maintenance Of Sports Center, Athletic Fields, Playground": 0.0,
+    "Manpower Development Management Tool": 0.0,
+    "Others": 0.0,
+    "Loan Amortization-Domestic(Debt Service-Principal)": 0.0,
+    "Interest Payment-Domestic(Debt Service-Interest)": 0.0
+   },
+   "fiscal_year": "FY 2025",
+   "status": "preliminary",
+   "source": "Bureau of Local Government Finance"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -531,5 +551,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

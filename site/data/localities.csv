@@ -892,7 +892,7 @@ leyte-albuera,Albuera,Leyte,Region VIII,municipality,,True,256812742.0,219527978
 leyte-babatngon,Babatngon,Leyte,Region VIII,municipality,,True,159125896.0,136035071.0,144542162.0,171480529.0,197393104.0,218990821.0,20,0,0.0,False
 leyte-barugo,Barugo,Leyte,Region VIII,municipality,,True,165150995.0,141218572.0,150064835.0,178041541.0,204853442.0,227267430.0,33,33,1.0,True
 leyte-bato,Bato,Leyte,Region VIII,municipality,,True,171974731.0,147071139.0,156291948.0,185439438.0,212592333.0,235853070.0,27,27,1.0,True
-leyte-barauen,Barauen,Leyte,Region VIII,,,False,,,,,,,60,60,1.0,True
+leyte-burauen,Burauen,Leyte,Region VIII,municipality,,True,260009152.0,222295415.0,236198884.0,280369991.0,324903847.0,360453120.0,60,60,1.0,True
 leyte-calubian,Calubian,Leyte,Region VIII,municipality,,True,162389323.0,138840791.0,147530599.0,175030833.0,199934027.0,221809758.0,28,28,1.0,True
 leyte-capoocan,Capoocan,Leyte,Region VIII,municipality,,True,190667050.0,162985685.0,173170013.0,205490814.0,235859568.0,261666084.0,20,0,0.0,False
 leyte-carigara,Carigara,Leyte,Region VIII,municipality,,True,225226342.0,192631163.0,204714926.0,242966611.0,279353061.0,309918406.0,30,0,0.0,False

@@ -1,5 +1,5 @@
 {
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM.",
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.",
  "indicators": [
   {
    "id": "reading_lowest",
@@ -119,6 +119,21 @@
    "retrieved": "2026-11-15"
   },
   {
+   "id": "blgf_sef",
+   "title": "Special Education Fund income and expenditures",
+   "publisher": "Bureau of Local Government Finance (BLGF), LIFT system",
+   "period": "FY 2025 (preliminary)",
+   "key": "province + city or municipality name",
+   "licence": "Credit BLGF as the source; inform BLGF of use",
+   "url": "https://blgf.gov.ph/lgu-fiscal-data/",
+   "status": "connected",
+   "needs": null,
+   "file": "FY2025-SEF-Income-and-Expenditures.xlsx",
+   "bytes": 298536,
+   "sha256": "871a57ca73679430dc8cb95a99d7468d428cc41b4d76bf9032afd3d4f2191e9d",
+   "retrieved": "2026-11-15"
+  },
+  {
    "id": "compass_saaodb",
    "title": "DepEd appropriations, allotments, obligations and disbursements",
    "publisher": "DBM COMPASS API",
@@ -142,7 +157,7 @@
   },
   {
    "id": "sef_report",
-   "title": "Special Education Fund utilization report",
+   "title": "Special Education Fund utilization report, by school and purpose",
    "publisher": "Local government, under DepEd-DBM-DILG Joint Circular No. 1 s. 2017",
    "period": "Quarterly",
    "key": "city or municipality",
@@ -1207,13 +1222,13 @@
    "brief": "briefs/leyte-bato.html"
   },
   {
-   "locality_id": "leyte-barauen",
-   "name": "Barauen",
+   "locality_id": "leyte-burauen",
+   "name": "Burauen",
    "province": "Leyte",
    "region": "Region VIII",
    "reading_lowest": 0.1561119293078056,
-   "json": "api/localities/leyte-barauen.json",
-   "brief": "briefs/leyte-barauen.html"
+   "json": "api/localities/leyte-burauen.json",
+   "brief": "briefs/leyte-burauen.html"
   },
   {
    "locality_id": "leyte-calubian",

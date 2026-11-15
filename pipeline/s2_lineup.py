@@ -1,4 +1,4 @@
-"""Step 2. Line up: one record per school (by School ID), one per locality (by name match to COMPASS)."""
+"""Step 2. Line up: one record per school (by School ID), one per locality (by name match to COMPASS and BLGF)."""
 import glob
 import os
 from collections import defaultdict
@@ -29,6 +29,42 @@ def _compass_places():
     return places
 
 
+def _sef_places():
+    """(province, place) -> list of BLGF SEF records (FY2025): property-tax income and spending by office."""
+    path = glob.glob(os.path.join(RAW, "blgf_sef", "*.xlsx"))[0]
+
+    def table(sheet):
+        rows = list(xlsx.read_sheet(path, sheet))
+        h = next(i for i, r in enumerate(rows) if "LGU Name" in r)
+        return rows, h, rows[h].index("Region")
+
+    places = {}
+    rows, h, c = table("Income")
+    for r in rows[h + 1:]:
+        r = r[c:] + [""] * 5
+        if r[2] and r[3] in ("City", "Municipality"):
+            places.setdefault((norm_place(r[1]), norm_place(r[2])), []).append(
+                {"blgf_name": r[2], "type": r[3].lower(), "collected": num(r[4]), "spent": None, "by_office": {}})
+    rows, h, c = table("Expenditures")
+    cats = [x for x in rows[h + 1][c:] if x]  # second header row: one column per office, then the total
+    for r in rows[h + 2:]:
+        r = r[c:] + [""] * (4 + len(cats))
+        for rec in places.get((norm_place(r[1]), norm_place(r[2])), []):
+            if rec["type"] == r[3].lower():
+                vals = dict(zip(cats, (num(x) for x in r[4:4 + len(cats)])))
+                rec["spent"] = vals.pop("Total Expenditures", sum(vals.values()))
+                rec["by_office"] = vals
+    return places
+
+
+def _pick(hits, municipality):
+    """A city and a municipality can share a name: use DepEd's own wording to choose."""
+    if len(hits) > 1:
+        want = "city" if "CITY" in municipality.upper() else "municipality"
+        hits = [h for h in hits if h["type"] == want] or hits
+    return hits[0] if hits else None
+
+
 def run():
     enr = load_csv("enrollment_2025_2026")
     crla = {r["school_id"]: r for r in load_csv("crla")}
@@ -57,17 +93,15 @@ def run():
         schools.append(rec)
         by_loc[loc_id].append(rec)
 
-    places = _compass_places()
-    localities, matched = [], 0
+    places, sef_places = _compass_places(), _sef_places()
+    localities, matched, sef_matched = [], 0, 0
     for loc_id, rows in by_loc.items():
         first = rows[0]
         key = (norm_place(first["province"]), norm_place(first["municipality"]))
-        hits = places.get(key, [])
-        if len(hits) > 1:  # a city and a municipality share the name: use DepEd's own wording
-            want = "city" if "CITY" in first["municipality"].upper() else "municipality"
-            hits = [h for h in hits if h["type"] == want] or hits
-        hit = hits[0] if hits else None
+        hit = _pick(places.get(key, []), first["municipality"])
+        sef = _pick(sef_places.get(key, []), first["municipality"])
         matched += bool(hit)
+        sef_matched += bool(sef)
         n_read = sum(1 for r in rows if r["has_reading"])
         localities.append({
             "locality_id": loc_id,
@@ -78,6 +112,7 @@ def run():
             "psgc": None,
             "compass_matched": bool(hit),
             "nta": hit["nta"] if hit else None,
+            "sef": {k: sef[k] for k in ("collected", "spent", "by_office")} if sef else None,
             "public_elementary_schools": len(rows),
             "schools_with_reading": n_read,
             "coverage": n_read / len(rows),
@@ -93,12 +128,14 @@ def run():
         "localities": len(localities),
         "localities_matched_to_compass": matched,
         "localities_unmatched": sorted(f"{l['name']}, {l['province']}" for l in localities if not l["compass_matched"]),
+        "localities_matched_to_sef": sef_matched,
+        "sef_unmatched": sorted(f"{l['name']}, {l['province']}" for l in localities if not l["sef"]),
     }
     write_json(os.path.join(BUILD, "2_schools.json"), schools)
     write_json(os.path.join(BUILD, "2_localities.json"), localities)
     write_json(os.path.join(BUILD, "2_quality.json"), quality)
     print(f"2 line up   {len(schools):,} schools; reading matched {quality['reading_schools_matched']:,}/{len(crla):,}; "
-          f"localities matched to COMPASS {matched:,}/{len(localities):,}")
+          f"localities matched to COMPASS {matched:,}/{len(localities):,}, to BLGF SEF {sef_matched:,}/{len(localities):,}")
 
 
 if __name__ == "__main__":

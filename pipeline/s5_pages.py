@@ -18,13 +18,30 @@ README_URL = ""                    # full write-up, e.g. a shared Google Doc. Em
 LEVEL_COLORS = ["#C2410C", "#EA9A62", "#F3D9A4", "#9DB7E4", "#0038A8"]
 LEVEL_INK = ["#fff", "#0F172A", "#0F172A", "#0F172A", "#fff"]
 ATTRIBUTION = ("School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use "
-               "and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. "
-               "It is not produced, reviewed or endorsed by DepEd or DBM.")
+               "and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: "
+               "Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. "
+               "It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.")
+
+# BLGF reports SEF spending by office; the brief folds the twelve offices into six plain purposes.
+SEF_PURPOSES = [
+    ("Elementary schools", ["Elementary School"]),
+    ("Secondary schools", ["Secondary School"]),
+    ("General administration", ["General Administration"]),
+    ("Sports facilities", ["Maintenance Of Sports Center, Athletic Fields, Playground"]),
+    ("Other education services", ["Education Subsidiary Services", "Vocational/Technical School",
+                                  "University/College Education School", "Adult Education",
+                                  "Manpower Development Management Tool", "Others"]),
+    ("Debt payments", ["Loan Amortization-Domestic(Debt Service-Principal)",
+                       "Interest Payment-Domestic(Debt Service-Interest)"]),
+]
 
 ORG_DEPED = ("<abbr class='org deped' title='Department of Education'><svg viewBox='0 0 24 24' fill='none' stroke-width='2' "
              "stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z'/></svg>DepEd</abbr>")
 ORG_DBM = ("<abbr class='org dbm' title='Department of Budget and Management'><svg viewBox='0 0 24 24' fill='none' stroke-width='2' "
            "stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M3 21h18M5 21V10M10 21V10M14 21V10M19 21V10M2 10l10-6 10 6'/></svg>DBM</abbr>")
+
+ORG_BLGF = ("<abbr class='org dbm' title='Bureau of Local Government Finance'><svg viewBox='0 0 24 24' fill='none' stroke-width='2' "
+            "stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><circle cx='12' cy='12' r='8'/><path d='M12 8v8M9.5 10.5h4a1.5 1.5 0 0 1 0 3h-3'/></svg>BLGF</abbr>")
 
 CSS = """
 :root{--desk:#F1F5F9;--paper:#fff;--ink:#0F172A;--sec:#334155;--mut:#64748B;--line:#E2E8F0;--soft:#F8FAFC;
@@ -150,6 +167,12 @@ td.me{font-weight:600}.up{color:var(--need)}td.no{color:var(--mut)}tr.grp td{fon
 tbody tr:hover td{background:var(--soft)}
 .sub{margin-top:44px}
 .fine{font-size:13px;color:var(--mut);margin:0;padding-left:16px;max-width:56em}.fine li{margin-bottom:4px}
+.sef{margin:8px 0 14px}.sef .tot td{font-weight:600;border-top:1px solid var(--ink)}
+.sb{display:inline-block;width:90px;height:8px;background:var(--line);border-radius:2px;margin-right:8px;vertical-align:middle;overflow:hidden}
+.sb i{display:block;height:100%;background:#334155}
+.sef td:nth-child(2),.sef td:nth-child(3){white-space:nowrap}
+@media (max-width:560px){.sb{width:36px;margin-right:6px}.sef th,.sef td{padding-left:6px;padding-right:6px}}
+@media print{.sb,.sb i{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 .field{font:inherit;font-size:15px;height:48px;padding:0 14px;border:1px solid #CBD5E1;border-radius:8px;background:var(--paper);color:var(--ink);width:100%}
 .field:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
 .tools{display:grid;grid-template-columns:1fr 220px;gap:12px;margin:16px 0 8px;align-items:center}
@@ -236,7 +259,43 @@ def fmt(v, kind):
 
 
 def peso(v):
-    return f"₱{v / 1e9:,.2f} billion" if v >= 1e9 else f"₱{v / 1e6:,.1f} million"
+    if v >= 1e9:
+        return f"₱{v / 1e9:,.2f} billion"
+    return f"₱{v / 1e6:,.1f} million" if v >= 1e6 else f"₱{v:,.0f}"
+
+
+def sef_purposes(sef):
+    """(purpose, amount, share of spending) for each purpose with spending, in SEF_PURPOSES order."""
+    out = []
+    for label, offices in SEF_PURPOSES:
+        amt = sum(sef["by_office"].get(o, 0) for o in offices)
+        if amt > 0:
+            out.append((label, amt, amt / sef["spent"]))
+    return out
+
+
+def sef_section(b, num):
+    """What the fund was spent on last year: town-wide, as reported to BLGF. Describes; does not judge."""
+    sef, name = b["money"]["special_education_fund"], e(b["name"])
+    head = f"<section class='sec'><h2><span class='sn'>{num}</span>What the fund paid for in 2025</h2>"
+    fine = ("<ul class='fine'><li>Town-wide totals from the local treasurer's Statement of Receipts and Expenditures, as reported to "
+            "the Bureau of Local Government Finance (BLGF). FY2025, preliminary. They do not show which school received what.</li>"
+            "<li>The purposes are the offices the treasurer charged. General administration can include costs that support schools.</li>"
+            "<li>The province keeps its own share of the fund for schools across the province. That share is not shown here.</li></ul>")
+    if not sef:
+        return head + f"<p class='lead'>{name} is not yet matched to BLGF's Special Education Fund data.</p></section>"
+    if not sef["spent"]:
+        got = f"collected <b>{peso(sef['collected'])}</b> for the fund in 2025 but " if sef["collected"] else ""
+        return (head + f"<p class='lead'>{name} {got}reported no spending from it to BLGF. This may mean the report was "
+                f"not filed in time, not that nothing was spent. Ask the treasurer for the year's figures.</p>{fine}</section>")
+    rows = "".join(
+        f"<tr><td>{p}</td><td>{peso(a)}</td><td><span class='sb'><i style='width:{s * 100:.1f}%'></i></span>{s * 100:.0f}%</td></tr>"
+        for p, a, s in sef_purposes(sef))
+    lead = (f"{name} collected <b>{peso(sef['collected'])}</b> for the Special Education Fund from property tax in 2025 "
+            f"and reported spending <b>{peso(sef['spent'])}</b> from it. This is what that spending was charged to.")
+    return (head + f"<p class='lead'>{lead}</p><div class='tw'><table class='sef'><thead><tr><th>Purpose</th><th>Spent</th>"
+            f"<th>Share of spending</th></tr></thead><tbody>{rows}<tr class='tot'><td>Total</td><td>{peso(sef['spent'])}</td>"
+            f"<td>100%</td></tr></tbody></table></div>{fine}</section>")
 
 
 def more_need(ind, val, ref):
@@ -364,7 +423,15 @@ def brief_html(b, indicators, head):
         asks.append(f"<b>{len(bb['schools'])} schools</b> need reading help but are not crowded. What does the fund pay for there now: materials, training, or remedial sessions?")
     if cc["schools"]:
         asks.append(f"<b>{len(cc['schools'])} schools</b> read well but are crowded. Can classroom works there wait a year, or not?")
-    asks.append(f"<b>{low_all:,.0f} learners</b> are at the lowest reading level. How much of the fund goes to learning support, compared with buildings and operations?")
+    sef = b["money"]["special_education_fund"]
+    if sef and sef["spent"]:
+        share = {p: s for p, _, s in sef_purposes(sef)}
+        pct = lambda x: "less than 1%" if 0 < x < 0.005 else f"{x * 100:.0f}%"
+        asks.append(f"<b>{low_all:,.0f} learners</b> are at the lowest reading level. In 2025, {pct(share.get('Elementary schools', 0))} of the fund's reported "
+                    f"spending was charged to elementary schools and {pct(share.get('General administration', 0))} to general administration (section 3). "
+                    f"How much of next year's fund goes to learning support, compared with buildings and operations?")
+    else:
+        asks.append(f"<b>{low_all:,.0f} learners</b> are at the lowest reading level. How much of the fund goes to learning support, compared with buildings and operations?")
 
     cols = [(b["name"], v, True), (b["region"], reg, False)]
     if div:
@@ -419,8 +486,10 @@ def brief_html(b, indicators, head):
 <p class='lead'>Settle these before the fund is shared. The board knows conditions the data does not.</p>
 <ol class='ask'>{''.join(f'<li><span>{q}</span></li>' for q in asks)}</ol></section>
 
+{sef_section(b, 3)}
+
 <div class='later'><p class='top'><span class='plan'>Planned for the fellowship</span>Empty until real figures are connected. Nothing here is estimated.</p>
-<div class='lat2'><div><h3>Where the fund goes now</h3><p>{name}'s Special Education Fund by purpose, budgeted and spent, beside the groups above.</p></div>
+<div class='lat2'><div><h3>Where the fund goes, school by school</h3><p>Which schools {name}'s fund reached and for what, from the quarterly SEF report, beside the groups above.</p></div>
 <div><h3>After the meeting</h3><p>What the board decided for each group, the amount set aside, and whether it was spent.</p></div></div></div>
 
 <section class='supp appendix'><h2 class='div'>Supporting detail</h2>
@@ -490,7 +559,7 @@ def index_html(briefs, quality, manifest, featured):
 <h1>Where do our schools<br class='br-d'> need <em>help the most?</em></h1>
 <dl class='pitch'>
 <div class='p'><dt>Problem</dt><dd>School boards spend the Special Education Fund <strong>without seeing which schools need help.</strong></dd></div>
-<div class='d'><dt>Data</dt><dd>The evidence is <strong>already public</strong>, split across {ORG_DEPED} and {ORG_DBM} files never joined.</dd></div>
+<div class='d'><dt>Data</dt><dd>The evidence is <strong>already public</strong>, split across {ORG_DEPED}, {ORG_DBM} and {ORG_BLGF} files never joined.</dd></div>
 <div class='s'><dt>{NAME}</dt><dd>Joins them school by school and shows every board <strong>which schools need what, on one page.</strong></dd></div></dl>
 <form class='find' onsubmit='return pick()'><label for='q'>Find your city or municipality</label>
 <div class='row'><div class='box'><svg viewBox='0 0 24 24' fill='none' stroke-width='2' stroke-linecap='round'><circle cx='11' cy='11' r='7'/><path d='m20 20-3.5-3.5'/></svg>
@@ -504,7 +573,7 @@ def index_html(briefs, quality, manifest, featured):
 <p class='who4'>For the Local School Board: the mayor, the schools division superintendent and the other members who decide how the Special Education Fund is shared.</p>
 <div class='engine'><div><p class='k'>Behind the scenes</p><h3>{NAME} does the groundwork no board has time for</h3>
 <p>Every brief starts from data the government already publishes. {NAME} turns it into something a board can act on, and keeps it current.</p></div>
-<ul><li><b>Gathers</b>the public files from DepEd and DBM, so no one has to hunt for them</li>
+<ul><li><b>Gathers</b>the public files from DepEd, DBM and BLGF, so no one has to hunt for them</li>
 <li><b>Connects</b>every school's reading results, enrolment, teachers and classrooms into one record</li>
 <li><b>Compares</b>each school with others in its region, fairly and without ranking</li>
 <li><b>Explains</b>what it finds in plain language, and rebuilds whenever new data is out</li></ul></div>
@@ -520,10 +589,11 @@ def index_html(briefs, quality, manifest, featured):
 <div class='card'><h3>Works today</h3><p class='note'>Built and checked against published data</p>
 <ul><li>A brief for {len(briefs)} cities and municipalities in five regions, covering {schools:,} public elementary schools</li>
 <li>Four groups of schools, with what the board could do for each and the questions to settle</li>
+<li>What each city or town collected for its Special Education Fund in 2025, and what the spending was charged to</li>
 <li>Every brief rebuilt from the published files with one command</li>
 <li>The same content as open data: <a href='data/schools.csv'>schools</a>, <a href='data/localities.csv'>localities</a>, <a href='api/index.json'>JSON</a>, <a href='data/DATA_DICTIONARY.md'>dictionary</a></li></ul></div>
 <div class='card next'><h3>Next, during the fellowship<span class='plan'>Planned</span></h3><p class='note'>December 2026 to March 2027</p>
-<ul><li>Where the Special Education Fund goes now, by purpose, beside the groups of schools</li>
+<ul><li>Where the Special Education Fund goes school by school, from a pilot locality's quarterly reports</li>
 <li>A record of what each board decided, and whether the money was spent</li>
 <li>Location codes and DepEd spending straight from the COMPASS API</li>
 <li>More regions and grade levels as DepEd publishes them, and briefs in Filipino</li></ul></div></div>
@@ -586,7 +656,7 @@ def about_html(quality, briefs, manifest, indicators, rules):
 <h2>1. The problem</h2>
 <p>Every city and municipality has a Local School Board that budgets the Special Education Fund (SEF), an extra 1% tax on real property, each year.
 Boards decide with little school-by-school evidence. The evidence is public, but it sits in separate DepEd files from different years,
-and the money sits with DBM and the local government. Nobody on a board has time to join them.</p>
+and the money sits with DBM and BLGF. Nobody on a board has time to join them.</p>
 <p>{NAME} is that join, done once, the same way for every locality, and turned into the one thing a board uses: a short brief that sorts its schools
 by the kind of help the data points to.</p>
 
@@ -596,7 +666,7 @@ so any step can be rerun and inspected alone. Indicators, brief rules and source
 <pre>python pipeline/run.py --accept-deped-terms</pre>
 <div class='tw'><table><thead><tr><th style='min-width:6.5em'>Step</th><th>Script</th><th>Does</th><th>Writes</th></tr></thead><tbody>
 <tr><td>1 Collect</td><td><code>s1_collect.py</code></td><td>Downloads each connected source once, unzips safely, records file size, SHA-256 and retrieval date</td><td><code>1_manifest.json</code></td></tr>
-<tr><td>2 Line up</td><td><code>s2_lineup.py</code></td><td>One record per public elementary school, keyed by DepEd School ID; one record per city or municipality, matched to COMPASS</td><td><code>2_schools.json</code>, <code>2_localities.json</code>, <code>2_quality.json</code></td></tr>
+<tr><td>2 Line up</td><td><code>s2_lineup.py</code></td><td>One record per public elementary school, keyed by DepEd School ID; one record per city or municipality, matched to COMPASS and BLGF</td><td><code>2_schools.json</code>, <code>2_localities.json</code>, <code>2_quality.json</code></td></tr>
 <tr><td>3 Measure</td><td><code>s3_measure.py</code></td><td>Every indicator for every school, and learner-weighted benchmarks for each region, division and the whole file</td><td><code>3_measures.json</code></td></tr>
 <tr><td>4 Group</td><td><code>s4_group.py</code></td><td>Applies the coverage rule, compares each school with its region, attaches the locality's money fields</td><td><code>4_briefs.json</code></td></tr>
 <tr><td>5 Publish</td><td><code>s5_publish.py</code></td><td>Brief pages, JSON API, CSV extracts, data dictionary, this write-up and the data quality report</td><td><code>site/</code></td></tr>
@@ -611,6 +681,8 @@ so any step can be rerun and inspected alone. Indicators, brief rules and source
 {quality['reading_schools_matched']:,} of {quality['reading_file_schools']:,} schools in the reading file joined ({joined:.2%}); {quality['reading_schools_unmatched']} did not. Personnel and facilities joined for {quality['schools_with_personnel']:,} schools.</li>
 <li><b>Localities.</b> Schools roll up to a city or municipality by province and municipality name. Names are normalised (accents, case, “City of”, text in brackets removed) and matched to the COMPASS export. Where a city and a municipality share a name, DepEd's own wording decides.
 {quality['localities_matched_to_compass']:,} of {quality['localities']:,} localities matched. Name matching is a stopgap: the COMPASS API carries ten-digit PSGC codes, which replace it once a key is issued.</li>
+<li><b>Special Education Fund.</b> The same province and name match links each locality to BLGF's FY2025 SEF workbook: property-tax income, and spending by the office it was charged to.
+{quality['localities_matched_to_sef']:,} of {quality['localities']:,} localities matched, and every locality with a brief. The brief folds BLGF's twelve offices into six purposes and shows them as reported, without judging them.</li>
 <li><b>Eligibility.</b> DepEd's public reading file covers five regions. A locality gets a brief only when at least {rules['min_coverage']:.0%} of its public elementary schools are in that file and it has at least {rules['min_schools']} such schools, so a brief never speaks for schools it cannot see.</li></ul>
 
 <h2>5. Measures</h2>
@@ -638,18 +710,20 @@ Are its learners per classroom higher than the region's? The two answers give fo
 <h2>8. Known limits</h2>
 <ul><li>Reading results are school year 2025-26; teachers and classrooms are 2023-24, the latest DepEd has published. Crowding is enrolment over classrooms across those years.</li>
 <li>The public reading file covers Regions I, III, VIII, IX and CAR only.</li>
-<li>The only money figure today is the National Tax Allotment, which is not education money. The brief says so and leaves the SEF table empty.</li>
+<li>SEF figures are FY2025 and preliminary. They are town-wide totals by office, not by school, and leave out the province's share of the fund. A locality that reported no spending may simply not have filed.</li>
+<li>The National Tax Allotment is shown for scale only; it is not education money.</li>
 <li>The groups describe where need shows up. They do not show that crowding causes low reading, or that spending will fix it.</li></ul>
 
 <h2>9. Roadmap for the fellowship</h2>
-<ul><li><b>SEF adapter.</b> Local governments file a quarterly Report of SEF Utilization under the Full Disclosure Policy. One parser maps its lines to the purposes the law allows, so the fund's spending sits beside the groups of schools.</li>
+<ul><li><b>SEF by school.</b> BLGF's figures stop at the town level. Local governments also file a quarterly Report of SEF Utilization under the Full Disclosure Policy. A parser for a pilot locality's report shows which schools the fund reached, beside the groups of schools.</li>
 <li><b>COMPASS API.</b> PSGC codes replace name matching; DepEd regional appropriations, allotments and disbursements add the national side of the money.</li>
 <li><b>Decision records.</b> A small record per meeting: group, amount set aside, status. The next brief reports whether it was spent, so a board's commitment can be followed.</li>
 <li><b>Coverage.</b> New regions and grade levels as DepEd publishes them, by rerunning the pipeline. Briefs in Filipino.</li></ul>
 
 <h2>10. Rules it follows</h2>
 <ul><li>Schools are never ranked, and test results are not compared across school years, as DepEd's terms of use require.</li>
-<li>Derived data is shared under the same terms as DepEd's files, with credit to DepEd. No DepEd or DBM logo, no implied endorsement.</li>
+<li>Derived data is shared under the same terms as DepEd's files, with credit to DepEd. No DepEd, DBM or BLGF logo, no implied endorsement.</li>
+<li>BLGF figures appear inside each brief and its JSON with credit to BLGF. The full BLGF workbook is not republished; get it from <a href='https://blgf.gov.ph/lgu-fiscal-data/'>BLGF's LGU fiscal data page</a>.</li>
 <li>No figure is estimated or invented. Planned parts of a brief stay empty and labelled until a real source is connected.</li>
 <li>{ATTRIBUTION}</li></ul>
 </main></div>"""
@@ -667,7 +741,12 @@ def quality_html(quality, manifest, briefs):
         ("Localities in the enrolment file", f"{quality['localities']:,}"),
         ("Localities matched by name to DBM COMPASS", f"{quality['localities_matched_to_compass']:,} "
          f"({quality['localities_matched_to_compass'] / quality['localities']:.1%})"),
+        ("Localities matched by name to BLGF Special Education Fund data", f"{quality['localities_matched_to_sef']:,} "
+         f"({quality['localities_matched_to_sef'] / quality['localities']:.1%})"),
         ("Localities that qualify for a brief", f"{len(briefs)}"),
+        ("Briefs with SEF figures", f"{sum(1 for b in briefs if b['money']['special_education_fund'])}"),
+        ("Briefs where the locality reported no SEF spending for FY2025",
+         f"{sum(1 for b in briefs if b['money']['special_education_fund'] and not b['money']['special_education_fund']['spent'])}"),
         ("Qualifying localities not matched to COMPASS",
          "; ".join(f"{b['name']}, {b['province']}" for b in briefs if not b["compass_matched"]) or "none"),
     ]

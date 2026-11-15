@@ -45,6 +45,11 @@ Shared under the same terms as the DepEd source files; credit the Department of 
 
 The full content of one brief: locality values, regional, division and all-published benchmarks,
 reading-level shares, money fields (empty where a source is not yet connected), and one entry per school.
+
+`money.special_education_fund` holds the locality's FY2025 (preliminary) Special Education Fund figures from the
+Bureau of Local Government Finance (BLGF): `collected` (property-tax income), `spent` (total expenditure) and
+`by_office` (spending by the office it was charged to), in pesos. Credit BLGF when you use them. The full BLGF
+workbook is not republished here; it is at https://blgf.gov.ph/lgu-fiscal-data/.
 """
 
 
@@ -56,6 +61,11 @@ def run():
     manifest = read_json(os.path.join(BUILD, "1_manifest.json"))
     for sub in ("briefs", "api/localities", "data"):
         os.makedirs(os.path.join(SITE, sub), exist_ok=True)
+    current = {b["locality_id"] for b in briefs}
+    for sub, ext in (("briefs", ".html"), ("api/localities", ".json")):  # drop pages for renamed or dropped places
+        for name in os.listdir(os.path.join(SITE, sub)):
+            if name.endswith(ext) and name[:-len(ext)] not in current:
+                os.remove(os.path.join(SITE, sub, name))
 
     for b in briefs:
         with open(os.path.join(SITE, "briefs", b["locality_id"] + ".html"), "w", encoding="utf-8") as f:
