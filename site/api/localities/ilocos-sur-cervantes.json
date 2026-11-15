@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 17287000.0,
+   "schools_listed": 26,
+   "public_elementary_schools": 26,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Aluling Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 103.0,
+   "mooe_es_fy2026": 710000.0,
    "values": {
     "reading_lowest": 0.023255813953488372,
     "reading_grade_level": 0.18604651162790697,
@@ -133,6 +143,8 @@
    "school_name": "Bantay Primary School",
    "learners_assessed": 7.0,
    "small_group": true,
+   "k6_enrollment": 15.0,
+   "mooe_es_fy2026": 595000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Bissayot Elementary School",
    "learners_assessed": 52.0,
    "small_group": false,
+   "k6_enrollment": 113.0,
+   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.8269230769230769,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Biwak Primary School",
    "learners_assessed": 2.0,
    "small_group": true,
+   "k6_enrollment": 24.0,
+   "mooe_es_fy2026": 605000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Cabaroan Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
+   "k6_enrollment": 119.0,
+   "mooe_es_fy2026": 726000.0,
    "values": {
     "reading_lowest": 0.4888888888888889,
     "reading_grade_level": 0.17777777777777778,
@@ -209,6 +227,8 @@
    "school_name": "Cervantes Central School",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 202.0,
+   "mooe_es_fy2026": 823000.0,
    "values": {
     "reading_lowest": 0.47297297297297297,
     "reading_grade_level": 0.12162162162162163,
@@ -228,6 +248,8 @@
    "school_name": "Comillas North Integrated School",
    "learners_assessed": 67.0,
    "small_group": false,
+   "k6_enrollment": 179.0,
+   "mooe_es_fy2026": 641000.0,
    "values": {
     "reading_lowest": 0.6567164179104478,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Comillas South Elementary School",
    "learners_assessed": 84.0,
    "small_group": false,
+   "k6_enrollment": 228.0,
+   "mooe_es_fy2026": 837000.0,
    "values": {
     "reading_lowest": 0.5714285714285714,
     "reading_grade_level": 0.011904761904761904,
@@ -266,6 +290,8 @@
    "school_name": "Daing Integrated School",
    "learners_assessed": 50.0,
    "small_group": false,
+   "k6_enrollment": 128.0,
+   "mooe_es_fy2026": 548000.0,
    "values": {
     "reading_lowest": 0.18,
     "reading_grade_level": 0.02,
@@ -285,6 +311,8 @@
    "school_name": "Dinwede Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 35.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.08333333333333333,
     "reading_grade_level": 0.08333333333333333,
@@ -304,6 +332,8 @@
    "school_name": "Lamagan Elementary School",
    "learners_assessed": 6.0,
    "small_group": true,
+   "k6_enrollment": 28.0,
+   "mooe_es_fy2026": 614000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -323,6 +353,8 @@
    "school_name": "Libang Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 674000.0,
    "values": {
     "reading_lowest": 0.38095238095238093,
     "reading_grade_level": 0.0,
@@ -342,6 +374,8 @@
    "school_name": "Liqueo Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 46.0,
+   "mooe_es_fy2026": 637000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.3888888888888889,
@@ -361,6 +395,8 @@
    "school_name": "Malaya Elementary School",
    "learners_assessed": 4.0,
    "small_group": true,
+   "k6_enrollment": 52.0,
+   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.25,
@@ -380,6 +416,8 @@
    "school_name": "Naiba Primary School",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 27.0,
+   "mooe_es_fy2026": 604000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.16666666666666666,
@@ -399,6 +437,8 @@
    "school_name": "Namaligan Primary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 52.0,
+   "mooe_es_fy2026": 632000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.25,
@@ -418,6 +458,8 @@
    "school_name": "Paang Primary School",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 648000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.09090909090909091,
@@ -437,6 +479,8 @@
    "school_name": "Pautan Primary School",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 30.0,
+   "mooe_es_fy2026": 616000.0,
    "values": {
     "reading_lowest": 1.0,
     "reading_grade_level": 0.0,
@@ -456,6 +500,8 @@
    "school_name": "Pilipil Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 45.0,
+   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.0625,
     "reading_grade_level": 0.0,
@@ -475,6 +521,8 @@
    "school_name": "Quinayad  Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 61.0,
+   "mooe_es_fy2026": 647000.0,
    "values": {
     "reading_lowest": 0.34615384615384615,
     "reading_grade_level": 0.07692307692307693,
@@ -494,6 +542,8 @@
    "school_name": "Rosario Elementary School",
    "learners_assessed": 83.0,
    "small_group": false,
+   "k6_enrollment": 191.0,
+   "mooe_es_fy2026": 811000.0,
    "values": {
     "reading_lowest": 0.27710843373493976,
     "reading_grade_level": 0.012048192771084338,
@@ -513,6 +563,8 @@
    "school_name": "San Juan Elementary School",
    "learners_assessed": 83.0,
    "small_group": false,
+   "k6_enrollment": 227.0,
+   "mooe_es_fy2026": 835000.0,
    "values": {
     "reading_lowest": 0.20481927710843373,
     "reading_grade_level": 0.13253012048192772,
@@ -532,6 +584,8 @@
    "school_name": "Tagpeo Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 37.0,
+   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.1875,
@@ -551,6 +605,8 @@
    "school_name": "Tam-awan Primary School",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 20.0,
+   "mooe_es_fy2026": 599000.0,
    "values": {
     "reading_lowest": 0.13333333333333333,
     "reading_grade_level": 0.13333333333333333,
@@ -570,6 +626,8 @@
    "school_name": "Zigzag Pines Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.15384615384615385,
@@ -627,5 +685,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

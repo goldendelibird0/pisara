@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 22259000.0,
+   "schools_listed": 15,
+   "public_elementary_schools": 15,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Alauli Elementary School",
    "learners_assessed": 91.0,
    "small_group": false,
+   "k6_enrollment": 188.0,
+   "mooe_es_fy2026": 794000.0,
    "values": {
     "reading_lowest": 0.34065934065934067,
     "reading_grade_level": 0.27472527472527475,
@@ -133,6 +143,8 @@
    "school_name": "Balucuc ES",
    "learners_assessed": 276.0,
    "small_group": false,
+   "k6_enrollment": 669.0,
+   "mooe_es_fy2026": 1389000.0,
    "values": {
     "reading_lowest": 0.2536231884057971,
     "reading_grade_level": 0.26811594202898553,
@@ -152,6 +164,8 @@
    "school_name": "Banag Elementary School",
    "learners_assessed": 77.0,
    "small_group": false,
+   "k6_enrollment": 165.0,
+   "mooe_es_fy2026": 776000.0,
    "values": {
     "reading_lowest": 0.35064935064935066,
     "reading_grade_level": 0.12987012987012986,
@@ -171,6 +185,8 @@
    "school_name": "Cansinala Elementary School",
    "learners_assessed": 401.0,
    "small_group": false,
+   "k6_enrollment": 924.0,
+   "mooe_es_fy2026": 1598000.0,
    "values": {
     "reading_lowest": 0.35910224438902744,
     "reading_grade_level": 0.1770573566084788,
@@ -190,6 +206,8 @@
    "school_name": "Fausto Gonzales Sioco Memorial School",
    "learners_assessed": 535.0,
    "small_group": false,
+   "k6_enrollment": 1180.0,
+   "mooe_es_fy2026": 2001000.0,
    "values": {
     "reading_lowest": 0.25981308411214954,
     "reading_grade_level": 0.16448598130841122,
@@ -209,6 +227,8 @@
    "school_name": "Galang Memo. ES (Calantipe ES)",
    "learners_assessed": 122.0,
    "small_group": false,
+   "k6_enrollment": 290.0,
+   "mooe_es_fy2026": 940000.0,
    "values": {
     "reading_lowest": 0.30327868852459017,
     "reading_grade_level": 0.23770491803278687,
@@ -228,6 +248,8 @@
    "school_name": "Jose Escaler Mem. ES",
    "learners_assessed": 330.0,
    "small_group": false,
+   "k6_enrollment": 774.0,
+   "mooe_es_fy2026": 1515000.0,
    "values": {
     "reading_lowest": 0.19090909090909092,
     "reading_grade_level": 0.2878787878787879,
@@ -247,6 +269,8 @@
    "school_name": "Macario Arnedo ES",
    "learners_assessed": 281.0,
    "small_group": false,
+   "k6_enrollment": 657.0,
+   "mooe_es_fy2026": 1336000.0,
    "values": {
     "reading_lowest": 0.2277580071174377,
     "reading_grade_level": 0.1494661921708185,
@@ -266,6 +290,8 @@
    "school_name": "Paligui ES",
    "learners_assessed": 118.0,
    "small_group": false,
+   "k6_enrollment": 258.0,
+   "mooe_es_fy2026": 870000.0,
    "values": {
     "reading_lowest": 0.288135593220339,
     "reading_grade_level": 0.1440677966101695,
@@ -285,6 +311,8 @@
    "school_name": "SAMPALOC ELEMENTARY SCHOOL",
    "learners_assessed": 333.0,
    "small_group": false,
+   "k6_enrollment": 774.0,
+   "mooe_es_fy2026": 1540000.0,
    "values": {
     "reading_lowest": 0.2042042042042042,
     "reading_grade_level": 0.0990990990990991,
@@ -304,6 +332,8 @@
    "school_name": "Sampaga ES",
    "learners_assessed": 484.0,
    "small_group": false,
+   "k6_enrollment": 1078.0,
+   "mooe_es_fy2026": 1834000.0,
    "values": {
     "reading_lowest": 0.25413223140495866,
     "reading_grade_level": 0.2066115702479339,
@@ -323,6 +353,8 @@
    "school_name": "San Vicente ES",
    "learners_assessed": 810.0,
    "small_group": false,
+   "k6_enrollment": 1897.0,
+   "mooe_es_fy2026": 2775000.0,
    "values": {
     "reading_lowest": 0.254320987654321,
     "reading_grade_level": 0.17530864197530865,
@@ -342,6 +374,8 @@
    "school_name": "Sto. Rosario ES",
    "learners_assessed": 488.0,
    "small_group": false,
+   "k6_enrollment": 1112.0,
+   "mooe_es_fy2026": 1842000.0,
    "values": {
     "reading_lowest": 0.2192622950819672,
     "reading_grade_level": 0.20901639344262296,
@@ -361,6 +395,8 @@
    "school_name": "Sucad ES",
    "learners_assessed": 320.0,
    "small_group": false,
+   "k6_enrollment": 708.0,
+   "mooe_es_fy2026": 1422000.0,
    "values": {
     "reading_lowest": 0.2375,
     "reading_grade_level": 0.21875,
@@ -380,6 +416,8 @@
    "school_name": "Sulipan ES",
    "learners_assessed": 396.0,
    "small_group": false,
+   "k6_enrollment": 931.0,
+   "mooe_es_fy2026": 1627000.0,
    "values": {
     "reading_lowest": 0.3787878787878788,
     "reading_grade_level": 0.16414141414141414,
@@ -437,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

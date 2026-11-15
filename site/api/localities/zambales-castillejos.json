@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 19511000.0,
+   "schools_listed": 17,
+   "public_elementary_schools": 17,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Balaybay Elementary School",
    "learners_assessed": 204.0,
    "small_group": false,
+   "k6_enrollment": 521.0,
+   "mooe_es_fy2026": 1202000.0,
    "values": {
     "reading_lowest": 0.24019607843137256,
     "reading_grade_level": 0.12254901960784313,
@@ -133,6 +143,8 @@
    "school_name": "Balaybay Resettlement  Elementary School",
    "learners_assessed": 294.0,
    "small_group": false,
+   "k6_enrollment": 716.0,
+   "mooe_es_fy2026": 1386000.0,
    "values": {
     "reading_lowest": 0.2619047619047619,
     "reading_grade_level": 0.1360544217687075,
@@ -152,6 +164,8 @@
    "school_name": "Buenavista Elementary School",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 97.0,
+   "mooe_es_fy2026": 703000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.325,
@@ -171,6 +185,8 @@
    "school_name": "Castillejos Elementary School",
    "learners_assessed": 394.0,
    "small_group": false,
+   "k6_enrollment": 963.0,
+   "mooe_es_fy2026": 1817000.0,
    "values": {
     "reading_lowest": 0.1802030456852792,
     "reading_grade_level": 0.2766497461928934,
@@ -190,6 +206,8 @@
    "school_name": "Del Pilar Elementary School",
    "learners_assessed": 315.0,
    "small_group": false,
+   "k6_enrollment": 776.0,
+   "mooe_es_fy2026": 1401000.0,
    "values": {
     "reading_lowest": 0.33650793650793653,
     "reading_grade_level": 0.28253968253968254,
@@ -209,6 +227,8 @@
    "school_name": "Hanjin Integrated School",
    "learners_assessed": 270.0,
    "small_group": false,
+   "k6_enrollment": 652.0,
+   "mooe_es_fy2026": 1019000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.2037037037037037,
@@ -228,6 +248,8 @@
    "school_name": "Kanaynayan Community School",
    "learners_assessed": 86.0,
    "small_group": false,
+   "k6_enrollment": 179.0,
+   "mooe_es_fy2026": 754000.0,
    "values": {
     "reading_lowest": 0.5465116279069767,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Looc Integrated School",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 240.0,
+   "mooe_es_fy2026": 637000.0,
    "values": {
     "reading_lowest": 0.36893203883495146,
     "reading_grade_level": 0.08737864077669903,
@@ -266,6 +290,8 @@
    "school_name": "Magsaysay Elementary School",
    "learners_assessed": 129.0,
    "small_group": false,
+   "k6_enrollment": 298.0,
+   "mooe_es_fy2026": 955000.0,
    "values": {
     "reading_lowest": 0.3643410852713178,
     "reading_grade_level": 0.046511627906976744,
@@ -285,6 +311,8 @@
    "school_name": "Nagbayan Elementary School",
    "learners_assessed": 97.0,
    "small_group": false,
+   "k6_enrollment": 245.0,
+   "mooe_es_fy2026": 851000.0,
    "values": {
     "reading_lowest": 0.08247422680412371,
     "reading_grade_level": 0.14432989690721648,
@@ -304,6 +332,8 @@
    "school_name": "Pres. Ramon F. Magsaysay Elementary School",
    "learners_assessed": 196.0,
    "small_group": false,
+   "k6_enrollment": 462.0,
+   "mooe_es_fy2026": 1132000.0,
    "values": {
     "reading_lowest": 0.3979591836734694,
     "reading_grade_level": 0.22959183673469388,
@@ -323,6 +353,8 @@
    "school_name": "San Agustin Elementary Schools",
    "learners_assessed": 313.0,
    "small_group": false,
+   "k6_enrollment": 745.0,
+   "mooe_es_fy2026": 1439000.0,
    "values": {
     "reading_lowest": 0.20766773162939298,
     "reading_grade_level": 0.19488817891373802,
@@ -342,6 +374,8 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 323.0,
    "small_group": false,
+   "k6_enrollment": 735.0,
+   "mooe_es_fy2026": 1406000.0,
    "values": {
     "reading_lowest": 0.47987616099071206,
     "reading_grade_level": 0.13312693498452013,
@@ -361,6 +395,8 @@
    "school_name": "San Nicolas Elementary School",
    "learners_assessed": 120.0,
    "small_group": false,
+   "k6_enrollment": 276.0,
+   "mooe_es_fy2026": 864000.0,
    "values": {
     "reading_lowest": 0.35833333333333334,
     "reading_grade_level": 0.225,
@@ -380,6 +416,8 @@
    "school_name": "Sta. Maria Elementary School",
    "learners_assessed": 302.0,
    "small_group": false,
+   "k6_enrollment": 726.0,
+   "mooe_es_fy2026": 1365000.0,
    "values": {
     "reading_lowest": 0.24834437086092714,
     "reading_grade_level": 0.1423841059602649,
@@ -399,6 +437,8 @@
    "school_name": "V. Gallardo Elementary School",
    "learners_assessed": 125.0,
    "small_group": false,
+   "k6_enrollment": 268.0,
+   "mooe_es_fy2026": 889000.0,
    "values": {
     "reading_lowest": 0.264,
     "reading_grade_level": 0.208,
@@ -418,6 +458,8 @@
    "school_name": "Villaflor Elementary School",
    "learners_assessed": 384.0,
    "small_group": false,
+   "k6_enrollment": 956.0,
+   "mooe_es_fy2026": 1691000.0,
    "values": {
     "reading_lowest": 0.359375,
     "reading_grade_level": 0.07552083333333333,
@@ -475,5 +517,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

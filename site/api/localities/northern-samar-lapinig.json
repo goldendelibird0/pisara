@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 9575000.0,
+   "schools_listed": 13,
+   "public_elementary_schools": 13,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Alang-alang ES",
    "learners_assessed": 37.0,
    "small_group": false,
+   "k6_enrollment": 98.0,
+   "mooe_es_fy2026": 688000.0,
    "values": {
     "reading_lowest": 0.35135135135135137,
     "reading_grade_level": 0.05405405405405406,
@@ -133,6 +143,8 @@
    "school_name": "Bagacay Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 60.0,
+   "mooe_es_fy2026": 655000.0,
    "values": {
     "reading_lowest": 0.5555555555555556,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Cahagwayan ES",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 133.0,
+   "mooe_es_fy2026": 705000.0,
    "values": {
     "reading_lowest": 0.4375,
     "reading_grade_level": 0.125,
@@ -171,6 +185,8 @@
    "school_name": "Can Maria Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 118.0,
+   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.4897959183673469,
     "reading_grade_level": 0.04081632653061224,
@@ -190,6 +206,8 @@
    "school_name": "Can-omanio ES",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 37.0,
+   "mooe_es_fy2026": 617000.0,
    "values": {
     "reading_lowest": 0.5714285714285714,
     "reading_grade_level": 0.0,
@@ -209,6 +227,8 @@
    "school_name": "Imelda ES",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 95.0,
+   "mooe_es_fy2026": 685000.0,
    "values": {
     "reading_lowest": 0.45,
     "reading_grade_level": 0.225,
@@ -228,6 +248,8 @@
    "school_name": "Lapinig CS",
    "learners_assessed": 217.0,
    "small_group": false,
+   "k6_enrollment": 530.0,
+   "mooe_es_fy2026": 1182000.0,
    "values": {
     "reading_lowest": 0.4792626728110599,
     "reading_grade_level": 0.11981566820276497,
@@ -247,6 +269,8 @@
    "school_name": "Lo-ok ES",
    "learners_assessed": 76.0,
    "small_group": false,
+   "k6_enrollment": 175.0,
+   "mooe_es_fy2026": 758000.0,
    "values": {
     "reading_lowest": 0.6578947368421053,
     "reading_grade_level": 0.013157894736842105,
@@ -266,6 +290,8 @@
    "school_name": "Mabini ES",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.52,
     "reading_grade_level": 0.0,
@@ -285,6 +311,8 @@
    "school_name": "May-igot ES",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 55.0,
+   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.3333333333333333,
@@ -304,6 +332,8 @@
    "school_name": "Palanas elementary school",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 45.0,
+   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.045454545454545456,
     "reading_grade_level": 0.045454545454545456,
@@ -323,6 +353,8 @@
    "school_name": "Pio Del Pilar ES",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 56.0,
+   "mooe_es_fy2026": 657000.0,
    "values": {
     "reading_lowest": 0.12,
     "reading_grade_level": 0.48,
@@ -342,6 +374,8 @@
    "school_name": "Potong Elementary School",
    "learners_assessed": 153.0,
    "small_group": false,
+   "k6_enrollment": 371.0,
+   "mooe_es_fy2026": 982000.0,
    "values": {
     "reading_lowest": 0.24183006535947713,
     "reading_grade_level": 0.0392156862745098,
@@ -399,5 +433,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

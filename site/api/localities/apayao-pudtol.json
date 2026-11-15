@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 12685000.0,
+   "schools_listed": 18,
+   "public_elementary_schools": 18,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "AURORA ELEMENTARY SCHOOL",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 56.0,
+   "mooe_es_fy2026": 644000.0,
    "values": {
     "reading_lowest": 0.5238095238095238,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Aga ES",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 49.0,
+   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.3,
     "reading_grade_level": 0.1,
@@ -152,6 +164,8 @@
    "school_name": "Alem ES",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 150.0,
+   "mooe_es_fy2026": 740000.0,
    "values": {
     "reading_lowest": 0.2711864406779661,
     "reading_grade_level": 0.2542372881355932,
@@ -171,6 +185,8 @@
    "school_name": "Cabatacan ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 170.0,
+   "mooe_es_fy2026": 774000.0,
    "values": {
     "reading_lowest": 0.3194444444444444,
     "reading_grade_level": 0.16666666666666666,
@@ -190,6 +206,8 @@
    "school_name": "Cacalaggan Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 76.0,
+   "mooe_es_fy2026": 670000.0,
    "values": {
     "reading_lowest": 0.25925925925925924,
     "reading_grade_level": 0.18518518518518517,
@@ -209,6 +227,8 @@
    "school_name": "Capannikian ES",
    "learners_assessed": 90.0,
    "small_group": false,
+   "k6_enrollment": 202.0,
+   "mooe_es_fy2026": 825000.0,
    "values": {
     "reading_lowest": 0.14444444444444443,
     "reading_grade_level": 0.1,
@@ -228,6 +248,8 @@
    "school_name": "Dona Loreta ES",
    "learners_assessed": 56.0,
    "small_group": false,
+   "k6_enrollment": 122.0,
+   "mooe_es_fy2026": 732000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.08928571428571429,
@@ -247,6 +269,8 @@
    "school_name": "Lower Maton Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 40.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.06666666666666667,
     "reading_grade_level": 0.3333333333333333,
@@ -266,6 +290,8 @@
    "school_name": "Lt. Balag ES",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 38.0,
+   "mooe_es_fy2026": 622000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.0,
@@ -285,6 +311,8 @@
    "school_name": "Lydia ES",
    "learners_assessed": 9.0,
    "small_group": true,
+   "k6_enrollment": 30.0,
+   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.0,
@@ -304,6 +332,8 @@
    "school_name": "Malibang ES",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 80.0,
+   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.03571428571428571,
@@ -323,6 +353,8 @@
    "school_name": "Mataguisi ES",
    "learners_assessed": 62.0,
    "small_group": false,
+   "k6_enrollment": 154.0,
+   "mooe_es_fy2026": 759000.0,
    "values": {
     "reading_lowest": 0.16129032258064516,
     "reading_grade_level": 0.11290322580645161,
@@ -342,6 +374,8 @@
    "school_name": "Pudtol CS",
    "learners_assessed": 172.0,
    "small_group": false,
+   "k6_enrollment": 408.0,
+   "mooe_es_fy2026": 1059000.0,
    "values": {
     "reading_lowest": 0.19767441860465115,
     "reading_grade_level": 0.12209302325581395,
@@ -361,6 +395,8 @@
    "school_name": "San Jose ES",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 52.0,
+   "mooe_es_fy2026": 641000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.11538461538461539,
@@ -380,6 +416,8 @@
    "school_name": "San Mariano Elementary School",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 32.0,
+   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.058823529411764705,
     "reading_grade_level": 0.4117647058823529,
@@ -399,6 +437,8 @@
    "school_name": "Swan ES",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 80.0,
+   "mooe_es_fy2026": 674000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.0,
@@ -418,6 +458,8 @@
    "school_name": "Upper Maton E/S",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 65.0,
+   "mooe_es_fy2026": 653000.0,
    "values": {
     "reading_lowest": 0.3125,
     "reading_grade_level": 0.0625,
@@ -437,6 +479,8 @@
    "school_name": "Upper Swan Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 117.0,
+   "mooe_es_fy2026": 728000.0,
    "values": {
     "reading_lowest": 0.5116279069767442,
     "reading_grade_level": 0.3023255813953488,
@@ -494,5 +538,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

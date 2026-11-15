@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 19794000.0,
+   "schools_listed": 26,
+   "public_elementary_schools": 26,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Aragan Elementary School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 122.0,
+   "mooe_es_fy2026": 716000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Arnap Elementary School",
    "learners_assessed": 63.0,
    "small_group": false,
+   "k6_enrollment": 152.0,
+   "mooe_es_fy2026": 749000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.2698412698412698,
@@ -152,6 +164,8 @@
    "school_name": "Bungro-Margaay Elementary School",
    "learners_assessed": 79.0,
    "small_group": false,
+   "k6_enrollment": 168.0,
+   "mooe_es_fy2026": 781000.0,
    "values": {
     "reading_lowest": 0.27848101265822783,
     "reading_grade_level": 0.13924050632911392,
@@ -171,6 +185,8 @@
    "school_name": "Cabugao Integrated School",
    "learners_assessed": 183.0,
    "small_group": false,
+   "k6_enrollment": 435.0,
+   "mooe_es_fy2026": 826000.0,
    "values": {
     "reading_lowest": 0.1366120218579235,
     "reading_grade_level": 0.24043715846994534,
@@ -190,6 +206,8 @@
    "school_name": "Cabugao North Central School",
    "learners_assessed": 299.0,
    "small_group": false,
+   "k6_enrollment": 682.0,
+   "mooe_es_fy2026": 1383000.0,
    "values": {
     "reading_lowest": 0.3076923076923077,
     "reading_grade_level": 0.11705685618729098,
@@ -209,6 +227,8 @@
    "school_name": "Caellayan Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 109.0,
+   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.11904761904761904,
     "reading_grade_level": 0.38095238095238093,
@@ -228,6 +248,8 @@
    "school_name": "Carusipan Elementary School",
    "learners_assessed": 29.0,
    "small_group": false,
+   "k6_enrollment": 61.0,
+   "mooe_es_fy2026": 643000.0,
    "values": {
     "reading_lowest": 0.5172413793103449,
     "reading_grade_level": 0.10344827586206896,
@@ -247,6 +269,8 @@
    "school_name": "Caset Primary School",
    "learners_assessed": 6.0,
    "small_group": true,
+   "k6_enrollment": 9.0,
+   "mooe_es_fy2026": 589000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -266,6 +290,8 @@
    "school_name": "Catucdaan Elementary School",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 120.0,
+   "mooe_es_fy2026": 708000.0,
    "values": {
     "reading_lowest": 0.3181818181818182,
     "reading_grade_level": 0.06818181818181818,
@@ -285,6 +311,8 @@
    "school_name": "Cuantacla-Sagsagat Elementary School",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 72.0,
+   "mooe_es_fy2026": 660000.0,
    "values": {
     "reading_lowest": 0.10714285714285714,
     "reading_grade_level": 0.32142857142857145,
@@ -304,6 +332,8 @@
    "school_name": "Daclapan Elementary School",
    "learners_assessed": 113.0,
    "small_group": false,
+   "k6_enrollment": 288.0,
+   "mooe_es_fy2026": 906000.0,
    "values": {
     "reading_lowest": 0.30973451327433627,
     "reading_grade_level": 0.4424778761061947,
@@ -323,6 +353,8 @@
    "school_name": "Dardarat Elementary School",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 89.0,
+   "mooe_es_fy2026": 673000.0,
    "values": {
     "reading_lowest": 0.15625,
     "reading_grade_level": 0.21875,
@@ -342,6 +374,8 @@
    "school_name": "Lipit-Cuancabal Elementary School",
    "learners_assessed": 64.0,
    "small_group": false,
+   "k6_enrollment": 168.0,
+   "mooe_es_fy2026": 767000.0,
    "values": {
     "reading_lowest": 0.28125,
     "reading_grade_level": 0.25,
@@ -361,6 +395,8 @@
    "school_name": "Maradodon Elementary",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 54.0,
+   "mooe_es_fy2026": 636000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.06666666666666667,
@@ -380,6 +416,8 @@
    "school_name": "Nagsantaan Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 33.0,
+   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.3125,
     "reading_grade_level": 0.25,
@@ -399,6 +437,8 @@
    "school_name": "Nagsincaoan Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 156.0,
+   "mooe_es_fy2026": 760000.0,
    "values": {
     "reading_lowest": 0.3389830508474576,
     "reading_grade_level": 0.1694915254237288,
@@ -418,6 +458,8 @@
    "school_name": "Namruangan Elementary School",
    "learners_assessed": 99.0,
    "small_group": false,
+   "k6_enrollment": 229.0,
+   "mooe_es_fy2026": 834000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.15151515151515152,
@@ -437,6 +479,8 @@
    "school_name": "Pila Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 105.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.2631578947368421,
     "reading_grade_level": 0.10526315789473684,
@@ -456,6 +500,8 @@
    "school_name": "Pug-os Elementary School",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 168.0,
+   "mooe_es_fy2026": 793000.0,
    "values": {
     "reading_lowest": 0.3466666666666667,
     "reading_grade_level": 0.38666666666666666,
@@ -475,6 +521,8 @@
    "school_name": "Reppaac-Bato Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 116.0,
+   "mooe_es_fy2026": 714000.0,
    "values": {
     "reading_lowest": 0.09090909090909091,
     "reading_grade_level": 0.7272727272727273,
@@ -494,6 +542,8 @@
    "school_name": "Sabang Elementary School",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 184.0,
+   "mooe_es_fy2026": 784000.0,
    "values": {
     "reading_lowest": 0.12,
     "reading_grade_level": 0.4266666666666667,
@@ -513,6 +563,8 @@
    "school_name": "Sagayaden Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 680000.0,
    "values": {
     "reading_lowest": 0.41935483870967744,
     "reading_grade_level": 0.0,
@@ -532,6 +584,8 @@
    "school_name": "Salapasap Elementary School",
    "learners_assessed": 94.0,
    "small_group": false,
+   "k6_enrollment": 225.0,
+   "mooe_es_fy2026": 826000.0,
    "values": {
     "reading_lowest": 0.2553191489361702,
     "reading_grade_level": 0.0,
@@ -551,6 +605,8 @@
    "school_name": "Salomague Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 154.0,
+   "mooe_es_fy2026": 760000.0,
    "values": {
     "reading_lowest": 0.12727272727272726,
     "reading_grade_level": 0.34545454545454546,
@@ -570,6 +626,8 @@
    "school_name": "Sisim-Alinaay Elementary School",
    "learners_assessed": 53.0,
    "small_group": false,
+   "k6_enrollment": 139.0,
+   "mooe_es_fy2026": 740000.0,
    "values": {
     "reading_lowest": 0.41509433962264153,
     "reading_grade_level": 0.09433962264150944,
@@ -589,6 +647,8 @@
    "school_name": "Turod Elementary School",
    "learners_assessed": 78.0,
    "small_group": false,
+   "k6_enrollment": 222.0,
+   "mooe_es_fy2026": 841000.0,
    "values": {
     "reading_lowest": 0.0641025641025641,
     "reading_grade_level": 0.2948717948717949,
@@ -646,5 +706,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

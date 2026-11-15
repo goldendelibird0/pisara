@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 10043000.0,
+   "schools_listed": 11,
+   "public_elementary_schools": 12,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Balaquid ES",
    "learners_assessed": 166.0,
    "small_group": false,
+   "k6_enrollment": 398.0,
+   "mooe_es_fy2026": 1055000.0,
    "values": {
     "reading_lowest": 0.20481927710843373,
     "reading_grade_level": 0.024096385542168676,
@@ -133,6 +143,8 @@
    "school_name": "Bunga ES",
    "learners_assessed": 202.0,
    "small_group": false,
+   "k6_enrollment": 565.0,
+   "mooe_es_fy2026": 1232000.0,
    "values": {
     "reading_lowest": 0.06930693069306931,
     "reading_grade_level": 0.13861386138613863,
@@ -152,6 +164,8 @@
    "school_name": "Caanibongan ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 64.0,
+   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.10256410256410256,
@@ -171,6 +185,8 @@
    "school_name": "Cabucgayan Central School",
    "learners_assessed": 260.0,
    "small_group": false,
+   "k6_enrollment": 626.0,
+   "mooe_es_fy2026": 1330000.0,
    "values": {
     "reading_lowest": 0.1346153846153846,
     "reading_grade_level": 0.09230769230769231,
@@ -190,6 +206,8 @@
    "school_name": "Capayas Elementary School",
    "learners_assessed": 51.0,
    "small_group": false,
+   "k6_enrollment": 129.0,
+   "mooe_es_fy2026": 715000.0,
    "values": {
     "reading_lowest": 0.13725490196078433,
     "reading_grade_level": 0.0,
@@ -209,6 +227,8 @@
    "school_name": "Casiawan ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 179.0,
+   "mooe_es_fy2026": 794000.0,
    "values": {
     "reading_lowest": 0.19444444444444445,
     "reading_grade_level": 0.041666666666666664,
@@ -228,6 +248,8 @@
    "school_name": "J.D. Garcia ES",
    "learners_assessed": 91.0,
    "small_group": false,
+   "k6_enrollment": 240.0,
+   "mooe_es_fy2026": 856000.0,
    "values": {
     "reading_lowest": 0.18681318681318682,
     "reading_grade_level": 0.02197802197802198,
@@ -247,6 +269,8 @@
    "school_name": "LANGGAO ES",
    "learners_assessed": 96.0,
    "small_group": false,
+   "k6_enrollment": 198.0,
+   "mooe_es_fy2026": 843000.0,
    "values": {
     "reading_lowest": 0.10416666666666667,
     "reading_grade_level": 0.07291666666666667,
@@ -266,6 +290,8 @@
    "school_name": "Looc ES",
    "learners_assessed": 193.0,
    "small_group": false,
+   "k6_enrollment": 404.0,
+   "mooe_es_fy2026": 1020000.0,
    "values": {
     "reading_lowest": 0.19689119170984457,
     "reading_grade_level": 0.06217616580310881,
@@ -285,6 +311,8 @@
    "school_name": "Pawikan ES",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 229.0,
+   "mooe_es_fy2026": 836000.0,
    "values": {
     "reading_lowest": 0.20224719101123595,
     "reading_grade_level": 0.0,
@@ -304,6 +332,8 @@
    "school_name": "Talibong ES",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 113.0,
+   "mooe_es_fy2026": 697000.0,
    "values": {
     "reading_lowest": 0.08695652173913043,
     "reading_grade_level": 0.08695652173913043,
@@ -361,5 +391,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

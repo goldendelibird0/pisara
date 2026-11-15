@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 20036000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Alangan ES",
    "learners_assessed": 366.0,
    "small_group": false,
+   "k6_enrollment": 828.0,
+   "mooe_es_fy2026": 1548000.0,
    "values": {
     "reading_lowest": 0.30327868852459017,
     "reading_grade_level": 0.11748633879781421,
@@ -133,6 +143,8 @@
    "school_name": "Arsenal ES",
    "learners_assessed": 141.0,
    "small_group": false,
+   "k6_enrollment": 354.0,
+   "mooe_es_fy2026": 982000.0,
    "values": {
     "reading_lowest": 0.24822695035460993,
     "reading_grade_level": 0.0851063829787234,
@@ -152,6 +164,8 @@
    "school_name": "BLISS Integrated School",
    "learners_assessed": 183.0,
    "small_group": false,
+   "k6_enrollment": 444.0,
+   "mooe_es_fy2026": 861000.0,
    "values": {
     "reading_lowest": 0.25136612021857924,
     "reading_grade_level": 0.0546448087431694,
@@ -171,6 +185,8 @@
    "school_name": "Carbon ES",
    "learners_assessed": 143.0,
    "small_group": false,
+   "k6_enrollment": 339.0,
+   "mooe_es_fy2026": 967000.0,
    "values": {
     "reading_lowest": 0.3776223776223776,
     "reading_grade_level": 0.14685314685314685,
@@ -190,6 +206,8 @@
    "school_name": "Duale ES",
    "learners_assessed": 268.0,
    "small_group": false,
+   "k6_enrollment": 616.0,
+   "mooe_es_fy2026": 1253000.0,
    "values": {
     "reading_lowest": 0.27238805970149255,
     "reading_grade_level": 0.1044776119402985,
@@ -209,6 +227,8 @@
    "school_name": "Gabaldon ES",
    "learners_assessed": 209.0,
    "small_group": false,
+   "k6_enrollment": 489.0,
+   "mooe_es_fy2026": 1107000.0,
    "values": {
     "reading_lowest": 0.19138755980861244,
     "reading_grade_level": 0.1291866028708134,
@@ -228,6 +248,8 @@
    "school_name": "Kinaragan Integrated School",
    "learners_assessed": 58.0,
    "small_group": false,
+   "k6_enrollment": 151.0,
+   "mooe_es_fy2026": 596000.0,
    "values": {
     "reading_lowest": 0.39655172413793105,
     "reading_grade_level": 0.017241379310344827,
@@ -247,6 +269,8 @@
    "school_name": "Kitang ES",
    "learners_assessed": 118.0,
    "small_group": false,
+   "k6_enrollment": 283.0,
+   "mooe_es_fy2026": 900000.0,
    "values": {
     "reading_lowest": 0.4067796610169492,
     "reading_grade_level": 0.03389830508474576,
@@ -266,6 +290,8 @@
    "school_name": "Lamao ES",
    "learners_assessed": 573.0,
    "small_group": false,
+   "k6_enrollment": 2178.0,
+   "mooe_es_fy2026": 3060000.0,
    "values": {
     "reading_lowest": 0.45549738219895286,
     "reading_grade_level": 0.09598603839441536,
@@ -285,6 +311,8 @@
    "school_name": "Limay ES",
    "learners_assessed": 658.0,
    "small_group": false,
+   "k6_enrollment": 1687.0,
+   "mooe_es_fy2026": 2513000.0,
    "values": {
     "reading_lowest": 0.23556231003039513,
     "reading_grade_level": 0.1534954407294833,
@@ -304,6 +332,8 @@
    "school_name": "Luz ES",
    "learners_assessed": 332.0,
    "small_group": false,
+   "k6_enrollment": 877.0,
+   "mooe_es_fy2026": 1531000.0,
    "values": {
     "reading_lowest": 0.3132530120481928,
     "reading_grade_level": 0.20180722891566266,
@@ -323,6 +353,8 @@
    "school_name": "Peas ES",
    "learners_assessed": 107.0,
    "small_group": false,
+   "k6_enrollment": 278.0,
+   "mooe_es_fy2026": 865000.0,
    "values": {
     "reading_lowest": 0.2803738317757009,
     "reading_grade_level": 0.04672897196261682,
@@ -342,6 +374,8 @@
    "school_name": "St. Francis ES (Bacong)",
    "learners_assessed": 312.0,
    "small_group": false,
+   "k6_enrollment": 709.0,
+   "mooe_es_fy2026": 1625000.0,
    "values": {
     "reading_lowest": 0.3557692307692308,
     "reading_grade_level": 0.04807692307692308,
@@ -361,6 +395,8 @@
    "school_name": "St. Francis II Elementary School",
    "learners_assessed": 682.0,
    "small_group": false,
+   "k6_enrollment": 1504.0,
+   "mooe_es_fy2026": 2228000.0,
    "values": {
     "reading_lowest": 0.4970674486803519,
     "reading_grade_level": 0.013196480938416423,
@@ -418,5 +454,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

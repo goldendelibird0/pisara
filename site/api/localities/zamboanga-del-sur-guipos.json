@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 14964000.0,
+   "schools_listed": 20,
+   "public_elementary_schools": 20,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bagong Oroquieta ES",
    "learners_assessed": 91.0,
    "small_group": false,
+   "k6_enrollment": 189.0,
+   "mooe_es_fy2026": 803000.0,
    "values": {
     "reading_lowest": 0.21978021978021978,
     "reading_grade_level": 0.04395604395604396,
@@ -133,6 +143,8 @@
    "school_name": "Baguitan ES",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 172.0,
+   "mooe_es_fy2026": 783000.0,
    "values": {
     "reading_lowest": 0.29333333333333333,
     "reading_grade_level": 0.25333333333333335,
@@ -152,6 +164,8 @@
    "school_name": "Balongating ES",
    "learners_assessed": 96.0,
    "small_group": false,
+   "k6_enrollment": 238.0,
+   "mooe_es_fy2026": 860000.0,
    "values": {
     "reading_lowest": 0.2708333333333333,
     "reading_grade_level": 0.21875,
@@ -171,6 +185,8 @@
    "school_name": "Canunan ES",
    "learners_assessed": 95.0,
    "small_group": false,
+   "k6_enrollment": 225.0,
+   "mooe_es_fy2026": 833000.0,
    "values": {
     "reading_lowest": 0.43157894736842106,
     "reading_grade_level": 0.3473684210526316,
@@ -190,6 +206,8 @@
    "school_name": "Dacsol Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 689000.0,
    "values": {
     "reading_lowest": 0.5833333333333334,
     "reading_grade_level": 0.16666666666666666,
@@ -209,6 +227,8 @@
    "school_name": "Dagohoy ES",
    "learners_assessed": 31.0,
    "small_group": false,
+   "k6_enrollment": 67.0,
+   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.8387096774193549,
@@ -228,6 +248,8 @@
    "school_name": "Dalapan ES",
    "learners_assessed": 77.0,
    "small_group": false,
+   "k6_enrollment": 180.0,
+   "mooe_es_fy2026": 788000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.44155844155844154,
@@ -247,6 +269,8 @@
    "school_name": "Datagan ES",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 102.0,
+   "mooe_es_fy2026": 714000.0,
    "values": {
     "reading_lowest": 0.3617021276595745,
     "reading_grade_level": 0.14893617021276595,
@@ -266,6 +290,8 @@
    "school_name": "Guipos CES",
    "learners_assessed": 305.0,
    "small_group": false,
+   "k6_enrollment": 766.0,
+   "mooe_es_fy2026": 1463000.0,
    "values": {
     "reading_lowest": 0.21967213114754097,
     "reading_grade_level": 0.20655737704918034,
@@ -285,6 +311,8 @@
    "school_name": "Guling ES",
    "learners_assessed": 92.0,
    "small_group": false,
+   "k6_enrollment": 207.0,
+   "mooe_es_fy2026": 823000.0,
    "values": {
     "reading_lowest": 0.22826086956521738,
     "reading_grade_level": 0.31521739130434784,
@@ -304,6 +332,8 @@
    "school_name": "Katipunan ES",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 137.0,
+   "mooe_es_fy2026": 744000.0,
    "values": {
     "reading_lowest": 0.10638297872340426,
     "reading_grade_level": 0.0,
@@ -323,6 +353,8 @@
    "school_name": "Kawayan IPS",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 20.0,
+   "mooe_es_fy2026": 605000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.5714285714285714,
@@ -342,6 +374,8 @@
    "school_name": "Lintum ES",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 54.0,
+   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.045454545454545456,
     "reading_grade_level": 0.0,
@@ -361,6 +395,8 @@
    "school_name": "Litan ES",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 41.0,
+   "mooe_es_fy2026": 632000.0,
    "values": {
     "reading_lowest": 0.35294117647058826,
     "reading_grade_level": 0.0,
@@ -380,6 +416,8 @@
    "school_name": "Lower Guipos e-IMPACT Learning Center",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 121.0,
+   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.5272727272727272,
     "reading_grade_level": 0.2545454545454545,
@@ -399,6 +437,8 @@
    "school_name": "Magting ES",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 54.0,
+   "mooe_es_fy2026": 643000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.05,
@@ -418,6 +458,8 @@
    "school_name": "Regla ES",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 91.0,
+   "mooe_es_fy2026": 680000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.19444444444444445,
@@ -437,6 +479,8 @@
    "school_name": "Sikatuna ES",
    "learners_assessed": 24.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.041666666666666664,
@@ -456,6 +500,8 @@
    "school_name": "Singclot ES",
    "learners_assessed": 9.0,
    "small_group": true,
+   "k6_enrollment": 59.0,
+   "mooe_es_fy2026": 646000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.3333333333333333,
@@ -475,6 +521,8 @@
    "school_name": "Upper Katipunan CPS",
    "learners_assessed": 2.0,
    "small_group": true,
+   "k6_enrollment": 8.0,
+   "mooe_es_fy2026": 588000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -532,5 +580,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

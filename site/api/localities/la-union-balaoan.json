@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 13991000.0,
+   "schools_listed": 17,
+   "public_elementary_schools": 18,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Almeida ES",
    "learners_assessed": 58.0,
    "small_group": false,
+   "k6_enrollment": 141.0,
+   "mooe_es_fy2026": 750000.0,
    "values": {
     "reading_lowest": 0.43103448275862066,
     "reading_grade_level": 0.1896551724137931,
@@ -133,6 +143,8 @@
    "school_name": "Apatut ES",
    "learners_assessed": 88.0,
    "small_group": false,
+   "k6_enrollment": 221.0,
+   "mooe_es_fy2026": 839000.0,
    "values": {
     "reading_lowest": 0.38636363636363635,
     "reading_grade_level": 0.26136363636363635,
@@ -152,6 +164,8 @@
    "school_name": "Ar-arampang Elementary School",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 89.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.46875,
     "reading_grade_level": 0.40625,
@@ -171,6 +185,8 @@
    "school_name": "Balaoan CES",
    "learners_assessed": 291.0,
    "small_group": false,
+   "k6_enrollment": 713.0,
+   "mooe_es_fy2026": 1480000.0,
    "values": {
     "reading_lowest": 0.32646048109965636,
     "reading_grade_level": 0.13402061855670103,
@@ -190,6 +206,8 @@
    "school_name": "Bulbulala ES",
    "learners_assessed": 99.0,
    "small_group": false,
+   "k6_enrollment": 200.0,
+   "mooe_es_fy2026": 831000.0,
    "values": {
     "reading_lowest": 0.494949494949495,
     "reading_grade_level": 0.06060606060606061,
@@ -209,6 +227,8 @@
    "school_name": "Bungol ES",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 193.0,
+   "mooe_es_fy2026": 810000.0,
    "values": {
     "reading_lowest": 0.16216216216216217,
     "reading_grade_level": 0.12162162162162163,
@@ -228,6 +248,8 @@
    "school_name": "Butubut ES",
    "learners_assessed": 121.0,
    "small_group": false,
+   "k6_enrollment": 289.0,
+   "mooe_es_fy2026": 894000.0,
    "values": {
     "reading_lowest": 0.5289256198347108,
     "reading_grade_level": 0.11570247933884298,
@@ -247,6 +269,8 @@
    "school_name": "Butubut Norte ES",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 180.0,
+   "mooe_es_fy2026": 793000.0,
    "values": {
     "reading_lowest": 0.28,
     "reading_grade_level": 0.0,
@@ -266,6 +290,8 @@
    "school_name": "Calliat ES",
    "learners_assessed": 76.0,
    "small_group": false,
+   "k6_enrollment": 165.0,
+   "mooe_es_fy2026": 766000.0,
    "values": {
     "reading_lowest": 0.32894736842105265,
     "reading_grade_level": 0.2894736842105263,
@@ -285,6 +311,8 @@
    "school_name": "Guinaburan Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
+   "k6_enrollment": 147.0,
+   "mooe_es_fy2026": 739000.0,
    "values": {
     "reading_lowest": 0.15555555555555556,
     "reading_grade_level": 0.28888888888888886,
@@ -304,6 +332,8 @@
    "school_name": "Masupe Elementary School",
    "learners_assessed": 78.0,
    "small_group": false,
+   "k6_enrollment": 167.0,
+   "mooe_es_fy2026": 814000.0,
    "values": {
     "reading_lowest": 0.24358974358974358,
     "reading_grade_level": 0.28205128205128205,
@@ -323,6 +353,8 @@
    "school_name": "Nagsabaran Sur ES",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 91.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.29545454545454547,
     "reading_grade_level": 0.06818181818181818,
@@ -342,6 +374,8 @@
    "school_name": "Pantar Sur Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 123.0,
+   "mooe_es_fy2026": 732000.0,
    "values": {
     "reading_lowest": 0.2553191489361702,
     "reading_grade_level": 0.1276595744680851,
@@ -361,6 +395,8 @@
    "school_name": "Paraoir ES",
    "learners_assessed": 84.0,
    "small_group": false,
+   "k6_enrollment": 216.0,
+   "mooe_es_fy2026": 844000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.14285714285714285,
@@ -380,6 +416,8 @@
    "school_name": "Patpata ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 97.0,
+   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.2564102564102564,
     "reading_grade_level": 0.15384615384615385,
@@ -399,6 +437,8 @@
    "school_name": "Sinapangan Norte ES",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 123.0,
+   "mooe_es_fy2026": 722000.0,
    "values": {
     "reading_lowest": 0.3191489361702128,
     "reading_grade_level": 0.19148936170212766,
@@ -418,6 +458,8 @@
    "school_name": "Sinapangan Sur ES",
    "learners_assessed": 108.0,
    "small_group": false,
+   "k6_enrollment": 263.0,
+   "mooe_es_fy2026": 895000.0,
    "values": {
     "reading_lowest": 0.24074074074074073,
     "reading_grade_level": 0.2037037037037037,
@@ -475,5 +517,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

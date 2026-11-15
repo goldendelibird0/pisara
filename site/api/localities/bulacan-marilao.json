@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 38483000.0,
+   "schools_listed": 18,
+   "public_elementary_schools": 18,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Abangan Norte ES",
    "learners_assessed": 319.0,
    "small_group": false,
+   "k6_enrollment": 812.0,
+   "mooe_es_fy2026": 1513000.0,
    "values": {
     "reading_lowest": 0.23824451410658307,
     "reading_grade_level": 0.27899686520376177,
@@ -133,6 +143,8 @@
    "school_name": "Abangan Sur ES",
    "learners_assessed": 397.0,
    "small_group": false,
+   "k6_enrollment": 953.0,
+   "mooe_es_fy2026": 1677000.0,
    "values": {
     "reading_lowest": 0.22921914357682618,
     "reading_grade_level": 0.20654911838790932,
@@ -152,6 +164,8 @@
    "school_name": "FSS Patulo Elementary School",
    "learners_assessed": 879.0,
    "small_group": false,
+   "k6_enrollment": 2163.0,
+   "mooe_es_fy2026": 3097000.0,
    "values": {
     "reading_lowest": 0.22639362912400454,
     "reading_grade_level": 0.19795221843003413,
@@ -171,6 +185,8 @@
    "school_name": "Heritage Homes Integrated School",
    "learners_assessed": 633.0,
    "small_group": false,
+   "k6_enrollment": 1533.0,
+   "mooe_es_fy2026": 2111000.0,
    "values": {
     "reading_lowest": 0.29541864139020535,
     "reading_grade_level": 0.3127962085308057,
@@ -190,6 +206,8 @@
    "school_name": "Ibayo Elementary School",
    "learners_assessed": 100.0,
    "small_group": false,
+   "k6_enrollment": 205.0,
+   "mooe_es_fy2026": 833000.0,
    "values": {
     "reading_lowest": 0.39,
     "reading_grade_level": 0.27,
@@ -209,6 +227,8 @@
    "school_name": "Lambakin ES",
    "learners_assessed": 504.0,
    "small_group": false,
+   "k6_enrollment": 1177.0,
+   "mooe_es_fy2026": 1910000.0,
    "values": {
     "reading_lowest": 0.2261904761904762,
     "reading_grade_level": 0.15476190476190477,
@@ -228,6 +248,8 @@
    "school_name": "Lambakin ES - Annex",
    "learners_assessed": 284.0,
    "small_group": false,
+   "k6_enrollment": 938.0,
+   "mooe_es_fy2026": 1729000.0,
    "values": {
     "reading_lowest": 0.4014084507042254,
     "reading_grade_level": 0.15492957746478872,
@@ -247,6 +269,8 @@
    "school_name": "Lias ES",
    "learners_assessed": 685.0,
    "small_group": false,
+   "k6_enrollment": 1563.0,
+   "mooe_es_fy2026": 2377000.0,
    "values": {
     "reading_lowest": 0.29635036496350364,
     "reading_grade_level": 0.11240875912408758,
@@ -266,6 +290,8 @@
    "school_name": "Loma de Gato Elementary School",
    "learners_assessed": 1423.0,
    "small_group": false,
+   "k6_enrollment": 3362.0,
+   "mooe_es_fy2026": 4278000.0,
    "values": {
     "reading_lowest": 0.2782853127196065,
     "reading_grade_level": 0.21433591004919184,
@@ -285,6 +311,8 @@
    "school_name": "Marilao Central Integrated School",
    "learners_assessed": 642.0,
    "small_group": false,
+   "k6_enrollment": 1480.0,
+   "mooe_es_fy2026": 1652000.0,
    "values": {
     "reading_lowest": 0.32710280373831774,
     "reading_grade_level": 0.06853582554517133,
@@ -304,6 +332,8 @@
    "school_name": "Northville IV Elementary School",
    "learners_assessed": 942.0,
    "small_group": false,
+   "k6_enrollment": 2210.0,
+   "mooe_es_fy2026": 3106000.0,
    "values": {
     "reading_lowest": 0.22929936305732485,
     "reading_grade_level": 0.06157112526539278,
@@ -323,6 +353,8 @@
    "school_name": "Northville IV-B ES",
    "learners_assessed": 408.0,
    "small_group": false,
+   "k6_enrollment": 942.0,
+   "mooe_es_fy2026": 1646000.0,
    "values": {
     "reading_lowest": 0.33088235294117646,
     "reading_grade_level": 0.15931372549019607,
@@ -342,6 +374,8 @@
    "school_name": "Patubig ES",
    "learners_assessed": 467.0,
    "small_group": false,
+   "k6_enrollment": 1063.0,
+   "mooe_es_fy2026": 1830000.0,
    "values": {
     "reading_lowest": 0.1905781584582441,
     "reading_grade_level": 0.06852248394004283,
@@ -361,6 +395,8 @@
    "school_name": "Prenza Elementary School",
    "learners_assessed": 1062.0,
    "small_group": false,
+   "k6_enrollment": 2682.0,
+   "mooe_es_fy2026": 3594000.0,
    "values": {
     "reading_lowest": 0.2975517890772128,
     "reading_grade_level": 0.064030131826742,
@@ -380,6 +416,8 @@
    "school_name": "Saog Elementary School",
    "learners_assessed": 126.0,
    "small_group": false,
+   "k6_enrollment": 959.0,
+   "mooe_es_fy2026": 1728000.0,
    "values": {
     "reading_lowest": 0.2698412698412698,
     "reading_grade_level": 0.373015873015873,
@@ -399,6 +437,8 @@
    "school_name": "Sta. Rosa I ES",
    "learners_assessed": 679.0,
    "small_group": false,
+   "k6_enrollment": 1571.0,
+   "mooe_es_fy2026": 2347000.0,
    "values": {
     "reading_lowest": 0.2974963181148748,
     "reading_grade_level": 0.044182621502209134,
@@ -418,6 +458,8 @@
    "school_name": "Sta. Rosa II ES",
    "learners_assessed": 472.0,
    "small_group": false,
+   "k6_enrollment": 1047.0,
+   "mooe_es_fy2026": 1907000.0,
    "values": {
     "reading_lowest": 0.3029661016949153,
     "reading_grade_level": 0.163135593220339,
@@ -437,6 +479,8 @@
    "school_name": "Tabing Ilog ES",
    "learners_assessed": 238.0,
    "small_group": false,
+   "k6_enrollment": 521.0,
+   "mooe_es_fy2026": 1148000.0,
    "values": {
     "reading_lowest": 0.2647058823529412,
     "reading_grade_level": 0.06302521008403361,
@@ -494,5 +538,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

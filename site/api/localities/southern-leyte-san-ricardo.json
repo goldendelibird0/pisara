@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 5813000.0,
+   "schools_listed": 8,
+   "public_elementary_schools": 8,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Benit Elementary School",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 102.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.075,
@@ -133,6 +143,8 @@
    "school_name": "Camang Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 64.0,
+   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.09523809523809523,
@@ -152,6 +164,8 @@
    "school_name": "Esperanza Elementary School",
    "learners_assessed": 92.0,
    "small_group": false,
+   "k6_enrollment": 230.0,
+   "mooe_es_fy2026": 833000.0,
    "values": {
     "reading_lowest": 0.1956521739130435,
     "reading_grade_level": 0.2608695652173913,
@@ -171,6 +185,8 @@
    "school_name": "Kinachawa Elementary School",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 92.0,
+   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.3409090909090909,
     "reading_grade_level": 0.045454545454545456,
@@ -190,6 +206,8 @@
    "school_name": "Pinut-an Elementary School",
    "learners_assessed": 90.0,
    "small_group": false,
+   "k6_enrollment": 236.0,
+   "mooe_es_fy2026": 846000.0,
    "values": {
     "reading_lowest": 0.28888888888888886,
     "reading_grade_level": 0.08888888888888889,
@@ -209,6 +227,8 @@
    "school_name": "San Ramon Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 25.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.5333333333333333,
@@ -228,6 +248,8 @@
    "school_name": "San Ricardo Central School",
    "learners_assessed": 128.0,
    "small_group": false,
+   "k6_enrollment": 288.0,
+   "mooe_es_fy2026": 911000.0,
    "values": {
     "reading_lowest": 0.28125,
     "reading_grade_level": 0.1484375,
@@ -247,6 +269,8 @@
    "school_name": "Saub Integrated School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 119.0,
+   "mooe_es_fy2026": 564000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.20833333333333334,
@@ -304,5 +328,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

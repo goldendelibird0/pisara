@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 10233000.0,
+   "schools_listed": 15,
+   "public_elementary_schools": 15,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Anao ES",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 44.0,
+   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Bangtinon ES",
    "learners_assessed": 29.0,
    "small_group": false,
+   "k6_enrollment": 73.0,
+   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.06896551724137931,
     "reading_grade_level": 0.6206896551724138,
@@ -152,6 +164,8 @@
    "school_name": "Bitu ES",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 70.0,
+   "mooe_es_fy2026": 660000.0,
    "values": {
     "reading_lowest": 0.058823529411764705,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Cababuyan ES",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 64.0,
+   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Hingyon CS",
    "learners_assessed": 66.0,
    "small_group": false,
+   "k6_enrollment": 108.0,
+   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.2878787878787879,
     "reading_grade_level": 0.19696969696969696,
@@ -209,6 +227,8 @@
    "school_name": "Humalophop ES",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 34.0,
+   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.46153846153846156,
@@ -228,6 +248,8 @@
    "school_name": "Kayang PS",
    "learners_assessed": 19.0,
    "small_group": true,
+   "k6_enrollment": 25.0,
+   "mooe_es_fy2026": 615000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Mompolia ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 132.0,
+   "mooe_es_fy2026": 736000.0,
    "values": {
     "reading_lowest": 0.02564102564102564,
     "reading_grade_level": 0.02564102564102564,
@@ -266,6 +290,8 @@
    "school_name": "Namulditan ES",
    "learners_assessed": 45.0,
    "small_group": false,
+   "k6_enrollment": 118.0,
+   "mooe_es_fy2026": 713000.0,
    "values": {
     "reading_lowest": 0.35555555555555557,
     "reading_grade_level": 0.15555555555555556,
@@ -285,6 +311,8 @@
    "school_name": "Northern Cababuyan Elementary School     - Annex",
    "learners_assessed": 37.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.1891891891891892,
     "reading_grade_level": 0.10810810810810811,
@@ -304,6 +332,8 @@
    "school_name": "O-ong Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 128.0,
+   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.10869565217391304,
     "reading_grade_level": 0.08695652173913043,
@@ -323,6 +353,8 @@
    "school_name": "Pitawan ES",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 111.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.047619047619047616,
@@ -342,6 +374,8 @@
    "school_name": "Piwong ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 148.0,
+   "mooe_es_fy2026": 755000.0,
    "values": {
     "reading_lowest": 0.18055555555555555,
     "reading_grade_level": 0.2361111111111111,
@@ -361,6 +395,8 @@
    "school_name": "Ubuag PS",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 45.0,
+   "mooe_es_fy2026": 646000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.16666666666666666,
@@ -380,6 +416,8 @@
    "school_name": "Umalbong ES",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.19047619047619047,
     "reading_grade_level": 0.0,
@@ -437,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

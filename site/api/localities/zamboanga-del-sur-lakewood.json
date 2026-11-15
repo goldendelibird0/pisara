@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 12170000.0,
+   "schools_listed": 15,
+   "public_elementary_schools": 15,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bag-Ong Kahayag ES",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 216.0,
+   "mooe_es_fy2026": 860000.0,
    "values": {
     "reading_lowest": 0.5168539325842697,
     "reading_grade_level": 0.11235955056179775,
@@ -133,6 +143,8 @@
    "school_name": "Baking ES",
    "learners_assessed": 85.0,
    "small_group": false,
+   "k6_enrollment": 220.0,
+   "mooe_es_fy2026": 846000.0,
    "values": {
     "reading_lowest": 0.27058823529411763,
     "reading_grade_level": 0.011764705882352941,
@@ -152,6 +164,8 @@
    "school_name": "Biswangan ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 294.0,
+   "mooe_es_fy2026": 940000.0,
    "values": {
     "reading_lowest": 0.6699029126213593,
     "reading_grade_level": 0.019417475728155338,
@@ -171,6 +185,8 @@
    "school_name": "Bululawan Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 169.0,
+   "mooe_es_fy2026": 770000.0,
    "values": {
     "reading_lowest": 0.38095238095238093,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Dagum Integrated School",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 98.0,
+   "mooe_es_fy2026": 535000.0,
    "values": {
     "reading_lowest": 0.7,
     "reading_grade_level": 0.15,
@@ -209,6 +227,8 @@
    "school_name": "Gasa Elementary School",
    "learners_assessed": 83.0,
    "small_group": false,
+   "k6_enrollment": 156.0,
+   "mooe_es_fy2026": 784000.0,
    "values": {
     "reading_lowest": 0.5542168674698795,
     "reading_grade_level": 0.04819277108433735,
@@ -228,6 +248,8 @@
    "school_name": "Gatub Elementary School",
    "learners_assessed": 64.0,
    "small_group": false,
+   "k6_enrollment": 144.0,
+   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.296875,
     "reading_grade_level": 0.109375,
@@ -247,6 +269,8 @@
    "school_name": "Lakewood CES",
    "learners_assessed": 271.0,
    "small_group": false,
+   "k6_enrollment": 616.0,
+   "mooe_es_fy2026": 1281000.0,
    "values": {
     "reading_lowest": 0.3763837638376384,
     "reading_grade_level": 0.16974169741697417,
@@ -266,6 +290,8 @@
    "school_name": "Lukuan ES",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 74.0,
+   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.027777777777777776,
@@ -285,6 +311,8 @@
    "school_name": "Matalang Elementary School",
    "learners_assessed": 67.0,
    "small_group": false,
+   "k6_enrollment": 125.0,
+   "mooe_es_fy2026": 725000.0,
    "values": {
     "reading_lowest": 0.31343283582089554,
     "reading_grade_level": 0.19402985074626866,
@@ -304,6 +332,8 @@
    "school_name": "Pegampuan ES",
    "learners_assessed": 35.0,
    "small_group": false,
+   "k6_enrollment": 88.0,
+   "mooe_es_fy2026": 690000.0,
    "values": {
     "reading_lowest": 0.11428571428571428,
     "reading_grade_level": 0.0,
@@ -323,6 +353,8 @@
    "school_name": "Sapang Pinoles ES",
    "learners_assessed": 50.0,
    "small_group": false,
+   "k6_enrollment": 129.0,
+   "mooe_es_fy2026": 720000.0,
    "values": {
     "reading_lowest": 0.08,
     "reading_grade_level": 0.32,
@@ -342,6 +374,8 @@
    "school_name": "Sibuguey ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 135.0,
+   "mooe_es_fy2026": 759000.0,
    "values": {
     "reading_lowest": 0.4722222222222222,
     "reading_grade_level": 0.013888888888888888,
@@ -361,6 +395,8 @@
    "school_name": "Tiwales ES",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 104.0,
+   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.3181818181818182,
@@ -380,6 +416,8 @@
    "school_name": "Tubod ES",
    "learners_assessed": 208.0,
    "small_group": false,
+   "k6_enrollment": 489.0,
+   "mooe_es_fy2026": 1176000.0,
    "values": {
     "reading_lowest": 0.1971153846153846,
     "reading_grade_level": 0.47115384615384615,
@@ -437,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

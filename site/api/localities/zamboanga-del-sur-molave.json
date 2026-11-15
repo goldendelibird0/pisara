@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 23205000.0,
+   "schools_listed": 27,
+   "public_elementary_schools": 28,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Alicia ES",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 117.0,
+   "mooe_es_fy2026": 708000.0,
    "values": {
     "reading_lowest": 0.24489795918367346,
     "reading_grade_level": 0.061224489795918366,
@@ -133,6 +143,8 @@
    "school_name": "Anatalio T. Lobitana Elem.School-(formerly Sudlon ES",
    "learners_assessed": 63.0,
    "small_group": false,
+   "k6_enrollment": 180.0,
+   "mooe_es_fy2026": 771000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.20634920634920634,
@@ -152,6 +164,8 @@
    "school_name": "Bag-ong Argao ES",
    "learners_assessed": 56.0,
    "small_group": false,
+   "k6_enrollment": 134.0,
+   "mooe_es_fy2026": 729000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.17857142857142858,
@@ -171,6 +185,8 @@
    "school_name": "Bag-ong Ariosa ES",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 26.0,
+   "mooe_es_fy2026": 611000.0,
    "values": {
     "reading_lowest": 0.5833333333333334,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Blancia CES",
    "learners_assessed": 101.0,
    "small_group": false,
+   "k6_enrollment": 292.0,
+   "mooe_es_fy2026": 954000.0,
    "values": {
     "reading_lowest": 0.3069306930693069,
     "reading_grade_level": 0.42574257425742573,
@@ -209,6 +227,8 @@
    "school_name": "Cleto C. Araya ES",
    "learners_assessed": 111.0,
    "small_group": false,
+   "k6_enrollment": 321.0,
+   "mooe_es_fy2026": 985000.0,
    "values": {
     "reading_lowest": 0.26126126126126126,
     "reading_grade_level": 0.07207207207207207,
@@ -228,6 +248,8 @@
    "school_name": "Dalaon ES",
    "learners_assessed": 66.0,
    "small_group": false,
+   "k6_enrollment": 150.0,
+   "mooe_es_fy2026": 740000.0,
    "values": {
     "reading_lowest": 0.4393939393939394,
     "reading_grade_level": 0.030303030303030304,
@@ -247,6 +269,8 @@
    "school_name": "Dipolo ES",
    "learners_assessed": 132.0,
    "small_group": false,
+   "k6_enrollment": 275.0,
+   "mooe_es_fy2026": 908000.0,
    "values": {
     "reading_lowest": 0.38636363636363635,
     "reading_grade_level": 0.022727272727272728,
@@ -266,6 +290,8 @@
    "school_name": "Dontulan Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 118.0,
+   "mooe_es_fy2026": 703000.0,
    "values": {
     "reading_lowest": 0.5476190476190477,
     "reading_grade_level": 0.11904761904761904,
@@ -285,6 +311,8 @@
    "school_name": "Gonosan Integrated School",
    "learners_assessed": 100.0,
    "small_group": false,
+   "k6_enrollment": 236.0,
+   "mooe_es_fy2026": 675000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.05,
@@ -304,6 +332,8 @@
    "school_name": "LOWER DIMOROK ES",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 63.0,
+   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.13333333333333333,
@@ -323,6 +353,8 @@
    "school_name": "Leonardo Magallanes Gutlang ES",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 132.0,
+   "mooe_es_fy2026": 730000.0,
    "values": {
     "reading_lowest": 0.32727272727272727,
     "reading_grade_level": 0.0,
@@ -342,6 +374,8 @@
    "school_name": "Lower Dimalinao ES",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 65.0,
+   "mooe_es_fy2026": 663000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.17857142857142858,
@@ -361,6 +395,8 @@
    "school_name": "Mabuhay ES",
    "learners_assessed": 91.0,
    "small_group": false,
+   "k6_enrollment": 246.0,
+   "mooe_es_fy2026": 837000.0,
    "values": {
     "reading_lowest": 0.34065934065934067,
     "reading_grade_level": 0.03296703296703297,
@@ -380,6 +416,8 @@
    "school_name": "Maestrado ES",
    "learners_assessed": 101.0,
    "small_group": false,
+   "k6_enrollment": 231.0,
+   "mooe_es_fy2026": 853000.0,
    "values": {
     "reading_lowest": 0.3069306930693069,
     "reading_grade_level": 0.2376237623762376,
@@ -399,6 +437,8 @@
    "school_name": "Malili Elementary School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 106.0,
+   "mooe_es_fy2026": 689000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.125,
@@ -418,6 +458,8 @@
    "school_name": "Molave Bliss ES",
    "learners_assessed": 159.0,
    "small_group": false,
+   "k6_enrollment": 395.0,
+   "mooe_es_fy2026": 1041000.0,
    "values": {
     "reading_lowest": 0.1761006289308176,
     "reading_grade_level": 0.3522012578616352,
@@ -437,6 +479,8 @@
    "school_name": "Molave RPS SPED",
    "learners_assessed": 440.0,
    "small_group": false,
+   "k6_enrollment": 955.0,
+   "mooe_es_fy2026": 1615000.0,
    "values": {
     "reading_lowest": 0.3431818181818182,
     "reading_grade_level": 0.15227272727272728,
@@ -456,6 +500,8 @@
    "school_name": "Molave Regional Pilot School-South Regular",
    "learners_assessed": 455.0,
    "small_group": false,
+   "k6_enrollment": 1027.0,
+   "mooe_es_fy2026": 1745000.0,
    "values": {
     "reading_lowest": 0.3626373626373626,
     "reading_grade_level": 0.14505494505494507,
@@ -475,6 +521,8 @@
    "school_name": "Molave Regional Pilot School-Training Center",
    "learners_assessed": 362.0,
    "small_group": false,
+   "k6_enrollment": 913.0,
+   "mooe_es_fy2026": 1653000.0,
    "values": {
     "reading_lowest": 0.11878453038674033,
     "reading_grade_level": 0.2541436464088398,
@@ -494,6 +542,8 @@
    "school_name": "Parasan ES",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 211.0,
+   "mooe_es_fy2026": 826000.0,
    "values": {
     "reading_lowest": 0.2247191011235955,
     "reading_grade_level": 0.0449438202247191,
@@ -513,6 +563,8 @@
    "school_name": "Rizal ES",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 98.0,
+   "mooe_es_fy2026": 704000.0,
    "values": {
     "reading_lowest": 0.4473684210526316,
     "reading_grade_level": 0.02631578947368421,
@@ -532,6 +584,8 @@
    "school_name": "Silangit ES",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 688000.0,
    "values": {
     "reading_lowest": 0.7,
     "reading_grade_level": 0.0,
@@ -551,6 +605,8 @@
    "school_name": "Simata ES",
    "learners_assessed": 118.0,
    "small_group": false,
+   "k6_enrollment": 277.0,
+   "mooe_es_fy2026": 880000.0,
    "values": {
     "reading_lowest": 0.3305084745762712,
     "reading_grade_level": 0.3983050847457627,
@@ -570,6 +626,8 @@
    "school_name": "Sto. Rosario ES",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 49.0,
+   "mooe_es_fy2026": 622000.0,
    "values": {
     "reading_lowest": 0.3125,
     "reading_grade_level": 0.0,
@@ -589,6 +647,8 @@
    "school_name": "Upper Dimorok Integrated School",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 151.0,
+   "mooe_es_fy2026": 586000.0,
    "values": {
     "reading_lowest": 0.4915254237288136,
     "reading_grade_level": 0.3389830508474576,
@@ -608,6 +668,8 @@
    "school_name": "Villasis ES",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 57.0,
+   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.3,
     "reading_grade_level": 0.15,
@@ -665,5 +727,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

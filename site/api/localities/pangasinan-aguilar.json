@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 15752000.0,
+   "schools_listed": 17,
+   "public_elementary_schools": 17,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Aguilar Integrated School",
    "learners_assessed": 262.0,
    "small_group": false,
+   "k6_enrollment": 836.0,
+   "mooe_es_fy2026": 1460000.0,
    "values": {
     "reading_lowest": 0.5916030534351145,
     "reading_grade_level": 0.11068702290076336,
@@ -133,6 +143,8 @@
    "school_name": "Anonang ES",
    "learners_assessed": 142.0,
    "small_group": false,
+   "k6_enrollment": 351.0,
+   "mooe_es_fy2026": 1015000.0,
    "values": {
     "reading_lowest": 0.21830985915492956,
     "reading_grade_level": 0.09859154929577464,
@@ -152,6 +164,8 @@
    "school_name": "Baybay ES",
    "learners_assessed": 144.0,
    "small_group": false,
+   "k6_enrollment": 324.0,
+   "mooe_es_fy2026": 924000.0,
    "values": {
     "reading_lowest": 0.4166666666666667,
     "reading_grade_level": 0.006944444444444444,
@@ -171,6 +185,8 @@
    "school_name": "Bocacliw Elementary School",
    "learners_assessed": 161.0,
    "small_group": false,
+   "k6_enrollment": 377.0,
+   "mooe_es_fy2026": 1020000.0,
    "values": {
     "reading_lowest": 0.40372670807453415,
     "reading_grade_level": 0.13664596273291926,
@@ -190,6 +206,8 @@
    "school_name": "Bocboc East ES",
    "learners_assessed": 115.0,
    "small_group": false,
+   "k6_enrollment": 268.0,
+   "mooe_es_fy2026": 911000.0,
    "values": {
     "reading_lowest": 0.2782608695652174,
     "reading_grade_level": 0.1565217391304348,
@@ -209,6 +227,8 @@
    "school_name": "Bocboc West ES",
    "learners_assessed": 54.0,
    "small_group": false,
+   "k6_enrollment": 150.0,
+   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.2037037037037037,
     "reading_grade_level": 0.09259259259259259,
@@ -228,6 +248,8 @@
    "school_name": "Buer-Bayaoas ES",
    "learners_assessed": 223.0,
    "small_group": false,
+   "k6_enrollment": 555.0,
+   "mooe_es_fy2026": 1189000.0,
    "values": {
     "reading_lowest": 0.43946188340807174,
     "reading_grade_level": 0.30493273542600896,
@@ -247,6 +269,8 @@
    "school_name": "Calsib ES",
    "learners_assessed": 130.0,
    "small_group": false,
+   "k6_enrollment": 342.0,
+   "mooe_es_fy2026": 976000.0,
    "values": {
     "reading_lowest": 0.4230769230769231,
     "reading_grade_level": 0.046153846153846156,
@@ -266,6 +290,8 @@
    "school_name": "Casagatan ES",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 134.0,
+   "mooe_es_fy2026": 746000.0,
    "values": {
     "reading_lowest": 0.2711864406779661,
     "reading_grade_level": 0.2033898305084746,
@@ -285,6 +311,8 @@
    "school_name": "Dona Catalina ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 360.0,
+   "mooe_es_fy2026": 1012000.0,
    "values": {
     "reading_lowest": 0.42718446601941745,
     "reading_grade_level": 0.0,
@@ -304,6 +332,8 @@
    "school_name": "MANLOCBOC ELEMENTARY SCHOOL",
    "learners_assessed": 77.0,
    "small_group": false,
+   "k6_enrollment": 223.0,
+   "mooe_es_fy2026": 836000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.05194805194805195,
@@ -323,6 +353,8 @@
    "school_name": "Mapita Integrated School",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 554000.0,
    "values": {
     "reading_lowest": 0.5263157894736842,
     "reading_grade_level": 0.07894736842105263,
@@ -342,6 +374,8 @@
    "school_name": "Ninoy ES",
    "learners_assessed": 181.0,
    "small_group": false,
+   "k6_enrollment": 407.0,
+   "mooe_es_fy2026": 1058000.0,
    "values": {
     "reading_lowest": 0.2541436464088398,
     "reading_grade_level": 0.08839779005524862,
@@ -361,6 +395,8 @@
    "school_name": "Panacol Elementary School",
    "learners_assessed": 110.0,
    "small_group": false,
+   "k6_enrollment": 256.0,
+   "mooe_es_fy2026": 855000.0,
    "values": {
     "reading_lowest": 0.5636363636363636,
     "reading_grade_level": 0.0,
@@ -380,6 +416,8 @@
    "school_name": "Pogonsili ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 275.0,
+   "mooe_es_fy2026": 907000.0,
    "values": {
     "reading_lowest": 0.4077669902912621,
     "reading_grade_level": 0.038834951456310676,
@@ -399,6 +437,8 @@
    "school_name": "Sipitan ES",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 150.0,
+   "mooe_es_fy2026": 765000.0,
    "values": {
     "reading_lowest": 0.43636363636363634,
     "reading_grade_level": 0.21818181818181817,
@@ -418,6 +458,8 @@
    "school_name": "Tampac Integrated School",
    "learners_assessed": 139.0,
    "small_group": false,
+   "k6_enrollment": 318.0,
+   "mooe_es_fy2026": 779000.0,
    "values": {
     "reading_lowest": 0.35251798561151076,
     "reading_grade_level": 0.050359712230215826,
@@ -475,5 +517,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

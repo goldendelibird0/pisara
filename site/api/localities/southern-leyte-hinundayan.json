@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 9641000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Amaga Elementary School",
    "learners_assessed": 10.0,
    "small_group": true,
+   "k6_enrollment": 28.0,
+   "mooe_es_fy2026": 617000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.1,
@@ -133,6 +143,8 @@
    "school_name": "Ambao Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 74.0,
+   "mooe_es_fy2026": 662000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.23076923076923078,
@@ -152,6 +164,8 @@
    "school_name": "An-An Elementary School",
    "learners_assessed": 8.0,
    "small_group": true,
+   "k6_enrollment": 32.0,
+   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Baculod Elementary School",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 93.0,
+   "mooe_es_fy2026": 693000.0,
    "values": {
     "reading_lowest": 0.35294117647058826,
     "reading_grade_level": 0.11764705882352941,
@@ -190,6 +206,8 @@
    "school_name": "Biasong MG Elementary School",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 61.0,
+   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.11764705882352941,
     "reading_grade_level": 0.7058823529411765,
@@ -209,6 +227,8 @@
    "school_name": "Bugho Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 94.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.13953488372093023,
     "reading_grade_level": 0.06976744186046512,
@@ -228,6 +248,8 @@
    "school_name": "Cabulisan Multi-Grade Elem.School",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 40.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Cat-iwing MG Elem School",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.0,
@@ -266,6 +290,8 @@
    "school_name": "Hinundayan Central School",
    "learners_assessed": 125.0,
    "small_group": false,
+   "k6_enrollment": 319.0,
+   "mooe_es_fy2026": 942000.0,
    "values": {
     "reading_lowest": 0.336,
     "reading_grade_level": 0.216,
@@ -285,6 +311,8 @@
    "school_name": "Hubasan Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 88.0,
+   "mooe_es_fy2026": 675000.0,
    "values": {
     "reading_lowest": 0.36,
     "reading_grade_level": 0.24,
@@ -304,6 +332,8 @@
    "school_name": "Lungsodaan Elementary School",
    "learners_assessed": 110.0,
    "small_group": false,
+   "k6_enrollment": 245.0,
+   "mooe_es_fy2026": 863000.0,
    "values": {
     "reading_lowest": 0.23636363636363636,
     "reading_grade_level": 0.11818181818181818,
@@ -323,6 +353,8 @@
    "school_name": "Navalita MG Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 37.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.0,
@@ -342,6 +374,8 @@
    "school_name": "Plaridel Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 35.0,
+   "mooe_es_fy2026": 626000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.6923076923076923,
@@ -361,6 +395,8 @@
    "school_name": "Sagbok Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 704000.0,
    "values": {
     "reading_lowest": 0.22857142857142856,
     "reading_grade_level": 0.05714285714285714,
@@ -418,5 +454,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

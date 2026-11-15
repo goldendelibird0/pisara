@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 17908000.0,
+   "schools_listed": 22,
+   "public_elementary_schools": 23,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "An-Anonas Elementary School",
    "learners_assessed": 66.0,
    "small_group": false,
+   "k6_enrollment": 155.0,
+   "mooe_es_fy2026": 760000.0,
    "values": {
     "reading_lowest": 0.13636363636363635,
     "reading_grade_level": 0.3333333333333333,
@@ -133,6 +143,8 @@
    "school_name": "Arzadon ES",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 138.0,
+   "mooe_es_fy2026": 750000.0,
    "values": {
     "reading_lowest": 0.30612244897959184,
     "reading_grade_level": 0.16326530612244897,
@@ -152,6 +164,8 @@
    "school_name": "Bobon Elementary School",
    "learners_assessed": 150.0,
    "small_group": false,
+   "k6_enrollment": 377.0,
+   "mooe_es_fy2026": 1013000.0,
    "values": {
     "reading_lowest": 0.26,
     "reading_grade_level": 0.30666666666666664,
@@ -171,6 +185,8 @@
    "school_name": "Bomboaya ES",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 88.0,
+   "mooe_es_fy2026": 692000.0,
    "values": {
     "reading_lowest": 0.2631578947368421,
     "reading_grade_level": 0.23684210526315788,
@@ -190,6 +206,8 @@
    "school_name": "Cabacaraan ES",
    "learners_assessed": 57.0,
    "small_group": false,
+   "k6_enrollment": 140.0,
+   "mooe_es_fy2026": 764000.0,
    "values": {
     "reading_lowest": 0.3508771929824561,
     "reading_grade_level": 0.08771929824561403,
@@ -209,6 +227,8 @@
    "school_name": "Cabaritan ES",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 226.0,
+   "mooe_es_fy2026": 859000.0,
    "values": {
     "reading_lowest": 0.4943820224719101,
     "reading_grade_level": 0.21348314606741572,
@@ -228,6 +248,8 @@
    "school_name": "Florencio P. Guzon E/S",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 95.0,
+   "mooe_es_fy2026": 698000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.1,
@@ -247,6 +269,8 @@
    "school_name": "Flores Integ. Sch.",
    "learners_assessed": 223.0,
    "small_group": false,
+   "k6_enrollment": 567.0,
+   "mooe_es_fy2026": 1081000.0,
    "values": {
     "reading_lowest": 0.242152466367713,
     "reading_grade_level": 0.3183856502242152,
@@ -266,6 +290,8 @@
    "school_name": "Juan C. Laya Central School SPED Center",
    "learners_assessed": 405.0,
    "small_group": false,
+   "k6_enrollment": 996.0,
+   "mooe_es_fy2026": 1742000.0,
    "values": {
     "reading_lowest": 0.3506172839506173,
     "reading_grade_level": 0.145679012345679,
@@ -285,6 +311,8 @@
    "school_name": "Laclac Chayao School",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 54.0,
+   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 1.0,
@@ -304,6 +332,8 @@
    "school_name": "Lapalo ES",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 103.0,
+   "mooe_es_fy2026": 703000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.11363636363636363,
@@ -323,6 +353,8 @@
    "school_name": "Lomboy Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 121.0,
+   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.3695652173913043,
     "reading_grade_level": 0.21739130434782608,
@@ -342,6 +374,8 @@
    "school_name": "Nagsaag ES",
    "learners_assessed": 84.0,
    "small_group": false,
+   "k6_enrollment": 200.0,
+   "mooe_es_fy2026": 806000.0,
    "values": {
     "reading_lowest": 0.38095238095238093,
     "reading_grade_level": 0.07142857142857142,
@@ -361,6 +395,8 @@
    "school_name": "San Antonio ES",
    "learners_assessed": 61.0,
    "small_group": false,
+   "k6_enrollment": 153.0,
+   "mooe_es_fy2026": 747000.0,
    "values": {
     "reading_lowest": 0.3114754098360656,
     "reading_grade_level": 0.19672131147540983,
@@ -380,6 +416,8 @@
    "school_name": "San Bonifacio ES",
    "learners_assessed": 67.0,
    "small_group": false,
+   "k6_enrollment": 163.0,
+   "mooe_es_fy2026": 759000.0,
    "values": {
     "reading_lowest": 0.582089552238806,
     "reading_grade_level": 0.0,
@@ -399,6 +437,8 @@
    "school_name": "San Juan ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 260.0,
+   "mooe_es_fy2026": 885000.0,
    "values": {
     "reading_lowest": 0.3106796116504854,
     "reading_grade_level": 0.18446601941747573,
@@ -418,6 +458,8 @@
    "school_name": "San Roque Integrated School",
    "learners_assessed": 78.0,
    "small_group": false,
+   "k6_enrollment": 205.0,
+   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.19230769230769232,
     "reading_grade_level": 0.41025641025641024,
@@ -437,6 +479,8 @@
    "school_name": "San Vicente East ES",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 105.0,
+   "mooe_es_fy2026": 698000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.2727272727272727,
@@ -456,6 +500,8 @@
    "school_name": "San Vicente West Elementary School",
    "learners_assessed": 29.0,
    "small_group": false,
+   "k6_enrollment": 70.0,
+   "mooe_es_fy2026": 660000.0,
    "values": {
     "reading_lowest": 0.13793103448275862,
     "reading_grade_level": 0.06896551724137931,
@@ -475,6 +521,8 @@
    "school_name": "Silsilay ES",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 142.0,
+   "mooe_es_fy2026": 749000.0,
    "values": {
     "reading_lowest": 0.4166666666666667,
     "reading_grade_level": 0.0,
@@ -494,6 +542,8 @@
    "school_name": "Sto. Domingo ES",
    "learners_assessed": 113.0,
    "small_group": false,
+   "k6_enrollment": 265.0,
+   "mooe_es_fy2026": 874000.0,
    "values": {
     "reading_lowest": 0.17699115044247787,
     "reading_grade_level": 0.19469026548672566,
@@ -513,6 +563,8 @@
    "school_name": "Tacnien ES",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 103.0,
+   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.5909090909090909,
     "reading_grade_level": 0.11363636363636363,
@@ -570,5 +622,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

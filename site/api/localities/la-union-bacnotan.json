@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 13643000.0,
+   "schools_listed": 17,
+   "public_elementary_schools": 17,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "AROSIP ELEMENTARY SCHOOL",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 50.0,
+   "mooe_es_fy2026": 644000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.32142857142857145,
@@ -133,6 +143,8 @@
    "school_name": "Bacnotan Central School",
    "learners_assessed": 306.0,
    "small_group": false,
+   "k6_enrollment": 751.0,
+   "mooe_es_fy2026": 1463000.0,
    "values": {
     "reading_lowest": 0.3790849673202614,
     "reading_grade_level": 0.1437908496732026,
@@ -152,6 +164,8 @@
    "school_name": "Baroro Elementary School",
    "learners_assessed": 98.0,
    "small_group": false,
+   "k6_enrollment": 239.0,
+   "mooe_es_fy2026": 866000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.04081632653061224,
@@ -171,6 +185,8 @@
    "school_name": "Bitalag Integrated School",
    "learners_assessed": 131.0,
    "small_group": false,
+   "k6_enrollment": 348.0,
+   "mooe_es_fy2026": 807000.0,
    "values": {
     "reading_lowest": 0.45038167938931295,
     "reading_grade_level": 0.19083969465648856,
@@ -190,6 +206,8 @@
    "school_name": "Cabaroan ES",
    "learners_assessed": 139.0,
    "small_group": false,
+   "k6_enrollment": 359.0,
+   "mooe_es_fy2026": 960000.0,
    "values": {
     "reading_lowest": 0.28776978417266186,
     "reading_grade_level": 0.02877697841726619,
@@ -209,6 +227,8 @@
    "school_name": "Carcarmay ES",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 224.0,
+   "mooe_es_fy2026": 850000.0,
    "values": {
     "reading_lowest": 0.4266666666666667,
     "reading_grade_level": 0.21333333333333335,
@@ -228,6 +248,8 @@
    "school_name": "Galongen ES",
    "learners_assessed": 88.0,
    "small_group": false,
+   "k6_enrollment": 227.0,
+   "mooe_es_fy2026": 861000.0,
    "values": {
     "reading_lowest": 0.23863636363636365,
     "reading_grade_level": 0.1590909090909091,
@@ -247,6 +269,8 @@
    "school_name": "Guinabang ES",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 124.0,
+   "mooe_es_fy2026": 719000.0,
    "values": {
     "reading_lowest": 0.24489795918367346,
     "reading_grade_level": 0.24489795918367346,
@@ -266,6 +290,8 @@
    "school_name": "Mabanengbeng Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 98.0,
+   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -285,6 +311,8 @@
    "school_name": "Nangalisan ES",
    "learners_assessed": 37.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 692000.0,
    "values": {
     "reading_lowest": 0.16216216216216217,
     "reading_grade_level": 0.13513513513513514,
@@ -304,6 +332,8 @@
    "school_name": "Ortega ES",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.3611111111111111,
     "reading_grade_level": 0.05555555555555555,
@@ -323,6 +353,8 @@
    "school_name": "Oya-oy ES",
    "learners_assessed": 33.0,
    "small_group": false,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 649000.0,
    "values": {
     "reading_lowest": 0.15151515151515152,
     "reading_grade_level": 0.0,
@@ -342,6 +374,8 @@
    "school_name": "Paratong ES",
    "learners_assessed": 61.0,
    "small_group": false,
+   "k6_enrollment": 160.0,
+   "mooe_es_fy2026": 776000.0,
    "values": {
     "reading_lowest": 0.4098360655737705,
     "reading_grade_level": 0.13114754098360656,
@@ -361,6 +395,8 @@
    "school_name": "Quirino Integrated School",
    "learners_assessed": 60.0,
    "small_group": false,
+   "k6_enrollment": 155.0,
+   "mooe_es_fy2026": 577000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.05,
@@ -380,6 +416,8 @@
    "school_name": "Salincob ES",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 122.0,
+   "mooe_es_fy2026": 713000.0,
    "values": {
     "reading_lowest": 0.10526315789473684,
     "reading_grade_level": 0.07894736842105263,
@@ -399,6 +437,8 @@
    "school_name": "Sta. Cruz Elementary School",
    "learners_assessed": 167.0,
    "small_group": false,
+   "k6_enrollment": 424.0,
+   "mooe_es_fy2026": 1055000.0,
    "values": {
     "reading_lowest": 0.3712574850299401,
     "reading_grade_level": 0.029940119760479042,
@@ -418,6 +458,8 @@
    "school_name": "Zaragosa Integrated School",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 215.0,
+   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.30666666666666664,
     "reading_grade_level": 0.0,
@@ -475,5 +517,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

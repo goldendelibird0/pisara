@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 7072000.0,
+   "schools_listed": 11,
+   "public_elementary_schools": 11,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Cangao Elementary School",
    "learners_assessed": 6.0,
    "small_group": true,
+   "k6_enrollment": 20.0,
+   "mooe_es_fy2026": 604000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.3333333333333333,
@@ -133,6 +143,8 @@
    "school_name": "Kalumsing Integrated School",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 513000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.1111111111111111,
@@ -152,6 +164,8 @@
    "school_name": "Lancuas Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
+   "k6_enrollment": 90.0,
+   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.1935483870967742,
     "reading_grade_level": 0.22580645161290322,
@@ -171,6 +185,8 @@
    "school_name": "Lidaoan Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 46.0,
+   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.3333333333333333,
@@ -190,6 +206,8 @@
    "school_name": "Mangmangga Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 38.0,
+   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.2777777777777778,
@@ -209,6 +227,8 @@
    "school_name": "Masiosioay Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 56.0,
+   "mooe_es_fy2026": 647000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -228,6 +248,8 @@
    "school_name": "Matibuey Elementary School",
    "learners_assessed": 8.0,
    "small_group": true,
+   "k6_enrollment": 29.0,
+   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Paltoc Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
+   "k6_enrollment": 70.0,
+   "mooe_es_fy2026": 659000.0,
    "values": {
     "reading_lowest": 0.16129032258064516,
     "reading_grade_level": 0.06451612903225806,
@@ -266,6 +290,8 @@
    "school_name": "San Emilio East Central School",
    "learners_assessed": 44.0,
    "small_group": false,
+   "k6_enrollment": 128.0,
+   "mooe_es_fy2026": 718000.0,
    "values": {
     "reading_lowest": 0.1590909090909091,
     "reading_grade_level": 0.36363636363636365,
@@ -285,6 +311,8 @@
    "school_name": "San Emilio West Central School",
    "learners_assessed": 29.0,
    "small_group": false,
+   "k6_enrollment": 87.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.20689655172413793,
     "reading_grade_level": 0.034482758620689655,
@@ -304,6 +332,8 @@
    "school_name": "Sibsibbu Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 73.0,
+   "mooe_es_fy2026": 669000.0,
    "values": {
     "reading_lowest": 0.037037037037037035,
     "reading_grade_level": 0.5925925925925926,
@@ -361,5 +391,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 5120000.0,
+   "schools_listed": 8,
+   "public_elementary_schools": 8,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Banga Elementary School",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 51.0,
+   "mooe_es_fy2026": 632000.0,
    "values": {
     "reading_lowest": 0.45454545454545453,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Calipayan Elementary School",
    "learners_assessed": 10.0,
    "small_group": true,
+   "k6_enrollment": 23.0,
+   "mooe_es_fy2026": 603000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Caoayan Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 39.0,
+   "mooe_es_fy2026": 626000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Danac Elementary School",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 64.0,
+   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.13636363636363635,
@@ -190,6 +206,8 @@
    "school_name": "Licungan Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
+   "k6_enrollment": 49.0,
+   "mooe_es_fy2026": 642000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.0,
@@ -209,6 +227,8 @@
    "school_name": "Nagawa Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 52.0,
+   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.18518518518518517,
     "reading_grade_level": 0.1111111111111111,
@@ -228,6 +248,8 @@
    "school_name": "Sugpon Central School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 106.0,
+   "mooe_es_fy2026": 697000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.2391304347826087,
@@ -247,6 +269,8 @@
    "school_name": "Tangilig Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 26.0,
+   "mooe_es_fy2026": 616000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.0,
@@ -304,5 +328,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

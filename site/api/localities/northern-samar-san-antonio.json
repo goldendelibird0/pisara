@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 6255000.0,
+   "schools_listed": 9,
+   "public_elementary_schools": 9,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Burabod ES",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 117.0,
+   "mooe_es_fy2026": 699000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.1836734693877551,
@@ -133,6 +143,8 @@
    "school_name": "Dalupirit ES",
    "learners_assessed": 79.0,
    "small_group": false,
+   "k6_enrollment": 188.0,
+   "mooe_es_fy2026": 783000.0,
    "values": {
     "reading_lowest": 0.35443037974683544,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Egang Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 56.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.7,
     "reading_grade_level": 0.1,
@@ -171,6 +185,8 @@
    "school_name": "Manraya ES",
    "learners_assessed": 40.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.725,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Pilar Elementary School",
    "learners_assessed": 29.0,
    "small_group": false,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 672000.0,
    "values": {
     "reading_lowest": 0.41379310344827586,
     "reading_grade_level": 0.27586206896551724,
@@ -209,6 +227,8 @@
    "school_name": "Rizal ES",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 41.0,
+   "mooe_es_fy2026": 629000.0,
    "values": {
     "reading_lowest": 0.23809523809523808,
     "reading_grade_level": 0.19047619047619047,
@@ -228,6 +248,8 @@
    "school_name": "San Antonio Integrated School",
    "learners_assessed": 145.0,
    "small_group": false,
+   "k6_enrollment": 383.0,
+   "mooe_es_fy2026": 776000.0,
    "values": {
     "reading_lowest": 0.30344827586206896,
     "reading_grade_level": 0.25517241379310346,
@@ -247,6 +269,8 @@
    "school_name": "San Nicolas ES",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 63.0,
+   "mooe_es_fy2026": 657000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.0,
@@ -266,6 +290,8 @@
    "school_name": "Vinisitahan ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 88.0,
+   "mooe_es_fy2026": 705000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.0,
@@ -323,5 +349,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

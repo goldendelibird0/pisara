@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 24149000.0,
+   "schools_listed": 22,
+   "public_elementary_schools": 22,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Anupul ES",
    "learners_assessed": 227.0,
    "small_group": false,
+   "k6_enrollment": 508.0,
+   "mooe_es_fy2026": 1149000.0,
    "values": {
     "reading_lowest": 0.3700440528634361,
     "reading_grade_level": 0.23788546255506607,
@@ -133,6 +143,8 @@
    "school_name": "Bamban CS",
    "learners_assessed": 556.0,
    "small_group": false,
+   "k6_enrollment": 1328.0,
+   "mooe_es_fy2026": 2118000.0,
    "values": {
     "reading_lowest": 0.2517985611510791,
     "reading_grade_level": 0.19244604316546762,
@@ -152,6 +164,8 @@
    "school_name": "Bamban Gabaldon ES",
    "learners_assessed": 210.0,
    "small_group": false,
+   "k6_enrollment": 484.0,
+   "mooe_es_fy2026": 1161000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.18095238095238095,
@@ -171,6 +185,8 @@
    "school_name": "Banaba ES",
    "learners_assessed": 272.0,
    "small_group": false,
+   "k6_enrollment": 617.0,
+   "mooe_es_fy2026": 1285000.0,
    "values": {
     "reading_lowest": 0.17647058823529413,
     "reading_grade_level": 0.3713235294117647,
@@ -190,6 +206,8 @@
    "school_name": "Burog Integrated School",
    "learners_assessed": 146.0,
    "small_group": false,
+   "k6_enrollment": 254.0,
+   "mooe_es_fy2026": 661000.0,
    "values": {
     "reading_lowest": 0.636986301369863,
     "reading_grade_level": 0.0,
@@ -209,6 +227,8 @@
    "school_name": "Dapdap Resettlement ES",
    "learners_assessed": 655.0,
    "small_group": false,
+   "k6_enrollment": 1560.0,
+   "mooe_es_fy2026": 2372000.0,
    "values": {
     "reading_lowest": 0.19083969465648856,
     "reading_grade_level": 0.18167938931297709,
@@ -228,6 +248,8 @@
    "school_name": "Delos Remedios ES",
    "learners_assessed": 186.0,
    "small_group": false,
+   "k6_enrollment": 430.0,
+   "mooe_es_fy2026": 1062000.0,
    "values": {
     "reading_lowest": 0.44623655913978494,
     "reading_grade_level": 0.06451612903225806,
@@ -247,6 +269,8 @@
    "school_name": "Don Domiciano Tizon ES",
    "learners_assessed": 85.0,
    "small_group": false,
+   "k6_enrollment": 288.0,
+   "mooe_es_fy2026": 849000.0,
    "values": {
     "reading_lowest": 0.6705882352941176,
     "reading_grade_level": 0.011764705882352941,
@@ -266,6 +290,8 @@
    "school_name": "Gumain Primary School",
    "learners_assessed": 50.0,
    "small_group": false,
+   "k6_enrollment": 65.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.42,
     "reading_grade_level": 0.0,
@@ -285,6 +311,8 @@
    "school_name": "Lourdes ES (Dapdap)",
    "learners_assessed": 191.0,
    "small_group": false,
+   "k6_enrollment": 420.0,
+   "mooe_es_fy2026": 1045000.0,
    "values": {
     "reading_lowest": 0.3089005235602094,
     "reading_grade_level": 0.12041884816753927,
@@ -304,6 +332,8 @@
    "school_name": "Lourdes ES - Park",
    "learners_assessed": 290.0,
    "small_group": false,
+   "k6_enrollment": 667.0,
+   "mooe_es_fy2026": 1356000.0,
    "values": {
     "reading_lowest": 0.35172413793103446,
     "reading_grade_level": 0.11724137931034483,
@@ -323,6 +353,8 @@
    "school_name": "Magurul-gurol ES",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 108.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.3488372093023256,
     "reading_grade_level": 0.32558139534883723,
@@ -342,6 +374,8 @@
    "school_name": "Mainang Resett ES",
    "learners_assessed": 155.0,
    "small_group": false,
+   "k6_enrollment": 504.0,
+   "mooe_es_fy2026": 1104000.0,
    "values": {
     "reading_lowest": 0.45806451612903226,
     "reading_grade_level": 0.16129032258064516,
@@ -361,6 +395,8 @@
    "school_name": "Malasa Integrated School",
    "learners_assessed": 125.0,
    "small_group": false,
+   "k6_enrollment": 299.0,
+   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.44,
     "reading_grade_level": 0.08,
@@ -380,6 +416,8 @@
    "school_name": "Pag-asa Elementary School",
    "learners_assessed": 291.0,
    "small_group": false,
+   "k6_enrollment": 637.0,
+   "mooe_es_fy2026": 1285000.0,
    "values": {
     "reading_lowest": 0.27835051546391754,
     "reading_grade_level": 0.11683848797250859,
@@ -399,6 +437,8 @@
    "school_name": "San Martin ES",
    "learners_assessed": 65.0,
    "small_group": false,
+   "k6_enrollment": 133.0,
+   "mooe_es_fy2026": 736000.0,
    "values": {
     "reading_lowest": 0.46153846153846156,
     "reading_grade_level": 0.0,
@@ -418,6 +458,8 @@
    "school_name": "San Nicolas ES",
    "learners_assessed": 177.0,
    "small_group": false,
+   "k6_enrollment": 414.0,
+   "mooe_es_fy2026": 1049000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.05649717514124294,
@@ -437,6 +479,8 @@
    "school_name": "San Pedro ES",
    "learners_assessed": 249.0,
    "small_group": false,
+   "k6_enrollment": 579.0,
+   "mooe_es_fy2026": 1243000.0,
    "values": {
     "reading_lowest": 0.17269076305220885,
     "reading_grade_level": 0.2248995983935743,
@@ -456,6 +500,8 @@
    "school_name": "San Rafael ES",
    "learners_assessed": 147.0,
    "small_group": false,
+   "k6_enrollment": 364.0,
+   "mooe_es_fy2026": 998000.0,
    "values": {
     "reading_lowest": 0.40816326530612246,
     "reading_grade_level": 0.09523809523809523,
@@ -475,6 +521,8 @@
    "school_name": "San Vicente ES",
    "learners_assessed": 83.0,
    "small_group": false,
+   "k6_enrollment": 205.0,
+   "mooe_es_fy2026": 806000.0,
    "values": {
     "reading_lowest": 0.26506024096385544,
     "reading_grade_level": 0.012048192771084338,
@@ -494,6 +542,8 @@
    "school_name": "Sto. Nino ES",
    "learners_assessed": 162.0,
    "small_group": false,
+   "k6_enrollment": 334.0,
+   "mooe_es_fy2026": 926000.0,
    "values": {
     "reading_lowest": 0.43209876543209874,
     "reading_grade_level": 0.08024691358024691,
@@ -513,6 +563,8 @@
    "school_name": "Villa Concepcion ES",
    "learners_assessed": 115.0,
    "small_group": false,
+   "k6_enrollment": 283.0,
+   "mooe_es_fy2026": 905000.0,
    "values": {
     "reading_lowest": 0.2608695652173913,
     "reading_grade_level": 0.28695652173913044,
@@ -570,5 +622,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

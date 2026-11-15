@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 3675000.0,
+   "schools_listed": 5,
+   "public_elementary_schools": 5,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Lugsongan Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 121.0,
+   "mooe_es_fy2026": 724000.0,
    "values": {
     "reading_lowest": 0.061224489795918366,
     "reading_grade_level": 0.32653061224489793,
@@ -133,6 +143,8 @@
    "school_name": "Magallanes Elementary School",
    "learners_assessed": 102.0,
    "small_group": false,
+   "k6_enrollment": 239.0,
+   "mooe_es_fy2026": 858000.0,
    "values": {
     "reading_lowest": 0.13725490196078433,
     "reading_grade_level": 0.09803921568627451,
@@ -152,6 +164,8 @@
    "school_name": "San Agustin Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 71.0,
+   "mooe_es_fy2026": 663000.0,
    "values": {
     "reading_lowest": 0.13333333333333333,
     "reading_grade_level": 0.43333333333333335,
@@ -171,6 +185,8 @@
    "school_name": "San Bernardo Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 58.0,
+   "mooe_es_fy2026": 649000.0,
    "values": {
     "reading_lowest": 0.48,
     "reading_grade_level": 0.2,
@@ -190,6 +206,8 @@
    "school_name": "Triana Elementary School",
    "learners_assessed": 60.0,
    "small_group": false,
+   "k6_enrollment": 156.0,
+   "mooe_es_fy2026": 781000.0,
    "values": {
     "reading_lowest": 0.18333333333333332,
     "reading_grade_level": 0.18333333333333332,
@@ -247,5 +265,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

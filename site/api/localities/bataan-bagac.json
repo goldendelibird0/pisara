@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 10441000.0,
+   "schools_listed": 10,
+   "public_elementary_schools": 10,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bagac ES",
    "learners_assessed": 594.0,
    "small_group": false,
+   "k6_enrollment": 1485.0,
+   "mooe_es_fy2026": 2297000.0,
    "values": {
     "reading_lowest": 0.3771043771043771,
     "reading_grade_level": 0.10774410774410774,
@@ -133,6 +143,8 @@
    "school_name": "Banawang ES",
    "learners_assessed": 180.0,
    "small_group": false,
+   "k6_enrollment": 453.0,
+   "mooe_es_fy2026": 1069000.0,
    "values": {
     "reading_lowest": 0.39444444444444443,
     "reading_grade_level": 0.1111111111111111,
@@ -152,6 +164,8 @@
    "school_name": "Binuangan ES",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 113.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.30952380952380953,
     "reading_grade_level": 0.07142857142857142,
@@ -171,6 +185,8 @@
    "school_name": "Binukawan ES",
    "learners_assessed": 136.0,
    "small_group": false,
+   "k6_enrollment": 320.0,
+   "mooe_es_fy2026": 938000.0,
    "values": {
     "reading_lowest": 0.29411764705882354,
     "reading_grade_level": 0.1323529411764706,
@@ -190,6 +206,8 @@
    "school_name": "Overland ES",
    "learners_assessed": 141.0,
    "small_group": false,
+   "k6_enrollment": 338.0,
+   "mooe_es_fy2026": 979000.0,
    "values": {
     "reading_lowest": 0.2907801418439716,
     "reading_grade_level": 0.09929078014184398,
@@ -209,6 +227,8 @@
    "school_name": "Parang ES",
    "learners_assessed": 148.0,
    "small_group": false,
+   "k6_enrollment": 375.0,
+   "mooe_es_fy2026": 985000.0,
    "values": {
     "reading_lowest": 0.27702702702702703,
     "reading_grade_level": 0.23648648648648649,
@@ -228,6 +248,8 @@
    "school_name": "Paysawan ES",
    "learners_assessed": 53.0,
    "small_group": false,
+   "k6_enrollment": 133.0,
+   "mooe_es_fy2026": 738000.0,
    "values": {
     "reading_lowest": 0.3584905660377358,
     "reading_grade_level": 0.07547169811320754,
@@ -247,6 +269,8 @@
    "school_name": "Pinagsumilan ES",
    "learners_assessed": 95.0,
    "small_group": false,
+   "k6_enrollment": 250.0,
+   "mooe_es_fy2026": 866000.0,
    "values": {
     "reading_lowest": 0.09473684210526316,
     "reading_grade_level": 0.2736842105263158,
@@ -266,6 +290,8 @@
    "school_name": "Quinawan Integrated School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 537000.0,
    "values": {
     "reading_lowest": 0.14583333333333334,
     "reading_grade_level": 0.020833333333333332,
@@ -285,6 +311,8 @@
    "school_name": "Saysain ES",
    "learners_assessed": 274.0,
    "small_group": false,
+   "k6_enrollment": 674.0,
+   "mooe_es_fy2026": 1332000.0,
    "values": {
     "reading_lowest": 0.5328467153284672,
     "reading_grade_level": 0.0,
@@ -342,5 +370,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

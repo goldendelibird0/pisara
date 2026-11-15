@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 10607000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Camada Elementary School",
    "learners_assessed": 58.0,
    "small_group": false,
+   "k6_enrollment": 180.0,
+   "mooe_es_fy2026": 787000.0,
    "values": {
     "reading_lowest": 0.41379310344827586,
     "reading_grade_level": 0.13793103448275862,
@@ -133,6 +143,8 @@
    "school_name": "Campakirit Elementary School",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 63.0,
+   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.22727272727272727,
@@ -152,6 +164,8 @@
    "school_name": "Canloterio Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.0625,
     "reading_grade_level": 0.1875,
@@ -171,6 +185,8 @@
    "school_name": "Del Pilar Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 95.0,
+   "mooe_es_fy2026": 679000.0,
    "values": {
     "reading_lowest": 0.2826086956521739,
     "reading_grade_level": 0.021739130434782608,
@@ -190,6 +206,8 @@
    "school_name": "Guindalitan Elementary School",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 82.0,
+   "mooe_es_fy2026": 666000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.1875,
@@ -209,6 +227,8 @@
    "school_name": "Lapgap Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 72.0,
+   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.37037037037037035,
     "reading_grade_level": 0.0,
@@ -228,6 +248,8 @@
    "school_name": "Malobago Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 94.0,
+   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "Maybocog Elementary School",
    "learners_assessed": 98.0,
    "small_group": false,
+   "k6_enrollment": 239.0,
+   "mooe_es_fy2026": 841000.0,
    "values": {
     "reading_lowest": 0.3673469387755102,
     "reading_grade_level": 0.11224489795918367,
@@ -266,6 +290,8 @@
    "school_name": "Maydolong Central Elementary School",
    "learners_assessed": 409.0,
    "small_group": false,
+   "k6_enrollment": 1027.0,
+   "mooe_es_fy2026": 1679000.0,
    "values": {
     "reading_lowest": 0.3643031784841076,
     "reading_grade_level": 0.1271393643031785,
@@ -285,6 +311,8 @@
    "school_name": "Maytigbao Elementary School",
    "learners_assessed": 19.0,
    "small_group": true,
+   "k6_enrollment": 44.0,
+   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.3157894736842105,
     "reading_grade_level": 0.2631578947368421,
@@ -304,6 +332,8 @@
    "school_name": "Omawas Elementary School",
    "learners_assessed": 67.0,
    "small_group": false,
+   "k6_enrollment": 143.0,
+   "mooe_es_fy2026": 743000.0,
    "values": {
     "reading_lowest": 0.3880597014925373,
     "reading_grade_level": 0.16417910447761194,
@@ -323,6 +353,8 @@
    "school_name": "Patag Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 59.0,
+   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.38461538461538464,
     "reading_grade_level": 0.038461538461538464,
@@ -342,6 +374,8 @@
    "school_name": "San Gabriel Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 85.0,
+   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.40476190476190477,
     "reading_grade_level": 0.047619047619047616,
@@ -361,6 +395,8 @@
    "school_name": "Tagaslian Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 61.0,
+   "mooe_es_fy2026": 649000.0,
    "values": {
     "reading_lowest": 0.9615384615384616,
     "reading_grade_level": 0.0,
@@ -418,5 +454,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

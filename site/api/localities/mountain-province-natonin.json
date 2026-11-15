@@ -91,6 +91,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 9524000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -99,6 +107,8 @@
    "school_name": "Apapawan Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 674000.0,
    "values": {
     "reading_lowest": 0.26666666666666666,
     "reading_grade_level": 0.2,
@@ -118,6 +128,8 @@
    "school_name": "Banawel Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 94.0,
+   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.1282051282051282,
     "reading_grade_level": 0.1282051282051282,
@@ -137,6 +149,8 @@
    "school_name": "Butac Elementary School",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 66.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.10714285714285714,
     "reading_grade_level": 0.2857142857142857,
@@ -156,6 +170,8 @@
    "school_name": "Layog-Ogtong Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 84.0,
+   "mooe_es_fy2026": 660000.0,
    "values": {
     "reading_lowest": 0.1,
     "reading_grade_level": 0.06666666666666667,
@@ -175,6 +191,8 @@
    "school_name": "Maducayan Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 36.0,
+   "mooe_es_fy2026": 624000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.07142857142857142,
@@ -194,6 +212,8 @@
    "school_name": "Nabhar Elementary School",
    "learners_assessed": 24.0,
    "small_group": false,
+   "k6_enrollment": 48.0,
+   "mooe_es_fy2026": 633000.0,
    "values": {
     "reading_lowest": 0.041666666666666664,
     "reading_grade_level": 0.25,
@@ -213,6 +233,8 @@
    "school_name": "Natonin Central School",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 221.0,
+   "mooe_es_fy2026": 838000.0,
    "values": {
     "reading_lowest": 0.10112359550561797,
     "reading_grade_level": 0.056179775280898875,
@@ -232,6 +254,8 @@
    "school_name": "Pangtor Primary School",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 38.0,
+   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.3333333333333333,
@@ -251,6 +275,8 @@
    "school_name": "Purag Primary School",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 53.0,
+   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.05,
     "reading_grade_level": 0.2,
@@ -270,6 +296,8 @@
    "school_name": "Puya-ao Elementary School",
    "learners_assessed": 50.0,
    "small_group": false,
+   "k6_enrollment": 118.0,
+   "mooe_es_fy2026": 722000.0,
    "values": {
     "reading_lowest": 0.1,
     "reading_grade_level": 0.02,
@@ -289,6 +317,8 @@
    "school_name": "Saliok Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
+   "k6_enrollment": 124.0,
+   "mooe_es_fy2026": 720000.0,
    "values": {
     "reading_lowest": 0.14545454545454545,
     "reading_grade_level": 0.41818181818181815,
@@ -308,6 +338,8 @@
    "school_name": "Sta. Isabel Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
+   "k6_enrollment": 58.0,
+   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.3076923076923077,
@@ -327,6 +359,8 @@
    "school_name": "Tappo Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 114.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.09523809523809523,
@@ -346,6 +380,8 @@
    "school_name": "Tonglayan Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 113.0,
+   "mooe_es_fy2026": 716000.0,
    "values": {
     "reading_lowest": 0.2608695652173913,
     "reading_grade_level": 0.10869565217391304,
@@ -403,5 +439,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

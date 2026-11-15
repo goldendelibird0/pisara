@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 13889000.0,
+   "schools_listed": 18,
+   "public_elementary_schools": 18,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Balungao CS",
    "learners_assessed": 201.0,
    "small_group": false,
+   "k6_enrollment": 522.0,
+   "mooe_es_fy2026": 1182000.0,
    "values": {
     "reading_lowest": 0.15920398009950248,
     "reading_grade_level": 0.2736318407960199,
@@ -133,6 +143,8 @@
    "school_name": "Capulaan ES",
    "learners_assessed": 33.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 672000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Don Francisco D. Toliao ES",
    "learners_assessed": 27.0,
    "small_group": false,
+   "k6_enrollment": 83.0,
+   "mooe_es_fy2026": 675000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.037037037037037035,
@@ -171,6 +185,8 @@
    "school_name": "Esmeralda Integrated School",
    "learners_assessed": 141.0,
    "small_group": false,
+   "k6_enrollment": 346.0,
+   "mooe_es_fy2026": 753000.0,
    "values": {
     "reading_lowest": 0.18439716312056736,
     "reading_grade_level": 0.18439716312056736,
@@ -190,6 +206,8 @@
    "school_name": "Irenio L. Guieb, Sr. ES",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 60.0,
+   "mooe_es_fy2026": 654000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.24,
@@ -209,6 +227,8 @@
    "school_name": "Kita-Kita ES",
    "learners_assessed": 73.0,
    "small_group": false,
+   "k6_enrollment": 204.0,
+   "mooe_es_fy2026": 825000.0,
    "values": {
     "reading_lowest": 0.0958904109589041,
     "reading_grade_level": 0.2465753424657534,
@@ -228,6 +248,8 @@
    "school_name": "Mabini ES",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 117.0,
+   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.2558139534883721,
     "reading_grade_level": 0.13953488372093023,
@@ -247,6 +269,8 @@
    "school_name": "Mauban ES",
    "learners_assessed": 41.0,
    "small_group": false,
+   "k6_enrollment": 93.0,
+   "mooe_es_fy2026": 698000.0,
    "values": {
     "reading_lowest": 0.34146341463414637,
     "reading_grade_level": 0.24390243902439024,
@@ -266,6 +290,8 @@
    "school_name": "Pugaro ES",
    "learners_assessed": 16.0,
    "small_group": true,
+   "k6_enrollment": 57.0,
+   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.6875,
     "reading_grade_level": 0.0625,
@@ -285,6 +311,8 @@
    "school_name": "Rajal-Angayan ES",
    "learners_assessed": 112.0,
    "small_group": false,
+   "k6_enrollment": 270.0,
+   "mooe_es_fy2026": 899000.0,
    "values": {
     "reading_lowest": 0.20535714285714285,
     "reading_grade_level": 0.15178571428571427,
@@ -304,6 +332,8 @@
    "school_name": "San Andres ES",
    "learners_assessed": 37.0,
    "small_group": false,
+   "k6_enrollment": 92.0,
+   "mooe_es_fy2026": 688000.0,
    "values": {
     "reading_lowest": 0.2972972972972973,
     "reading_grade_level": 0.10810810810810811,
@@ -323,6 +353,8 @@
    "school_name": "San Aurelio 3rd ES",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.3,
     "reading_grade_level": 0.26666666666666666,
@@ -342,6 +374,8 @@
    "school_name": "San Aurelio ES",
    "learners_assessed": 139.0,
    "small_group": false,
+   "k6_enrollment": 349.0,
+   "mooe_es_fy2026": 969000.0,
    "values": {
     "reading_lowest": 0.19424460431654678,
     "reading_grade_level": 0.2733812949640288,
@@ -361,6 +395,8 @@
    "school_name": "San Joaquin Integrated School",
    "learners_assessed": 61.0,
    "small_group": false,
+   "k6_enrollment": 169.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.16393442622950818,
     "reading_grade_level": 0.03278688524590164,
@@ -380,6 +416,8 @@
    "school_name": "San Julian Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 130.0,
+   "mooe_es_fy2026": 740000.0,
    "values": {
     "reading_lowest": 0.32608695652173914,
     "reading_grade_level": 0.10869565217391304,
@@ -399,6 +437,8 @@
    "school_name": "San Leon ES",
    "learners_assessed": 126.0,
    "small_group": false,
+   "k6_enrollment": 295.0,
+   "mooe_es_fy2026": 920000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.12698412698412698,
@@ -418,6 +458,8 @@
    "school_name": "San Marcelino ES",
    "learners_assessed": 81.0,
    "small_group": false,
+   "k6_enrollment": 206.0,
+   "mooe_es_fy2026": 813000.0,
    "values": {
     "reading_lowest": 0.16049382716049382,
     "reading_grade_level": 0.345679012345679,
@@ -437,6 +479,8 @@
    "school_name": "San Raymundo ES",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 112.0,
+   "mooe_es_fy2026": 713000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.2708333333333333,
@@ -494,5 +538,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

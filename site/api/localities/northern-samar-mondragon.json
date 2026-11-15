@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 21855000.0,
+   "schools_listed": 25,
+   "public_elementary_schools": 25,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bagasbas ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 260.0,
+   "mooe_es_fy2026": 874000.0,
    "values": {
     "reading_lowest": 0.34951456310679613,
     "reading_grade_level": 0.04854368932038835,
@@ -133,6 +143,8 @@
    "school_name": "Bugko ES",
    "learners_assessed": 285.0,
    "small_group": false,
+   "k6_enrollment": 718.0,
+   "mooe_es_fy2026": 1371000.0,
    "values": {
     "reading_lowest": 0.21403508771929824,
     "reading_grade_level": 0.09473684210526316,
@@ -152,6 +164,8 @@
    "school_name": "Cablangan ES",
    "learners_assessed": 95.0,
    "small_group": false,
+   "k6_enrollment": 245.0,
+   "mooe_es_fy2026": 841000.0,
    "values": {
     "reading_lowest": 0.3263157894736842,
     "reading_grade_level": 0.30526315789473685,
@@ -171,6 +185,8 @@
    "school_name": "Cagmanaba Elementary School",
    "learners_assessed": 24.0,
    "small_group": false,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 662000.0,
    "values": {
     "reading_lowest": 0.7916666666666666,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Cahicsan Elementary School",
    "learners_assessed": 65.0,
    "small_group": false,
+   "k6_enrollment": 162.0,
+   "mooe_es_fy2026": 742000.0,
    "values": {
     "reading_lowest": 0.6153846153846154,
     "reading_grade_level": 0.046153846153846156,
@@ -209,6 +227,8 @@
    "school_name": "Canawa  Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 94.0,
+   "mooe_es_fy2026": 669000.0,
    "values": {
     "reading_lowest": 0.425531914893617,
     "reading_grade_level": 0.23404255319148937,
@@ -228,6 +248,8 @@
    "school_name": "Crystal Mountain Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 92.0,
+   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.44680851063829785,
     "reading_grade_level": 0.0,
@@ -247,6 +269,8 @@
    "school_name": "De Maria Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 111.0,
+   "mooe_es_fy2026": 717000.0,
    "values": {
     "reading_lowest": 0.6595744680851063,
     "reading_grade_level": 0.02127659574468085,
@@ -266,6 +290,8 @@
    "school_name": "Dona Lucia Elementary School",
    "learners_assessed": 50.0,
    "small_group": false,
+   "k6_enrollment": 135.0,
+   "mooe_es_fy2026": 725000.0,
    "values": {
     "reading_lowest": 0.6,
     "reading_grade_level": 0.06,
@@ -285,6 +311,8 @@
    "school_name": "Flormina Elementary School",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 83.0,
+   "mooe_es_fy2026": 692000.0,
    "values": {
     "reading_lowest": 0.59375,
     "reading_grade_level": 0.0,
@@ -304,6 +332,8 @@
    "school_name": "Hinabangan Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 45.0,
+   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.7142857142857143,
     "reading_grade_level": 0.0,
@@ -323,6 +353,8 @@
    "school_name": "Imelda ES",
    "learners_assessed": 198.0,
    "small_group": false,
+   "k6_enrollment": 516.0,
+   "mooe_es_fy2026": 1154000.0,
    "values": {
     "reading_lowest": 0.4494949494949495,
     "reading_grade_level": 0.25252525252525254,
@@ -342,6 +374,8 @@
    "school_name": "La Trinidad PS",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.21739130434782608,
     "reading_grade_level": 0.34782608695652173,
@@ -361,6 +395,8 @@
    "school_name": "Makiwalo Elementary School",
    "learners_assessed": 318.0,
    "small_group": false,
+   "k6_enrollment": 770.0,
+   "mooe_es_fy2026": 1472000.0,
    "values": {
     "reading_lowest": 0.31761006289308175,
     "reading_grade_level": 0.10062893081761007,
@@ -380,6 +416,8 @@
    "school_name": "Mirador ES",
    "learners_assessed": 86.0,
    "small_group": false,
+   "k6_enrollment": 202.0,
+   "mooe_es_fy2026": 796000.0,
    "values": {
     "reading_lowest": 0.5116279069767442,
     "reading_grade_level": 0.0,
@@ -399,6 +437,8 @@
    "school_name": "Mondragon I Central School",
    "learners_assessed": 461.0,
    "small_group": false,
+   "k6_enrollment": 1107.0,
+   "mooe_es_fy2026": 1828000.0,
    "values": {
     "reading_lowest": 0.5900216919739696,
     "reading_grade_level": 0.1301518438177874,
@@ -418,6 +458,8 @@
    "school_name": "Nenita Central School",
    "learners_assessed": 245.0,
    "small_group": false,
+   "k6_enrollment": 590.0,
+   "mooe_es_fy2026": 1240000.0,
    "values": {
     "reading_lowest": 0.5142857142857142,
     "reading_grade_level": 0.053061224489795916,
@@ -437,6 +479,8 @@
    "school_name": "Roxas ES",
    "learners_assessed": 117.0,
    "small_group": false,
+   "k6_enrollment": 302.0,
+   "mooe_es_fy2026": 922000.0,
    "values": {
     "reading_lowest": 0.2905982905982906,
     "reading_grade_level": 0.042735042735042736,
@@ -456,6 +500,8 @@
    "school_name": "San Agustin PS",
    "learners_assessed": 93.0,
    "small_group": false,
+   "k6_enrollment": 206.0,
+   "mooe_es_fy2026": 824000.0,
    "values": {
     "reading_lowest": 0.3548387096774194,
     "reading_grade_level": 0.3978494623655914,
@@ -475,6 +521,8 @@
    "school_name": "San Antonio Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
+   "k6_enrollment": 121.0,
+   "mooe_es_fy2026": 716000.0,
    "values": {
     "reading_lowest": 0.32608695652173914,
     "reading_grade_level": 0.2391304347826087,
@@ -494,6 +542,8 @@
    "school_name": "San Isidro Primary School",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 87.0,
+   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.8333333333333334,
     "reading_grade_level": 0.0,
@@ -513,6 +563,8 @@
    "school_name": "San Jose Elem. School",
    "learners_assessed": 35.0,
    "small_group": false,
+   "k6_enrollment": 96.0,
+   "mooe_es_fy2026": 692000.0,
    "values": {
     "reading_lowest": 0.5714285714285714,
     "reading_grade_level": 0.2857142857142857,
@@ -532,6 +584,8 @@
    "school_name": "San Juan Elementary School",
    "learners_assessed": 117.0,
    "small_group": false,
+   "k6_enrollment": 277.0,
+   "mooe_es_fy2026": 905000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.042735042735042736,
@@ -551,6 +605,8 @@
    "school_name": "Sta. Catalina PS",
    "learners_assessed": 35.0,
    "small_group": false,
+   "k6_enrollment": 90.0,
+   "mooe_es_fy2026": 673000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.2571428571428571,
@@ -570,6 +626,8 @@
    "school_name": "Talolora Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 102.0,
+   "mooe_es_fy2026": 676000.0,
    "values": {
     "reading_lowest": 0.3488372093023256,
     "reading_grade_level": 0.09302325581395349,
@@ -627,5 +685,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

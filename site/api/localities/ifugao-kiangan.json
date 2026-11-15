@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 11107000.0,
+   "schools_listed": 15,
+   "public_elementary_schools": 15,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Alimit Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
+   "k6_enrollment": 77.0,
+   "mooe_es_fy2026": 666000.0,
    "values": {
     "reading_lowest": 0.4838709677419355,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Baguinge ES",
    "learners_assessed": 131.0,
    "small_group": false,
+   "k6_enrollment": 312.0,
+   "mooe_es_fy2026": 926000.0,
    "values": {
     "reading_lowest": 0.29770992366412213,
     "reading_grade_level": 0.10687022900763359,
@@ -152,6 +164,8 @@
    "school_name": "Bokiawan ES",
    "learners_assessed": 15.0,
    "small_group": true,
+   "k6_enrollment": 54.0,
+   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Bolog ES",
    "learners_assessed": 76.0,
    "small_group": false,
+   "k6_enrollment": 208.0,
+   "mooe_es_fy2026": 823000.0,
    "values": {
     "reading_lowest": 0.10526315789473684,
     "reading_grade_level": 0.05263157894736842,
@@ -190,6 +206,8 @@
    "school_name": "Dalligan ES",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 56.0,
+   "mooe_es_fy2026": 644000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.3333333333333333,
@@ -209,6 +227,8 @@
    "school_name": "Duit ES",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 181.0,
+   "mooe_es_fy2026": 784000.0,
    "values": {
     "reading_lowest": 0.13513513513513514,
     "reading_grade_level": 0.12162162162162163,
@@ -228,6 +248,8 @@
    "school_name": "Hucab ES",
    "learners_assessed": 66.0,
    "small_group": false,
+   "k6_enrollment": 144.0,
+   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.25757575757575757,
     "reading_grade_level": 0.06060606060606061,
@@ -247,6 +269,8 @@
    "school_name": "Julongan Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 66.0,
+   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.05,
     "reading_grade_level": 0.2,
@@ -266,6 +290,8 @@
    "school_name": "Kiangan Central School",
    "learners_assessed": 179.0,
    "small_group": false,
+   "k6_enrollment": 466.0,
+   "mooe_es_fy2026": 1108000.0,
    "values": {
     "reading_lowest": 0.45251396648044695,
     "reading_grade_level": 0.26256983240223464,
@@ -285,6 +311,8 @@
    "school_name": "Mappit ES",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 51.0,
+   "mooe_es_fy2026": 642000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.6,
@@ -304,6 +332,8 @@
    "school_name": "Mungayang ES",
    "learners_assessed": 101.0,
    "small_group": false,
+   "k6_enrollment": 221.0,
+   "mooe_es_fy2026": 818000.0,
    "values": {
     "reading_lowest": 0.2376237623762376,
     "reading_grade_level": 0.019801980198019802,
@@ -323,6 +353,8 @@
    "school_name": "Nagacadan ES",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 93.0,
+   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.5116279069767442,
     "reading_grade_level": 0.0,
@@ -342,6 +374,8 @@
    "school_name": "Nungkigadan ES",
    "learners_assessed": 7.0,
    "small_group": true,
+   "k6_enrollment": 18.0,
+   "mooe_es_fy2026": 601000.0,
    "values": {
     "reading_lowest": 1.0,
     "reading_grade_level": 0.0,
@@ -361,6 +395,8 @@
    "school_name": "Pindongan ES",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 138.0,
+   "mooe_es_fy2026": 725000.0,
    "values": {
     "reading_lowest": 0.15625,
     "reading_grade_level": 0.4375,
@@ -380,6 +416,8 @@
    "school_name": "Tuplac ES",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 50.0,
+   "mooe_es_fy2026": 641000.0,
    "values": {
     "reading_lowest": 0.05555555555555555,
     "reading_grade_level": 0.0,
@@ -437,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

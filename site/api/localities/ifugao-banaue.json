@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 16171000.0,
+   "schools_listed": 23,
+   "public_elementary_schools": 23,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Amganad ES",
    "learners_assessed": 41.0,
    "small_group": false,
+   "k6_enrollment": 105.0,
+   "mooe_es_fy2026": 713000.0,
    "values": {
     "reading_lowest": 0.34146341463414637,
     "reading_grade_level": 0.14634146341463414,
@@ -133,6 +143,8 @@
    "school_name": "Anaba ES",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 90.0,
+   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.19444444444444445,
     "reading_grade_level": 0.4444444444444444,
@@ -152,6 +164,8 @@
    "school_name": "Balawis ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 119.0,
+   "mooe_es_fy2026": 724000.0,
    "values": {
     "reading_lowest": 0.41025641025641024,
     "reading_grade_level": 0.1794871794871795,
@@ -171,6 +185,8 @@
    "school_name": "Banao ES",
    "learners_assessed": 13.0,
    "small_group": true,
+   "k6_enrollment": 43.0,
+   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.07692307692307693,
     "reading_grade_level": 0.3076923076923077,
@@ -190,6 +206,8 @@
    "school_name": "Banaue CS",
    "learners_assessed": 276.0,
    "small_group": false,
+   "k6_enrollment": 619.0,
+   "mooe_es_fy2026": 1297000.0,
    "values": {
     "reading_lowest": 0.21739130434782608,
     "reading_grade_level": 0.17391304347826086,
@@ -209,6 +227,8 @@
    "school_name": "Bangaan ES",
    "learners_assessed": 36.0,
    "small_group": false,
+   "k6_enrollment": 89.0,
+   "mooe_es_fy2026": 690000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.0,
@@ -228,6 +248,8 @@
    "school_name": "Batad ES",
    "learners_assessed": 41.0,
    "small_group": false,
+   "k6_enrollment": 103.0,
+   "mooe_es_fy2026": 702000.0,
    "values": {
     "reading_lowest": 0.14634146341463414,
     "reading_grade_level": 0.4146341463414634,
@@ -247,6 +269,8 @@
    "school_name": "Batad ES - Patpat PS Annex",
    "learners_assessed": 1.0,
    "small_group": true,
+   "k6_enrollment": 8.0,
+   "mooe_es_fy2026": 589000.0,
    "values": {
     "reading_lowest": 1.0,
     "reading_grade_level": 0.0,
@@ -266,6 +290,8 @@
    "school_name": "Bocos Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 118.0,
+   "mooe_es_fy2026": 715000.0,
    "values": {
     "reading_lowest": 0.5897435897435898,
     "reading_grade_level": 0.0,
@@ -285,6 +311,8 @@
    "school_name": "Cambulo ES",
    "learners_assessed": 64.0,
    "small_group": false,
+   "k6_enrollment": 152.0,
+   "mooe_es_fy2026": 753000.0,
    "values": {
     "reading_lowest": 0.109375,
     "reading_grade_level": 0.0,
@@ -304,6 +332,8 @@
    "school_name": "Cambulo ES - Mattao Annex",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 39.0,
+   "mooe_es_fy2026": 616000.0,
    "values": {
     "reading_lowest": 0.47058823529411764,
     "reading_grade_level": 0.0,
@@ -323,6 +353,8 @@
    "school_name": "Chunak PS",
    "learners_assessed": 2.0,
    "small_group": true,
+   "k6_enrollment": 7.0,
+   "mooe_es_fy2026": 593000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.5,
@@ -342,6 +374,8 @@
    "school_name": "Ducligan ES",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 88.0,
+   "mooe_es_fy2026": 684000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.0625,
@@ -361,6 +395,8 @@
    "school_name": "Gohang ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 99.0,
+   "mooe_es_fy2026": 697000.0,
    "values": {
     "reading_lowest": 0.1794871794871795,
     "reading_grade_level": 0.1794871794871795,
@@ -380,6 +416,8 @@
    "school_name": "Kinakin ES",
    "learners_assessed": 41.0,
    "small_group": false,
+   "k6_enrollment": 112.0,
+   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.21951219512195122,
     "reading_grade_level": 0.0975609756097561,
@@ -399,6 +437,8 @@
    "school_name": "Kinakin ES - Annex",
    "learners_assessed": 5.0,
    "small_group": true,
+   "k6_enrollment": 7.0,
+   "mooe_es_fy2026": 591000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.0,
@@ -418,6 +458,8 @@
    "school_name": "Poitan ES",
    "learners_assessed": 47.0,
    "small_group": false,
+   "k6_enrollment": 115.0,
+   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.23404255319148937,
     "reading_grade_level": 0.0,
@@ -437,6 +479,8 @@
    "school_name": "Pula ES",
    "learners_assessed": 10.0,
    "small_group": true,
+   "k6_enrollment": 41.0,
+   "mooe_es_fy2026": 627000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.3,
@@ -456,6 +500,8 @@
    "school_name": "San Fernando ES",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 53.0,
+   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.11764705882352941,
@@ -475,6 +521,8 @@
    "school_name": "Tam-an ES",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 173.0,
+   "mooe_es_fy2026": 780000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.09523809523809523,
@@ -494,6 +542,8 @@
    "school_name": "Uhaj Elementary School",
    "learners_assessed": 69.0,
    "small_group": false,
+   "k6_enrollment": 91.0,
+   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.07246376811594203,
     "reading_grade_level": 0.391304347826087,
@@ -513,6 +563,8 @@
    "school_name": "Viewpoint Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 137.0,
+   "mooe_es_fy2026": 752000.0,
    "values": {
     "reading_lowest": 0.1864406779661017,
     "reading_grade_level": 0.05084745762711865,
@@ -570,5 +622,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

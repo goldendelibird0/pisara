@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 17414000.0,
+   "schools_listed": 13,
+   "public_elementary_schools": 13,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bonga Mayor ES",
    "learners_assessed": 174.0,
    "small_group": false,
+   "k6_enrollment": 470.0,
+   "mooe_es_fy2026": 1148000.0,
    "values": {
     "reading_lowest": 0.39080459770114945,
     "reading_grade_level": 0.13218390804597702,
@@ -133,6 +143,8 @@
    "school_name": "Bonga Menor Elementary School",
    "learners_assessed": 262.0,
    "small_group": false,
+   "k6_enrollment": 584.0,
+   "mooe_es_fy2026": 1248000.0,
    "values": {
     "reading_lowest": 0.37786259541984735,
     "reading_grade_level": 0.21374045801526717,
@@ -152,6 +164,8 @@
    "school_name": "Bulacan Heights Elementary School",
    "learners_assessed": 365.0,
    "small_group": false,
+   "k6_enrollment": 869.0,
+   "mooe_es_fy2026": 1582000.0,
    "values": {
     "reading_lowest": 0.3643835616438356,
     "reading_grade_level": 0.16712328767123288,
@@ -171,6 +185,8 @@
    "school_name": "Bustos Elementary School",
    "learners_assessed": 672.0,
    "small_group": false,
+   "k6_enrollment": 1595.0,
+   "mooe_es_fy2026": 2516000.0,
    "values": {
     "reading_lowest": 0.25892857142857145,
     "reading_grade_level": 0.2693452380952381,
@@ -190,6 +206,8 @@
    "school_name": "Camachilihan ES",
    "learners_assessed": 194.0,
    "small_group": false,
+   "k6_enrollment": 433.0,
+   "mooe_es_fy2026": 1081000.0,
    "values": {
     "reading_lowest": 0.29896907216494845,
     "reading_grade_level": 0.041237113402061855,
@@ -209,6 +227,8 @@
    "school_name": "Cambaog Elementary School",
    "learners_assessed": 251.0,
    "small_group": false,
+   "k6_enrollment": 648.0,
+   "mooe_es_fy2026": 1289000.0,
    "values": {
     "reading_lowest": 0.10756972111553785,
     "reading_grade_level": 0.22709163346613545,
@@ -228,6 +248,8 @@
    "school_name": "Catacte Integrated School",
    "learners_assessed": 131.0,
    "small_group": false,
+   "k6_enrollment": 301.0,
+   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.2366412213740458,
     "reading_grade_level": 0.13740458015267176,
@@ -247,6 +269,8 @@
    "school_name": "Dr. Manuel G. Ramirez Memorial Elementary School",
    "learners_assessed": 145.0,
    "small_group": false,
+   "k6_enrollment": 339.0,
+   "mooe_es_fy2026": 990000.0,
    "values": {
     "reading_lowest": 0.22758620689655173,
     "reading_grade_level": 0.2,
@@ -266,6 +290,8 @@
    "school_name": "Liciada ES",
    "learners_assessed": 434.0,
    "small_group": false,
+   "k6_enrollment": 1121.0,
+   "mooe_es_fy2026": 1846000.0,
    "values": {
     "reading_lowest": 0.22350230414746544,
     "reading_grade_level": 0.195852534562212,
@@ -285,6 +311,8 @@
    "school_name": "Malamig ES",
    "learners_assessed": 220.0,
    "small_group": false,
+   "k6_enrollment": 471.0,
+   "mooe_es_fy2026": 1095000.0,
    "values": {
     "reading_lowest": 0.18636363636363637,
     "reading_grade_level": 0.16363636363636364,
@@ -304,6 +332,8 @@
    "school_name": "S.S. Del Rosario ES",
    "learners_assessed": 195.0,
    "small_group": false,
+   "k6_enrollment": 434.0,
+   "mooe_es_fy2026": 1093000.0,
    "values": {
     "reading_lowest": 0.29743589743589743,
     "reading_grade_level": 0.2153846153846154,
@@ -323,6 +353,8 @@
    "school_name": "San Pedro ES",
    "learners_assessed": 336.0,
    "small_group": false,
+   "k6_enrollment": 717.0,
+   "mooe_es_fy2026": 1350000.0,
    "values": {
     "reading_lowest": 0.38095238095238093,
     "reading_grade_level": 0.1130952380952381,
@@ -342,6 +374,8 @@
    "school_name": "Tibagan Elementary School",
    "learners_assessed": 343.0,
    "small_group": false,
+   "k6_enrollment": 782.0,
+   "mooe_es_fy2026": 1499000.0,
    "values": {
     "reading_lowest": 0.11078717201166181,
     "reading_grade_level": 0.13994169096209913,
@@ -399,5 +433,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

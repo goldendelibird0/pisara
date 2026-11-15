@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 11003000.0,
+   "schools_listed": 13,
+   "public_elementary_schools": 13,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Burak Elementary School",
    "learners_assessed": 83.0,
    "small_group": false,
+   "k6_enrollment": 211.0,
+   "mooe_es_fy2026": 829000.0,
    "values": {
     "reading_lowest": 0.2891566265060241,
     "reading_grade_level": 0.0963855421686747,
@@ -133,6 +143,8 @@
    "school_name": "Canmogsay Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
+   "k6_enrollment": 116.0,
+   "mooe_es_fy2026": 706000.0,
    "values": {
     "reading_lowest": 0.4418604651162791,
     "reading_grade_level": 0.09302325581395349,
@@ -152,6 +164,8 @@
    "school_name": "Cantariwis Elementary School",
    "learners_assessed": 34.0,
    "small_group": false,
+   "k6_enrollment": 74.0,
+   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.17647058823529413,
     "reading_grade_level": 0.35294117647058826,
@@ -171,6 +185,8 @@
    "school_name": "Capangihan Elementary School",
    "learners_assessed": 37.0,
    "small_group": false,
+   "k6_enrollment": 116.0,
+   "mooe_es_fy2026": 719000.0,
    "values": {
     "reading_lowest": 0.24324324324324326,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Daniel Z. Romualdez Memorial Elementary School",
    "learners_assessed": 224.0,
    "small_group": false,
+   "k6_enrollment": 559.0,
+   "mooe_es_fy2026": 1259000.0,
    "values": {
     "reading_lowest": 0.22767857142857142,
     "reading_grade_level": 0.3169642857142857,
@@ -209,6 +227,8 @@
    "school_name": "Dona Brigida Elementary School",
    "learners_assessed": 60.0,
    "small_group": false,
+   "k6_enrollment": 181.0,
+   "mooe_es_fy2026": 797000.0,
    "values": {
     "reading_lowest": 0.23333333333333334,
     "reading_grade_level": 0.4,
@@ -228,6 +248,8 @@
    "school_name": "Malbog Elementary School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 126.0,
+   "mooe_es_fy2026": 704000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.2708333333333333,
@@ -247,6 +269,8 @@
    "school_name": "Olot Elementary School",
    "learners_assessed": 69.0,
    "small_group": false,
+   "k6_enrollment": 167.0,
+   "mooe_es_fy2026": 784000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.043478260869565216,
@@ -266,6 +290,8 @@
    "school_name": "Opong Elementary School",
    "learners_assessed": 89.0,
    "small_group": false,
+   "k6_enrollment": 229.0,
+   "mooe_es_fy2026": 830000.0,
    "values": {
     "reading_lowest": 0.1797752808988764,
     "reading_grade_level": 0.07865168539325842,
@@ -285,6 +311,8 @@
    "school_name": "San Roque Elementary School",
    "learners_assessed": 167.0,
    "small_group": false,
+   "k6_enrollment": 468.0,
+   "mooe_es_fy2026": 1146000.0,
    "values": {
     "reading_lowest": 0.2634730538922156,
     "reading_grade_level": 0.08383233532934131,
@@ -304,6 +332,8 @@
    "school_name": "San Vicente Elementary School",
    "learners_assessed": 62.0,
    "small_group": false,
+   "k6_enrollment": 154.0,
+   "mooe_es_fy2026": 756000.0,
    "values": {
     "reading_lowest": 0.2903225806451613,
     "reading_grade_level": 0.20967741935483872,
@@ -323,6 +353,8 @@
    "school_name": "Tanghas Elementary School",
    "learners_assessed": 100.0,
    "small_group": false,
+   "k6_enrollment": 283.0,
+   "mooe_es_fy2026": 892000.0,
    "values": {
     "reading_lowest": 0.45,
     "reading_grade_level": 0.08,
@@ -342,6 +374,8 @@
    "school_name": "Telegrafo Elementary School",
    "learners_assessed": 101.0,
    "small_group": false,
+   "k6_enrollment": 275.0,
+   "mooe_es_fy2026": 917000.0,
    "values": {
     "reading_lowest": 0.22772277227722773,
     "reading_grade_level": 0.0891089108910891,
@@ -399,5 +433,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

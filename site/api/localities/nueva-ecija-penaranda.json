@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 8309000.0,
+   "schools_listed": 8,
+   "public_elementary_schools": 8,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Callos Integrated School",
    "learners_assessed": 197.0,
    "small_group": false,
+   "k6_enrollment": 450.0,
+   "mooe_es_fy2026": 819000.0,
    "values": {
     "reading_lowest": 0.3096446700507614,
     "reading_grade_level": 0.14213197969543148,
@@ -133,6 +143,8 @@
    "school_name": "Kapt. Pedro Villanueva Elementary School",
    "learners_assessed": 137.0,
    "small_group": false,
+   "k6_enrollment": 327.0,
+   "mooe_es_fy2026": 949000.0,
    "values": {
     "reading_lowest": 0.3357664233576642,
     "reading_grade_level": 0.17518248175182483,
@@ -152,6 +164,8 @@
    "school_name": "Las Piñas Integrated School",
    "learners_assessed": 225.0,
    "small_group": false,
+   "k6_enrollment": 489.0,
+   "mooe_es_fy2026": 859000.0,
    "values": {
     "reading_lowest": 0.4311111111111111,
     "reading_grade_level": 0.08888888888888889,
@@ -171,6 +185,8 @@
    "school_name": "Peñaranda Central School",
    "learners_assessed": 361.0,
    "small_group": false,
+   "k6_enrollment": 875.0,
+   "mooe_es_fy2026": 1605000.0,
    "values": {
     "reading_lowest": 0.28254847645429365,
     "reading_grade_level": 0.4182825484764543,
@@ -190,6 +206,8 @@
    "school_name": "Peñaranda North Central School",
    "learners_assessed": 107.0,
    "small_group": false,
+   "k6_enrollment": 246.0,
+   "mooe_es_fy2026": 857000.0,
    "values": {
     "reading_lowest": 0.38317757009345793,
     "reading_grade_level": 0.04672897196261682,
@@ -209,6 +227,8 @@
    "school_name": "San Josef Elementary School",
    "learners_assessed": 153.0,
    "small_group": false,
+   "k6_enrollment": 372.0,
+   "mooe_es_fy2026": 1009000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.6470588235294118,
@@ -228,6 +248,8 @@
    "school_name": "San Mariano Elementary School",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 162.0,
+   "mooe_es_fy2026": 768000.0,
    "values": {
     "reading_lowest": 0.32,
     "reading_grade_level": 0.21333333333333335,
@@ -247,6 +269,8 @@
    "school_name": "Sto. Tomas Elementary School",
    "learners_assessed": 289.0,
    "small_group": false,
+   "k6_enrollment": 739.0,
+   "mooe_es_fy2026": 1443000.0,
    "values": {
     "reading_lowest": 0.25951557093425603,
     "reading_grade_level": 0.2768166089965398,
@@ -304,5 +328,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 3384000.0,
+   "schools_listed": 5,
+   "public_elementary_schools": 5,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Banucal Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
+   "k6_enrollment": 90.0,
+   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.13333333333333333,
@@ -133,6 +143,8 @@
    "school_name": "Bequi-Walin Elementary School",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 48.0,
+   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.5909090909090909,
     "reading_grade_level": 0.22727272727272727,
@@ -152,6 +164,8 @@
    "school_name": "Lidlidda North Central School",
    "learners_assessed": 42.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.047619047619047616,
     "reading_grade_level": 0.3333333333333333,
@@ -171,6 +185,8 @@
    "school_name": "Lidlidda South Central School",
    "learners_assessed": 34.0,
    "small_group": false,
+   "k6_enrollment": 98.0,
+   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.47058823529411764,
     "reading_grade_level": 0.058823529411764705,
@@ -190,6 +206,8 @@
    "school_name": "Tay-ac Elementary School",
    "learners_assessed": 24.0,
    "small_group": false,
+   "k6_enrollment": 60.0,
+   "mooe_es_fy2026": 662000.0,
    "values": {
     "reading_lowest": 0.2916666666666667,
     "reading_grade_level": 0.2916666666666667,
@@ -247,5 +265,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

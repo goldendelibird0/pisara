@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 4556000.0,
+   "schools_listed": 6,
+   "public_elementary_schools": 6,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bantog Integrated School",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 189.0,
+   "mooe_es_fy2026": 604000.0,
    "values": {
     "reading_lowest": 0.22972972972972974,
     "reading_grade_level": 0.32432432432432434,
@@ -133,6 +143,8 @@
    "school_name": "Casili ES",
    "learners_assessed": 61.0,
    "small_group": false,
+   "k6_enrollment": 169.0,
+   "mooe_es_fy2026": 762000.0,
    "values": {
     "reading_lowest": 0.4262295081967213,
     "reading_grade_level": 0.0,
@@ -152,6 +164,8 @@
    "school_name": "Dagundon ES",
    "learners_assessed": 21.0,
    "small_group": false,
+   "k6_enrollment": 51.0,
+   "mooe_es_fy2026": 641000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.14285714285714285,
@@ -171,6 +185,8 @@
    "school_name": "Dolores Ongsiako CES",
    "learners_assessed": 174.0,
    "small_group": false,
+   "k6_enrollment": 415.0,
+   "mooe_es_fy2026": 1109000.0,
    "values": {
     "reading_lowest": 0.21839080459770116,
     "reading_grade_level": 0.26436781609195403,
@@ -190,6 +206,8 @@
    "school_name": "San Francisco ES",
    "learners_assessed": 60.0,
    "small_group": false,
+   "k6_enrollment": 139.0,
+   "mooe_es_fy2026": 754000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.36666666666666664,
@@ -209,6 +227,8 @@
    "school_name": "San Jose ES",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.25,
@@ -266,5 +286,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

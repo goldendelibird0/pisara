@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 11426000.0,
+   "schools_listed": 15,
+   "public_elementary_schools": 15,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Cabanuangan PS",
    "learners_assessed": 8.0,
    "small_group": true,
+   "k6_enrollment": 18.0,
+   "mooe_es_fy2026": 601000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.375,
@@ -133,6 +143,8 @@
    "school_name": "Camilo Osias ES",
    "learners_assessed": 77.0,
    "small_group": false,
+   "k6_enrollment": 190.0,
+   "mooe_es_fy2026": 835000.0,
    "values": {
     "reading_lowest": 0.24675324675324675,
     "reading_grade_level": 0.1038961038961039,
@@ -152,6 +164,8 @@
    "school_name": "Diagyan ES",
    "learners_assessed": 134.0,
    "small_group": false,
+   "k6_enrollment": 331.0,
+   "mooe_es_fy2026": 950000.0,
    "values": {
     "reading_lowest": 0.26119402985074625,
     "reading_grade_level": 0.17164179104477612,
@@ -171,6 +185,8 @@
    "school_name": "Dianao ES",
    "learners_assessed": 12.0,
    "small_group": true,
+   "k6_enrollment": 28.0,
+   "mooe_es_fy2026": 614000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.16666666666666666,
@@ -190,6 +206,8 @@
    "school_name": "Dicabasan ES",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 83.0,
+   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.15789473684210525,
@@ -209,6 +227,8 @@
    "school_name": "Dilaguidi ES",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.08333333333333333,
     "reading_grade_level": 0.125,
@@ -228,6 +248,8 @@
    "school_name": "Dilasag CS",
    "learners_assessed": 231.0,
    "small_group": false,
+   "k6_enrollment": 614.0,
+   "mooe_es_fy2026": 1268000.0,
    "values": {
     "reading_lowest": 0.22510822510822512,
     "reading_grade_level": 0.18614718614718614,
@@ -247,6 +269,8 @@
    "school_name": "Dimaseset ES",
    "learners_assessed": 69.0,
    "small_group": false,
+   "k6_enrollment": 177.0,
+   "mooe_es_fy2026": 776000.0,
    "values": {
     "reading_lowest": 0.30434782608695654,
     "reading_grade_level": 0.13043478260869565,
@@ -266,6 +290,8 @@
    "school_name": "Diniog ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 287.0,
+   "mooe_es_fy2026": 900000.0,
    "values": {
     "reading_lowest": 0.23300970873786409,
     "reading_grade_level": 0.3106796116504854,
@@ -285,6 +311,8 @@
    "school_name": "Kasaysayan ES",
    "learners_assessed": 17.0,
    "small_group": true,
+   "k6_enrollment": 44.0,
+   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.17647058823529413,
     "reading_grade_level": 0.23529411764705882,
@@ -304,6 +332,8 @@
    "school_name": "Lawang ES",
    "learners_assessed": 14.0,
    "small_group": true,
+   "k6_enrollment": 38.0,
+   "mooe_es_fy2026": 618000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.42857142857142855,
@@ -323,6 +353,8 @@
    "school_name": "Lawang West ES",
    "learners_assessed": 10.0,
    "small_group": true,
+   "k6_enrollment": 38.0,
+   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.3,
     "reading_grade_level": 0.2,
@@ -342,6 +374,8 @@
    "school_name": "Manggitahan ES",
    "learners_assessed": 103.0,
    "small_group": false,
+   "k6_enrollment": 241.0,
+   "mooe_es_fy2026": 856000.0,
    "values": {
     "reading_lowest": 0.1650485436893204,
     "reading_grade_level": 0.02912621359223301,
@@ -361,6 +395,8 @@
    "school_name": "Pedro Orata ES",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 89.0,
+   "mooe_es_fy2026": 685000.0,
    "values": {
     "reading_lowest": 0.42105263157894735,
     "reading_grade_level": 0.0,
@@ -380,6 +416,8 @@
    "school_name": "Ura ES",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 102.0,
+   "mooe_es_fy2026": 692000.0,
    "values": {
     "reading_lowest": 0.32653061224489793,
     "reading_grade_level": 0.10204081632653061,
@@ -437,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

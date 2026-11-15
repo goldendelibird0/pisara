@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 17754000.0,
+   "schools_listed": 18,
+   "public_elementary_schools": 18,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bebe PS",
    "learners_assessed": 58.0,
    "small_group": false,
+   "k6_enrollment": 151.0,
+   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.13793103448275862,
     "reading_grade_level": 0.39655172413793105,
@@ -133,6 +143,8 @@
    "school_name": "Don Emigdio Bondoc ES",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 132.0,
+   "mooe_es_fy2026": 738000.0,
    "values": {
     "reading_lowest": 0.23728813559322035,
     "reading_grade_level": 0.1694915254237288,
@@ -152,6 +164,8 @@
    "school_name": "Margarita P. Bondoc Elementary School",
    "learners_assessed": 71.0,
    "small_group": false,
+   "k6_enrollment": 185.0,
+   "mooe_es_fy2026": 722000.0,
    "values": {
     "reading_lowest": 0.18309859154929578,
     "reading_grade_level": 0.36619718309859156,
@@ -171,6 +185,8 @@
    "school_name": "San Agustin Elementary School",
    "learners_assessed": 62.0,
    "small_group": false,
+   "k6_enrollment": 166.0,
+   "mooe_es_fy2026": 768000.0,
    "values": {
     "reading_lowest": 0.16129032258064516,
     "reading_grade_level": 0.27419354838709675,
@@ -190,6 +206,8 @@
    "school_name": "San Carlos ES",
    "learners_assessed": 280.0,
    "small_group": false,
+   "k6_enrollment": 715.0,
+   "mooe_es_fy2026": 1394000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.17857142857142858,
@@ -209,6 +227,8 @@
    "school_name": "San Isidro ES",
    "learners_assessed": 266.0,
    "small_group": false,
+   "k6_enrollment": 621.0,
+   "mooe_es_fy2026": 1291000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.14285714285714285,
@@ -228,6 +248,8 @@
    "school_name": "San Jose ES",
    "learners_assessed": 171.0,
    "small_group": false,
+   "k6_enrollment": 399.0,
+   "mooe_es_fy2026": 1016000.0,
    "values": {
     "reading_lowest": 0.2807017543859649,
     "reading_grade_level": 0.14035087719298245,
@@ -247,6 +269,8 @@
    "school_name": "San Jose Proper ES",
    "learners_assessed": 114.0,
    "small_group": false,
+   "k6_enrollment": 269.0,
+   "mooe_es_fy2026": 874000.0,
    "values": {
     "reading_lowest": 0.2543859649122807,
     "reading_grade_level": 0.2982456140350877,
@@ -266,6 +290,8 @@
    "school_name": "San Juan ES",
    "learners_assessed": 262.0,
    "small_group": false,
+   "k6_enrollment": 675.0,
+   "mooe_es_fy2026": 1354000.0,
    "values": {
     "reading_lowest": 0.2595419847328244,
     "reading_grade_level": 0.0916030534351145,
@@ -285,6 +311,8 @@
    "school_name": "San Luis CS",
    "learners_assessed": 372.0,
    "small_group": false,
+   "k6_enrollment": 876.0,
+   "mooe_es_fy2026": 1637000.0,
    "values": {
     "reading_lowest": 0.07526881720430108,
     "reading_grade_level": 0.09946236559139784,
@@ -304,6 +332,8 @@
    "school_name": "San Nicolas ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 191.0,
+   "mooe_es_fy2026": 602000.0,
    "values": {
     "reading_lowest": 0.3472222222222222,
     "reading_grade_level": 0.16666666666666666,
@@ -323,6 +353,8 @@
    "school_name": "San Roque ES",
    "learners_assessed": 224.0,
    "small_group": false,
+   "k6_enrollment": 595.0,
+   "mooe_es_fy2026": 1292000.0,
    "values": {
     "reading_lowest": 0.19642857142857142,
     "reading_grade_level": 0.14285714285714285,
@@ -342,6 +374,8 @@
    "school_name": "Sta. Catalina ES",
    "learners_assessed": 155.0,
    "small_group": false,
+   "k6_enrollment": 362.0,
+   "mooe_es_fy2026": 989000.0,
    "values": {
     "reading_lowest": 0.1935483870967742,
     "reading_grade_level": 0.1032258064516129,
@@ -361,6 +395,8 @@
    "school_name": "Sta. Cruz Pambilog ES",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 143.0,
+   "mooe_es_fy2026": 746000.0,
    "values": {
     "reading_lowest": 0.05084745762711865,
     "reading_grade_level": 0.1864406779661017,
@@ -380,6 +416,8 @@
    "school_name": "Sta. Monica ES",
    "learners_assessed": 144.0,
    "small_group": false,
+   "k6_enrollment": 334.0,
+   "mooe_es_fy2026": 945000.0,
    "values": {
     "reading_lowest": 0.1527777777777778,
     "reading_grade_level": 0.18055555555555555,
@@ -399,6 +437,8 @@
    "school_name": "Sta. Rita ES",
    "learners_assessed": 104.0,
    "small_group": false,
+   "k6_enrollment": 241.0,
+   "mooe_es_fy2026": 866000.0,
    "values": {
     "reading_lowest": 0.2980769230769231,
     "reading_grade_level": 0.3269230769230769,
@@ -418,6 +458,8 @@
    "school_name": "Sto. Nino ES",
    "learners_assessed": 130.0,
    "small_group": false,
+   "k6_enrollment": 302.0,
+   "mooe_es_fy2026": 925000.0,
    "values": {
     "reading_lowest": 0.09230769230769231,
     "reading_grade_level": 0.16153846153846155,
@@ -437,6 +479,8 @@
    "school_name": "Sto. Rosario ES",
    "learners_assessed": 112.0,
    "small_group": false,
+   "k6_enrollment": 246.0,
+   "mooe_es_fy2026": 850000.0,
    "values": {
     "reading_lowest": 0.08035714285714286,
     "reading_grade_level": 0.29464285714285715,
@@ -494,5 +538,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

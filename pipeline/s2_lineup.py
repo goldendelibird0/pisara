@@ -57,6 +57,27 @@ def _sef_places():
     return places
 
 
+def _mooe():
+    """School ID -> FY2026 elementary MOOE allocation in pesos, from DepEd's school MOOE allocation workbook.
+
+    The workbook has one row per school with separate elementary, junior high and senior high columns.
+    Only the elementary column is used: the briefs are about elementary schools.
+    """
+    path = glob.glob(os.path.join(RAW, "deped_mooe", "*.xlsx"))[0]
+    rows = iter(xlsx.read_sheet(path, xlsx.sheet_names(path)[0]))
+    for r in rows:  # title lines sit above the header row
+        if r and r[0].strip().upper() == "REGION":
+            header = [h.strip().upper() for h in r]
+            break
+    sid, es = header.index("BEIS SCHOOL ID"), header.index("ES")
+    out = {}
+    for r in rows:
+        r = r + [""] * (len(header) - len(r))
+        if r[sid].strip():
+            out[r[sid].strip()] = out.get(r[sid].strip(), 0.0) + num(r[es])
+    return out
+
+
 def _pick(hits, municipality):
     """A city and a municipality can share a name: use DepEd's own wording to choose."""
     if len(hits) > 1:
@@ -71,6 +92,7 @@ def run():
     per = {r["school_id"]: r for r in load_csv("personnel_2023_2024")}
     fac = {r["school_id"]: r for r in load_csv("facilities_2023_2024")}
     teacher_cols = [c for c in next(iter(per.values())) if c.startswith("es_") and "teacher" in c]
+    mooe = _mooe()
 
     schools, by_loc = [], defaultdict(list)
     for e in enr:
@@ -84,6 +106,7 @@ def run():
                "g1_3_enrollment": sum(num(e[f"g{g}_{s}"]) for g in (1, 2, 3) for s in ("male", "female")),
                "es_teachers": sum(num(per[sid][c]) for c in teacher_cols) if sid in per else None,
                "es_classrooms": num(fac[sid]["es_classrooms_instructional"]) if sid in fac else None,
+               "mooe_es_fy2026": mooe.get(sid),
                "has_reading": sid in crla}
         if sid in crla:
             c = crla[sid]
@@ -113,6 +136,8 @@ def run():
             "compass_matched": bool(hit),
             "nta": hit["nta"] if hit else None,
             "sef": {k: sef[k] for k in ("collected", "spent", "by_office")} if sef else None,
+            "mooe_es_fy2026": sum(r["mooe_es_fy2026"] for r in rows if r["mooe_es_fy2026"] is not None),
+            "mooe_schools_listed": sum(1 for r in rows if r["mooe_es_fy2026"] is not None),
             "public_elementary_schools": len(rows),
             "schools_with_reading": n_read,
             "coverage": n_read / len(rows),
@@ -125,6 +150,9 @@ def run():
         "reading_schools_unmatched": len(crla) - sum(1 for s in schools if s["has_reading"]),
         "schools_with_personnel": sum(1 for s in schools if s["es_teachers"] is not None),
         "schools_with_facilities": sum(1 for s in schools if s["es_classrooms"] is not None),
+        "mooe_file_schools": len(mooe),
+        "schools_matched_to_mooe": sum(1 for s in schools if s["mooe_es_fy2026"] is not None),
+        "reading_schools_matched_to_mooe": sum(1 for s in schools if s["has_reading"] and s["mooe_es_fy2026"] is not None),
         "localities": len(localities),
         "localities_matched_to_compass": matched,
         "localities_unmatched": sorted(f"{l['name']}, {l['province']}" for l in localities if not l["compass_matched"]),
@@ -135,6 +163,7 @@ def run():
     write_json(os.path.join(BUILD, "2_localities.json"), localities)
     write_json(os.path.join(BUILD, "2_quality.json"), quality)
     print(f"2 line up   {len(schools):,} schools; reading matched {quality['reading_schools_matched']:,}/{len(crla):,}; "
+          f"MOOE matched {quality['schools_matched_to_mooe']:,}/{len(schools):,}; "
           f"localities matched to COMPASS {matched:,}/{len(localities):,}, to BLGF SEF {sef_matched:,}/{len(localities):,}")
 
 

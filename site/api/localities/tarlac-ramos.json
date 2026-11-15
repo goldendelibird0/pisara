@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 7286000.0,
+   "schools_listed": 8,
+   "public_elementary_schools": 8,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Coral ES",
    "learners_assessed": 94.0,
    "small_group": false,
+   "k6_enrollment": 353.0,
+   "mooe_es_fy2026": 978000.0,
    "values": {
     "reading_lowest": 0.23404255319148937,
     "reading_grade_level": 0.13829787234042554,
@@ -133,6 +143,8 @@
    "school_name": "Guiteb ES",
    "learners_assessed": 153.0,
    "small_group": false,
+   "k6_enrollment": 419.0,
+   "mooe_es_fy2026": 1055000.0,
    "values": {
     "reading_lowest": 0.3660130718954248,
     "reading_grade_level": 0.2549019607843137,
@@ -152,6 +164,8 @@
    "school_name": "Pance ES",
    "learners_assessed": 232.0,
    "small_group": false,
+   "k6_enrollment": 627.0,
+   "mooe_es_fy2026": 1310000.0,
    "values": {
     "reading_lowest": 0.25862068965517243,
     "reading_grade_level": 0.09482758620689655,
@@ -171,6 +185,8 @@
    "school_name": "Ramos CS",
    "learners_assessed": 247.0,
    "small_group": false,
+   "k6_enrollment": 594.0,
+   "mooe_es_fy2026": 1263000.0,
    "values": {
     "reading_lowest": 0.3117408906882591,
     "reading_grade_level": 0.3805668016194332,
@@ -190,6 +206,8 @@
    "school_name": "San Juan Integrated School",
    "learners_assessed": 38.0,
    "small_group": false,
+   "k6_enrollment": 112.0,
+   "mooe_es_fy2026": 551000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.39473684210526316,
@@ -209,6 +227,8 @@
    "school_name": "San Raymundo ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 157.0,
+   "mooe_es_fy2026": 755000.0,
    "values": {
     "reading_lowest": 0.1388888888888889,
     "reading_grade_level": 0.3194444444444444,
@@ -228,6 +248,8 @@
    "school_name": "Serrano ES",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 68.0,
+   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.12,
     "reading_grade_level": 0.28,
@@ -247,6 +269,8 @@
    "school_name": "Toledo Integrated School",
    "learners_assessed": 111.0,
    "small_group": false,
+   "k6_enrollment": 291.0,
+   "mooe_es_fy2026": 710000.0,
    "values": {
     "reading_lowest": 0.1891891891891892,
     "reading_grade_level": 0.36036036036036034,
@@ -304,5 +328,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

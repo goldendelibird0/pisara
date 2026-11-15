@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 23597000.0,
+   "schools_listed": 23,
+   "public_elementary_schools": 23,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Aguiting Elementary School",
    "learners_assessed": 131.0,
    "small_group": false,
+   "k6_enrollment": 304.0,
+   "mooe_es_fy2026": 941000.0,
    "values": {
     "reading_lowest": 0.26717557251908397,
     "reading_grade_level": 0.16030534351145037,
@@ -133,6 +143,8 @@
    "school_name": "Cacao Elementary School",
    "learners_assessed": 68.0,
    "small_group": false,
+   "k6_enrollment": 174.0,
+   "mooe_es_fy2026": 775000.0,
    "values": {
     "reading_lowest": 0.1323529411764706,
     "reading_grade_level": 0.14705882352941177,
@@ -152,6 +164,8 @@
    "school_name": "Don Felipe Elementary School",
    "learners_assessed": 73.0,
    "small_group": false,
+   "k6_enrollment": 200.0,
+   "mooe_es_fy2026": 815000.0,
    "values": {
     "reading_lowest": 0.1506849315068493,
     "reading_grade_level": 0.2191780821917808,
@@ -171,6 +185,8 @@
    "school_name": "Hiloctogan Elementary School",
    "learners_assessed": 124.0,
    "small_group": false,
+   "k6_enrollment": 291.0,
+   "mooe_es_fy2026": 926000.0,
    "values": {
     "reading_lowest": 0.33064516129032256,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Kananga Central School",
    "learners_assessed": 567.0,
    "small_group": false,
+   "k6_enrollment": 1452.0,
+   "mooe_es_fy2026": 2299000.0,
    "values": {
     "reading_lowest": 0.26102292768959434,
     "reading_grade_level": 0.16049382716049382,
@@ -209,6 +227,8 @@
    "school_name": "Kawayan Elementary School",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 166.0,
+   "mooe_es_fy2026": 759000.0,
    "values": {
     "reading_lowest": 0.36486486486486486,
     "reading_grade_level": 0.10810810810810811,
@@ -228,6 +248,8 @@
    "school_name": "Libertad Elementary School",
    "learners_assessed": 157.0,
    "small_group": false,
+   "k6_enrollment": 361.0,
+   "mooe_es_fy2026": 1033000.0,
    "values": {
     "reading_lowest": 0.31210191082802546,
     "reading_grade_level": 0.03184713375796178,
@@ -247,6 +269,8 @@
    "school_name": "Libongao Elementary School",
    "learners_assessed": 135.0,
    "small_group": false,
+   "k6_enrollment": 315.0,
+   "mooe_es_fy2026": 925000.0,
    "values": {
     "reading_lowest": 0.34814814814814815,
     "reading_grade_level": 0.06666666666666667,
@@ -266,6 +290,8 @@
    "school_name": "Lim-ao Elementary School",
    "learners_assessed": 206.0,
    "small_group": false,
+   "k6_enrollment": 532.0,
+   "mooe_es_fy2026": 1201000.0,
    "values": {
     "reading_lowest": 0.24271844660194175,
     "reading_grade_level": 0.0825242718446602,
@@ -285,6 +311,8 @@
    "school_name": "Lonoy Elementary School",
    "learners_assessed": 181.0,
    "small_group": false,
+   "k6_enrollment": 411.0,
+   "mooe_es_fy2026": 1057000.0,
    "values": {
     "reading_lowest": 0.30386740331491713,
     "reading_grade_level": 0.20994475138121546,
@@ -304,6 +332,8 @@
    "school_name": "Mahawan Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
+   "k6_enrollment": 117.0,
+   "mooe_es_fy2026": 705000.0,
    "values": {
     "reading_lowest": 0.5714285714285714,
     "reading_grade_level": 0.02040816326530612,
@@ -323,6 +353,8 @@
    "school_name": "Mariano C. Pono Elementary School",
    "learners_assessed": 183.0,
    "small_group": false,
+   "k6_enrollment": 438.0,
+   "mooe_es_fy2026": 1067000.0,
    "values": {
     "reading_lowest": 0.22404371584699453,
     "reading_grade_level": 0.08196721311475409,
@@ -342,6 +374,8 @@
    "school_name": "Masarayao Elementary School",
    "learners_assessed": 91.0,
    "small_group": false,
+   "k6_enrollment": 229.0,
+   "mooe_es_fy2026": 823000.0,
    "values": {
     "reading_lowest": 0.06593406593406594,
     "reading_grade_level": 0.3516483516483517,
@@ -361,6 +395,8 @@
    "school_name": "Montealegre Elementary School",
    "learners_assessed": 188.0,
    "small_group": false,
+   "k6_enrollment": 420.0,
+   "mooe_es_fy2026": 1075000.0,
    "values": {
     "reading_lowest": 0.20212765957446807,
     "reading_grade_level": 0.21808510638297873,
@@ -380,6 +416,8 @@
    "school_name": "Montebello Elementary School",
    "learners_assessed": 222.0,
    "small_group": false,
+   "k6_enrollment": 550.0,
+   "mooe_es_fy2026": 1183000.0,
    "values": {
     "reading_lowest": 0.2747747747747748,
     "reading_grade_level": 0.05405405405405406,
@@ -399,6 +437,8 @@
    "school_name": "Natubgan Elementary School",
    "learners_assessed": 144.0,
    "small_group": false,
+   "k6_enrollment": 364.0,
+   "mooe_es_fy2026": 1009000.0,
    "values": {
     "reading_lowest": 0.3125,
     "reading_grade_level": 0.11805555555555555,
@@ -418,6 +458,8 @@
    "school_name": "Rizal Elementary School",
    "learners_assessed": 365.0,
    "small_group": false,
+   "k6_enrollment": 929.0,
+   "mooe_es_fy2026": 1638000.0,
    "values": {
     "reading_lowest": 0.2602739726027397,
     "reading_grade_level": 0.09041095890410959,
@@ -437,6 +479,8 @@
    "school_name": "San Ignacio Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
+   "k6_enrollment": 62.0,
+   "mooe_es_fy2026": 654000.0,
    "values": {
     "reading_lowest": 0.16,
     "reading_grade_level": 0.16,
@@ -456,6 +500,8 @@
    "school_name": "Sto. Domingo Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
+   "k6_enrollment": 53.0,
+   "mooe_es_fy2026": 648000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.2777777777777778,
@@ -475,6 +521,8 @@
    "school_name": "Sto. Nino Elementary School",
    "learners_assessed": 81.0,
    "small_group": false,
+   "k6_enrollment": 196.0,
+   "mooe_es_fy2026": 818000.0,
    "values": {
     "reading_lowest": 0.16049382716049382,
     "reading_grade_level": 0.2839506172839506,
@@ -494,6 +542,8 @@
    "school_name": "Tagaytay Elementary School",
    "learners_assessed": 139.0,
    "small_group": false,
+   "k6_enrollment": 390.0,
+   "mooe_es_fy2026": 1030000.0,
    "values": {
     "reading_lowest": 0.19424460431654678,
     "reading_grade_level": 0.08633093525179857,
@@ -513,6 +563,8 @@
    "school_name": "Tongonan Elementary School",
    "learners_assessed": 94.0,
    "small_group": false,
+   "k6_enrollment": 243.0,
+   "mooe_es_fy2026": 884000.0,
    "values": {
     "reading_lowest": 0.23404255319148937,
     "reading_grade_level": 0.1595744680851064,
@@ -532,6 +584,8 @@
    "school_name": "Tugbong Central School",
    "learners_assessed": 281.0,
    "small_group": false,
+   "k6_enrollment": 641.0,
+   "mooe_es_fy2026": 1332000.0,
    "values": {
     "reading_lowest": 0.46619217081850534,
     "reading_grade_level": 0.0071174377224199285,
@@ -589,5 +643,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

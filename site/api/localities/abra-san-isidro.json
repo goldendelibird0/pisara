@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 4641000.0,
+   "schools_listed": 7,
+   "public_elementary_schools": 7,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Dalimag ES",
    "learners_assessed": 32.0,
    "small_group": false,
+   "k6_enrollment": 95.0,
+   "mooe_es_fy2026": 699000.0,
    "values": {
     "reading_lowest": 0.21875,
     "reading_grade_level": 0.15625,
@@ -133,6 +143,8 @@
    "school_name": "Manayday ES",
    "learners_assessed": 33.0,
    "small_group": false,
+   "k6_enrollment": 85.0,
+   "mooe_es_fy2026": 675000.0,
    "values": {
     "reading_lowest": 0.48484848484848486,
     "reading_grade_level": 0.24242424242424243,
@@ -152,6 +164,8 @@
    "school_name": "Maoay PS",
    "learners_assessed": 9.0,
    "small_group": true,
+   "k6_enrollment": 13.0,
+   "mooe_es_fy2026": 595000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -171,6 +185,8 @@
    "school_name": "Olo ES",
    "learners_assessed": 8.0,
    "small_group": true,
+   "k6_enrollment": 31.0,
+   "mooe_es_fy2026": 611000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.25,
@@ -190,6 +206,8 @@
    "school_name": "San Isidro CS",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 177.0,
+   "mooe_es_fy2026": 781000.0,
    "values": {
     "reading_lowest": 0.5277777777777778,
     "reading_grade_level": 0.08333333333333333,
@@ -209,6 +227,8 @@
    "school_name": "San Marcial ES",
    "learners_assessed": 20.0,
    "small_group": false,
+   "k6_enrollment": 61.0,
+   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.35,
     "reading_grade_level": 0.15,
@@ -228,6 +248,8 @@
    "school_name": "Turod ES",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 42.0,
+   "mooe_es_fy2026": 629000.0,
    "values": {
     "reading_lowest": 0.09090909090909091,
     "reading_grade_level": 0.13636363636363635,
@@ -285,5 +307,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 10971000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Biu-os ES",
    "learners_assessed": 64.0,
    "small_group": false,
+   "k6_enrollment": 141.0,
+   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.328125,
     "reading_grade_level": 0.21875,
@@ -133,6 +143,8 @@
    "school_name": "COGON ELEMENTARY SCHOOL",
    "learners_assessed": 74.0,
    "small_group": false,
+   "k6_enrollment": 167.0,
+   "mooe_es_fy2026": 766000.0,
    "values": {
     "reading_lowest": 0.3108108108108108,
     "reading_grade_level": 0.02702702702702703,
@@ -152,6 +164,8 @@
    "school_name": "Danan ES",
    "learners_assessed": 134.0,
    "small_group": false,
+   "k6_enrollment": 299.0,
+   "mooe_es_fy2026": 951000.0,
    "values": {
     "reading_lowest": 0.5522388059701493,
     "reading_grade_level": 0.208955223880597,
@@ -171,6 +185,8 @@
    "school_name": "Kapatagan ES",
    "learners_assessed": 79.0,
    "small_group": false,
+   "k6_enrollment": 205.0,
+   "mooe_es_fy2026": 811000.0,
    "values": {
     "reading_lowest": 0.45569620253164556,
     "reading_grade_level": 0.02531645569620253,
@@ -190,6 +206,8 @@
    "school_name": "Limason ES",
    "learners_assessed": 102.0,
    "small_group": false,
+   "k6_enrollment": 286.0,
+   "mooe_es_fy2026": 880000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.029411764705882353,
@@ -209,6 +227,8 @@
    "school_name": "Linoguayan ES",
    "learners_assessed": 28.0,
    "small_group": false,
+   "k6_enrollment": 107.0,
+   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.4642857142857143,
     "reading_grade_level": 0.03571428571428571,
@@ -228,6 +248,8 @@
    "school_name": "Lumbal Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 136.0,
+   "mooe_es_fy2026": 727000.0,
    "values": {
     "reading_lowest": 0.5084745762711864,
     "reading_grade_level": 0.01694915254237288,
@@ -247,6 +269,8 @@
    "school_name": "Lunib Integrated School",
    "learners_assessed": 59.0,
    "small_group": false,
+   "k6_enrollment": 150.0,
+   "mooe_es_fy2026": 585000.0,
    "values": {
     "reading_lowest": 0.2033898305084746,
     "reading_grade_level": 0.22033898305084745,
@@ -266,6 +290,8 @@
    "school_name": "Maculay ES",
    "learners_assessed": 52.0,
    "small_group": false,
+   "k6_enrollment": 135.0,
+   "mooe_es_fy2026": 727000.0,
    "values": {
     "reading_lowest": 0.5192307692307693,
     "reading_grade_level": 0.28846153846153844,
@@ -285,6 +311,8 @@
    "school_name": "Maraya Elementary School",
    "learners_assessed": 53.0,
    "small_group": false,
+   "k6_enrollment": 172.0,
+   "mooe_es_fy2026": 770000.0,
    "values": {
     "reading_lowest": 0.22641509433962265,
     "reading_grade_level": 0.3018867924528302,
@@ -304,6 +332,8 @@
    "school_name": "Sagucan ES",
    "learners_assessed": 63.0,
    "small_group": false,
+   "k6_enrollment": 168.0,
+   "mooe_es_fy2026": 786000.0,
    "values": {
     "reading_lowest": 0.49206349206349204,
     "reading_grade_level": 0.2857142857142857,
@@ -323,6 +353,8 @@
    "school_name": "Talaptap ES",
    "learners_assessed": 72.0,
    "small_group": false,
+   "k6_enrollment": 163.0,
+   "mooe_es_fy2026": 765000.0,
    "values": {
     "reading_lowest": 0.75,
     "reading_grade_level": 0.027777777777777776,
@@ -342,6 +374,8 @@
    "school_name": "Vincenzo Sagun CES",
    "learners_assessed": 150.0,
    "small_group": false,
+   "k6_enrollment": 403.0,
+   "mooe_es_fy2026": 982000.0,
    "values": {
     "reading_lowest": 0.32,
     "reading_grade_level": 0.19333333333333333,
@@ -361,6 +395,8 @@
    "school_name": "Waling-Waling ES",
    "learners_assessed": 75.0,
    "small_group": false,
+   "k6_enrollment": 175.0,
+   "mooe_es_fy2026": 781000.0,
    "values": {
     "reading_lowest": 0.5066666666666667,
     "reading_grade_level": 0.10666666666666667,
@@ -418,5 +454,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

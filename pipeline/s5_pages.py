@@ -17,8 +17,8 @@ README_URL = ""                    # full write-up, e.g. a shared Google Doc. Em
 
 LEVEL_COLORS = ["#C2410C", "#EA9A62", "#F3D9A4", "#9DB7E4", "#0038A8"]
 LEVEL_INK = ["#fff", "#0F172A", "#0F172A", "#0F172A", "#fff"]
-ATTRIBUTION = ("School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use "
-               "and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: "
+ATTRIBUTION = ("School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, "
+               "used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: "
                "Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. "
                "It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.")
 
@@ -173,6 +173,20 @@ tbody tr:hover td{background:var(--soft)}
 .sef td:nth-child(2),.sef td:nth-child(3){white-space:nowrap}
 @media (max-width:560px){.sb{width:36px;margin-right:6px}.sef th,.sef td{padding-left:6px;padding-right:6px}}
 @media print{.sb,.sb i{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* the money: decided by the board (gold, as in the masthead) beside set by DepEd */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:4px 0 0}
+.duo>div{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;padding:20px 22px}
+.duo .dec{background:var(--goldtint);border-color:#F3D27A;box-shadow:inset 0 3px 0 var(--gold)}
+.duo .tag{font-size:12.5px;font-weight:600;color:var(--mut);margin:0 0 4px}.duo .dec .tag{color:#8A5A00}
+.duo h3{font:600 17px/1.3 var(--head);margin:0 0 14px}.duo h3 small{font:400 13px/1.3 var(--sans);color:var(--mut)}
+.duo .amt{font:600 34px/1.05 var(--head);color:var(--ink);margin:0 0 6px}
+.duo .sub{flex:1;font-size:14px;color:var(--sec);margin:0 0 14px}
+.duo .use{font-size:13.5px;color:var(--sec);margin:0;padding-top:12px;border-top:1px solid rgba(15,23,42,.1)}
+.so{margin:20px 0 0;padding:14px 18px;border-left:3px solid var(--accent);border-radius:0 6px 6px 0;background:var(--tint);font-size:15.5px;line-height:1.55;color:var(--ink);max-width:52em}
+h3.sh{font:600 18px/1.3 var(--head);margin:48px 0 4px}h3.sh+.lead{margin-bottom:14px}
+.mb .bar{height:28px}.read{font-size:15px;color:var(--sec);margin:14px 0 0;max-width:46em}.read b{color:var(--ink);font-weight:600}
+.ml{max-width:560px}details+.fine{margin-top:16px}
+@media print{.duo .dec,.so{-webkit-print-color-adjust:exact;print-color-adjust:exact}.duo>div,.so{break-inside:avoid}}
 .field{font:inherit;font-size:15px;height:48px;padding:0 14px;border:1px solid #CBD5E1;border-radius:8px;background:var(--paper);color:var(--ink);width:100%}
 .field:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
 .tools{display:grid;grid-template-columns:1fr 220px;gap:12px;margin:16px 0 8px;align-items:center}
@@ -220,6 +234,7 @@ tbody tr:hover td{background:var(--soft)}
 .mh{grid-template-columns:1fr;margin-bottom:28px}.mh div+div{border-left:0;border-top:1px solid var(--line)}.mh div{padding:10px 14px}.bl{font-size:18px}
 .acts>li{grid-template-columns:60px 1fr;gap:0 14px;padding:16px 0}.acts .cnt b{font-size:24px}.acts .lrn{grid-column:2;text-align:left;padding-top:8px}.acts .lrn b{display:inline;font-size:15px}
 .lat2{grid-template-columns:1fr;gap:16px}.supp{margin-top:48px}
+.duo{grid-template-columns:1fr;gap:12px}.duo>div{padding:18px 18px}.duo .amt{font-size:28px}.so{font-size:15px;padding:12px 14px}h3.sh{margin-top:40px}
 .names{columns:1}
 .peek .bars{grid-template-columns:1fr;gap:4px}.bar span{font-size:11px}.ask li{grid-template-columns:32px 1fr;font-size:16px}.later{padding:22px 16px}.card{padding:22px 20px}.peek{padding:22px 18px}
 .intro h1{margin-bottom:22px;font-size:40px}.br-d{display:none}.pitch div{grid-template-columns:1fr;gap:2px}.pitch dd{font-size:16px}.find .row{flex-direction:column}.find .btn{justify-content:center}.exs a{height:36px;padding:0 14px}
@@ -274,28 +289,128 @@ def sef_purposes(sef):
     return out
 
 
-def sef_section(b, num):
+def pct(x):
+    return "less than 1%" if 0 < x < 0.005 else f"{x * 100:.0f}%"
+
+
+def sef_part(b):
     """What the fund was spent on last year: town-wide, as reported to BLGF. Describes; does not judge."""
     sef, name = b["money"]["special_education_fund"], e(b["name"])
-    head = f"<section class='sec'><h2><span class='sn'>{num}</span>What the fund paid for in 2025</h2>"
+    head = "<h3 class='sh'>What the fund paid for in 2025</h3>"
     fine = ("<ul class='fine'><li>Town-wide totals from the local treasurer's Statement of Receipts and Expenditures, as reported to "
             "the Bureau of Local Government Finance (BLGF). FY2025, preliminary. They do not show which school received what.</li>"
             "<li>The purposes are the offices the treasurer charged. General administration can include costs that support schools.</li>"
-            "<li>The province keeps its own share of the fund for schools across the province. That share is not shown here.</li></ul>")
+            "<li>The province keeps its own share of the fund for schools across the province. That share is not shown here.</li>"
+            "<li>What the fund may pay for is set by the Local Government Code, section 272.</li></ul>")
     if not sef:
-        return head + f"<p class='lead'>{name} is not yet matched to BLGF's Special Education Fund data.</p></section>"
+        return head + f"<p class='lead'>{name} is not yet matched to BLGF's Special Education Fund data.</p>"
     if not sef["spent"]:
         got = f"collected <b>{peso(sef['collected'])}</b> for the fund in 2025 but " if sef["collected"] else ""
         return (head + f"<p class='lead'>{name} {got}reported no spending from it to BLGF. This may mean the report was "
-                f"not filed in time, not that nothing was spent. Ask the treasurer for the year's figures.</p>{fine}</section>")
+                f"not filed in time, not that nothing was spent. Ask the treasurer for the year's figures.</p>{fine}")
     rows = "".join(
-        f"<tr><td>{p}</td><td>{peso(a)}</td><td><span class='sb'><i style='width:{s * 100:.1f}%'></i></span>{s * 100:.0f}%</td></tr>"
+        f"<tr><td>{p}</td><td>{peso(a)}</td><td><span class='sb'><i style='width:{s * 100:.1f}%'></i></span>{pct(s)}</td></tr>"
         for p, a, s in sef_purposes(sef))
-    lead = (f"{name} collected <b>{peso(sef['collected'])}</b> for the Special Education Fund from property tax in 2025 "
-            f"and reported spending <b>{peso(sef['spent'])}</b> from it. This is what that spending was charged to.")
+    lead = "The office each peso was charged to, as the treasurer reported it to BLGF."
     return (head + f"<p class='lead'>{lead}</p><div class='tw'><table class='sef'><thead><tr><th>Purpose</th><th>Spent</th>"
             f"<th>Share of spending</th></tr></thead><tbody>{rows}<tr class='tot'><td>Total</td><td>{peso(sef['spent'])}</td>"
-            f"<td>100%</td></tr></tbody></table></div>{fine}</section>")
+            f"<td>100%</td></tr></tbody></table></div>{fine}")
+
+
+GROUP_INK = ["#fff", "var(--ink)", "var(--ink)", "var(--ink)"]
+
+
+def share_bar(shares, label):
+    """One bar split by the four groups. shares: one share per group, in group order."""
+    cells = "".join(
+        f"<span style='width:{s * 100:.2f}%;background:var(--g{i});color:{GROUP_INK[i]}' title='{s * 100:.1f}%'>"
+        f"{f'{s * 100:.0f}%' if s >= .07 else ''}</span>" for i, s in enumerate(shares) if s > 0)
+    return f"<div class='bar' role='img' aria-label='{label}'>{cells}</div>"
+
+
+def mooe_part(b, gs):
+    """DepEd's school MOOE for 2026: how it is spread across the four groups, beside each group's share of learners.
+
+    Shares only, by group. No school is ranked, and no per-learner amount sits beside a reading result."""
+    mooe, name = b["money"]["deped_school_mooe"], e(b["name"])
+    head = "<h3 class='sh'>How DepEd's MOOE is spread across the four groups</h3>"
+    if not mooe:
+        return head + f"<p class='lead'>{name}'s schools are not yet matched to DepEd's school MOOE allocation.</p>"
+    learners = [sum(r["k6_enrollment"] for r in g["schools"] if r["mooe_es_fy2026"] is not None) for g in gs]
+    money = [sum(r["mooe_es_fy2026"] or 0 for r in g["schools"]) for g in gs]
+    tl, tm = sum(learners), sum(money)
+    if not tl or not tm:
+        return head + f"<p class='lead'>DepEd's MOOE file lists no 2026 allocation for the schools in this brief.</p>"
+    sl, sm = [x / tl for x in learners], [x / tm for x in money]
+    legend = "".join(f"<span><i style='background:var(--g{i})'></i>{g['title']}</span>" for i, g in enumerate(gs) if g["schools"])
+    crowd = len(gs[0]["schools"]) + len(gs[2]["schools"])
+    cl, cm = sl[0] + sl[2], sm[0] + sm[2]
+    if not crowd:
+        read = "None of these schools has more learners per classroom than the region."
+    elif cm - cl <= -0.02:
+        read = (f"The {crowd} crowded {'school has' if crowd == 1 else 'schools have'} <b>{cl * 100:.0f}% of the learners</b> but receive "
+                f"<b>{cm * 100:.0f}% of the MOOE</b>. Part of each allocation is a base amount that every school gets, so larger schools "
+                f"receive less per learner.")
+    elif cm - cl >= 0.02:
+        read = (f"The {crowd} crowded {'school has' if crowd == 1 else 'schools have'} {cl * 100:.0f}% of the learners and receive "
+                f"{cm * 100:.0f}% of the MOOE.")
+    else:
+        read = (f"MOOE is spread about in line with learners. The {crowd} crowded {'school has' if crowd == 1 else 'schools have'} "
+                f"{cl * 100:.0f}% of the learners and receive {cm * 100:.0f}% of the MOOE.")
+    rows = "".join(f"<tr class='grp'><td colspan='2'>{g['title']}</td></tr>" + "".join(
+        f"<tr><td>{e(r['school_name'])}</td><td>{'not listed' if r['mooe_es_fy2026'] is None else '₱' + format(r['mooe_es_fy2026'], ',.0f')}</td></tr>"
+        for r in g["schools"]) for g in gs if g["schools"])
+    listed = (f" {mooe['schools_listed']} of {mooe['public_elementary_schools']} public elementary schools are in DepEd's file; "
+              f"the total covers those." if mooe["schools_listed"] < mooe["public_elementary_schools"] else "")
+    fine = ("<ul class='fine'><li>DepEd's school MOOE allocation under the FY 2026 General Appropriations Act, elementary portion. "
+            "An allocation is the amount set for a school, not what it spent. DepEd publishes it to the nearest thousand pesos.</li>"
+            "<li>Most elementary schools do not hold their own budget: the division office releases their MOOE to them. "
+            "Its uses are set by DepEd Order No. 8, s. 2019.</li>"
+            f"<li>Learners are Kinder to Grade 6 enrolment, school year 2025&ndash;26, for the {len(b['schools'])} schools in this brief.{listed}</li>"
+            "<li>MOOE is for 2026 and the fund for 2025, the latest year published for each.</li></ul>")
+    return (head + f"<p class='lead'>Each group's share of learners, beside its share of the 2026 allocation.</p>"
+            f"<div class='bars mb'><div class='who'><b>Learners</b></div>{share_bar(sl, 'Share of learners by group')}"
+            f"<div class='who'><b>MOOE</b>, 2026</div>{share_bar(sm, 'Share of MOOE by group')}</div>"
+            f"<div class='legend'>{legend}</div><p class='read'>{read}</p>"
+            f"<details><summary>Each school's 2026 allocation</summary><div class='tw'><table class='ml'><thead><tr><th>School</th>"
+            f"<th>MOOE, 2026</th></tr></thead><tbody>{rows}</tbody></table></div></details>{fine}")
+
+
+def money_section(b, gs, num):
+    """The two kinds of public money for these schools, side by side: the fund the board decides, and DepEd's MOOE, set by formula."""
+    sef, mooe, name = b["money"]["special_education_fund"], b["money"]["deped_school_mooe"], e(b["name"])
+    if sef and sef["spent"]:
+        s_amt, s_sub = peso(sef["spent"]), f"spent in 2025, for schools at all levels. Collected from property tax: {peso(sef['collected'])}."
+    elif sef and sef["collected"]:
+        s_amt, s_sub = peso(sef["collected"]), "collected in 2025. No spending from it was reported to BLGF."
+    else:
+        s_amt, s_sub = "Not reported", "No 2025 figures for the fund were found in BLGF's data."
+    if mooe and mooe["elementary_allocation"]:
+        every = "all" if mooe["schools_listed"] == mooe["public_elementary_schools"] else ""
+        m_amt = peso(mooe["elementary_allocation"])
+        m_sub = f"allocated for 2026 to {every + ' ' if every else ''}{mooe['schools_listed']} public elementary schools in {name}."
+    else:
+        m_amt, m_sub = "Not listed", "DepEd's 2026 MOOE file does not list these schools."
+    both, rd, rm = len(gs[0]["schools"]), len(gs[1]["schools"]), len(gs[2]["schools"])
+    if both:  # the same schools the headline says to start with
+        targets = f"the {both} {'school' if both == 1 else 'schools'} that need both reading help and more room"
+    else:  # no overlap, so the two counts can be listed together
+        targets = " and ".join(t for t in (
+            f"the {rd} {'school' if rd == 1 else 'schools'} that need reading help" if rd else "",
+            f"the {rm} {'school' if rm == 1 else 'schools'} that need more room" if rm else "") if t)
+    so = ("The board cannot change MOOE. It decides what the fund adds. MOOE is shared by formula, mainly by enrolment, "
+          + (f"so aiming money at {targets} is the board's choice, through the fund." if targets else
+             "so it is up to the board to decide where the fund adds to it."))
+    return (f"<section class='sec'><h2><span class='sn'>{num}</span>The money for these schools</h2>"
+            f"<p class='lead'>Two kinds of public money reach {name}'s public elementary schools. The board decides one. "
+            f"DepEd sets the other by formula.</p>"
+            f"<div class='duo'><div class='dec'><p class='tag'>Decided by the board</p><h3>Special Education Fund</h3>"
+            f"<p class='amt'>{s_amt}</p><p class='sub'>{s_sub}</p>"
+            f"<p class='use'>Can pay for running public schools, building and repairing classrooms, books, research and sports.</p></div>"
+            f"<div><p class='tag'>Set by DepEd</p><h3>School MOOE <small>(maintenance and operating budget)</small></h3>"
+            f"<p class='amt'>{m_amt}</p><p class='sub'>{m_sub}</p>"
+            f"<p class='use'>Day-to-day running: supplies, utilities, minor repairs and upkeep. It does not pay for new classrooms.</p></div></div>"
+            f"<p class='so'>{so}</p>{sef_part(b)}{mooe_part(b, gs)}</section>")
 
 
 def more_need(ind, val, ref):
@@ -424,14 +539,24 @@ def brief_html(b, indicators, head):
     if cc["schools"]:
         asks.append(f"<b>{len(cc['schools'])} schools</b> read well but are crowded. Can classroom works there wait a year, or not?")
     sef = b["money"]["special_education_fund"]
+    lead_in = f"<b>{low_all:,.0f} learners</b> are at the lowest reading level."
     if sef and sef["spent"]:
-        share = {p: s for p, _, s in sef_purposes(sef)}
-        pct = lambda x: "less than 1%" if 0 < x < 0.005 else f"{x * 100:.0f}%"
-        asks.append(f"<b>{low_all:,.0f} learners</b> are at the lowest reading level. In 2025, {pct(share.get('Elementary schools', 0))} of the fund's reported "
-                    f"spending was charged to elementary schools and {pct(share.get('General administration', 0))} to general administration (section 3). "
-                    f"How much of next year's fund goes to learning support, compared with buildings and operations?")
+        purposes = sef_purposes(sef)
+        es = next((s for p, _, s in purposes if p == "Elementary schools"), 0)
+        top, _, top_s = max(purposes, key=lambda x: x[2])
+        if es:
+            asks.append(f"{lead_in} In 2025, {pct(es)} of the fund's reported spending was charged to elementary schools and "
+                        f"{pct(top_s)} to {top.lower()} (section 3). How much of next year's fund will go to reading support in elementary schools?"
+                        if top != "Elementary schools" else
+                        f"{lead_in} In 2025, {pct(es)} of the fund's reported spending was charged to elementary schools (section 3). "
+                        f"How much of next year's share will go to reading support, compared with buildings and operations?")
+        else:
+            share = "all of its spending was charged to" if top_s >= .995 else f"the largest share, {pct(top_s)}, was charged to"
+            asks.append(f"{lead_in} The 2025 report has no separate line for elementary schools: {share} "
+                        f"{top.lower()} (section 3). So it does not show what reached them. How much of next year's fund will go to elementary "
+                        f"schools, and can the treasurer report it as its own line?")
     else:
-        asks.append(f"<b>{low_all:,.0f} learners</b> are at the lowest reading level. How much of the fund goes to learning support, compared with buildings and operations?")
+        asks.append(f"{lead_in} How much of the fund goes to reading support, compared with buildings and operations?")
 
     cols = [(b["name"], v, True), (b["region"], reg, False)]
     if div:
@@ -486,7 +611,7 @@ def brief_html(b, indicators, head):
 <p class='lead'>Settle these before the fund is shared. The board knows conditions the data does not.</p>
 <ol class='ask'>{''.join(f'<li><span>{q}</span></li>' for q in asks)}</ol></section>
 
-{sef_section(b, 3)}
+{money_section(b, gs, 3)}
 
 <div class='later'><p class='top'><span class='plan'>Planned for the fellowship</span>Empty until real figures are connected. Nothing here is estimated.</p>
 <div class='lat2'><div><h3>Where the fund goes, school by school</h3><p>Which schools {name}'s fund reached and for what, from the quarterly SEF report, beside the groups above.</p></div>
@@ -574,7 +699,7 @@ def index_html(briefs, quality, manifest, featured):
 <div class='engine'><div><p class='k'>Behind the scenes</p><h3>{NAME} does the groundwork no board has time for</h3>
 <p>Every brief starts from data the government already publishes. {NAME} turns it into something a board can act on, and keeps it current.</p></div>
 <ul><li><b>Gathers</b>the public files from DepEd, DBM and BLGF, so no one has to hunt for them</li>
-<li><b>Connects</b>every school's reading results, enrolment, teachers and classrooms into one record</li>
+<li><b>Connects</b>every school's reading results, enrolment, teachers, classrooms and operating budget into one record</li>
 <li><b>Compares</b>each school with others in its region, fairly and without ranking</li>
 <li><b>Explains</b>what it finds in plain language, and rebuilds whenever new data is out</li></ul></div>
 <ol class='steps'>
@@ -589,7 +714,7 @@ def index_html(briefs, quality, manifest, featured):
 <div class='card'><h3>Works today</h3><p class='note'>Built and checked against published data</p>
 <ul><li>A brief for {len(briefs)} cities and municipalities in five regions, covering {schools:,} public elementary schools</li>
 <li>Four groups of schools, with what the board could do for each and the questions to settle</li>
-<li>What each city or town collected for its Special Education Fund in 2025, and what the spending was charged to</li>
+<li>The money for its schools side by side: the Special Education Fund the board decides (2025), and the operating budget (MOOE) DepEd sets for each school (2026)</li>
 <li>Every brief rebuilt from the published files with one command</li>
 <li>The same content as open data: <a href='data/schools.csv'>schools</a>, <a href='data/localities.csv'>localities</a>, <a href='api/index.json'>JSON</a>, <a href='data/DATA_DICTIONARY.md'>dictionary</a></li></ul></div>
 <div class='card next'><h3>Next, during the fellowship<span class='plan'>Planned</span></h3><p class='note'>December 2026 to March 2027</p>
@@ -656,7 +781,7 @@ def about_html(quality, briefs, manifest, indicators, rules):
 <h2>1. The problem</h2>
 <p>Every city and municipality has a Local School Board that budgets the Special Education Fund (SEF), an extra 1% tax on real property, each year.
 Boards decide with little school-by-school evidence. The evidence is public, but it sits in separate DepEd files from different years,
-and the money sits with DBM and BLGF. Nobody on a board has time to join them.</p>
+and the money sits in DepEd, DBM and BLGF files. Nobody on a board has time to join them.</p>
 <p>{NAME} is that join, done once, the same way for every locality, and turned into the one thing a board uses: a short brief that sorts its schools
 by the kind of help the data points to.</p>
 
@@ -683,6 +808,9 @@ so any step can be rerun and inspected alone. Indicators, brief rules and source
 {quality['localities_matched_to_compass']:,} of {quality['localities']:,} localities matched. Name matching is a stopgap: the COMPASS API carries ten-digit PSGC codes, which replace it once a key is issued.</li>
 <li><b>Special Education Fund.</b> The same province and name match links each locality to BLGF's FY2025 SEF workbook: property-tax income, and spending by the office it was charged to.
 {quality['localities_matched_to_sef']:,} of {quality['localities']:,} localities matched, and every locality with a brief. The brief folds BLGF's twelve offices into six purposes and shows them as reported, without judging them.</li>
+<li><b>School MOOE.</b> DepEd's FY 2026 school MOOE allocation joins on the School ID; only its elementary column is used.
+{quality['schools_matched_to_mooe']:,} of {quality['public_elementary_schools']:,} public elementary schools are in it, including {quality['reading_schools_matched_to_mooe']:,} of the {quality['reading_schools_matched']:,} with reading results.
+The brief totals it for the locality and shows each group's share of it beside the group's share of learners. It never shows MOOE per learner beside a school's reading results, and never orders schools by it.</li>
 <li><b>Eligibility.</b> DepEd's public reading file covers five regions. A locality gets a brief only when at least {rules['min_coverage']:.0%} of its public elementary schools are in that file and it has at least {rules['min_schools']} such schools, so a brief never speaks for schools it cannot see.</li></ul>
 
 <h2>5. Measures</h2>
@@ -711,6 +839,7 @@ Are its learners per classroom higher than the region's? The two answers give fo
 <ul><li>Reading results are school year 2025-26; teachers and classrooms are 2023-24, the latest DepEd has published. Crowding is enrolment over classrooms across those years.</li>
 <li>The public reading file covers Regions I, III, VIII, IX and CAR only.</li>
 <li>SEF figures are FY2025 and preliminary. They are town-wide totals by office, not by school, and leave out the province's share of the fund. A locality that reported no spending may simply not have filed.</li>
+<li>School MOOE is DepEd's FY 2026 allocation, the amount set for each school, not what it spent. Most elementary schools receive it through their division office. It is a year ahead of the SEF figures; each is the latest published.</li>
 <li>The National Tax Allotment is shown for scale only; it is not education money.</li>
 <li>The groups describe where need shows up. They do not show that crowding causes low reading, or that spending will fix it.</li></ul>
 
@@ -738,6 +867,10 @@ def quality_html(quality, manifest, briefs):
         ("Reading-file schools not joined", f"{quality['reading_schools_unmatched']:,}"),
         ("Schools with personnel data", f"{quality['schools_with_personnel']:,}"),
         ("Schools with facilities data", f"{quality['schools_with_facilities']:,}"),
+        ("Schools in DepEd's FY 2026 school MOOE file", f"{quality['mooe_file_schools']:,} (all levels)"),
+        ("Public elementary schools joined to the MOOE file by School ID", f"{quality['schools_matched_to_mooe']:,} "
+         f"({quality['schools_matched_to_mooe'] / quality['public_elementary_schools']:.1%})"),
+        ("Reading-file schools joined to the MOOE file", f"{quality['reading_schools_matched_to_mooe']:,} of {quality['reading_schools_matched']:,}"),
         ("Localities in the enrolment file", f"{quality['localities']:,}"),
         ("Localities matched by name to DBM COMPASS", f"{quality['localities_matched_to_compass']:,} "
          f"({quality['localities_matched_to_compass'] / quality['localities']:.1%})"),

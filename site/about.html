@@ -128,6 +128,20 @@ tbody tr:hover td{background:var(--soft)}
 .sef td:nth-child(2),.sef td:nth-child(3){white-space:nowrap}
 @media (max-width:560px){.sb{width:36px;margin-right:6px}.sef th,.sef td{padding-left:6px;padding-right:6px}}
 @media print{.sb,.sb i{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* the money: decided by the board (gold, as in the masthead) beside set by DepEd */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:4px 0 0}
+.duo>div{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;padding:20px 22px}
+.duo .dec{background:var(--goldtint);border-color:#F3D27A;box-shadow:inset 0 3px 0 var(--gold)}
+.duo .tag{font-size:12.5px;font-weight:600;color:var(--mut);margin:0 0 4px}.duo .dec .tag{color:#8A5A00}
+.duo h3{font:600 17px/1.3 var(--head);margin:0 0 14px}.duo h3 small{font:400 13px/1.3 var(--sans);color:var(--mut)}
+.duo .amt{font:600 34px/1.05 var(--head);color:var(--ink);margin:0 0 6px}
+.duo .sub{flex:1;font-size:14px;color:var(--sec);margin:0 0 14px}
+.duo .use{font-size:13.5px;color:var(--sec);margin:0;padding-top:12px;border-top:1px solid rgba(15,23,42,.1)}
+.so{margin:20px 0 0;padding:14px 18px;border-left:3px solid var(--accent);border-radius:0 6px 6px 0;background:var(--tint);font-size:15.5px;line-height:1.55;color:var(--ink);max-width:52em}
+h3.sh{font:600 18px/1.3 var(--head);margin:48px 0 4px}h3.sh+.lead{margin-bottom:14px}
+.mb .bar{height:28px}.read{font-size:15px;color:var(--sec);margin:14px 0 0;max-width:46em}.read b{color:var(--ink);font-weight:600}
+.ml{max-width:560px}details+.fine{margin-top:16px}
+@media print{.duo .dec,.so{-webkit-print-color-adjust:exact;print-color-adjust:exact}.duo>div,.so{break-inside:avoid}}
 .field{font:inherit;font-size:15px;height:48px;padding:0 14px;border:1px solid #CBD5E1;border-radius:8px;background:var(--paper);color:var(--ink);width:100%}
 .field:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
 .tools{display:grid;grid-template-columns:1fr 220px;gap:12px;margin:16px 0 8px;align-items:center}
@@ -175,6 +189,7 @@ tbody tr:hover td{background:var(--soft)}
 .mh{grid-template-columns:1fr;margin-bottom:28px}.mh div+div{border-left:0;border-top:1px solid var(--line)}.mh div{padding:10px 14px}.bl{font-size:18px}
 .acts>li{grid-template-columns:60px 1fr;gap:0 14px;padding:16px 0}.acts .cnt b{font-size:24px}.acts .lrn{grid-column:2;text-align:left;padding-top:8px}.acts .lrn b{display:inline;font-size:15px}
 .lat2{grid-template-columns:1fr;gap:16px}.supp{margin-top:48px}
+.duo{grid-template-columns:1fr;gap:12px}.duo>div{padding:18px 18px}.duo .amt{font-size:28px}.so{font-size:15px;padding:12px 14px}h3.sh{margin-top:40px}
 .names{columns:1}
 .peek .bars{grid-template-columns:1fr;gap:4px}.bar span{font-size:11px}.ask li{grid-template-columns:32px 1fr;font-size:16px}.later{padding:22px 16px}.card{padding:22px 20px}.peek{padding:22px 18px}
 .intro h1{margin-bottom:22px;font-size:40px}.br-d{display:none}.pitch div{grid-template-columns:1fr;gap:2px}.pitch dd{font-size:16px}.find .row{flex-direction:column}.find .btn{justify-content:center}.exs a{height:36px;padding:0 14px}
@@ -186,8 +201,8 @@ tbody tr:hover td{background:var(--soft)}
 h2{break-after:avoid}table,.dots,.bars,.acts>li,.ask li,.later{break-inside:avoid}.appendix{break-before:page}a{color:inherit;text-decoration:none}summary{display:none}}
 </style></head><body><header class='rib'><div class='in'><a class='name' href='index.html' aria-label='PISARA home'>PISARA<span><b>P</b>ublic <b>I</b>nformation for <b>S</b>chool <b>A</b>llocation and <b>R</b>esource <b>A</b>ccountability</span></a><nav><a href='index.html#how'>How it works</a><a href='index.html#find'>Find a locality</a><a href='about.html'>Technical write-up</a></nav></div></header><div class='wrap'><main class='sheet prose'>
 <h1>Technical write-up</h1>
-<p class='deck'>How PISARA turns 6 public files into 256 decision briefs, and what every number in a brief means. Written for reviewers, engineers and analysts.</p>
-<div class='glance'><div><b>6</b><span>public sources connected, 3 more planned</span></div>
+<p class='deck'>How PISARA turns 7 public files into 256 decision briefs, and what every number in a brief means. Written for reviewers, engineers and analysts.</p>
+<div class='glance'><div><b>7</b><span>public sources connected, 3 more planned</span></div>
 <div><b>39,468</b><span>public elementary schools lined up</span></div>
 <div><b>99.9%</b><span>of reading results joined by School ID</span></div>
 <div><b>256</b><span>briefs, 6,041 schools, 641,031 learners</span></div></div>
@@ -195,7 +210,7 @@ h2{break-after:avoid}table,.dots,.bars,.acts>li,.ask li,.later{break-inside:avoi
 <h2>1. The problem</h2>
 <p>Every city and municipality has a Local School Board that budgets the Special Education Fund (SEF), an extra 1% tax on real property, each year.
 Boards decide with little school-by-school evidence. The evidence is public, but it sits in separate DepEd files from different years,
-and the money sits with DBM and BLGF. Nobody on a board has time to join them.</p>
+and the money sits in DepEd, DBM and BLGF files. Nobody on a board has time to join them.</p>
 <p>PISARA is that join, done once, the same way for every locality, and turned into the one thing a board uses: a short brief that sorts its schools
 by the kind of help the data points to.</p>
 
@@ -213,7 +228,7 @@ so any step can be rerun and inspected alone. Indicators, brief rules and source
 
 <h2>3. Sources</h2>
 <p>Each connected file's checksum is listed in the <a href='quality.html'>data quality report</a>, so anyone can confirm they are working from the same files.</p>
-<div class='tw'><table><thead><tr><th>Source</th><th>Period</th><th>Join key</th><th>Status</th></tr></thead><tbody><tr><td><b>Comprehensive Rapid Literacy Assessment (CRLA)</b><br>Department of Education, Project Bukas</td><td>SY 2025-26</td><td>school_id</td><td>Connected</td></tr><tr><td><b>Enrollment</b><br>Department of Education, Project Bukas</td><td>SY 2025-26</td><td>school_id</td><td>Connected</td></tr><tr><td><b>School Personnel</b><br>Department of Education, Project Bukas</td><td>SY 2023-24</td><td>school_id</td><td>Connected</td></tr><tr><td><b>School Facilities</b><br>Department of Education, Project Bukas</td><td>SY 2023-24</td><td>school_id</td><td>Connected</td></tr><tr><td><b>National Tax Allotment shares</b><br>DBM COMPASS (public export)</td><td>FY 2022 to FY 2027</td><td>region + province + city or municipality name</td><td>Connected</td></tr><tr><td><b>Special Education Fund income and expenditures</b><br>Bureau of Local Government Finance (BLGF), LIFT system</td><td>FY 2025 (preliminary)</td><td>province + city or municipality name</td><td>Connected</td></tr><tr><td><b>DepEd appropriations, allotments, obligations and disbursements</b><br>DBM COMPASS API</td><td>FY 2022 to FY 2026</td><td>UACS department and agency code</td><td>Planned: COMPASS API key</td></tr><tr><td><b>10-digit PSGC codes for cities and municipalities</b><br>DBM COMPASS API (NTA records)</td><td>FY 2027</td><td>psgcCode</td><td>Planned: COMPASS API key</td></tr><tr><td><b>Special Education Fund utilization report, by school and purpose</b><br>Local government, under DepEd-DBM-DILG Joint Circular No. 1 s. 2017</td><td>Quarterly</td><td>city or municipality</td><td>Planned: A pilot local government&#x27;s quarterly SEF report</td></tr></tbody></table></div>
+<div class='tw'><table><thead><tr><th>Source</th><th>Period</th><th>Join key</th><th>Status</th></tr></thead><tbody><tr><td><b>Comprehensive Rapid Literacy Assessment (CRLA)</b><br>Department of Education, Project Bukas</td><td>SY 2025-26</td><td>school_id</td><td>Connected</td></tr><tr><td><b>Enrollment</b><br>Department of Education, Project Bukas</td><td>SY 2025-26</td><td>school_id</td><td>Connected</td></tr><tr><td><b>School Personnel</b><br>Department of Education, Project Bukas</td><td>SY 2023-24</td><td>school_id</td><td>Connected</td></tr><tr><td><b>School Facilities</b><br>Department of Education, Project Bukas</td><td>SY 2023-24</td><td>school_id</td><td>Connected</td></tr><tr><td><b>School MOOE allocation</b><br>Department of Education</td><td>FY 2026 (GAA)</td><td>school_id</td><td>Connected</td></tr><tr><td><b>National Tax Allotment shares</b><br>DBM COMPASS (public export)</td><td>FY 2022 to FY 2027</td><td>region + province + city or municipality name</td><td>Connected</td></tr><tr><td><b>Special Education Fund income and expenditures</b><br>Bureau of Local Government Finance (BLGF), LIFT system</td><td>FY 2025 (preliminary)</td><td>province + city or municipality name</td><td>Connected</td></tr><tr><td><b>DepEd appropriations, allotments, obligations and disbursements</b><br>DBM COMPASS API</td><td>FY 2022 to FY 2026</td><td>UACS department and agency code</td><td>Planned: COMPASS API key</td></tr><tr><td><b>10-digit PSGC codes for cities and municipalities</b><br>DBM COMPASS API (NTA records)</td><td>FY 2027</td><td>psgcCode</td><td>Planned: COMPASS API key</td></tr><tr><td><b>Special Education Fund utilization report, by school and purpose</b><br>Local government, under DepEd-DBM-DILG Joint Circular No. 1 s. 2017</td><td>Quarterly</td><td>city or municipality</td><td>Planned: A pilot local government&#x27;s quarterly SEF report</td></tr></tbody></table></div>
 
 <h2>4. Joining the data</h2>
 <ul><li><b>Schools.</b> The enrolment file defines the universe: public schools offering elementary grades, 39,468 in all. Reading results, personnel and facilities join on the six-digit School ID.
@@ -222,6 +237,9 @@ so any step can be rerun and inspected alone. Indicators, brief rules and source
 1,565 of 1,644 localities matched. Name matching is a stopgap: the COMPASS API carries ten-digit PSGC codes, which replace it once a key is issued.</li>
 <li><b>Special Education Fund.</b> The same province and name match links each locality to BLGF's FY2025 SEF workbook: property-tax income, and spending by the office it was charged to.
 1,570 of 1,644 localities matched, and every locality with a brief. The brief folds BLGF's twelve offices into six purposes and shows them as reported, without judging them.</li>
+<li><b>School MOOE.</b> DepEd's FY 2026 school MOOE allocation joins on the School ID; only its elementary column is used.
+37,421 of 39,468 public elementary schools are in it, including 6,113 of the 6,113 with reading results.
+The brief totals it for the locality and shows each group's share of it beside the group's share of learners. It never shows MOOE per learner beside a school's reading results, and never orders schools by it.</li>
 <li><b>Eligibility.</b> DepEd's public reading file covers five regions. A locality gets a brief only when at least 90% of its public elementary schools are in that file and it has at least 5 such schools, so a brief never speaks for schools it cannot see.</li></ul>
 
 <h2>5. Measures</h2>
@@ -250,6 +268,7 @@ Are its learners per classroom higher than the region's? The two answers give fo
 <ul><li>Reading results are school year 2025-26; teachers and classrooms are 2023-24, the latest DepEd has published. Crowding is enrolment over classrooms across those years.</li>
 <li>The public reading file covers Regions I, III, VIII, IX and CAR only.</li>
 <li>SEF figures are FY2025 and preliminary. They are town-wide totals by office, not by school, and leave out the province's share of the fund. A locality that reported no spending may simply not have filed.</li>
+<li>School MOOE is DepEd's FY 2026 allocation, the amount set for each school, not what it spent. Most elementary schools receive it through their division office. It is a year ahead of the SEF figures; each is the latest published.</li>
 <li>The National Tax Allotment is shown for scale only; it is not education money.</li>
 <li>The groups describe where need shows up. They do not show that crowding causes low reading, or that spending will fix it.</li></ul>
 
@@ -264,5 +283,5 @@ Are its learners per classroom higher than the region's? The two answers give fo
 <li>Derived data is shared under the same terms as DepEd's files, with credit to DepEd. No DepEd, DBM or BLGF logo, no implied endorsement.</li>
 <li>BLGF figures appear inside each brief and its JSON with credit to BLGF. The full BLGF workbook is not republished; get it from <a href='https://blgf.gov.ph/lgu-fiscal-data/'>BLGF's LGU fiscal data page</a>.</li>
 <li>No figure is estimated or invented. Planned parts of a brief stay empty and labelled until a real source is connected.</li>
-<li>School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.</li></ul>
+<li>School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.</li></ul>
 </main></div></body></html>

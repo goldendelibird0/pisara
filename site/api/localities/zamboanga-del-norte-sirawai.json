@@ -106,6 +106,14 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
+  "deped_school_mooe": {
+   "elementary_allocation": 13049000.0,
+   "schools_listed": 14,
+   "public_elementary_schools": 14,
+   "fiscal_year": "FY 2026",
+   "basis": "allocation under the General Appropriations Act, not spending",
+   "source": "Department of Education"
+  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -114,6 +122,8 @@
    "school_name": "Bitugan ES",
    "learners_assessed": 69.0,
    "small_group": false,
+   "k6_enrollment": 139.0,
+   "mooe_es_fy2026": 728000.0,
    "values": {
     "reading_lowest": 0.5652173913043478,
     "reading_grade_level": 0.0,
@@ -133,6 +143,8 @@
    "school_name": "Dacon Learning Center",
    "learners_assessed": 178.0,
    "small_group": false,
+   "k6_enrollment": 446.0,
+   "mooe_es_fy2026": 1070000.0,
    "values": {
     "reading_lowest": 0.38764044943820225,
     "reading_grade_level": 0.11235955056179775,
@@ -152,6 +164,8 @@
    "school_name": "Dacon Learning Center Annex - Sahara",
    "learners_assessed": 140.0,
    "small_group": false,
+   "k6_enrollment": 315.0,
+   "mooe_es_fy2026": 884000.0,
    "values": {
     "reading_lowest": 0.5785714285714286,
     "reading_grade_level": 0.05714285714285714,
@@ -171,6 +185,8 @@
    "school_name": "Danganon ES",
    "learners_assessed": 22.0,
    "small_group": false,
+   "k6_enrollment": 48.0,
+   "mooe_es_fy2026": 643000.0,
    "values": {
     "reading_lowest": 0.36363636363636365,
     "reading_grade_level": 0.0,
@@ -190,6 +206,8 @@
    "school_name": "Doña Cecilia ES",
    "learners_assessed": 184.0,
    "small_group": false,
+   "k6_enrollment": 421.0,
+   "mooe_es_fy2026": 1050000.0,
    "values": {
     "reading_lowest": 0.3695652173913043,
     "reading_grade_level": 0.15217391304347827,
@@ -209,6 +227,8 @@
    "school_name": "Imam Jamahali Ode ES",
    "learners_assessed": 88.0,
    "small_group": false,
+   "k6_enrollment": 166.0,
+   "mooe_es_fy2026": 800000.0,
    "values": {
     "reading_lowest": 0.4431818181818182,
     "reading_grade_level": 0.022727272727272728,
@@ -228,6 +248,8 @@
    "school_name": "Lambog Jubael ES",
    "learners_assessed": 33.0,
    "small_group": false,
+   "k6_enrollment": 81.0,
+   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.18181818181818182,
@@ -247,6 +269,8 @@
    "school_name": "Mauricio V. Landingin Integrated School",
    "learners_assessed": 201.0,
    "small_group": false,
+   "k6_enrollment": 410.0,
+   "mooe_es_fy2026": 859000.0,
    "values": {
     "reading_lowest": 0.44776119402985076,
     "reading_grade_level": 0.1044776119402985,
@@ -266,6 +290,8 @@
    "school_name": "Panglima Utoh Aban ES",
    "learners_assessed": 53.0,
    "small_group": false,
+   "k6_enrollment": 105.0,
+   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.4339622641509434,
     "reading_grade_level": 0.11320754716981132,
@@ -285,6 +311,8 @@
    "school_name": "Piacan ES",
    "learners_assessed": 205.0,
    "small_group": false,
+   "k6_enrollment": 474.0,
+   "mooe_es_fy2026": 1146000.0,
    "values": {
     "reading_lowest": 0.6439024390243903,
     "reading_grade_level": 0.03414634146341464,
@@ -304,6 +332,8 @@
    "school_name": "Sirawai CS",
    "learners_assessed": 437.0,
    "small_group": false,
+   "k6_enrollment": 1550.0,
+   "mooe_es_fy2026": 2379000.0,
    "values": {
     "reading_lowest": 0.19679633867276888,
     "reading_grade_level": 0.07780320366132723,
@@ -323,6 +353,8 @@
    "school_name": "Sta. Maria Elementary School",
    "learners_assessed": 48.0,
    "small_group": false,
+   "k6_enrollment": 109.0,
+   "mooe_es_fy2026": 702000.0,
    "values": {
     "reading_lowest": 0.4583333333333333,
     "reading_grade_level": 0.041666666666666664,
@@ -342,6 +374,8 @@
    "school_name": "Tapanayan ES",
    "learners_assessed": 39.0,
    "small_group": false,
+   "k6_enrollment": 76.0,
+   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.6410256410256411,
     "reading_grade_level": 0.0,
@@ -361,6 +395,8 @@
    "school_name": "Tibalos ES",
    "learners_assessed": 57.0,
    "small_group": false,
+   "k6_enrollment": 124.0,
+   "mooe_es_fy2026": 724000.0,
    "values": {
     "reading_lowest": 0.7543859649122807,
     "reading_grade_level": 0.0,
@@ -418,5 +454,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

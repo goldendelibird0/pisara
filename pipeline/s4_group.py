@@ -41,6 +41,7 @@ def run():
             school_rows.append({
                 "school_id": s["school_id"], "school_name": s["school_name"],
                 "learners_assessed": s["crla_assessed"], "small_group": s["crla_assessed"] < rules["small_group"],
+                "k6_enrollment": s["k6_enrollment"], "mooe_es_fy2026": s["mooe_es_fy2026"],
                 "values": vals, "more_need_than_region": above,
                 "headline_gap_points": (vals[head] - region[head]) * 100 if vals[head] is not None else None,
             })
@@ -60,6 +61,11 @@ def run():
                 "national_tax_allotment": loc["nta"],
                 "special_education_fund": dict(loc["sef"], fiscal_year="FY 2025", status="preliminary",
                                                source="Bureau of Local Government Finance") if loc["sef"] else None,
+                "deped_school_mooe": {
+                    "elementary_allocation": loc["mooe_es_fy2026"], "schools_listed": loc["mooe_schools_listed"],
+                    "public_elementary_schools": loc["public_elementary_schools"], "fiscal_year": "FY 2026",
+                    "basis": "allocation under the General Appropriations Act, not spending",
+                    "source": "Department of Education"} if loc["mooe_schools_listed"] else None,
                 "deped_regional_spending": None,
             },
             "schools": school_rows,
