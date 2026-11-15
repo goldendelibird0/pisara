@@ -1,0 +1,516 @@
+{
+ "locality_id": "nueva-ecija-san-antonio",
+ "name": "San Antonio",
+ "province": "Nueva Ecija",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 20,
+ "schools_with_reading": 20,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2343962932679204,
+  "reading_grade_level": 0.2818206595802671,
+  "learners_per_teacher": 25.494285714285713,
+  "learners_per_classroom": 29.244224422442244,
+  "levels": {
+   "low_emerging": 0.2343962932679204,
+   "high_emerging": 0.06922867266285092,
+   "developing": 0.10329790133551377,
+   "transitioning": 0.3112564731534478,
+   "at_grade_level": 0.2818206595802671
+  },
+  "schools": 20,
+  "learners_assessed": 3669.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.27200626652305887,
+   "reading_grade_level": 0.20937367407552465,
+   "learners_per_teacher": 23.296273291925466,
+   "learners_per_classroom": 26.75357142857143,
+   "levels": {
+    "low_emerging": 0.27200626652305887,
+    "high_emerging": 0.09001599268905643,
+    "developing": 0.13146643167205196,
+    "transitioning": 0.2971376350403081,
+    "at_grade_level": 0.20937367407552465
+   },
+   "schools": 254,
+   "learners_assessed": 30639.0,
+   "name": "Nueva Ecija"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 3698.0,
+ "schools_above_region": 8,
+ "learners_in_schools_above_region": 1163.0,
+ "schools_above_region_on_reading_and_classrooms": 2,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 306836201.0,
+   "FY 2023": 262480621.0,
+   "FY 2024": 278966431.0,
+   "FY 2025": 331178432.0,
+   "FY 2026": 379913867.0,
+   "FY 2027": 421482047.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "105660",
+   "school_name": "Buliran Elementary School",
+   "learners_assessed": 196.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17346938775510204,
+    "reading_grade_level": 0.4642857142857143,
+    "learners_per_teacher": 30.875,
+    "learners_per_classroom": 32.93333333333333
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -11.483323976103508
+  },
+  {
+   "school_id": "105661",
+   "school_name": "Cama Juan Elementary School",
+   "learners_assessed": 126.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21428571428571427,
+    "reading_grade_level": 0.07936507936507936,
+    "learners_per_teacher": 26.454545454545453,
+    "learners_per_classroom": 26.454545454545453
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.401691323042284
+  },
+  {
+   "school_id": "105663",
+   "school_name": "Faustino P. De Leon Elementary School",
+   "learners_assessed": 153.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.28104575163398693,
+    "reading_grade_level": 0.26143790849673204,
+    "learners_per_teacher": 23.3125,
+    "learners_per_classroom": 24.866666666666667
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.7256875882150182
+  },
+  {
+   "school_id": "105662",
+   "school_name": "Hacienda Elementary School",
+   "learners_assessed": 98.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.336734693877551,
+    "reading_grade_level": 0.01020408163265306,
+    "learners_per_teacher": 23.1,
+    "learners_per_classroom": 28.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 4.84320663614139
+  },
+  {
+   "school_id": "105664",
+   "school_name": "Lawang Kupang Elementary School",
+   "learners_assessed": 141.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3262411347517731,
+    "reading_grade_level": 0.3475177304964539,
+    "learners_per_teacher": 23.733333333333334,
+    "learners_per_classroom": 22.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 3.7938507235635965
+  },
+  {
+   "school_id": "105665",
+   "school_name": "Lorenza M. Tinio Elementary School",
+   "learners_assessed": 138.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1956521739130435,
+    "reading_grade_level": 0.15942028985507245,
+    "learners_per_teacher": 22.785714285714285,
+    "learners_per_classroom": 21.266666666666666
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.265045360309362
+  },
+  {
+   "school_id": "105666",
+   "school_name": "Luyos Elementary School",
+   "learners_assessed": 146.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.19863013698630136,
+    "reading_grade_level": 0.3972602739726027,
+    "learners_per_teacher": 24.923076923076923,
+    "learners_per_classroom": 27.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -8.967249052983576
+  },
+  {
+   "school_id": "105667",
+   "school_name": "Maugat Elementary School",
+   "learners_assessed": 69.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13043478260869565,
+    "reading_grade_level": 0.11594202898550725,
+    "learners_per_teacher": 18.0,
+    "learners_per_classroom": 18.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -15.786784490744147
+  },
+  {
+   "school_id": "105668",
+   "school_name": "Panabingan Elementary School",
+   "learners_assessed": 164.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2804878048780488,
+    "reading_grade_level": 0.27439024390243905,
+    "learners_per_teacher": 29.384615384615383,
+    "learners_per_classroom": 31.833333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.7814822638088303
+  },
+  {
+   "school_id": "105669",
+   "school_name": "Papaya Elementary School",
+   "learners_assessed": 291.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17525773195876287,
+    "reading_grade_level": 0.3642611683848797,
+    "learners_per_teacher": 28.423076923076923,
+    "learners_per_classroom": 32.130434782608695
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -11.304489555737424
+  },
+  {
+   "school_id": "105670",
+   "school_name": "San Antonio Central School",
+   "learners_assessed": 443.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.14672686230248308,
+    "reading_grade_level": 0.2505643340857788,
+    "learners_per_teacher": 23.638297872340427,
+    "learners_per_classroom": 23.638297872340427
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.157576521365403
+  },
+  {
+   "school_id": "105671",
+   "school_name": "San Francisco Elementary School",
+   "learners_assessed": 615.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.12520325203252033,
+    "reading_grade_level": 0.40487804878048783,
+    "learners_per_teacher": 31.229166666666668,
+    "learners_per_classroom": 44.088235294117645
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -16.309937548361678
+  },
+  {
+   "school_id": "137213",
+   "school_name": "San Jose Elementary School",
+   "learners_assessed": 30.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.03333333333333333,
+    "learners_per_teacher": 12.4,
+    "learners_per_classroom": null
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -28.83026275161371
+  },
+  {
+   "school_id": "105672",
+   "school_name": "San Mariano East Elementary School",
+   "learners_assessed": 238.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.31512605042016806,
+    "reading_grade_level": 0.11764705882352941,
+    "learners_per_teacher": 27.954545454545453,
+    "learners_per_classroom": 34.166666666666664
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.6823422904030947
+  },
+  {
+   "school_id": "105673",
+   "school_name": "Sanggalang Elementary School",
+   "learners_assessed": 42.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.38095238095238093,
+    "reading_grade_level": 0.2857142857142857,
+    "learners_per_teacher": 13.75,
+    "learners_per_classroom": 13.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 9.264975343624382
+  },
+  {
+   "school_id": "105674",
+   "school_name": "Sta. Barbara North Elementary School",
+   "learners_assessed": 247.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3522267206477733,
+    "reading_grade_level": 0.22267206477732793,
+    "learners_per_teacher": 27.285714285714285,
+    "learners_per_classroom": 40.92857142857143
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 6.392409313163617
+  },
+  {
+   "school_id": "105675",
+   "school_name": "Sta. Barbara South Elementary School",
+   "learners_assessed": 177.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.519774011299435,
+    "reading_grade_level": 0.3107344632768362,
+    "learners_per_teacher": 28.666666666666668,
+    "learners_per_classroom": 30.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 23.14713837832979
+  },
+  {
+   "school_id": "105676",
+   "school_name": "Sto. Cristo East Elementary School",
+   "learners_assessed": 167.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.33532934131736525,
+    "reading_grade_level": 0.41317365269461076,
+    "learners_per_teacher": 23.0,
+    "learners_per_classroom": 23.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 4.702671380122814
+  },
+  {
+   "school_id": "105677",
+   "school_name": "Sto. Cristo West Elementary School",
+   "learners_assessed": 135.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2222222222222222,
+    "reading_grade_level": 0.15555555555555556,
+    "learners_per_teacher": 20.666666666666668,
+    "learners_per_classroom": 44.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -6.60804052939149
+  },
+  {
+   "school_id": "105678",
+   "school_name": "Tikiw Elementary School",
+   "learners_assessed": 53.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.32075471698113206,
+    "reading_grade_level": 0.05660377358490566,
+    "learners_per_teacher": 16.77777777777778,
+    "learners_per_classroom": 18.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 3.2452089464994947
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

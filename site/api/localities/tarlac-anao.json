@@ -1,0 +1,250 @@
+{
+ "locality_id": "tarlac-anao",
+ "name": "Anao",
+ "province": "Tarlac",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 6,
+ "schools_with_reading": 6,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2583732057416268,
+  "reading_grade_level": 0.24401913875598086,
+  "learners_per_teacher": 18.448275862068964,
+  "learners_per_classroom": 35.666666666666664,
+  "levels": {
+   "low_emerging": 0.2583732057416268,
+   "high_emerging": 0.09330143540669857,
+   "developing": 0.10287081339712918,
+   "transitioning": 0.3014354066985646,
+   "at_grade_level": 0.24401913875598086
+  },
+  "schools": 6,
+  "learners_assessed": 418.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.28343710271538936,
+   "reading_grade_level": 0.21651400071714966,
+   "learners_per_teacher": 26.24146014735432,
+   "learners_per_classroom": 32.43236514522822,
+   "levels": {
+    "low_emerging": 0.28343710271538936,
+    "high_emerging": 0.0888287642207517,
+    "developing": 0.1319881344329628,
+    "transitioning": 0.2792319979137465,
+    "at_grade_level": 0.21651400071714966
+   },
+   "schools": 221,
+   "learners_assessed": 30677.0,
+   "name": "Tarlac"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 416.0,
+ "schools_above_region": 1,
+ "learners_in_schools_above_region": 61.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 92184585.0,
+   "FY 2023": 78790144.0,
+   "FY 2024": 83712902.0,
+   "FY 2025": 99214521.0,
+   "FY 2026": 115289627.0,
+   "FY 2027": 127904013.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "502675",
+   "school_name": "Bantog Integrated School",
+   "learners_assessed": 74.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.22972972972972974,
+    "reading_grade_level": 0.32432432432432434,
+    "learners_per_teacher": 23.625,
+    "learners_per_classroom": 21.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.8572897786407365
+  },
+  {
+   "school_id": "106307",
+   "school_name": "Casili ES",
+   "learners_assessed": 61.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4262295081967213,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 21.125,
+    "learners_per_classroom": 28.166666666666668
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 13.792688068058418
+  },
+  {
+   "school_id": "160004",
+   "school_name": "Dagundon ES",
+   "learners_assessed": 21.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2857142857142857,
+    "reading_grade_level": 0.14285714285714285,
+    "learners_per_teacher": 12.75,
+    "learners_per_classroom": 12.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.25883418018514126
+  },
+  {
+   "school_id": "106305",
+   "school_name": "Dolores Ongsiako CES",
+   "learners_assessed": 174.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21839080459770116,
+    "reading_grade_level": 0.26436781609195403,
+    "learners_per_teacher": 18.863636363636363,
+    "learners_per_classroom": 59.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -6.991182291843595
+  },
+  {
+   "school_id": "106308",
+   "school_name": "San Francisco ES",
+   "learners_assessed": 60.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.25,
+    "reading_grade_level": 0.36666666666666664,
+    "learners_per_teacher": 17.375,
+    "learners_per_classroom": 69.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -3.830262751613711
+  },
+  {
+   "school_id": "106309",
+   "school_name": "San Jose ES",
+   "learners_assessed": 28.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21428571428571427,
+    "reading_grade_level": 0.25,
+    "learners_per_teacher": 13.375,
+    "learners_per_classroom": 53.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.401691323042284
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

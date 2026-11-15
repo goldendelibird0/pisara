@@ -1,0 +1,345 @@
+{
+ "locality_id": "biliran-cabucgayan",
+ "name": "Cabucgayan",
+ "province": "Biliran",
+ "region": "Region VIII",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 12,
+ "schools_with_reading": 11,
+ "coverage": 0.9166666666666666,
+ "values": {
+  "reading_lowest": 0.1532567049808429,
+  "reading_grade_level": 0.06743295019157088,
+  "learners_per_teacher": 22.464285714285715,
+  "learners_per_classroom": 24.37984496124031,
+  "levels": {
+   "low_emerging": 0.1532567049808429,
+   "high_emerging": 0.2222222222222222,
+   "developing": 0.20229885057471264,
+   "transitioning": 0.35478927203065136,
+   "at_grade_level": 0.06743295019157088
+  },
+  "schools": 11,
+  "learners_assessed": 1305.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.31221068562819143,
+   "reading_grade_level": 0.12686541726035055,
+   "learners_per_teacher": 19.41550053821313,
+   "learners_per_classroom": 23.004425914047467,
+   "levels": {
+    "low_emerging": 0.31221068562819143,
+    "high_emerging": 0.11257609947983066,
+    "developing": 0.1399480512397483,
+    "transitioning": 0.30839974639187906,
+    "at_grade_level": 0.12686541726035055
+   },
+   "schools": 2023,
+   "learners_assessed": 146683.0
+  },
+  "division": {
+   "reading_lowest": 0.22240039472061182,
+   "reading_grade_level": 0.11286542494140867,
+   "learners_per_teacher": 21.10475161987041,
+   "learners_per_classroom": 23.89119804400978,
+   "levels": {
+    "low_emerging": 0.22240039472061182,
+    "high_emerging": 0.16430245466880475,
+    "developing": 0.14641667694584926,
+    "transitioning": 0.3540150487233255,
+    "at_grade_level": 0.11286542494140867
+   },
+   "schools": 86,
+   "learners_assessed": 8107.0,
+   "name": "Biliran"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 1372.0,
+ "schools_above_region": 0,
+ "learners_in_schools_above_region": 0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 124071373.0,
+   "FY 2023": 106068739.0,
+   "FY 2024": 112704482.0,
+   "FY 2025": 133656922.0,
+   "FY 2026": 153284991.0,
+   "FY 2027": 170056630.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "120785",
+   "school_name": "Balaquid ES",
+   "learners_assessed": 166.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20481927710843373,
+    "reading_grade_level": 0.024096385542168676,
+    "learners_per_teacher": 23.41176470588235,
+    "learners_per_classroom": 24.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.73914085197577
+  },
+  {
+   "school_id": "120786",
+   "school_name": "Bunga ES",
+   "learners_assessed": 202.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.06930693069306931,
+    "reading_grade_level": 0.13861386138613863,
+    "learners_per_teacher": 20.925925925925927,
+    "learners_per_classroom": 22.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -24.29037549351221
+  },
+  {
+   "school_id": "120787",
+   "school_name": "Caanibongan ES",
+   "learners_assessed": 39.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.23076923076923078,
+    "reading_grade_level": 0.10256410256410256,
+    "learners_per_teacher": 12.8,
+    "learners_per_classroom": 16.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -8.144145485896065
+  },
+  {
+   "school_id": "120788",
+   "school_name": "Cabucgayan Central School",
+   "learners_assessed": 260.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1346153846153846,
+    "reading_grade_level": 0.09230769230769231,
+    "learners_per_teacher": 26.083333333333332,
+    "learners_per_classroom": 25.04
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -17.75953010128068
+  },
+  {
+   "school_id": "120789",
+   "school_name": "Capayas Elementary School",
+   "learners_assessed": 51.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13725490196078433,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 16.125,
+    "learners_per_classroom": 25.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -17.49557836674071
+  },
+  {
+   "school_id": "120790",
+   "school_name": "Casiawan ES",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.19444444444444445,
+    "reading_grade_level": 0.041666666666666664,
+    "learners_per_teacher": 25.571428571428573,
+    "learners_per_classroom": 25.571428571428573
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -11.776624118374698
+  },
+  {
+   "school_id": "120791",
+   "school_name": "J.D. Garcia ES",
+   "learners_assessed": 91.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18681318681318682,
+    "reading_grade_level": 0.02197802197802198,
+    "learners_per_teacher": 21.818181818181817,
+    "learners_per_classroom": 30.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -12.539749881500462
+  },
+  {
+   "school_id": "120792",
+   "school_name": "LANGGAO ES",
+   "learners_assessed": 96.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.10416666666666667,
+    "reading_grade_level": 0.07291666666666667,
+    "learners_per_teacher": 19.8,
+    "learners_per_classroom": 24.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -20.804401896152473
+  },
+  {
+   "school_id": "120793",
+   "school_name": "Looc ES",
+   "learners_assessed": 193.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.19689119170984457,
+    "reading_grade_level": 0.06217616580310881,
+    "learners_per_teacher": 26.933333333333334,
+    "learners_per_classroom": 25.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -11.531949391834686
+  },
+  {
+   "school_id": "120794",
+   "school_name": "Pawikan ES",
+   "learners_assessed": 89.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20224719101123595,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 25.444444444444443,
+    "learners_per_classroom": 38.166666666666664
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.996349461695548
+  },
+  {
+   "school_id": "120796",
+   "school_name": "Talibong ES",
+   "learners_assessed": 46.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.08695652173913043,
+    "reading_grade_level": 0.08695652173913043,
+    "learners_per_teacher": 16.142857142857142,
+    "learners_per_classroom": 12.555555555555555
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -22.5254163889061
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

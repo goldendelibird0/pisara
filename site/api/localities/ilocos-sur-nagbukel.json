@@ -1,0 +1,288 @@
+{
+ "locality_id": "ilocos-sur-nagbukel",
+ "name": "Nagbukel",
+ "province": "Ilocos Sur",
+ "region": "Region I",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 8,
+ "schools_with_reading": 8,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2669172932330827,
+  "reading_grade_level": 0.13909774436090225,
+  "learners_per_teacher": 15.931818181818182,
+  "learners_per_classroom": 14.306122448979592,
+  "levels": {
+   "low_emerging": 0.2669172932330827,
+   "high_emerging": 0.16165413533834586,
+   "developing": 0.12406015037593984,
+   "transitioning": 0.3082706766917293,
+   "at_grade_level": 0.13909774436090225
+  },
+  "schools": 8,
+  "learners_assessed": 266.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.3157558778680095,
+   "reading_grade_level": 0.14203517855243095,
+   "learners_per_teacher": 20.621333928837277,
+   "learners_per_classroom": 23.124034911043974,
+   "levels": {
+    "low_emerging": 0.3157558778680095,
+    "high_emerging": 0.10175892762154687,
+    "developing": 0.12880775914039505,
+    "transitioning": 0.31164225681761765,
+    "at_grade_level": 0.14203517855243095
+   },
+   "schools": 1131,
+   "learners_assessed": 112796.0
+  },
+  "division": {
+   "reading_lowest": 0.2497113466988559,
+   "reading_grade_level": 0.15797207935341662,
+   "learners_per_teacher": 16.145888594164457,
+   "learners_per_classroom": 16.35057862491491,
+   "levels": {
+    "low_emerging": 0.2497113466988559,
+    "high_emerging": 0.09698750918442321,
+    "developing": 0.13099611630103916,
+    "transitioning": 0.36433294846226516,
+    "at_grade_level": 0.15797207935341662
+   },
+   "schools": 195,
+   "learners_assessed": 9527.0,
+   "name": "Ilocos Sur"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 270.0,
+ "schools_above_region": 3,
+ "learners_in_schools_above_region": 123.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 80370512.0,
+   "FY 2023": 68658937.0,
+   "FY 2024": 72934013.0,
+   "FY 2025": 86409051.0,
+   "FY 2026": 98857540.0,
+   "FY 2027": 109674013.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "100533",
+   "school_name": "Bandril Elementary School",
+   "learners_assessed": 30.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4,
+    "reading_grade_level": 0.23333333333333334,
+    "learners_per_teacher": 17.5,
+    "learners_per_classroom": 17.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 8.424412213199052
+  },
+  {
+   "school_id": "501026",
+   "school_name": "Bantugo-Mission Integrated School",
+   "learners_assessed": 67.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3283582089552239,
+    "reading_grade_level": 0.07462686567164178,
+    "learners_per_teacher": 16.636363636363637,
+    "learners_per_classroom": 15.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 1.260233108721437
+  },
+  {
+   "school_id": "100535",
+   "school_name": "Cadacad Elementary School",
+   "learners_assessed": 8.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.25,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 8.6,
+    "learners_per_classroom": 8.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -6.575587786800952
+  },
+  {
+   "school_id": "100539",
+   "school_name": "Lapting Elementary School",
+   "learners_assessed": 26.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6923076923076923,
+    "reading_grade_level": 0.11538461538461539,
+    "learners_per_teacher": 21.5,
+    "learners_per_classroom": 17.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 37.655181443968274
+  },
+  {
+   "school_id": "100540",
+   "school_name": "Mapisi Primary School",
+   "learners_assessed": 11.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.09090909090909091,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 11.0,
+    "learners_per_classroom": 11.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -22.484678695891862
+  },
+  {
+   "school_id": "100541",
+   "school_name": "Nagbukel Central School",
+   "learners_assessed": 73.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2191780821917808,
+    "reading_grade_level": 0.1780821917808219,
+    "learners_per_teacher": 16.454545454545453,
+    "learners_per_classroom": 13.923076923076923
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.657779567622871
+  },
+  {
+   "school_id": "100552",
+   "school_name": "Tadao Elementary School",
+   "learners_assessed": 20.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 14.666666666666666,
+    "learners_per_classroom": 11.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  },
+  {
+   "school_id": "100553",
+   "school_name": "Taleb Elementary School",
+   "learners_assessed": 31.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.2903225806451613,
+    "learners_per_teacher": 18.0,
+    "learners_per_classroom": 18.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

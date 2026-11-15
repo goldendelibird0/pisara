@@ -1,0 +1,364 @@
+{
+ "locality_id": "bulacan-balagtas",
+ "name": "Balagtas",
+ "province": "Bulacan",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 12,
+ "schools_with_reading": 12,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2944281524926686,
+  "reading_grade_level": 0.16363636363636364,
+  "learners_per_teacher": 26.40066225165563,
+  "learners_per_classroom": 35.12334801762115,
+  "levels": {
+   "low_emerging": 0.2944281524926686,
+   "high_emerging": 0.1281524926686217,
+   "developing": 0.13343108504398826,
+   "transitioning": 0.28035190615835776,
+   "at_grade_level": 0.16363636363636364
+  },
+  "schools": 12,
+  "learners_assessed": 3410.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.23583928571428572,
+   "reading_grade_level": 0.20948214285714287,
+   "learners_per_teacher": 31.23419041000695,
+   "learners_per_classroom": 40.046926046926046,
+   "levels": {
+    "low_emerging": 0.23583928571428572,
+    "high_emerging": 0.11007142857142857,
+    "developing": 0.13914285714285715,
+    "transitioning": 0.3054642857142857,
+    "at_grade_level": 0.20948214285714287
+   },
+   "schools": 176,
+   "learners_assessed": 56000.0,
+   "name": "Bulacan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 3363.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 1583.0,
+ "schools_above_region_on_reading_and_classrooms": 4,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 257490580.0,
+   "FY 2023": 220328901.0,
+   "FY 2024": 234197125.0,
+   "FY 2025": 277991874.0,
+   "FY 2026": 323135975.0,
+   "FY 2027": 358491816.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "104730",
+   "school_name": "BOROL 2ND ELEMENTARY SCHOOL",
+   "learners_assessed": 186.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3602150537634409,
+    "reading_grade_level": 0.15591397849462366,
+    "learners_per_teacher": 27.625,
+    "learners_per_classroom": 29.466666666666665
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 7.191242624730377
+  },
+  {
+   "school_id": "104728",
+   "school_name": "Balagtas Central School",
+   "learners_assessed": 558.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3781362007168459,
+    "reading_grade_level": 0.16845878136200718,
+    "learners_per_teacher": 25.2,
+    "learners_per_classroom": 34.054054054054056
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 8.983357320070878
+  },
+  {
+   "school_id": "158543",
+   "school_name": "Balagtas Heights  Elementary School",
+   "learners_assessed": 261.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24521072796934865,
+    "reading_grade_level": 0.034482758620689655,
+    "learners_per_teacher": 28.0,
+    "learners_per_classroom": 66.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.309189954678846
+  },
+  {
+   "school_id": "104729",
+   "school_name": "Burol 1St ES",
+   "learners_assessed": 343.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3760932944606414,
+    "reading_grade_level": 0.029154518950437316,
+    "learners_per_teacher": 29.310344827586206,
+    "learners_per_classroom": 38.63636363636363
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 8.779066694450426
+  },
+  {
+   "school_id": "104731",
+   "school_name": "Dalig Elementary School",
+   "learners_assessed": 74.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5405405405405406,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 11.0,
+    "learners_per_classroom": 176.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 25.223791302440347
+  },
+  {
+   "school_id": "104732",
+   "school_name": "Francisco Balagtas Memorial School",
+   "learners_assessed": 346.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.23699421965317918,
+    "reading_grade_level": 0.15895953757225434,
+    "learners_per_teacher": 27.75862068965517,
+    "learners_per_classroom": 23.676470588235293
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.130840786295793
+  },
+  {
+   "school_id": "104733",
+   "school_name": "Longos ES",
+   "learners_assessed": 125.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.272,
+    "reading_grade_level": 0.088,
+    "learners_per_teacher": 25.0,
+    "learners_per_classroom": 25.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.6302627516137091
+  },
+  {
+   "school_id": "104734",
+   "school_name": "M.C. Rivera ES",
+   "learners_assessed": 422.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3104265402843602,
+    "reading_grade_level": 0.13033175355450238,
+    "learners_per_teacher": 31.6875,
+    "learners_per_classroom": 42.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.2123912768223066
+  },
+  {
+   "school_id": "158524",
+   "school_name": "Northville VI Elementary School",
+   "learners_assessed": 422.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2156398104265403,
+    "reading_grade_level": 0.28199052132701424,
+    "learners_per_teacher": 29.96969696969697,
+    "learners_per_classroom": 61.8125
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.266281708959682
+  },
+  {
+   "school_id": "158501",
+   "school_name": "San Juan ES",
+   "learners_assessed": 183.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.28415300546448086,
+    "reading_grade_level": 0.22950819672131148,
+    "learners_per_teacher": 25.6875,
+    "learners_per_classroom": 29.357142857142858
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.41496220516562543
+  },
+  {
+   "school_id": "104735",
+   "school_name": "Santol Elementary School",
+   "learners_assessed": 278.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2014388489208633,
+    "reading_grade_level": 0.2949640287769784,
+    "learners_per_teacher": 23.689655172413794,
+    "learners_per_classroom": 23.689655172413794
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -8.686377859527381
+  },
+  {
+   "school_id": "104736",
+   "school_name": "Sulok Elementary School",
+   "learners_assessed": 212.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.22169811320754718,
+    "reading_grade_level": 0.24528301886792453,
+    "learners_per_teacher": 24.1,
+    "learners_per_classroom": 34.42857142857143
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -6.660451430858993
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

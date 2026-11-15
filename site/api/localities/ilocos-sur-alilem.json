@@ -1,0 +1,383 @@
+{
+ "locality_id": "ilocos-sur-alilem",
+ "name": "Alilem",
+ "province": "Ilocos Sur",
+ "region": "Region I",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 14,
+ "schools_with_reading": 13,
+ "coverage": 0.9285714285714286,
+ "values": {
+  "reading_lowest": 0.16044776119402984,
+  "reading_grade_level": 0.20149253731343283,
+  "learners_per_teacher": 9.957142857142857,
+  "learners_per_classroom": 9.680555555555555,
+  "levels": {
+   "low_emerging": 0.16044776119402984,
+   "high_emerging": 0.04477611940298507,
+   "developing": 0.11940298507462686,
+   "transitioning": 0.47388059701492535,
+   "at_grade_level": 0.20149253731343283
+  },
+  "schools": 13,
+  "learners_assessed": 268.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.3157558778680095,
+   "reading_grade_level": 0.14203517855243095,
+   "learners_per_teacher": 20.621333928837277,
+   "learners_per_classroom": 23.124034911043974,
+   "levels": {
+    "low_emerging": 0.3157558778680095,
+    "high_emerging": 0.10175892762154687,
+    "developing": 0.12880775914039505,
+    "transitioning": 0.31164225681761765,
+    "at_grade_level": 0.14203517855243095
+   },
+   "schools": 1131,
+   "learners_assessed": 112796.0
+  },
+  "division": {
+   "reading_lowest": 0.2497113466988559,
+   "reading_grade_level": 0.15797207935341662,
+   "learners_per_teacher": 16.145888594164457,
+   "learners_per_classroom": 16.35057862491491,
+   "levels": {
+    "low_emerging": 0.2497113466988559,
+    "high_emerging": 0.09698750918442321,
+    "developing": 0.13099611630103916,
+    "transitioning": 0.36433294846226516,
+    "at_grade_level": 0.15797207935341662
+   },
+   "schools": 195,
+   "learners_assessed": 9527.0,
+   "name": "Ilocos Sur"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 269.0,
+ "schools_above_region": 2,
+ "learners_in_schools_above_region": 23.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 105948483.0,
+   "FY 2023": 90498790.0,
+   "FY 2024": 96125776.0,
+   "FY 2025": 113961188.0,
+   "FY 2026": 131896138.0,
+   "FY 2027": 146327521.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "100325",
+   "school_name": "Aguiwas Elementary School",
+   "learners_assessed": 5.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.2,
+    "reading_grade_level": 0.4,
+    "learners_per_teacher": 7.0,
+    "learners_per_classroom": 7.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -11.57558778680095
+  },
+  {
+   "school_id": "100326",
+   "school_name": "Alilem Central School",
+   "learners_assessed": 62.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24193548387096775,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 15.3,
+    "learners_per_classroom": 10.928571428571429
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.382039399704176
+  },
+  {
+   "school_id": "100327",
+   "school_name": "Amilongan Elementary School",
+   "learners_assessed": 34.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2647058823529412,
+    "reading_grade_level": 0.2647058823529412,
+    "learners_per_teacher": 10.714285714285714,
+    "learners_per_classroom": 8.333333333333334
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.104999551506833
+  },
+  {
+   "school_id": "100328",
+   "school_name": "Anaao Elementary School",
+   "learners_assessed": 31.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0967741935483871,
+    "reading_grade_level": 0.0967741935483871,
+    "learners_per_teacher": 10.333333333333334,
+    "learners_per_classroom": 9.3
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -21.898168431962244
+  },
+  {
+   "school_id": "100329",
+   "school_name": "Apang Elementary School",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.043478260869565216,
+    "reading_grade_level": 0.30434782608695654,
+    "learners_per_teacher": 8.571428571428571,
+    "learners_per_classroom": 10.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -27.227761699844432
+  },
+  {
+   "school_id": "100330",
+   "school_name": "Apaya Elementary School",
+   "learners_assessed": 16.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.875,
+    "learners_per_teacher": 13.0,
+    "learners_per_classroom": 13.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  },
+  {
+   "school_id": "100335",
+   "school_name": "Daddaay Elementary School",
+   "learners_assessed": 14.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.35714285714285715,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 9.5,
+    "learners_per_classroom": 9.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 4.138697927484763
+  },
+  {
+   "school_id": "150509",
+   "school_name": "Dagdag Elementary School",
+   "learners_assessed": 12.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.16666666666666666,
+    "reading_grade_level": 0.3333333333333333,
+    "learners_per_teacher": 7.75,
+    "learners_per_classroom": 15.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.908921120134286
+  },
+  {
+   "school_id": "100336",
+   "school_name": "Dalawa Elementary School",
+   "learners_assessed": 27.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.2962962962962963,
+    "learners_per_teacher": 11.4,
+    "learners_per_classroom": 8.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  },
+  {
+   "school_id": "100339",
+   "school_name": "Guilong Primary School",
+   "learners_assessed": 12.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.25,
+    "reading_grade_level": 0.08333333333333333,
+    "learners_per_teacher": 6.333333333333333,
+    "learners_per_classroom": 19.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -6.575587786800952
+  },
+  {
+   "school_id": "100338",
+   "school_name": "Kiat Elementary School",
+   "learners_assessed": 10.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.1,
+    "learners_per_teacher": 7.75,
+    "learners_per_classroom": 15.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  },
+  {
+   "school_id": "100342",
+   "school_name": "Naonao Elementary School",
+   "learners_assessed": 9.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.3333333333333333,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 5.75,
+    "learners_per_classroom": 11.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 1.75774554653238
+  },
+  {
+   "school_id": "100343",
+   "school_name": "Palasipas Elementary School",
+   "learners_assessed": 13.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.07692307692307693,
+    "reading_grade_level": 0.38461538461538464,
+    "learners_per_teacher": 7.333333333333333,
+    "learners_per_classroom": 5.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -23.88328009449326
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

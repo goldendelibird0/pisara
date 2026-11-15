@@ -1,0 +1,345 @@
+{
+ "locality_id": "abra-san-juan",
+ "name": "San Juan",
+ "province": "Abra",
+ "region": "CAR",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 11,
+ "schools_with_reading": 11,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.3370998116760829,
+  "reading_grade_level": 0.10546139359698682,
+  "learners_per_teacher": 17.706666666666667,
+  "learners_per_classroom": 17.025641025641026,
+  "levels": {
+   "low_emerging": 0.3370998116760829,
+   "high_emerging": 0.06779661016949153,
+   "developing": 0.1167608286252354,
+   "transitioning": 0.3728813559322034,
+   "at_grade_level": 0.10546139359698682
+  },
+  "schools": 11,
+  "learners_assessed": 531.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.27604556049078677,
+   "reading_grade_level": 0.13793482562997494,
+   "learners_per_teacher": 18.029458853666345,
+   "learners_per_classroom": 20.657438169066076,
+   "levels": {
+    "low_emerging": 0.27604556049078677,
+    "high_emerging": 0.1071507102335195,
+    "developing": 0.12038787985399534,
+    "transitioning": 0.3584810237917235,
+    "at_grade_level": 0.13793482562997494
+   },
+   "schools": 772,
+   "learners_assessed": 45478.0
+  },
+  "division": {
+   "reading_lowest": 0.34713622291021673,
+   "reading_grade_level": 0.13944788441692466,
+   "learners_per_teacher": 14.817424242424243,
+   "learners_per_classroom": 17.206743566992014,
+   "levels": {
+    "low_emerging": 0.34713622291021673,
+    "high_emerging": 0.09004127966976264,
+    "developing": 0.12396800825593396,
+    "transitioning": 0.299406604747162,
+    "at_grade_level": 0.13944788441692466
+   },
+   "schools": 195,
+   "learners_assessed": 7752.0,
+   "name": "Abra"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 554.0,
+ "schools_above_region": 8,
+ "learners_in_schools_above_region": 308.0,
+ "schools_above_region_on_reading_and_classrooms": 2,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 99302336.0,
+   "FY 2023": 84852409.0,
+   "FY 2024": 90143256.0,
+   "FY 2025": 106853871.0,
+   "FY 2026": 122506519.0,
+   "FY 2027": 135910539.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "135197",
+   "school_name": "Alimosgan ES",
+   "learners_assessed": 58.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4482758620689655,
+    "reading_grade_level": 0.1206896551724138,
+    "learners_per_teacher": 15.875,
+    "learners_per_classroom": 14.11111111111111
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 17.223030157817874
+  },
+  {
+   "school_id": "135201",
+   "school_name": "Baug PS",
+   "learners_assessed": 7.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.42857142857142855,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 34.333333333333336,
+    "learners_per_classroom": 25.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 15.252586808064178
+  },
+  {
+   "school_id": "135204",
+   "school_name": "Cabcaburao ES",
+   "learners_assessed": 64.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.34375,
+    "reading_grade_level": 0.046875,
+    "learners_per_teacher": 21.142857142857142,
+    "learners_per_classroom": 21.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 6.770443950921323
+  },
+  {
+   "school_id": "135207",
+   "school_name": "Colabaoan PS",
+   "learners_assessed": 14.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.35714285714285715,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 27.0,
+    "learners_per_classroom": 13.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 8.109729665207038
+  },
+  {
+   "school_id": "135209",
+   "school_name": "Daoidao ES",
+   "learners_assessed": 53.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24528301886792453,
+    "reading_grade_level": 0.18867924528301888,
+    "learners_per_teacher": 17.857142857142858,
+    "learners_per_classroom": 15.625
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.076254162286224
+  },
+  {
+   "school_id": "135213",
+   "school_name": "Lam-Ag ES",
+   "learners_assessed": 62.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0967741935483871,
+    "reading_grade_level": 0.12903225806451613,
+    "learners_per_teacher": 16.636363636363637,
+    "learners_per_classroom": 16.636363636363637
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.927136694239966
+  },
+  {
+   "school_id": "135218",
+   "school_name": "Nangobongan PS",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6521739130434783,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 12.333333333333334,
+    "learners_per_classroom": 12.333333333333334
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 37.61283525526915
+  },
+  {
+   "school_id": "135221",
+   "school_name": "Quidaoen ES",
+   "learners_assessed": 38.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4473684210526316,
+    "reading_grade_level": 0.15789473684210525,
+    "learners_per_teacher": 11.75,
+    "learners_per_classroom": 10.444444444444445
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 17.13228605618448
+  },
+  {
+   "school_id": "135223",
+   "school_name": "San Juan CS",
+   "learners_assessed": 108.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24074074074074073,
+    "reading_grade_level": 0.1388888888888889,
+    "learners_per_teacher": 21.5,
+    "learners_per_classroom": 23.454545454545453
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -3.530481975004604
+  },
+  {
+   "school_id": "135224",
+   "school_name": "Silet ES",
+   "learners_assessed": 41.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3902439024390244,
+    "reading_grade_level": 0.04878048780487805,
+    "learners_per_teacher": 13.285714285714286,
+    "learners_per_classroom": 13.285714285714286
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 11.419834194823764
+  },
+  {
+   "school_id": "135225",
+   "school_name": "Supiil ES",
+   "learners_assessed": 63.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.47619047619047616,
+    "reading_grade_level": 0.07936507936507936,
+    "learners_per_teacher": 16.625,
+    "learners_per_classroom": 19.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 20.01449156996894
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

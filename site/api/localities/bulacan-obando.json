@@ -1,0 +1,307 @@
+{
+ "locality_id": "bulacan-obando",
+ "name": "Obando",
+ "province": "Bulacan",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 9,
+ "schools_with_reading": 9,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2358974358974359,
+  "reading_grade_level": 0.3128205128205128,
+  "learners_per_teacher": 23.63888888888889,
+  "learners_per_classroom": 27.99342105263158,
+  "levels": {
+   "low_emerging": 0.2358974358974359,
+   "high_emerging": 0.14301994301994303,
+   "developing": 0.1037037037037037,
+   "transitioning": 0.20455840455840457,
+   "at_grade_level": 0.3128205128205128
+  },
+  "schools": 9,
+  "learners_assessed": 1755.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.23583928571428572,
+   "reading_grade_level": 0.20948214285714287,
+   "learners_per_teacher": 31.23419041000695,
+   "learners_per_classroom": 40.046926046926046,
+   "levels": {
+    "low_emerging": 0.23583928571428572,
+    "high_emerging": 0.11007142857142857,
+    "developing": 0.13914285714285715,
+    "transitioning": 0.3054642857142857,
+    "at_grade_level": 0.20948214285714287
+   },
+   "schools": 176,
+   "learners_assessed": 56000.0,
+   "name": "Bulacan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 1754.0,
+ "schools_above_region": 3,
+ "learners_in_schools_above_region": 442.0,
+ "schools_above_region_on_reading_and_classrooms": 1,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 220762723.0,
+   "FY 2023": 188862001.0,
+   "FY 2024": 200732247.0,
+   "FY 2025": 238235132.0,
+   "FY 2026": 272443862.0,
+   "FY 2027": 302253239.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "104961",
+   "school_name": "Binuangan ES",
+   "learners_assessed": 209.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15311004784688995,
+    "reading_grade_level": 0.19617224880382775,
+    "learners_per_teacher": 24.666666666666668,
+    "learners_per_classroom": 172.66666666666666
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -13.519257966924716
+  },
+  {
+   "school_id": "104962",
+   "school_name": "Catanghalan ES",
+   "learners_assessed": 111.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15315315315315314,
+    "reading_grade_level": 0.4774774774774775,
+    "learners_per_teacher": 24.09090909090909,
+    "learners_per_classroom": 26.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -13.514947436298396
+  },
+  {
+   "school_id": "104963",
+   "school_name": "LAWA ELEMENTARY SCHOOL",
+   "learners_assessed": 55.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2909090909090909,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 16.875,
+    "learners_per_classroom": 12.272727272727273
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.2606463392953784
+  },
+  {
+   "school_id": "104964",
+   "school_name": "Obando Central School",
+   "learners_assessed": 406.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.23891625615763548,
+    "reading_grade_level": 0.25862068965517243,
+    "learners_per_teacher": 19.0,
+    "learners_per_classroom": 23.170731707317074
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -4.938637135850163
+  },
+  {
+   "school_id": "104965",
+   "school_name": "Paco Elementary School",
+   "learners_assessed": 316.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2689873417721519,
+    "reading_grade_level": 0.35443037974683544,
+    "learners_per_teacher": 26.533333333333335,
+    "learners_per_classroom": 23.41176470588235
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.9315285743985222
+  },
+  {
+   "school_id": "104966",
+   "school_name": "Panghulo Elementary School",
+   "learners_assessed": 192.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15104166666666666,
+    "reading_grade_level": 0.28125,
+    "learners_per_teacher": 24.105263157894736,
+    "learners_per_classroom": 26.941176470588236
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -13.726096084947045
+  },
+  {
+   "school_id": "158530",
+   "school_name": "Salambao Elementary School",
+   "learners_assessed": 79.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.26582278481012656,
+    "reading_grade_level": 0.20253164556962025,
+    "learners_per_teacher": 21.11111111111111,
+    "learners_per_classroom": 38.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -2.2479842706010555
+  },
+  {
+   "school_id": "104967",
+   "school_name": "San Pascual ES",
+   "learners_assessed": 306.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3006535947712418,
+    "reading_grade_level": 0.5130718954248366,
+    "learners_per_teacher": 31.375,
+    "learners_per_classroom": 34.22727272727273
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 1.2350967255104706
+  },
+  {
+   "school_id": "104968",
+   "school_name": "Tawiran Elementary School",
+   "learners_assessed": 81.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.30864197530864196,
+    "reading_grade_level": 0.13580246913580246,
+    "learners_per_teacher": 23.75,
+    "learners_per_classroom": 21.11111111111111
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 2.033934779250485
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

@@ -1,0 +1,307 @@
+{
+ "locality_id": "bataan-morong",
+ "name": "Morong",
+ "province": "Bataan",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 9,
+ "schools_with_reading": 9,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.341332027424094,
+  "reading_grade_level": 0.0930460333006856,
+  "learners_per_teacher": 27.9375,
+  "learners_per_classroom": 34.38461538461539,
+  "levels": {
+   "low_emerging": 0.341332027424094,
+   "high_emerging": 0.07982370225269343,
+   "developing": 0.1851126346718903,
+   "transitioning": 0.3006856023506366,
+   "at_grade_level": 0.0930460333006856
+  },
+  "schools": 9,
+  "learners_assessed": 2042.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.3236503515055047,
+   "reading_grade_level": 0.1243533625149224,
+   "learners_per_teacher": 28.34090909090909,
+   "learners_per_classroom": 31.201000834028356,
+   "levels": {
+    "low_emerging": 0.3236503515055047,
+    "high_emerging": 0.07971879559623292,
+    "developing": 0.15525931821196445,
+    "transitioning": 0.3170181721713755,
+    "at_grade_level": 0.1243533625149224
+   },
+   "schools": 71,
+   "learners_assessed": 15078.0,
+   "name": "Bataan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 2228.0,
+ "schools_above_region": 6,
+ "learners_in_schools_above_region": 1367.0,
+ "schools_above_region_on_reading_and_classrooms": 4,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 204116783.0,
+   "FY 2023": 174474830.0,
+   "FY 2024": 185372716.0,
+   "FY 2025": 219987795.0,
+   "FY 2026": 255370443.0,
+   "FY 2027": 283311736.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "104650",
+   "school_name": "Binaritan ES",
+   "learners_assessed": 240.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.36666666666666664,
+    "reading_grade_level": 0.23333333333333334,
+    "learners_per_teacher": 29.842105263157894,
+    "learners_per_classroom": 47.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 7.836403915052953
+  },
+  {
+   "school_id": "104656",
+   "school_name": "Facundo Angeles MES",
+   "learners_assessed": 218.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.38073394495412843,
+    "reading_grade_level": 0.0779816513761468,
+    "learners_per_teacher": 28.3,
+    "learners_per_classroom": 35.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 9.243131743799132
+  },
+  {
+   "school_id": "104651",
+   "school_name": "Kanawan Integrated School",
+   "learners_assessed": 98.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3673469387755102,
+    "reading_grade_level": 0.02040816326530612,
+    "learners_per_teacher": 19.90909090909091,
+    "learners_per_classroom": 27.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 7.904431125937311
+  },
+  {
+   "school_id": "104652",
+   "school_name": "Mabayo ES",
+   "learners_assessed": 291.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2646048109965636,
+    "reading_grade_level": 0.16838487972508592,
+    "learners_per_teacher": 32.61904761904762,
+    "learners_per_classroom": 38.05555555555556
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -2.3697816519573536
+  },
+  {
+   "school_id": "104653",
+   "school_name": "Minanga ES",
+   "learners_assessed": 118.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2711864406779661,
+    "reading_grade_level": 0.1271186440677966,
+    "learners_per_teacher": 24.6,
+    "learners_per_classroom": 27.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.711618683817101
+  },
+  {
+   "school_id": "104654",
+   "school_name": "Morong ES",
+   "learners_assessed": 470.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.42127659574468085,
+    "reading_grade_level": 0.01702127659574468,
+    "learners_per_teacher": 28.24137931034483,
+    "learners_per_classroom": 34.851063829787236
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 13.297396822854374
+  },
+  {
+   "school_id": "104655",
+   "school_name": "Nagbalayong ES",
+   "learners_assessed": 266.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.22932330827067668,
+    "reading_grade_level": 0.06766917293233082,
+    "learners_per_teacher": 29.391304347826086,
+    "learners_per_classroom": 29.391304347826086
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.897931924546043
+  },
+  {
+   "school_id": "158007",
+   "school_name": "Panibatuhan ES",
+   "learners_assessed": 239.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3389121338912134,
+    "reading_grade_level": 0.058577405857740586,
+    "learners_per_teacher": 26.789473684210527,
+    "learners_per_classroom": 50.9
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 5.060950637507627
+  },
+  {
+   "school_id": "501331",
+   "school_name": "Sampaloc Integrated School",
+   "learners_assessed": 102.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4019607843137255,
+    "reading_grade_level": 0.10784313725490197,
+    "learners_per_teacher": 23.454545454545453,
+    "learners_per_classroom": 19.846153846153847
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 11.365815679758839
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

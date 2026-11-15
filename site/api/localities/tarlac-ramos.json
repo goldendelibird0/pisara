@@ -1,0 +1,288 @@
+{
+ "locality_id": "tarlac-ramos",
+ "name": "Ramos",
+ "province": "Tarlac",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 8,
+ "schools_with_reading": 8,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.26440329218106995,
+  "reading_grade_level": 0.2602880658436214,
+  "learners_per_teacher": 23.827272727272728,
+  "learners_per_classroom": 37.98550724637681,
+  "levels": {
+   "low_emerging": 0.26440329218106995,
+   "high_emerging": 0.10390946502057613,
+   "developing": 0.1183127572016461,
+   "transitioning": 0.25308641975308643,
+   "at_grade_level": 0.2602880658436214
+  },
+  "schools": 8,
+  "learners_assessed": 972.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.28343710271538936,
+   "reading_grade_level": 0.21651400071714966,
+   "learners_per_teacher": 26.24146014735432,
+   "learners_per_classroom": 32.43236514522822,
+   "levels": {
+    "low_emerging": 0.28343710271538936,
+    "high_emerging": 0.0888287642207517,
+    "developing": 0.1319881344329628,
+    "transitioning": 0.2792319979137465,
+    "at_grade_level": 0.21651400071714966
+   },
+   "schools": 221,
+   "learners_assessed": 30677.0,
+   "name": "Tarlac"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 1033.0,
+ "schools_above_region": 2,
+ "learners_in_schools_above_region": 400.0,
+ "schools_above_region_on_reading_and_classrooms": 2,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 119331769.0,
+   "FY 2023": 102034388.0,
+   "FY 2024": 108426314.0,
+   "FY 2025": 128574398.0,
+   "FY 2026": 148973397.0,
+   "FY 2027": 165273284.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "106607",
+   "school_name": "Coral ES",
+   "learners_assessed": 94.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.23404255319148937,
+    "reading_grade_level": 0.13829787234042554,
+    "learners_per_teacher": 25.214285714285715,
+    "learners_per_classroom": 29.416666666666668
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.4260074324647745
+  },
+  {
+   "school_id": "106608",
+   "school_name": "Guiteb ES",
+   "learners_assessed": 153.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3660130718954248,
+    "reading_grade_level": 0.2549019607843137,
+    "learners_per_teacher": 27.933333333333334,
+    "learners_per_classroom": 46.55555555555556
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 7.77104443792877
+  },
+  {
+   "school_id": "106609",
+   "school_name": "Pance ES",
+   "learners_assessed": 232.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.25862068965517243,
+    "reading_grade_level": 0.09482758620689655,
+    "learners_per_teacher": 28.5,
+    "learners_per_classroom": 52.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -2.9681937860964682
+  },
+  {
+   "school_id": "106610",
+   "school_name": "Ramos CS",
+   "learners_assessed": 247.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3117408906882591,
+    "reading_grade_level": 0.3805668016194332,
+    "learners_per_teacher": 22.846153846153847,
+    "learners_per_classroom": 118.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.3438263172121996
+  },
+  {
+   "school_id": "502347",
+   "school_name": "San Juan Integrated School",
+   "learners_assessed": 38.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21052631578947367,
+    "reading_grade_level": 0.39473684210526316,
+    "learners_per_teacher": 12.444444444444445,
+    "learners_per_classroom": 12.444444444444445
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.777631172666344
+  },
+  {
+   "school_id": "106612",
+   "school_name": "San Raymundo ES",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1388888888888889,
+    "reading_grade_level": 0.3194444444444444,
+    "learners_per_teacher": 22.428571428571427,
+    "learners_per_classroom": 22.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.941373862724822
+  },
+  {
+   "school_id": "106613",
+   "school_name": "Serrano ES",
+   "learners_assessed": 25.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.12,
+    "reading_grade_level": 0.28,
+    "learners_per_teacher": 17.0,
+    "learners_per_classroom": 68.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -16.830262751613713
+  },
+  {
+   "school_id": "502346",
+   "school_name": "Toledo Integrated School",
+   "learners_assessed": 111.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1891891891891892,
+    "reading_grade_level": 0.36036036036036034,
+    "learners_per_teacher": 22.384615384615383,
+    "learners_per_classroom": 20.785714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.911343832694792
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

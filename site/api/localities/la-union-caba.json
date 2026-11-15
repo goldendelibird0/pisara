@@ -1,0 +1,326 @@
+{
+ "locality_id": "la-union-caba",
+ "name": "Caba",
+ "province": "La Union",
+ "region": "Region I",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 10,
+ "schools_with_reading": 10,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.3355263157894737,
+  "reading_grade_level": 0.09868421052631579,
+  "learners_per_teacher": 19.228813559322035,
+  "learners_per_classroom": 23.88421052631579,
+  "levels": {
+   "low_emerging": 0.3355263157894737,
+   "high_emerging": 0.11732456140350878,
+   "developing": 0.08771929824561403,
+   "transitioning": 0.3607456140350877,
+   "at_grade_level": 0.09868421052631579
+  },
+  "schools": 10,
+  "learners_assessed": 912.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.3157558778680095,
+   "reading_grade_level": 0.14203517855243095,
+   "learners_per_teacher": 20.621333928837277,
+   "learners_per_classroom": 23.124034911043974,
+   "levels": {
+    "low_emerging": 0.3157558778680095,
+    "high_emerging": 0.10175892762154687,
+    "developing": 0.12880775914039505,
+    "transitioning": 0.31164225681761765,
+    "at_grade_level": 0.14203517855243095
+   },
+   "schools": 1131,
+   "learners_assessed": 112796.0
+  },
+  "division": {
+   "reading_lowest": 0.31314142678347934,
+   "reading_grade_level": 0.1276595744680851,
+   "learners_per_teacher": 18.993882352941178,
+   "learners_per_classroom": 22.675280898876405,
+   "levels": {
+    "low_emerging": 0.31314142678347934,
+    "high_emerging": 0.10469336670838549,
+    "developing": 0.1379224030037547,
+    "transitioning": 0.3165832290362954,
+    "at_grade_level": 0.1276595744680851
+   },
+   "schools": 175,
+   "learners_assessed": 15980.0,
+   "name": "La Union"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 903.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 656.0,
+ "schools_above_region_on_reading_and_classrooms": 1,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 125913287.0,
+   "FY 2023": 107652196.0,
+   "FY 2024": 114391002.0,
+   "FY 2025": 135660531.0,
+   "FY 2026": 155238003.0,
+   "FY 2027": 172223331.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "100940",
+   "school_name": "Caba CES",
+   "learners_assessed": 347.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3371757925072046,
+    "reading_grade_level": 0.043227665706051875,
+    "learners_per_teacher": 27.29032258064516,
+    "learners_per_classroom": 44.526315789473685
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.1419914639195072
+  },
+  {
+   "school_id": "100941",
+   "school_name": "Doña Antonia Maglaya ES",
+   "learners_assessed": 31.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.25806451612903225,
+    "reading_grade_level": 0.1935483870967742,
+    "learners_per_teacher": 8.555555555555555,
+    "learners_per_classroom": 9.625
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.769136173897726
+  },
+  {
+   "school_id": "100942",
+   "school_name": "Labbon ES",
+   "learners_assessed": 36.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4166666666666667,
+    "reading_grade_level": 0.08333333333333333,
+    "learners_per_teacher": 12.857142857142858,
+    "learners_per_classroom": 12.857142857142858
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 10.091078879865718
+  },
+  {
+   "school_id": "500357",
+   "school_name": "Liquicia Integrated School",
+   "learners_assessed": 66.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.7424242424242424,
+    "reading_grade_level": 0.015151515151515152,
+    "learners_per_teacher": 19.714285714285715,
+    "learners_per_classroom": 19.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 42.66683645562329
+  },
+  {
+   "school_id": "100944",
+   "school_name": "San Carlos ES",
+   "learners_assessed": 49.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.22448979591836735,
+    "reading_grade_level": 0.16326530612244897,
+    "learners_per_teacher": 13.2,
+    "learners_per_classroom": 18.857142857142858
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.126608194964216
+  },
+  {
+   "school_id": "100945",
+   "school_name": "San Cornelio ES",
+   "learners_assessed": 47.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.10638297872340426,
+    "reading_grade_level": 0.2127659574468085,
+    "learners_per_teacher": 13.333333333333334,
+    "learners_per_classroom": 17.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -20.93728991446053
+  },
+  {
+   "school_id": "100946",
+   "school_name": "San Gregorio ES",
+   "learners_assessed": 42.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2619047619047619,
+    "reading_grade_level": 0.11904761904761904,
+    "learners_per_teacher": 11.3,
+    "learners_per_classroom": 16.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.3851115963247596
+  },
+  {
+   "school_id": "100947",
+   "school_name": "San Jose ES",
+   "learners_assessed": 87.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13793103448275862,
+    "reading_grade_level": 0.3218390804597701,
+    "learners_per_teacher": 20.692307692307693,
+    "learners_per_classroom": 24.454545454545453
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -17.78248433852509
+  },
+  {
+   "school_id": "500362",
+   "school_name": "Santiago Sur Integrated School",
+   "learners_assessed": 109.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.41284403669724773,
+    "reading_grade_level": 0.045871559633027525,
+    "learners_per_teacher": 24.454545454545453,
+    "learners_per_classroom": 22.416666666666668
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 9.70881588292382
+  },
+  {
+   "school_id": "100949",
+   "school_name": "Wenceslao Elementary School",
+   "learners_assessed": 98.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.336734693877551,
+    "reading_grade_level": 0.09183673469387756,
+    "learners_per_teacher": 19.545454545454547,
+    "learners_per_classroom": 21.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 2.0978816009541488
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

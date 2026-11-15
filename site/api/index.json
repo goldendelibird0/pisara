@@ -1,0 +1,2461 @@
+{
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM.",
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "sources": [
+  {
+   "id": "crla",
+   "title": "Comprehensive Rapid Literacy Assessment (CRLA)",
+   "publisher": "Department of Education, Project Bukas",
+   "period": "SY 2025-26",
+   "key": "school_id",
+   "licence": "DepEd Terms of Use and Fair Use Policy",
+   "url": "https://www.deped.gov.ph/wp-content/uploads/Comprehensive-Rapid-Literacy-Assessment-CRLA-2025-2026.zip",
+   "status": "connected",
+   "needs": null,
+   "file": "Comprehensive-Rapid-Literacy-Assessment-CRLA-2025-2026.zip",
+   "bytes": 358942,
+   "sha256": "e7237e424a46da3bdea74a1f6c738aa162c072a649c32a70a3c6d72f02a555c6",
+   "retrieved": "2026-11-15"
+  },
+  {
+   "id": "enrollment_2025_2026",
+   "title": "Enrollment",
+   "publisher": "Department of Education, Project Bukas",
+   "period": "SY 2025-26",
+   "key": "school_id",
+   "licence": "DepEd Terms of Use and Fair Use Policy",
+   "url": "https://www.deped.gov.ph/wp-content/uploads/Enrollment-in-SY-2025-2026.zip",
+   "status": "connected",
+   "needs": null,
+   "file": "Enrollment-in-SY-2025-2026.zip",
+   "bytes": 2981421,
+   "sha256": "ab4d7e24b3a46a99db2c76dee5279a976e4c3a76062e79f7217e70dc6dd1b450",
+   "retrieved": "2026-11-15"
+  },
+  {
+   "id": "personnel_2023_2024",
+   "title": "School Personnel",
+   "publisher": "Department of Education, Project Bukas",
+   "period": "SY 2023-24",
+   "key": "school_id",
+   "licence": "DepEd Terms of Use and Fair Use Policy",
+   "url": "https://www.deped.gov.ph/wp-content/uploads/School-Personnel-in-SY-2023-2024.zip",
+   "status": "connected",
+   "needs": null,
+   "file": "School-Personnel-in-SY-2023-2024.zip",
+   "bytes": 782129,
+   "sha256": "9d1e5adfc33d67244f0d1a796f1b8b1930f5704eadf9f901008da68d7764a817",
+   "retrieved": "2026-11-15"
+  },
+  {
+   "id": "facilities_2023_2024",
+   "title": "School Facilities",
+   "publisher": "Department of Education, Project Bukas",
+   "period": "SY 2023-24",
+   "key": "school_id",
+   "licence": "DepEd Terms of Use and Fair Use Policy",
+   "url": "https://www.deped.gov.ph/wp-content/uploads/School-Facilities-in-SY-2023-2024.zip",
+   "status": "connected",
+   "needs": null,
+   "file": "School-Facilities-in-SY-2023-2024.zip",
+   "bytes": 757576,
+   "sha256": "9317af02b595d3a8d7381715780ef183a92da35354bbe0f3796045490e546609",
+   "retrieved": "2026-11-15"
+  },
+  {
+   "id": "compass_nta",
+   "title": "National Tax Allotment shares",
+   "publisher": "DBM COMPASS (public export)",
+   "period": "FY 2022 to FY 2027",
+   "key": "region + province + city or municipality name",
+   "licence": "Public government data",
+   "url": "https://api.compass.gov.ph/api/v1/public/nta/export?fy=2027",
+   "status": "connected",
+   "needs": null,
+   "file": "nta_export_2027.xlsx",
+   "bytes": 25910972,
+   "sha256": "18a9806fcfd4dcf10ea28769471f87f3de6ffedb8ffefc0175d1e4612a0f481f",
+   "retrieved": "2026-11-15"
+  },
+  {
+   "id": "compass_saaodb",
+   "title": "DepEd appropriations, allotments, obligations and disbursements",
+   "publisher": "DBM COMPASS API",
+   "period": "FY 2022 to FY 2026",
+   "key": "UACS department and agency code",
+   "licence": "Public government data",
+   "url": "https://api.compass.gov.ph/api/v1/records/saaodb",
+   "status": "planned",
+   "needs": "COMPASS API key"
+  },
+  {
+   "id": "compass_psgc",
+   "title": "10-digit PSGC codes for cities and municipalities",
+   "publisher": "DBM COMPASS API (NTA records)",
+   "period": "FY 2027",
+   "key": "psgcCode",
+   "licence": "Public government data",
+   "url": "https://api.compass.gov.ph/api/v1/records/nta",
+   "status": "planned",
+   "needs": "COMPASS API key"
+  },
+  {
+   "id": "sef_report",
+   "title": "Special Education Fund utilization report",
+   "publisher": "Local government, under DepEd-DBM-DILG Joint Circular No. 1 s. 2017",
+   "period": "Quarterly",
+   "key": "city or municipality",
+   "licence": "Local government disclosure",
+   "url": null,
+   "status": "planned",
+   "needs": "A pilot local government's quarterly SEF report"
+  }
+ ],
+ "localities": [
+  {
+   "locality_id": "ilocos-norte-bacarra",
+   "name": "Bacarra",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.38785834738617203,
+   "json": "api/localities/ilocos-norte-bacarra.json",
+   "brief": "briefs/ilocos-norte-bacarra.html"
+  },
+  {
+   "locality_id": "ilocos-norte-badoc",
+   "name": "Badoc",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.4110032362459547,
+   "json": "api/localities/ilocos-norte-badoc.json",
+   "brief": "briefs/ilocos-norte-badoc.html"
+  },
+  {
+   "locality_id": "ilocos-norte-banna",
+   "name": "Banna",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.4123287671232877,
+   "json": "api/localities/ilocos-norte-banna.json",
+   "brief": "briefs/ilocos-norte-banna.html"
+  },
+  {
+   "locality_id": "ilocos-norte-currimao",
+   "name": "Currimao",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.5112474437627812,
+   "json": "api/localities/ilocos-norte-currimao.json",
+   "brief": "briefs/ilocos-norte-currimao.html"
+  },
+  {
+   "locality_id": "ilocos-norte-dingras",
+   "name": "Dingras",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.4169514695830485,
+   "json": "api/localities/ilocos-norte-dingras.json",
+   "brief": "briefs/ilocos-norte-dingras.html"
+  },
+  {
+   "locality_id": "ilocos-norte-sarrat",
+   "name": "Sarrat",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.3626882966396292,
+   "json": "api/localities/ilocos-norte-sarrat.json",
+   "brief": "briefs/ilocos-norte-sarrat.html"
+  },
+  {
+   "locality_id": "ilocos-sur-alilem",
+   "name": "Alilem",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.16044776119402984,
+   "json": "api/localities/ilocos-sur-alilem.json",
+   "brief": "briefs/ilocos-sur-alilem.html"
+  },
+  {
+   "locality_id": "ilocos-sur-sugpon",
+   "name": "Sugpon",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.16201117318435754,
+   "json": "api/localities/ilocos-sur-sugpon.json",
+   "brief": "briefs/ilocos-sur-sugpon.html"
+  },
+  {
+   "locality_id": "ilocos-sur-lidlidda",
+   "name": "Lidlidda",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.28289473684210525,
+   "json": "api/localities/ilocos-sur-lidlidda.json",
+   "brief": "briefs/ilocos-sur-lidlidda.html"
+  },
+  {
+   "locality_id": "ilocos-sur-san-emilio",
+   "name": "San Emilio",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.13114754098360656,
+   "json": "api/localities/ilocos-sur-san-emilio.json",
+   "brief": "briefs/ilocos-sur-san-emilio.html"
+  },
+  {
+   "locality_id": "ilocos-sur-cervantes",
+   "name": "Cervantes",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.37142857142857144,
+   "json": "api/localities/ilocos-sur-cervantes.json",
+   "brief": "briefs/ilocos-sur-cervantes.html"
+  },
+  {
+   "locality_id": "ilocos-sur-burgos",
+   "name": "Burgos",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.23044397463002114,
+   "json": "api/localities/ilocos-sur-burgos.json",
+   "brief": "briefs/ilocos-sur-burgos.html"
+  },
+  {
+   "locality_id": "ilocos-sur-cabugao",
+   "name": "Cabugao",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.24647490129723632,
+   "json": "api/localities/ilocos-sur-cabugao.json",
+   "brief": "briefs/ilocos-sur-cabugao.html"
+  },
+  {
+   "locality_id": "ilocos-sur-magsingal",
+   "name": "Magsingal",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.2645705521472393,
+   "json": "api/localities/ilocos-sur-magsingal.json",
+   "brief": "briefs/ilocos-sur-magsingal.html"
+  },
+  {
+   "locality_id": "ilocos-sur-nagbukel",
+   "name": "Nagbukel",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.2669172932330827,
+   "json": "api/localities/ilocos-sur-nagbukel.json",
+   "brief": "briefs/ilocos-sur-nagbukel.html"
+  },
+  {
+   "locality_id": "ilocos-sur-galimuyod",
+   "name": "Galimuyod",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.2754098360655738,
+   "json": "api/localities/ilocos-sur-galimuyod.json",
+   "brief": "briefs/ilocos-sur-galimuyod.html"
+  },
+  {
+   "locality_id": "ilocos-sur-sinait",
+   "name": "Sinait",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.24275724275724275,
+   "json": "api/localities/ilocos-sur-sinait.json",
+   "brief": "briefs/ilocos-sur-sinait.html"
+  },
+  {
+   "locality_id": "ilocos-sur-santa-catalina",
+   "name": "Santa Catalina",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.188470066518847,
+   "json": "api/localities/ilocos-sur-santa-catalina.json",
+   "brief": "briefs/ilocos-sur-santa-catalina.html"
+  },
+  {
+   "locality_id": "ilocos-sur-santa-lucia",
+   "name": "Santa Lucia",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.25026511134676566,
+   "json": "api/localities/ilocos-sur-santa-lucia.json",
+   "brief": "briefs/ilocos-sur-santa-lucia.html"
+  },
+  {
+   "locality_id": "ilocos-sur-santo-domingo",
+   "name": "Santo Domingo",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.24677716390423574,
+   "json": "api/localities/ilocos-sur-santo-domingo.json",
+   "brief": "briefs/ilocos-sur-santo-domingo.html"
+  },
+  {
+   "locality_id": "la-union-agoo",
+   "name": "Agoo",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.31617378605330415,
+   "json": "api/localities/la-union-agoo.json",
+   "brief": "briefs/la-union-agoo.html"
+  },
+  {
+   "locality_id": "la-union-bacnotan",
+   "name": "Bacnotan",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.3092926490984743,
+   "json": "api/localities/la-union-bacnotan.json",
+   "brief": "briefs/la-union-bacnotan.html"
+  },
+  {
+   "locality_id": "la-union-bagulin",
+   "name": "Bagulin",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.24552845528455283,
+   "json": "api/localities/la-union-bagulin.json",
+   "brief": "briefs/la-union-bagulin.html"
+  },
+  {
+   "locality_id": "la-union-balaoan",
+   "name": "Balaoan",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.32432432432432434,
+   "json": "api/localities/la-union-balaoan.json",
+   "brief": "briefs/la-union-balaoan.html"
+  },
+  {
+   "locality_id": "la-union-bangar",
+   "name": "Bangar",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.21724598930481284,
+   "json": "api/localities/la-union-bangar.json",
+   "brief": "briefs/la-union-bangar.html"
+  },
+  {
+   "locality_id": "la-union-bauang",
+   "name": "Bauang",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.40406874780778673,
+   "json": "api/localities/la-union-bauang.json",
+   "brief": "briefs/la-union-bauang.html"
+  },
+  {
+   "locality_id": "la-union-burgos",
+   "name": "Burgos",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.16714697406340057,
+   "json": "api/localities/la-union-burgos.json",
+   "brief": "briefs/la-union-burgos.html"
+  },
+  {
+   "locality_id": "la-union-caba",
+   "name": "Caba",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.3355263157894737,
+   "json": "api/localities/la-union-caba.json",
+   "brief": "briefs/la-union-caba.html"
+  },
+  {
+   "locality_id": "la-union-luna",
+   "name": "Luna",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.22664015904572565,
+   "json": "api/localities/la-union-luna.json",
+   "brief": "briefs/la-union-luna.html"
+  },
+  {
+   "locality_id": "la-union-rosario",
+   "name": "Rosario",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.3339676498572788,
+   "json": "api/localities/la-union-rosario.json",
+   "brief": "briefs/la-union-rosario.html"
+  },
+  {
+   "locality_id": "la-union-santol",
+   "name": "Santol",
+   "province": "La Union",
+   "region": "Region I",
+   "reading_lowest": 0.35650623885918004,
+   "json": "api/localities/la-union-santol.json",
+   "brief": "briefs/la-union-santol.html"
+  },
+  {
+   "locality_id": "pangasinan-aguilar",
+   "name": "Aguilar",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.3969465648854962,
+   "json": "api/localities/pangasinan-aguilar.json",
+   "brief": "briefs/pangasinan-aguilar.html"
+  },
+  {
+   "locality_id": "pangasinan-bayambang",
+   "name": "Bayambang",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.23163664839467502,
+   "json": "api/localities/pangasinan-bayambang.json",
+   "brief": "briefs/pangasinan-bayambang.html"
+  },
+  {
+   "locality_id": "pangasinan-binmaley",
+   "name": "Binmaley",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.2734785875281743,
+   "json": "api/localities/pangasinan-binmaley.json",
+   "brief": "briefs/pangasinan-binmaley.html"
+  },
+  {
+   "locality_id": "pangasinan-bugallon",
+   "name": "Bugallon",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.31278890600924497,
+   "json": "api/localities/pangasinan-bugallon.json",
+   "brief": "briefs/pangasinan-bugallon.html"
+  },
+  {
+   "locality_id": "pangasinan-calasiao",
+   "name": "Calasiao",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.3167545267018107,
+   "json": "api/localities/pangasinan-calasiao.json",
+   "brief": "briefs/pangasinan-calasiao.html"
+  },
+  {
+   "locality_id": "pangasinan-mabini",
+   "name": "Mabini",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.3952802359882006,
+   "json": "api/localities/pangasinan-mabini.json",
+   "brief": "briefs/pangasinan-mabini.html"
+  },
+  {
+   "locality_id": "pangasinan-malasiqui",
+   "name": "Malasiqui",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.2745986002470152,
+   "json": "api/localities/pangasinan-malasiqui.json",
+   "brief": "briefs/pangasinan-malasiqui.html"
+  },
+  {
+   "locality_id": "pangasinan-balungao",
+   "name": "Balungao",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.21484375,
+   "json": "api/localities/pangasinan-balungao.json",
+   "brief": "briefs/pangasinan-balungao.html"
+  },
+  {
+   "locality_id": "pangasinan-mangaldan",
+   "name": "Mangaldan",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.34859084549270436,
+   "json": "api/localities/pangasinan-mangaldan.json",
+   "brief": "briefs/pangasinan-mangaldan.html"
+  },
+  {
+   "locality_id": "pangasinan-natividad",
+   "name": "Natividad",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.18892185954500496,
+   "json": "api/localities/pangasinan-natividad.json",
+   "brief": "briefs/pangasinan-natividad.html"
+  },
+  {
+   "locality_id": "pangasinan-pozorrubio",
+   "name": "Pozorrubio",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.33504,
+   "json": "api/localities/pangasinan-pozorrubio.json",
+   "brief": "briefs/pangasinan-pozorrubio.html"
+  },
+  {
+   "locality_id": "pangasinan-san-manuel",
+   "name": "San Manuel",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.3091100579252238,
+   "json": "api/localities/pangasinan-san-manuel.json",
+   "brief": "briefs/pangasinan-san-manuel.html"
+  },
+  {
+   "locality_id": "pangasinan-san-nicolas",
+   "name": "San Nicolas",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.32573099415204676,
+   "json": "api/localities/pangasinan-san-nicolas.json",
+   "brief": "briefs/pangasinan-san-nicolas.html"
+  },
+  {
+   "locality_id": "pangasinan-sison",
+   "name": "Sison",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.4144522144522145,
+   "json": "api/localities/pangasinan-sison.json",
+   "brief": "briefs/pangasinan-sison.html"
+  },
+  {
+   "locality_id": "pangasinan-santa-maria",
+   "name": "Santa Maria",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.27108821635544106,
+   "json": "api/localities/pangasinan-santa-maria.json",
+   "brief": "briefs/pangasinan-santa-maria.html"
+  },
+  {
+   "locality_id": "pangasinan-dagupan",
+   "name": "City of Dagupan",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.33014180099381896,
+   "json": "api/localities/pangasinan-dagupan.json",
+   "brief": "briefs/pangasinan-dagupan.html"
+  },
+  {
+   "locality_id": "ilocos-norte-laoag",
+   "name": "City of Laoag",
+   "province": "Ilocos Norte",
+   "region": "Region I",
+   "reading_lowest": 0.31296296296296294,
+   "json": "api/localities/ilocos-norte-laoag.json",
+   "brief": "briefs/ilocos-norte-laoag.html"
+  },
+  {
+   "locality_id": "pangasinan-san-carlos",
+   "name": "City of San Carlos",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.3300536672629696,
+   "json": "api/localities/pangasinan-san-carlos.json",
+   "brief": "briefs/pangasinan-san-carlos.html"
+  },
+  {
+   "locality_id": "pangasinan-urdaneta",
+   "name": "City of Urdaneta",
+   "province": "Pangasinan",
+   "region": "Region I",
+   "reading_lowest": 0.38773373223635005,
+   "json": "api/localities/pangasinan-urdaneta.json",
+   "brief": "briefs/pangasinan-urdaneta.html"
+  },
+  {
+   "locality_id": "ilocos-sur-candon",
+   "name": "City of Candon",
+   "province": "Ilocos Sur",
+   "region": "Region I",
+   "reading_lowest": 0.28036929057337223,
+   "json": "api/localities/ilocos-sur-candon.json",
+   "brief": "briefs/ilocos-sur-candon.html"
+  },
+  {
+   "locality_id": "nueva-ecija-san-jose",
+   "name": "San Jose City",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.3505823186871361,
+   "json": "api/localities/nueva-ecija-san-jose.json",
+   "brief": "briefs/nueva-ecija-san-jose.html"
+  },
+  {
+   "locality_id": "aurora-casiguran",
+   "name": "Casiguran",
+   "province": "Aurora",
+   "region": "Region III",
+   "reading_lowest": 0.2664150943396226,
+   "json": "api/localities/aurora-casiguran.json",
+   "brief": "briefs/aurora-casiguran.html"
+  },
+  {
+   "locality_id": "aurora-dilasag",
+   "name": "Dilasag",
+   "province": "Aurora",
+   "region": "Region III",
+   "reading_lowest": 0.23659305993690852,
+   "json": "api/localities/aurora-dilasag.json",
+   "brief": "briefs/aurora-dilasag.html"
+  },
+  {
+   "locality_id": "aurora-dingalan",
+   "name": "Dingalan",
+   "province": "Aurora",
+   "region": "Region III",
+   "reading_lowest": 0.25868263473053893,
+   "json": "api/localities/aurora-dingalan.json",
+   "brief": "briefs/aurora-dingalan.html"
+  },
+  {
+   "locality_id": "aurora-maria-aurora",
+   "name": "Maria Aurora",
+   "province": "Aurora",
+   "region": "Region III",
+   "reading_lowest": 0.2402287893231649,
+   "json": "api/localities/aurora-maria-aurora.json",
+   "brief": "briefs/aurora-maria-aurora.html"
+  },
+  {
+   "locality_id": "bataan-abucay",
+   "name": "Abucay",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.2993232691306611,
+   "json": "api/localities/bataan-abucay.json",
+   "brief": "briefs/bataan-abucay.html"
+  },
+  {
+   "locality_id": "bataan-bagac",
+   "name": "Bagac",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.3571011104617183,
+   "json": "api/localities/bataan-bagac.json",
+   "brief": "briefs/bataan-bagac.html"
+  },
+  {
+   "locality_id": "bataan-limay",
+   "name": "Limay",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.344578313253012,
+   "json": "api/localities/bataan-limay.json",
+   "brief": "briefs/bataan-limay.html"
+  },
+  {
+   "locality_id": "bataan-morong",
+   "name": "Morong",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.341332027424094,
+   "json": "api/localities/bataan-morong.json",
+   "brief": "briefs/bataan-morong.html"
+  },
+  {
+   "locality_id": "bataan-orion",
+   "name": "Orion",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.3149708360337006,
+   "json": "api/localities/bataan-orion.json",
+   "brief": "briefs/bataan-orion.html"
+  },
+  {
+   "locality_id": "bataan-pilar",
+   "name": "Pilar",
+   "province": "Bataan",
+   "region": "Region III",
+   "reading_lowest": 0.2744464944649446,
+   "json": "api/localities/bataan-pilar.json",
+   "brief": "briefs/bataan-pilar.html"
+  },
+  {
+   "locality_id": "bulacan-balagtas",
+   "name": "Balagtas",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.2944281524926686,
+   "json": "api/localities/bulacan-balagtas.json",
+   "brief": "briefs/bulacan-balagtas.html"
+  },
+  {
+   "locality_id": "bulacan-bustos",
+   "name": "Bustos",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.2646426652337453,
+   "json": "api/localities/bulacan-bustos.json",
+   "brief": "briefs/bulacan-bustos.html"
+  },
+  {
+   "locality_id": "bulacan-calumpit",
+   "name": "Calumpit",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.22476308199423156,
+   "json": "api/localities/bulacan-calumpit.json",
+   "brief": "briefs/bulacan-calumpit.html"
+  },
+  {
+   "locality_id": "bulacan-guiguinto",
+   "name": "Guiguinto",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.24773596297041658,
+   "json": "api/localities/bulacan-guiguinto.json",
+   "brief": "briefs/bulacan-guiguinto.html"
+  },
+  {
+   "locality_id": "bulacan-marilao",
+   "name": "Marilao",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.27553606237816763,
+   "json": "api/localities/bulacan-marilao.json",
+   "brief": "briefs/bulacan-marilao.html"
+  },
+  {
+   "locality_id": "bulacan-obando",
+   "name": "Obando",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.2358974358974359,
+   "json": "api/localities/bulacan-obando.json",
+   "brief": "briefs/bulacan-obando.html"
+  },
+  {
+   "locality_id": "bulacan-plaridel",
+   "name": "Plaridel",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.2709017184784707,
+   "json": "api/localities/bulacan-plaridel.json",
+   "brief": "briefs/bulacan-plaridel.html"
+  },
+  {
+   "locality_id": "bulacan-pulilan",
+   "name": "Pulilan",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.22571819425444598,
+   "json": "api/localities/bulacan-pulilan.json",
+   "brief": "briefs/bulacan-pulilan.html"
+  },
+  {
+   "locality_id": "bulacan-santa-maria",
+   "name": "Santa Maria",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.1697436937850815,
+   "json": "api/localities/bulacan-santa-maria.json",
+   "brief": "briefs/bulacan-santa-maria.html"
+  },
+  {
+   "locality_id": "bulacan-dona-remedios-trinidad",
+   "name": "Doña Remedios Trinidad",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.30148947098099643,
+   "json": "api/localities/bulacan-dona-remedios-trinidad.json",
+   "brief": "briefs/bulacan-dona-remedios-trinidad.html"
+  },
+  {
+   "locality_id": "nueva-ecija-bongabon",
+   "name": "Bongabon",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.2709237445753255,
+   "json": "api/localities/nueva-ecija-bongabon.json",
+   "brief": "briefs/nueva-ecija-bongabon.html"
+  },
+  {
+   "locality_id": "nueva-ecija-guimba",
+   "name": "Guimba",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.28601016757672754,
+   "json": "api/localities/nueva-ecija-guimba.json",
+   "brief": "briefs/nueva-ecija-guimba.html"
+  },
+  {
+   "locality_id": "nueva-ecija-licab",
+   "name": "Licab",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.3010933557611438,
+   "json": "api/localities/nueva-ecija-licab.json",
+   "brief": "briefs/nueva-ecija-licab.html"
+  },
+  {
+   "locality_id": "nueva-ecija-pantabangan",
+   "name": "Pantabangan",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.3275344931013797,
+   "json": "api/localities/nueva-ecija-pantabangan.json",
+   "brief": "briefs/nueva-ecija-pantabangan.html"
+  },
+  {
+   "locality_id": "nueva-ecija-penaranda",
+   "name": "Peñaranda",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.28886010362694303,
+   "json": "api/localities/nueva-ecija-penaranda.json",
+   "brief": "briefs/nueva-ecija-penaranda.html"
+  },
+  {
+   "locality_id": "nueva-ecija-rizal",
+   "name": "Rizal",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.2527088430618665,
+   "json": "api/localities/nueva-ecija-rizal.json",
+   "brief": "briefs/nueva-ecija-rizal.html"
+  },
+  {
+   "locality_id": "nueva-ecija-san-antonio",
+   "name": "San Antonio",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.2343962932679204,
+   "json": "api/localities/nueva-ecija-san-antonio.json",
+   "brief": "briefs/nueva-ecija-san-antonio.html"
+  },
+  {
+   "locality_id": "nueva-ecija-santo-domingo",
+   "name": "Santo Domingo",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.2914185639229422,
+   "json": "api/localities/nueva-ecija-santo-domingo.json",
+   "brief": "briefs/nueva-ecija-santo-domingo.html"
+  },
+  {
+   "locality_id": "nueva-ecija-talavera",
+   "name": "Talavera",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.26272634096344377,
+   "json": "api/localities/nueva-ecija-talavera.json",
+   "brief": "briefs/nueva-ecija-talavera.html"
+  },
+  {
+   "locality_id": "nueva-ecija-zaragoza",
+   "name": "Zaragoza",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.25903369874137233,
+   "json": "api/localities/nueva-ecija-zaragoza.json",
+   "brief": "briefs/nueva-ecija-zaragoza.html"
+  },
+  {
+   "locality_id": "pampanga-apalit",
+   "name": "Apalit",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.2645199525879099,
+   "json": "api/localities/pampanga-apalit.json",
+   "brief": "briefs/pampanga-apalit.html"
+  },
+  {
+   "locality_id": "pampanga-arayat",
+   "name": "Arayat",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.2613142777077203,
+   "json": "api/localities/pampanga-arayat.json",
+   "brief": "briefs/pampanga-arayat.html"
+  },
+  {
+   "locality_id": "pampanga-magalang",
+   "name": "Magalang",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.28147148160647995,
+   "json": "api/localities/pampanga-magalang.json",
+   "brief": "briefs/pampanga-magalang.html"
+  },
+  {
+   "locality_id": "pampanga-candaba",
+   "name": "Candaba",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.2636484687083888,
+   "json": "api/localities/pampanga-candaba.json",
+   "brief": "briefs/pampanga-candaba.html"
+  },
+  {
+   "locality_id": "pampanga-lubao",
+   "name": "Lubao",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.2401987852015461,
+   "json": "api/localities/pampanga-lubao.json",
+   "brief": "briefs/pampanga-lubao.html"
+  },
+  {
+   "locality_id": "pampanga-macabebe",
+   "name": "Macabebe",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.2993311036789298,
+   "json": "api/localities/pampanga-macabebe.json",
+   "brief": "briefs/pampanga-macabebe.html"
+  },
+  {
+   "locality_id": "pampanga-san-luis",
+   "name": "San Luis",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.1848987108655617,
+   "json": "api/localities/pampanga-san-luis.json",
+   "brief": "briefs/pampanga-san-luis.html"
+  },
+  {
+   "locality_id": "pampanga-santa-ana",
+   "name": "Santa Ana",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.22392051967902177,
+   "json": "api/localities/pampanga-santa-ana.json",
+   "brief": "briefs/pampanga-santa-ana.html"
+  },
+  {
+   "locality_id": "pampanga-santa-rita",
+   "name": "Santa Rita",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.25925925925925924,
+   "json": "api/localities/pampanga-santa-rita.json",
+   "brief": "briefs/pampanga-santa-rita.html"
+  },
+  {
+   "locality_id": "tarlac-anao",
+   "name": "Anao",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.2583732057416268,
+   "json": "api/localities/tarlac-anao.json",
+   "brief": "briefs/tarlac-anao.html"
+  },
+  {
+   "locality_id": "tarlac-bamban",
+   "name": "Bamban",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.31026785714285715,
+   "json": "api/localities/tarlac-bamban.json",
+   "brief": "briefs/tarlac-bamban.html"
+  },
+  {
+   "locality_id": "tarlac-capas",
+   "name": "Capas",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.3083824975417896,
+   "json": "api/localities/tarlac-capas.json",
+   "brief": "briefs/tarlac-capas.html"
+  },
+  {
+   "locality_id": "tarlac-concepcion",
+   "name": "Concepcion",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.21539243078486156,
+   "json": "api/localities/tarlac-concepcion.json",
+   "brief": "briefs/tarlac-concepcion.html"
+  },
+  {
+   "locality_id": "tarlac-mayantoc",
+   "name": "Mayantoc",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.3154848046309696,
+   "json": "api/localities/tarlac-mayantoc.json",
+   "brief": "briefs/tarlac-mayantoc.html"
+  },
+  {
+   "locality_id": "tarlac-paniqui",
+   "name": "Paniqui",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.30660860655737704,
+   "json": "api/localities/tarlac-paniqui.json",
+   "brief": "briefs/tarlac-paniqui.html"
+  },
+  {
+   "locality_id": "tarlac-ramos",
+   "name": "Ramos",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.26440329218106995,
+   "json": "api/localities/tarlac-ramos.json",
+   "brief": "briefs/tarlac-ramos.html"
+  },
+  {
+   "locality_id": "tarlac-san-jose",
+   "name": "San Jose",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.31329381879762913,
+   "json": "api/localities/tarlac-san-jose.json",
+   "brief": "briefs/tarlac-san-jose.html"
+  },
+  {
+   "locality_id": "tarlac-san-manuel",
+   "name": "San Manuel",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.31505657093124456,
+   "json": "api/localities/tarlac-san-manuel.json",
+   "brief": "briefs/tarlac-san-manuel.html"
+  },
+  {
+   "locality_id": "zambales-botolan",
+   "name": "Botolan",
+   "province": "Zambales",
+   "region": "Region III",
+   "reading_lowest": 0.3951734539969834,
+   "json": "api/localities/zambales-botolan.json",
+   "brief": "briefs/zambales-botolan.html"
+  },
+  {
+   "locality_id": "zambales-castillejos",
+   "name": "Castillejos",
+   "province": "Zambales",
+   "region": "Region III",
+   "reading_lowest": 0.3044654939106901,
+   "json": "api/localities/zambales-castillejos.json",
+   "brief": "briefs/zambales-castillejos.html"
+  },
+  {
+   "locality_id": "zambales-san-narciso",
+   "name": "San Narciso",
+   "province": "Zambales",
+   "region": "Region III",
+   "reading_lowest": 0.2633679169992019,
+   "json": "api/localities/zambales-san-narciso.json",
+   "brief": "briefs/zambales-san-narciso.html"
+  },
+  {
+   "locality_id": "zambales-subic",
+   "name": "Subic",
+   "province": "Zambales",
+   "region": "Region III",
+   "reading_lowest": 0.40396069088743297,
+   "json": "api/localities/zambales-subic.json",
+   "brief": "briefs/zambales-subic.html"
+  },
+  {
+   "locality_id": "bulacan-san-jose-del-monte",
+   "name": "City of San Jose Del Monte",
+   "province": "Bulacan",
+   "region": "Region III",
+   "reading_lowest": 0.2896260858617651,
+   "json": "api/localities/bulacan-san-jose-del-monte.json",
+   "brief": "briefs/bulacan-san-jose-del-monte.html"
+  },
+  {
+   "locality_id": "tarlac-tarlac",
+   "name": "City of Tarlac",
+   "province": "Tarlac",
+   "region": "Region III",
+   "reading_lowest": 0.37015389565124135,
+   "json": "api/localities/tarlac-tarlac.json",
+   "brief": "briefs/tarlac-tarlac.html"
+  },
+  {
+   "locality_id": "nueva-ecija-science-munoz",
+   "name": "Science City of Muñoz",
+   "province": "Nueva Ecija",
+   "region": "Region III",
+   "reading_lowest": 0.2569190600522193,
+   "json": "api/localities/nueva-ecija-science-munoz.json",
+   "brief": "briefs/nueva-ecija-science-munoz.html"
+  },
+  {
+   "locality_id": "pampanga-mabalacat",
+   "name": "Mabalacat City",
+   "province": "Pampanga",
+   "region": "Region III",
+   "reading_lowest": 0.3877321749550629,
+   "json": "api/localities/pampanga-mabalacat.json",
+   "brief": "briefs/pampanga-mabalacat.html"
+  },
+  {
+   "locality_id": "biliran-almeria",
+   "name": "Almeria",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.2070063694267516,
+   "json": "api/localities/biliran-almeria.json",
+   "brief": "briefs/biliran-almeria.html"
+  },
+  {
+   "locality_id": "biliran-biliran",
+   "name": "Biliran",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.25591216216216217,
+   "json": "api/localities/biliran-biliran.json",
+   "brief": "briefs/biliran-biliran.html"
+  },
+  {
+   "locality_id": "biliran-cabucgayan",
+   "name": "Cabucgayan",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.1532567049808429,
+   "json": "api/localities/biliran-cabucgayan.json",
+   "brief": "briefs/biliran-cabucgayan.html"
+  },
+  {
+   "locality_id": "biliran-culaba",
+   "name": "Culaba",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.24761904761904763,
+   "json": "api/localities/biliran-culaba.json",
+   "brief": "briefs/biliran-culaba.html"
+  },
+  {
+   "locality_id": "biliran-maripipi",
+   "name": "Maripipi",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.20496894409937888,
+   "json": "api/localities/biliran-maripipi.json",
+   "brief": "briefs/biliran-maripipi.html"
+  },
+  {
+   "locality_id": "biliran-naval",
+   "name": "Naval",
+   "province": "Biliran",
+   "region": "Region VIII",
+   "reading_lowest": 0.23648264086511098,
+   "json": "api/localities/biliran-naval.json",
+   "brief": "briefs/biliran-naval.html"
+  },
+  {
+   "locality_id": "leyte-abuyog",
+   "name": "Abuyog",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1789507563566141,
+   "json": "api/localities/leyte-abuyog.json",
+   "brief": "briefs/leyte-abuyog.html"
+  },
+  {
+   "locality_id": "leyte-barugo",
+   "name": "Barugo",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1471251409244645,
+   "json": "api/localities/leyte-barugo.json",
+   "brief": "briefs/leyte-barugo.html"
+  },
+  {
+   "locality_id": "leyte-bato",
+   "name": "Bato",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.33367037411526795,
+   "json": "api/localities/leyte-bato.json",
+   "brief": "briefs/leyte-bato.html"
+  },
+  {
+   "locality_id": "leyte-barauen",
+   "name": "Barauen",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1561119293078056,
+   "json": "api/localities/leyte-barauen.json",
+   "brief": "briefs/leyte-barauen.html"
+  },
+  {
+   "locality_id": "leyte-calubian",
+   "name": "Calubian",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.23299822590183322,
+   "json": "api/localities/leyte-calubian.json",
+   "brief": "briefs/leyte-calubian.html"
+  },
+  {
+   "locality_id": "leyte-dagami",
+   "name": "Dagami",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1858678955453149,
+   "json": "api/localities/leyte-dagami.json",
+   "brief": "briefs/leyte-dagami.html"
+  },
+  {
+   "locality_id": "leyte-hilongos",
+   "name": "Hilongos",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.20453866825918185,
+   "json": "api/localities/leyte-hilongos.json",
+   "brief": "briefs/leyte-hilongos.html"
+  },
+  {
+   "locality_id": "leyte-hindang",
+   "name": "Hindang",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1893048128342246,
+   "json": "api/localities/leyte-hindang.json",
+   "brief": "briefs/leyte-hindang.html"
+  },
+  {
+   "locality_id": "leyte-julita",
+   "name": "Julita",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.20614596670934698,
+   "json": "api/localities/leyte-julita.json",
+   "brief": "briefs/leyte-julita.html"
+  },
+  {
+   "locality_id": "leyte-kananga",
+   "name": "Kananga",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.275027808676307,
+   "json": "api/localities/leyte-kananga.json",
+   "brief": "briefs/leyte-kananga.html"
+  },
+  {
+   "locality_id": "leyte-leyte",
+   "name": "Leyte",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.24928483857785044,
+   "json": "api/localities/leyte-leyte.json",
+   "brief": "briefs/leyte-leyte.html"
+  },
+  {
+   "locality_id": "leyte-macarthur",
+   "name": "Macarthur",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1865203761755486,
+   "json": "api/localities/leyte-macarthur.json",
+   "brief": "briefs/leyte-macarthur.html"
+  },
+  {
+   "locality_id": "leyte-matag-ob",
+   "name": "Matag-Ob",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.23776908023483365,
+   "json": "api/localities/leyte-matag-ob.json",
+   "brief": "briefs/leyte-matag-ob.html"
+  },
+  {
+   "locality_id": "leyte-matalom",
+   "name": "Matalom",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.17057704502219403,
+   "json": "api/localities/leyte-matalom.json",
+   "brief": "briefs/leyte-matalom.html"
+  },
+  {
+   "locality_id": "leyte-merida",
+   "name": "Merida",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.1957473420888055,
+   "json": "api/localities/leyte-merida.json",
+   "brief": "briefs/leyte-merida.html"
+  },
+  {
+   "locality_id": "leyte-santa-fe",
+   "name": "Santa Fe",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.16174183514774496,
+   "json": "api/localities/leyte-santa-fe.json",
+   "brief": "briefs/leyte-santa-fe.html"
+  },
+  {
+   "locality_id": "leyte-tabontabon",
+   "name": "Tabontabon",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.2143864598025388,
+   "json": "api/localities/leyte-tabontabon.json",
+   "brief": "briefs/leyte-tabontabon.html"
+  },
+  {
+   "locality_id": "leyte-tolosa",
+   "name": "Tolosa",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.2721575649059982,
+   "json": "api/localities/leyte-tolosa.json",
+   "brief": "briefs/leyte-tolosa.html"
+  },
+  {
+   "locality_id": "leyte-villaba",
+   "name": "Villaba",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.20869565217391303,
+   "json": "api/localities/leyte-villaba.json",
+   "brief": "briefs/leyte-villaba.html"
+  },
+  {
+   "locality_id": "southern-leyte-hinunangan",
+   "name": "Hinunangan",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.28924914675767915,
+   "json": "api/localities/southern-leyte-hinunangan.json",
+   "brief": "briefs/southern-leyte-hinunangan.html"
+  },
+  {
+   "locality_id": "southern-leyte-hinundayan",
+   "name": "Hinundayan",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.23991507430997877,
+   "json": "api/localities/southern-leyte-hinundayan.json",
+   "brief": "briefs/southern-leyte-hinundayan.html"
+  },
+  {
+   "locality_id": "southern-leyte-macrohon",
+   "name": "Macrohon",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.20863309352517986,
+   "json": "api/localities/southern-leyte-macrohon.json",
+   "brief": "briefs/southern-leyte-macrohon.html"
+  },
+  {
+   "locality_id": "southern-leyte-malitbog",
+   "name": "Malitbog",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.18631178707224336,
+   "json": "api/localities/southern-leyte-malitbog.json",
+   "brief": "briefs/southern-leyte-malitbog.html"
+  },
+  {
+   "locality_id": "southern-leyte-pintuyan",
+   "name": "Pintuyan",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.3346693386773547,
+   "json": "api/localities/southern-leyte-pintuyan.json",
+   "brief": "briefs/southern-leyte-pintuyan.html"
+  },
+  {
+   "locality_id": "southern-leyte-san-juan",
+   "name": "San Juan",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.12076583210603829,
+   "json": "api/localities/southern-leyte-san-juan.json",
+   "brief": "briefs/southern-leyte-san-juan.html"
+  },
+  {
+   "locality_id": "southern-leyte-san-francisco",
+   "name": "San Francisco",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.2587800369685767,
+   "json": "api/localities/southern-leyte-san-francisco.json",
+   "brief": "briefs/southern-leyte-san-francisco.html"
+  },
+  {
+   "locality_id": "southern-leyte-limasawa",
+   "name": "Limasawa",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.16541353383458646,
+   "json": "api/localities/southern-leyte-limasawa.json",
+   "brief": "briefs/southern-leyte-limasawa.html"
+  },
+  {
+   "locality_id": "southern-leyte-san-ricardo",
+   "name": "San Ricardo",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.25523012552301255,
+   "json": "api/localities/southern-leyte-san-ricardo.json",
+   "brief": "briefs/southern-leyte-san-ricardo.html"
+  },
+  {
+   "locality_id": "southern-leyte-anahawan",
+   "name": "Anahawan",
+   "province": "Southern Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.21944444444444444,
+   "json": "api/localities/southern-leyte-anahawan.json",
+   "brief": "briefs/southern-leyte-anahawan.html"
+  },
+  {
+   "locality_id": "eastern-samar-arteche",
+   "name": "Arteche",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.22139037433155082,
+   "json": "api/localities/eastern-samar-arteche.json",
+   "brief": "briefs/eastern-samar-arteche.html"
+  },
+  {
+   "locality_id": "eastern-samar-balangiga",
+   "name": "Balangiga",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.20833333333333334,
+   "json": "api/localities/eastern-samar-balangiga.json",
+   "brief": "briefs/eastern-samar-balangiga.html"
+  },
+  {
+   "locality_id": "eastern-samar-giporlos",
+   "name": "Giporlos",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.32142857142857145,
+   "json": "api/localities/eastern-samar-giporlos.json",
+   "brief": "briefs/eastern-samar-giporlos.html"
+  },
+  {
+   "locality_id": "eastern-samar-jipapad",
+   "name": "Jipapad",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.39738805970149255,
+   "json": "api/localities/eastern-samar-jipapad.json",
+   "brief": "briefs/eastern-samar-jipapad.html"
+  },
+  {
+   "locality_id": "eastern-samar-maydolong",
+   "name": "Maydolong",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.3733480176211454,
+   "json": "api/localities/eastern-samar-maydolong.json",
+   "brief": "briefs/eastern-samar-maydolong.html"
+  },
+  {
+   "locality_id": "eastern-samar-oras",
+   "name": "Oras",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.3333333333333333,
+   "json": "api/localities/eastern-samar-oras.json",
+   "brief": "briefs/eastern-samar-oras.html"
+  },
+  {
+   "locality_id": "eastern-samar-salcedo",
+   "name": "Salcedo",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.21203438395415472,
+   "json": "api/localities/eastern-samar-salcedo.json",
+   "brief": "briefs/eastern-samar-salcedo.html"
+  },
+  {
+   "locality_id": "eastern-samar-sulat",
+   "name": "Sulat",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.2644110275689223,
+   "json": "api/localities/eastern-samar-sulat.json",
+   "brief": "briefs/eastern-samar-sulat.html"
+  },
+  {
+   "locality_id": "eastern-samar-lawaan",
+   "name": "Lawaan",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.2851002865329513,
+   "json": "api/localities/eastern-samar-lawaan.json",
+   "brief": "briefs/eastern-samar-lawaan.html"
+  },
+  {
+   "locality_id": "eastern-samar-hernani",
+   "name": "Hernani",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.20212765957446807,
+   "json": "api/localities/eastern-samar-hernani.json",
+   "brief": "briefs/eastern-samar-hernani.html"
+  },
+  {
+   "locality_id": "eastern-samar-balangkayan",
+   "name": "Balangkayan",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.363481228668942,
+   "json": "api/localities/eastern-samar-balangkayan.json",
+   "brief": "briefs/eastern-samar-balangkayan.html"
+  },
+  {
+   "locality_id": "eastern-samar-maslog",
+   "name": "Maslog",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.418732782369146,
+   "json": "api/localities/eastern-samar-maslog.json",
+   "brief": "briefs/eastern-samar-maslog.html"
+  },
+  {
+   "locality_id": "northern-samar-lavezares",
+   "name": "Lavezares",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.34165280088740985,
+   "json": "api/localities/northern-samar-lavezares.json",
+   "brief": "briefs/northern-samar-lavezares.html"
+  },
+  {
+   "locality_id": "northern-samar-lope-de-vega",
+   "name": "Lope De Vega",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4450050454086781,
+   "json": "api/localities/northern-samar-lope-de-vega.json",
+   "brief": "briefs/northern-samar-lope-de-vega.html"
+  },
+  {
+   "locality_id": "northern-samar-mondragon",
+   "name": "Mondragon",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4238361266294227,
+   "json": "api/localities/northern-samar-mondragon.json",
+   "brief": "briefs/northern-samar-mondragon.html"
+  },
+  {
+   "locality_id": "northern-samar-palapag",
+   "name": "Palapag",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.35157459989674755,
+   "json": "api/localities/northern-samar-palapag.json",
+   "brief": "briefs/northern-samar-palapag.html"
+  },
+  {
+   "locality_id": "northern-samar-pambujan",
+   "name": "Pambujan",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.462384513858337,
+   "json": "api/localities/northern-samar-pambujan.json",
+   "brief": "briefs/northern-samar-pambujan.html"
+  },
+  {
+   "locality_id": "northern-samar-rosario",
+   "name": "Rosario",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.323943661971831,
+   "json": "api/localities/northern-samar-rosario.json",
+   "brief": "briefs/northern-samar-rosario.html"
+  },
+  {
+   "locality_id": "northern-samar-san-antonio",
+   "name": "San Antonio",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.36363636363636365,
+   "json": "api/localities/northern-samar-san-antonio.json",
+   "brief": "briefs/northern-samar-san-antonio.html"
+  },
+  {
+   "locality_id": "northern-samar-san-isidro",
+   "name": "San Isidro",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4830917874396135,
+   "json": "api/localities/northern-samar-san-isidro.json",
+   "brief": "briefs/northern-samar-san-isidro.html"
+  },
+  {
+   "locality_id": "northern-samar-san-jose",
+   "name": "San Jose",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4368471035137702,
+   "json": "api/localities/northern-samar-san-jose.json",
+   "brief": "briefs/northern-samar-san-jose.html"
+  },
+  {
+   "locality_id": "northern-samar-silvino-lobos",
+   "name": "Silvino Lobos",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.5055205047318612,
+   "json": "api/localities/northern-samar-silvino-lobos.json",
+   "brief": "briefs/northern-samar-silvino-lobos.html"
+  },
+  {
+   "locality_id": "northern-samar-allen",
+   "name": "Allen",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.45268735806207416,
+   "json": "api/localities/northern-samar-allen.json",
+   "brief": "briefs/northern-samar-allen.html"
+  },
+  {
+   "locality_id": "northern-samar-catarman",
+   "name": "Catarman",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.48478539397821907,
+   "json": "api/localities/northern-samar-catarman.json",
+   "brief": "briefs/northern-samar-catarman.html"
+  },
+  {
+   "locality_id": "northern-samar-gamay",
+   "name": "Gamay",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.35658914728682173,
+   "json": "api/localities/northern-samar-gamay.json",
+   "brief": "briefs/northern-samar-gamay.html"
+  },
+  {
+   "locality_id": "northern-samar-lapinig",
+   "name": "Lapinig",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4167776298268975,
+   "json": "api/localities/northern-samar-lapinig.json",
+   "brief": "briefs/northern-samar-lapinig.html"
+  },
+  {
+   "locality_id": "northern-samar-las-navas",
+   "name": "Las Navas",
+   "province": "Northern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4540133779264214,
+   "json": "api/localities/northern-samar-las-navas.json",
+   "brief": "briefs/northern-samar-las-navas.html"
+  },
+  {
+   "locality_id": "samar-basey",
+   "name": "Basey",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.38677065280184864,
+   "json": "api/localities/samar-basey.json",
+   "brief": "briefs/samar-basey.html"
+  },
+  {
+   "locality_id": "samar-daram",
+   "name": "Daram",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.2927028128821851,
+   "json": "api/localities/samar-daram.json",
+   "brief": "briefs/samar-daram.html"
+  },
+  {
+   "locality_id": "samar-gandara",
+   "name": "Gandara",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.4581497797356828,
+   "json": "api/localities/samar-gandara.json",
+   "brief": "briefs/samar-gandara.html"
+  },
+  {
+   "locality_id": "samar-matuguinao",
+   "name": "Matuguinao",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.5173611111111112,
+   "json": "api/localities/samar-matuguinao.json",
+   "brief": "briefs/samar-matuguinao.html"
+  },
+  {
+   "locality_id": "samar-hinabangan",
+   "name": "Hinabangan",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.3354632587859425,
+   "json": "api/localities/samar-hinabangan.json",
+   "brief": "briefs/samar-hinabangan.html"
+  },
+  {
+   "locality_id": "samar-motiong",
+   "name": "Motiong",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.32936979785969084,
+   "json": "api/localities/samar-motiong.json",
+   "brief": "briefs/samar-motiong.html"
+  },
+  {
+   "locality_id": "samar-san-sebastian",
+   "name": "San Sebastian",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.42348008385744235,
+   "json": "api/localities/samar-san-sebastian.json",
+   "brief": "briefs/samar-san-sebastian.html"
+  },
+  {
+   "locality_id": "samar-santa-margarita",
+   "name": "Santa Margarita",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.44941176470588234,
+   "json": "api/localities/samar-santa-margarita.json",
+   "brief": "briefs/samar-santa-margarita.html"
+  },
+  {
+   "locality_id": "samar-tarangnan",
+   "name": "Tarangnan",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.3501006036217304,
+   "json": "api/localities/samar-tarangnan.json",
+   "brief": "briefs/samar-tarangnan.html"
+  },
+  {
+   "locality_id": "samar-zumarraga",
+   "name": "Zumarraga",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.37025641025641026,
+   "json": "api/localities/samar-zumarraga.json",
+   "brief": "briefs/samar-zumarraga.html"
+  },
+  {
+   "locality_id": "samar-calbayog",
+   "name": "City of Calbayog",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.33945749198370745,
+   "json": "api/localities/samar-calbayog.json",
+   "brief": "briefs/samar-calbayog.html"
+  },
+  {
+   "locality_id": "leyte-ormoc",
+   "name": "Ormoc City",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.2629053606882859,
+   "json": "api/localities/leyte-ormoc.json",
+   "brief": "briefs/leyte-ormoc.html"
+  },
+  {
+   "locality_id": "leyte-tacloban",
+   "name": "City of Tacloban",
+   "province": "Leyte",
+   "region": "Region VIII",
+   "reading_lowest": 0.33765104755281233,
+   "json": "api/localities/leyte-tacloban.json",
+   "brief": "briefs/leyte-tacloban.html"
+  },
+  {
+   "locality_id": "samar-catbalogan",
+   "name": "City of Catbalogan",
+   "province": "Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.40641798338491614,
+   "json": "api/localities/samar-catbalogan.json",
+   "brief": "briefs/samar-catbalogan.html"
+  },
+  {
+   "locality_id": "eastern-samar-borongan",
+   "name": "City of Borongan",
+   "province": "Eastern Samar",
+   "region": "Region VIII",
+   "reading_lowest": 0.28018041920933934,
+   "json": "api/localities/eastern-samar-borongan.json",
+   "brief": "briefs/eastern-samar-borongan.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-gutalac",
+   "name": "Gutalac",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.35028462998102466,
+   "json": "api/localities/zamboanga-del-norte-gutalac.json",
+   "brief": "briefs/zamboanga-del-norte-gutalac.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-jose-dalman",
+   "name": "Jose Dalman",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.39606592238171184,
+   "json": "api/localities/zamboanga-del-norte-jose-dalman.json",
+   "brief": "briefs/zamboanga-del-norte-jose-dalman.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-kalawit",
+   "name": "Kalawit",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.47330960854092524,
+   "json": "api/localities/zamboanga-del-norte-kalawit.json",
+   "brief": "briefs/zamboanga-del-norte-kalawit.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-katipunan",
+   "name": "Katipunan",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.31862068965517243,
+   "json": "api/localities/zamboanga-del-norte-katipunan.json",
+   "brief": "briefs/zamboanga-del-norte-katipunan.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-labason",
+   "name": "Labason",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.33506389776357826,
+   "json": "api/localities/zamboanga-del-norte-labason.json",
+   "brief": "briefs/zamboanga-del-norte-labason.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-bacungan",
+   "name": "Bacungan",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.4112056028014007,
+   "json": "api/localities/zamboanga-del-norte-bacungan.json",
+   "brief": "briefs/zamboanga-del-norte-bacungan.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-liloy",
+   "name": "Liloy",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.29879621668099743,
+   "json": "api/localities/zamboanga-del-norte-liloy.json",
+   "brief": "briefs/zamboanga-del-norte-liloy.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-pinan",
+   "name": "Piñan",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.33252230332522303,
+   "json": "api/localities/zamboanga-del-norte-pinan.json",
+   "brief": "briefs/zamboanga-del-norte-pinan.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-salug",
+   "name": "Salug",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.34138124649073553,
+   "json": "api/localities/zamboanga-del-norte-salug.json",
+   "brief": "briefs/zamboanga-del-norte-salug.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-sergio-osmena-sr",
+   "name": "Sergio Osmeña Sr.",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.3231083844580777,
+   "json": "api/localities/zamboanga-del-norte-sergio-osmena-sr.json",
+   "brief": "briefs/zamboanga-del-norte-sergio-osmena-sr.html"
+  },
+  {
+   "locality_id": "zamboanga-del-norte-sirawai",
+   "name": "Sirawai",
+   "province": "Zamboanga del Norte",
+   "region": "Region IX",
+   "reading_lowest": 0.41961231470923605,
+   "json": "api/localities/zamboanga-del-norte-sirawai.json",
+   "brief": "briefs/zamboanga-del-norte-sirawai.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-dimataling",
+   "name": "Dimataling",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.40064620355411956,
+   "json": "api/localities/zamboanga-del-sur-dimataling.json",
+   "brief": "briefs/zamboanga-del-sur-dimataling.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-dumingag",
+   "name": "Dumingag",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.3194813829787234,
+   "json": "api/localities/zamboanga-del-sur-dumingag.json",
+   "brief": "briefs/zamboanga-del-sur-dumingag.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-guipos",
+   "name": "Guipos",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.2577665827036104,
+   "json": "api/localities/zamboanga-del-sur-guipos.json",
+   "brief": "briefs/zamboanga-del-sur-guipos.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-josefina",
+   "name": "Josefina",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.2690972222222222,
+   "json": "api/localities/zamboanga-del-sur-josefina.json",
+   "brief": "briefs/zamboanga-del-sur-josefina.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-lakewood",
+   "name": "Lakewood",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.3698738170347003,
+   "json": "api/localities/zamboanga-del-sur-lakewood.json",
+   "brief": "briefs/zamboanga-del-sur-lakewood.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-mahayag",
+   "name": "Mahayag",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.2921840759678597,
+   "json": "api/localities/zamboanga-del-sur-mahayag.json",
+   "brief": "briefs/zamboanga-del-sur-mahayag.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-margosatubig",
+   "name": "Margosatubig",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.4229408792319353,
+   "json": "api/localities/zamboanga-del-sur-margosatubig.json",
+   "brief": "briefs/zamboanga-del-sur-margosatubig.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-molave",
+   "name": "Molave",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.3047552933009372,
+   "json": "api/localities/zamboanga-del-sur-molave.json",
+   "brief": "briefs/zamboanga-del-sur-molave.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-ramon-magsaysay",
+   "name": "Ramon Magsaysay",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.2535039609993906,
+   "json": "api/localities/zamboanga-del-sur-ramon-magsaysay.json",
+   "brief": "briefs/zamboanga-del-sur-ramon-magsaysay.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-tigbao",
+   "name": "Tigbao",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.39692307692307693,
+   "json": "api/localities/zamboanga-del-sur-tigbao.json",
+   "brief": "briefs/zamboanga-del-sur-tigbao.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-tukuran",
+   "name": "Tukuran",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.34132519616390583,
+   "json": "api/localities/zamboanga-del-sur-tukuran.json",
+   "brief": "briefs/zamboanga-del-sur-tukuran.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-vincenzo-a-sagun",
+   "name": "Vincenzo A. Sagun",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.40977443609022557,
+   "json": "api/localities/zamboanga-del-sur-vincenzo-a-sagun.json",
+   "brief": "briefs/zamboanga-del-sur-vincenzo-a-sagun.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-buug",
+   "name": "Buug",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.27790432801822323,
+   "json": "api/localities/zamboanga-sibugay-buug.json",
+   "brief": "briefs/zamboanga-sibugay-buug.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-diplahan",
+   "name": "Diplahan",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.22638603696098564,
+   "json": "api/localities/zamboanga-sibugay-diplahan.json",
+   "brief": "briefs/zamboanga-sibugay-diplahan.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-imelda",
+   "name": "Imelda",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.3000648088139987,
+   "json": "api/localities/zamboanga-sibugay-imelda.json",
+   "brief": "briefs/zamboanga-sibugay-imelda.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-olutanga",
+   "name": "Olutanga",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.38110964332893,
+   "json": "api/localities/zamboanga-sibugay-olutanga.json",
+   "brief": "briefs/zamboanga-sibugay-olutanga.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-siay",
+   "name": "Siay",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.276578073089701,
+   "json": "api/localities/zamboanga-sibugay-siay.json",
+   "brief": "briefs/zamboanga-sibugay-siay.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-talusan",
+   "name": "Talusan",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.34490238611713664,
+   "json": "api/localities/zamboanga-sibugay-talusan.json",
+   "brief": "briefs/zamboanga-sibugay-talusan.html"
+  },
+  {
+   "locality_id": "zamboanga-sibugay-tungawan",
+   "name": "Tungawan",
+   "province": "Zamboanga Sibugay",
+   "region": "Region IX",
+   "reading_lowest": 0.4337065409546258,
+   "json": "api/localities/zamboanga-sibugay-tungawan.json",
+   "brief": "briefs/zamboanga-sibugay-tungawan.html"
+  },
+  {
+   "locality_id": "zamboanga-del-sur-pagadian",
+   "name": "City of Pagadian",
+   "province": "Zamboanga del Sur",
+   "region": "Region IX",
+   "reading_lowest": 0.33828382838283827,
+   "json": "api/localities/zamboanga-del-sur-pagadian.json",
+   "brief": "briefs/zamboanga-del-sur-pagadian.html"
+  },
+  {
+   "locality_id": "abra-bangued",
+   "name": "Bangued",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.3633524206142634,
+   "json": "api/localities/abra-bangued.json",
+   "brief": "briefs/abra-bangued.html"
+  },
+  {
+   "locality_id": "abra-bucay",
+   "name": "Bucay",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.3546734955185659,
+   "json": "api/localities/abra-bucay.json",
+   "brief": "briefs/abra-bucay.html"
+  },
+  {
+   "locality_id": "abra-dolores",
+   "name": "Dolores",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.41841004184100417,
+   "json": "api/localities/abra-dolores.json",
+   "brief": "briefs/abra-dolores.html"
+  },
+  {
+   "locality_id": "abra-la-paz",
+   "name": "La Paz",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.3984272608125819,
+   "json": "api/localities/abra-la-paz.json",
+   "brief": "briefs/abra-la-paz.html"
+  },
+  {
+   "locality_id": "abra-pidigan",
+   "name": "Pidigan",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.32525252525252524,
+   "json": "api/localities/abra-pidigan.json",
+   "brief": "briefs/abra-pidigan.html"
+  },
+  {
+   "locality_id": "abra-sallapadan",
+   "name": "Sallapadan",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.2727272727272727,
+   "json": "api/localities/abra-sallapadan.json",
+   "brief": "briefs/abra-sallapadan.html"
+  },
+  {
+   "locality_id": "abra-san-juan",
+   "name": "San Juan",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.3370998116760829,
+   "json": "api/localities/abra-san-juan.json",
+   "brief": "briefs/abra-san-juan.html"
+  },
+  {
+   "locality_id": "abra-manabo",
+   "name": "Manabo",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.37193763919821826,
+   "json": "api/localities/abra-manabo.json",
+   "brief": "briefs/abra-manabo.html"
+  },
+  {
+   "locality_id": "abra-lacub",
+   "name": "Lacub",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.4945652173913043,
+   "json": "api/localities/abra-lacub.json",
+   "brief": "briefs/abra-lacub.html"
+  },
+  {
+   "locality_id": "abra-licuan-baay",
+   "name": "Licuan-Baay",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.3256880733944954,
+   "json": "api/localities/abra-licuan-baay.json",
+   "brief": "briefs/abra-licuan-baay.html"
+  },
+  {
+   "locality_id": "abra-malibcong",
+   "name": "Malibcong",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.0898876404494382,
+   "json": "api/localities/abra-malibcong.json",
+   "brief": "briefs/abra-malibcong.html"
+  },
+  {
+   "locality_id": "abra-san-isidro",
+   "name": "San Isidro",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.37244897959183676,
+   "json": "api/localities/abra-san-isidro.json",
+   "brief": "briefs/abra-san-isidro.html"
+  },
+  {
+   "locality_id": "abra-langiden",
+   "name": "Langiden",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.27710843373493976,
+   "json": "api/localities/abra-langiden.json",
+   "brief": "briefs/abra-langiden.html"
+  },
+  {
+   "locality_id": "abra-san-quintin",
+   "name": "San Quintin",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.36693548387096775,
+   "json": "api/localities/abra-san-quintin.json",
+   "brief": "briefs/abra-san-quintin.html"
+  },
+  {
+   "locality_id": "abra-boliney",
+   "name": "Boliney",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.27461139896373055,
+   "json": "api/localities/abra-boliney.json",
+   "brief": "briefs/abra-boliney.html"
+  },
+  {
+   "locality_id": "abra-lagayan",
+   "name": "Lagayan",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.20078740157480315,
+   "json": "api/localities/abra-lagayan.json",
+   "brief": "briefs/abra-lagayan.html"
+  },
+  {
+   "locality_id": "abra-tineg",
+   "name": "Tineg",
+   "province": "Abra",
+   "region": "CAR",
+   "reading_lowest": 0.2534562211981567,
+   "json": "api/localities/abra-tineg.json",
+   "brief": "briefs/abra-tineg.html"
+  },
+  {
+   "locality_id": "apayao-conner",
+   "name": "Conner",
+   "province": "Apayao",
+   "region": "CAR",
+   "reading_lowest": 0.2001258653241032,
+   "json": "api/localities/apayao-conner.json",
+   "brief": "briefs/apayao-conner.html"
+  },
+  {
+   "locality_id": "apayao-flora",
+   "name": "Flora",
+   "province": "Apayao",
+   "region": "CAR",
+   "reading_lowest": 0.2129032258064516,
+   "json": "api/localities/apayao-flora.json",
+   "brief": "briefs/apayao-flora.html"
+  },
+  {
+   "locality_id": "apayao-pudtol",
+   "name": "Pudtol",
+   "province": "Apayao",
+   "region": "CAR",
+   "reading_lowest": 0.25611325611325614,
+   "json": "api/localities/apayao-pudtol.json",
+   "brief": "briefs/apayao-pudtol.html"
+  },
+  {
+   "locality_id": "benguet-atok",
+   "name": "Atok",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.26004464285714285,
+   "json": "api/localities/benguet-atok.json",
+   "brief": "briefs/benguet-atok.html"
+  },
+  {
+   "locality_id": "benguet-bakun",
+   "name": "Bakun",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.24358974358974358,
+   "json": "api/localities/benguet-bakun.json",
+   "brief": "briefs/benguet-bakun.html"
+  },
+  {
+   "locality_id": "benguet-bokod",
+   "name": "Bokod",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.28611898016997167,
+   "json": "api/localities/benguet-bokod.json",
+   "brief": "briefs/benguet-bokod.html"
+  },
+  {
+   "locality_id": "benguet-buguias",
+   "name": "Buguias",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.24756154203437064,
+   "json": "api/localities/benguet-buguias.json",
+   "brief": "briefs/benguet-buguias.html"
+  },
+  {
+   "locality_id": "benguet-itogon",
+   "name": "Itogon",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.268194611982308,
+   "json": "api/localities/benguet-itogon.json",
+   "brief": "briefs/benguet-itogon.html"
+  },
+  {
+   "locality_id": "benguet-kapangan",
+   "name": "Kapangan",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.16729088639200998,
+   "json": "api/localities/benguet-kapangan.json",
+   "brief": "briefs/benguet-kapangan.html"
+  },
+  {
+   "locality_id": "benguet-la-trinidad",
+   "name": "La Trinidad",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.2924414392658778,
+   "json": "api/localities/benguet-la-trinidad.json",
+   "brief": "briefs/benguet-la-trinidad.html"
+  },
+  {
+   "locality_id": "ifugao-aguinaldo",
+   "name": "Aguinaldo",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.20958083832335328,
+   "json": "api/localities/ifugao-aguinaldo.json",
+   "brief": "briefs/ifugao-aguinaldo.html"
+  },
+  {
+   "locality_id": "ifugao-alfonso-lista",
+   "name": "Alfonso Lista",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.29486500794070936,
+   "json": "api/localities/ifugao-alfonso-lista.json",
+   "brief": "briefs/ifugao-alfonso-lista.html"
+  },
+  {
+   "locality_id": "ifugao-asipulo",
+   "name": "Asipulo",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.29739776951672864,
+   "json": "api/localities/ifugao-asipulo.json",
+   "brief": "briefs/ifugao-asipulo.html"
+  },
+  {
+   "locality_id": "ifugao-banaue",
+   "name": "Banaue",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.22981366459627328,
+   "json": "api/localities/ifugao-banaue.json",
+   "brief": "briefs/ifugao-banaue.html"
+  },
+  {
+   "locality_id": "ifugao-hingyon",
+   "name": "Hingyon",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.20502901353965183,
+   "json": "api/localities/ifugao-hingyon.json",
+   "brief": "briefs/ifugao-hingyon.html"
+  },
+  {
+   "locality_id": "ifugao-kiangan",
+   "name": "Kiangan",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.2793764988009592,
+   "json": "api/localities/ifugao-kiangan.json",
+   "brief": "briefs/ifugao-kiangan.html"
+  },
+  {
+   "locality_id": "ifugao-lagawe",
+   "name": "Lagawe",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.16710642040457344,
+   "json": "api/localities/ifugao-lagawe.json",
+   "brief": "briefs/ifugao-lagawe.html"
+  },
+  {
+   "locality_id": "ifugao-mayoyao",
+   "name": "Mayoyao",
+   "province": "Ifugao",
+   "region": "CAR",
+   "reading_lowest": 0.15458937198067632,
+   "json": "api/localities/ifugao-mayoyao.json",
+   "brief": "briefs/ifugao-mayoyao.html"
+  },
+  {
+   "locality_id": "kalinga-pasil",
+   "name": "Pasil",
+   "province": "Kalinga",
+   "region": "CAR",
+   "reading_lowest": 0.20222222222222222,
+   "json": "api/localities/kalinga-pasil.json",
+   "brief": "briefs/kalinga-pasil.html"
+  },
+  {
+   "locality_id": "kalinga-rizal",
+   "name": "Rizal",
+   "province": "Kalinga",
+   "region": "CAR",
+   "reading_lowest": 0.2990844354018311,
+   "json": "api/localities/kalinga-rizal.json",
+   "brief": "briefs/kalinga-rizal.html"
+  },
+  {
+   "locality_id": "kalinga-tinglayan",
+   "name": "Tinglayan",
+   "province": "Kalinga",
+   "region": "CAR",
+   "reading_lowest": 0.1808,
+   "json": "api/localities/kalinga-tinglayan.json",
+   "brief": "briefs/kalinga-tinglayan.html"
+  },
+  {
+   "locality_id": "mountain-province-natonin",
+   "name": "Natonin",
+   "province": "Mountain Province",
+   "region": "CAR",
+   "reading_lowest": 0.12871287128712872,
+   "json": "api/localities/mountain-province-natonin.json",
+   "brief": "briefs/mountain-province-natonin.html"
+  },
+  {
+   "locality_id": "benguet-baguio",
+   "name": "City of Baguio",
+   "province": "Benguet",
+   "region": "CAR",
+   "reading_lowest": 0.2944107632256457,
+   "json": "api/localities/benguet-baguio.json",
+   "brief": "briefs/benguet-baguio.html"
+  }
+ ]
+}

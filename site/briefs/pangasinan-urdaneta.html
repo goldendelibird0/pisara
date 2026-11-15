@@ -1,0 +1,224 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>City of Urdaneta, Pangasinan | PISARA</title><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Public+Sans:wght@400;500;600&display=swap' rel='stylesheet'><style>
+:root{--desk:#F1F5F9;--paper:#fff;--ink:#0F172A;--sec:#334155;--mut:#64748B;--line:#E2E8F0;--soft:#F8FAFC;
+--accent:#0038A8;--tint:rgba(0,56,168,.07);--gold:#FDBD10;--goldtint:#FFF7DB;--need:#B42318;
+--g0:#C2410C;--g1:#EA9A62;--g2:#F3D9A4;--g3:#9DB7E4;--sel:#2F6BFF;
+--sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--head:"Bricolage Grotesque","Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box}html{color-scheme:light;scroll-behavior:smooth}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 15px/1.6 var(--sans);font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}a:hover{color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.in{max-width:1096px;margin:0 auto;padding:0 24px}
+.rib{background:var(--accent);color:#fff;border-bottom:4px solid var(--gold)}
+.rib .in{padding-top:12px;padding-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.rib .name{font:600 22px/1 var(--head);color:#fff;text-decoration:none;display:flex;align-items:baseline;gap:12px}
+.rib .name span{font:400 14px/1.3 var(--sans);color:rgba(255,255,255,.72)}.rib .name span b{font-weight:600;color:#fff}
+.intro h1 em{font-style:italic;color:var(--accent)}
+.pitch{margin:0 0 32px;border-top:1px solid var(--line)}
+.pitch div{display:grid;grid-template-columns:76px 1fr;gap:0 20px;padding:14px 0;border-bottom:1px solid var(--line)}
+.pitch dt{font-weight:600;font-size:14px;line-height:1.75}.pitch dd{margin:0;font-size:16.5px;line-height:1.55;color:var(--sec)}.pitch strong{font-weight:600;color:var(--ink)}
+.pitch .p dt{color:var(--g0)}.pitch .d dt{color:var(--mut)}.pitch .s dt{color:var(--accent)}
+.org{display:inline-flex;align-items:center;gap:4px;padding:0 7px 0 2px;border-radius:999px;font-weight:600;font-size:.86em;line-height:1.45;vertical-align:middle;margin-top:-.15em;white-space:nowrap;text-decoration:none}
+.org svg{width:16px;height:16px;flex:none;border-radius:50%;padding:2.5px}
+.org.deped{background:#E6EDFA;color:var(--accent)}.org.deped svg{background:var(--accent);stroke:#fff}
+.org.dbm{background:#E8ECF1;color:var(--ink)}.org.dbm svg{background:#334155;stroke:#fff}
+.find{margin:0}.find label{display:block;font-weight:600;font-size:15px;color:var(--ink);margin:0 0 10px}
+.find .row{display:flex;gap:10px}.find .box{position:relative;flex:1}
+.find .box svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;stroke:var(--mut);pointer-events:none}
+.find .field{padding-left:42px;height:52px}.find .btn{height:52px;padding:0 22px;border:0;font:inherit;font-weight:600;cursor:pointer}
+.find .cap{font-size:13.5px;color:var(--mut);margin:10px 0 0}
+.sug{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 6px);margin:0;padding:6px;list-style:none;background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px -12px rgba(15,23,42,.3)}
+.sug a{display:flex;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:7px;color:var(--ink);text-decoration:none;font-size:15px}
+.sug a span{color:var(--mut);font-size:13.5px;text-align:right}.sug a b{font-weight:600}
+.sug li.on a,.sug a:hover{background:#E6EDFA}.sug .none{padding:10px 12px;font-size:14.5px;color:var(--sec)}.sug .none b{color:var(--ink);font-weight:600}
+.exs{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:22px 0 0;font-size:14.5px;color:var(--sec)}
+.exs a{display:inline-flex;align-items:center;height:40px;padding:0 18px;border:1px solid #CBD5E1;border-radius:999px;background:var(--paper);text-decoration:none;font-weight:500;color:var(--accent)}
+.exs a:hover{border-color:var(--accent);color:var(--accent)}
+.memo{display:grid;grid-template-columns:44px 1fr;gap:3px 12px;font-size:13px;margin:0 0 20px;padding:0 0 16px;border-bottom:1px solid var(--line)}
+.memo dt{color:var(--mut)}.memo dd{margin:0;color:var(--sec)}.memo dd b{font-weight:600;color:var(--ink)}
+.peek .top{display:flex;justify-content:space-between;align-items:center;margin:0 0 16px}.peek .top .kick{margin:0}
+.engine{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;align-items:center;margin:36px 0 0;padding:34px 36px;border-radius:12px;background:var(--accent);color:rgba(255,255,255,.86)}
+.engine .k{margin:0 0 8px;font-size:14px;font-weight:600;color:var(--yel,#FDBD10)}
+.engine h3{font:600 24px/1.25 var(--head);color:#fff;margin:0 0 12px;text-wrap:balance}.engine p{margin:0;font-size:15.5px}
+.engine ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.engine li{font-size:15px;padding-left:18px;position:relative}.engine li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:#FDBD10}
+.engine li b{color:#fff;font-weight:600;margin-right:6px}
+.exh{margin:0 0 12px}.exh b{display:block;font:600 19px/1.3 var(--head);color:var(--ink)}.exh span{font-size:14.5px;color:var(--sec)}
+.nb{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font:600 11.5px/1 var(--sans);margin-right:8px;vertical-align:1px}
+.prose code,.prose pre{font:13px/1.5 ui-monospace,"Cascadia Mono",Consolas,monospace;background:var(--soft);border:1px solid var(--line);border-radius:4px}
+.prose code{padding:1px 5px}.prose pre{padding:12px 16px;overflow-x:auto;max-width:46em}
+.prose table{margin-top:12px}.prose td{white-space:normal;text-align:left;color:var(--sec)}.prose th{text-align:left}
+.glance{display:grid;grid-template-columns:repeat(4,1fr);margin:32px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.glance div{padding:18px 20px 18px 0}.glance div+div{padding-left:20px;border-left:1px solid var(--line)}.glance b{display:block;font:600 28px/1.1 var(--head);color:var(--accent);margin-bottom:4px}.glance span{font-size:13.5px;color:var(--sec)}
+.rib nav{display:flex;gap:4px;font-size:14px}.rib nav a{color:#fff;text-decoration:none;padding:6px 12px;border-radius:6px}
+.rib nav a:hover{background:rgba(255,255,255,.14)}
+.sheet{max-width:1048px;margin:32px auto 64px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:56px 72px 64px;animation:in .28s cubic-bezier(.2,.7,.2,1) both}
+.wrap{padding:0 24px}
+h1{font:600 40px/1.12 var(--head);letter-spacing:-.015em;margin:0 0 14px;text-wrap:balance;max-width:20em}
+.deck{font-size:18px;line-height:1.5;color:var(--sec);margin:0;max-width:40em}
+h2{font:600 24px/1.25 var(--head);margin:0 0 6px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+h3{font:600 17px/1.35 var(--sans);margin:0 0 4px}
+.sn{flex:none;display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;font:600 14px/1 var(--sans)}
+.sec{border-top:1px solid var(--line);margin-top:56px;padding-top:44px}
+.lead{font-size:16px;color:var(--sec);margin:0 0 20px;max-width:44em}
+.note{font-size:13.5px;color:var(--mut);margin:0 0 16px;max-width:52em}
+.lbl{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 8px}
+.kick{font-size:14px;color:var(--sec);margin:0 0 14px}.kick b{color:var(--ink);font-weight:600}
+.plan{font:500 12.5px/1 var(--sans);color:var(--accent);background:var(--tint);padding:6px 9px;border-radius:4px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:500;font-size:15px}
+.btn:hover{background:#002A80;color:#fff}.btn.ghost{background:var(--paper);color:var(--accent);border:1px solid #CBD5E1}.btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+/* brief top */
+.mh{display:grid;grid-template-columns:1fr 1.25fr 1fr;margin:0 0 40px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.mh div{padding:12px 18px}.mh div+div{border-left:1px solid var(--line)}
+.mh dt{font-size:12.5px;color:var(--mut);margin-bottom:2px}.mh dd{margin:0;font-size:14.5px;line-height:1.4;color:var(--ink)}
+.mh .dec{background:var(--goldtint);box-shadow:inset 0 3px 0 var(--gold)}.mh .dec dd{font-weight:600}
+.bl{font-size:20px;color:var(--ink);font-weight:500;margin-top:4px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);margin:32px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:20px 24px 20px 0}.facts div+div{padding-left:24px;border-left:1px solid var(--line)}
+.facts b{display:block;font:600 34px/1.05 var(--head);color:var(--ink);margin-bottom:6px}.facts div:first-child b{color:var(--g0)}
+.facts b small{font:500 16px var(--sans);color:var(--mut)}
+.facts span{font-size:14px;color:var(--sec);display:block;max-width:20em}
+.meta{font-size:13px;color:var(--mut);margin:14px 0 0}
+/* where to act */
+.acts{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--line)}
+.acts>li{display:grid;grid-template-columns:84px 1fr 150px;gap:0 24px;align-items:start;padding:20px 0;border-bottom:1px solid var(--line);scroll-margin-top:16px}
+.acts .cnt{background:var(--k);color:var(--kt);border-radius:8px;padding:12px 0 10px;text-align:center;font-size:12.5px;line-height:1.2;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.acts .cnt b{display:block;font:600 30px/1 var(--head);margin-bottom:3px}
+.acts h3{font:600 18px/1.3 var(--head);margin:2px 0 4px}.acts p{margin:0;color:var(--sec);max-width:40em}
+.acts .lrn{font-size:12.5px;line-height:1.35;color:var(--mut);text-align:right;padding-top:4px}.acts .lrn b{display:block;font:600 20px/1.2 var(--head);color:var(--ink)}
+.acts .zero{opacity:.55}.acts details{margin-top:8px}
+/* planned and supporting detail */
+.later>p.top .plan{margin-right:10px}
+.lat2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.lat2 h3{font:600 16px/1.3 var(--head)}.lat2 p{margin:0;font-size:14.5px;color:var(--sec)}
+.supp{margin-top:72px}
+h2.div{display:flex;align-items:center;gap:16px;font:600 15px/1 var(--sans);color:var(--mut);margin:0 0 8px}h2.div::after{content:"";flex:1;height:1px;background:#CBD5E1}
+.supp .sub h3{font:600 16px/1.35 var(--head);margin-bottom:4px}.supp .sub.first{margin-top:28px}.supp .sub.first .bars{margin-top:12px}
+/* five reading levels */
+.bars{display:grid;grid-template-columns:132px 1fr;gap:8px 16px;align-items:center}
+.bars .who{font-size:13.5px;color:var(--sec)}.bars .who b{font-weight:600;color:var(--ink)}
+.bar{display:flex;height:32px;border-radius:4px;overflow:hidden}
+.bar span{display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:500;min-width:0;overflow:hidden}
+.legend{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:12.5px;color:var(--sec);margin:12px 0 0 148px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px}
+.levels{margin-top:32px}
+/* the four groups as a 2x2 */
+.mx{display:grid;grid-template-columns:132px 1fr 1fr;gap:8px}
+.mx .ax{font-size:13px;line-height:1.35;color:var(--mut);align-self:end;padding:0 4px 2px}
+.mx .ay{align-self:center;text-align:right;padding:0 8px 0 0}
+.cell{display:flex;flex-direction:column;gap:3px;padding:16px 18px;border-radius:8px;text-decoration:none;min-height:112px;transition:box-shadow .16s}
+.cell b{font:600 34px/1 var(--head)}.cell span{font-weight:600;font-size:14.5px;line-height:1.3;margin-top:4px}.cell small{font-size:12.5px;line-height:1.35;opacity:.88}
+.mx .c0,.mx a.c0:hover{background:var(--g0);color:#fff}.mx .c1,.mx a.c1:hover{background:var(--g1);color:var(--ink)}
+.mx .c2,.mx a.c2:hover{background:var(--g2);color:var(--ink)}.mx .c3,.mx a.c3:hover{background:var(--g3);color:var(--ink)}
+.mx a.cell:hover{box-shadow:0 0 0 3px var(--accent)}
+details{margin-top:14px;font-size:14px}summary{cursor:pointer;color:var(--accent);width:fit-content}
+.names{columns:2;column-gap:32px;margin:10px 0 0;padding:0;list-style:none;color:var(--sec);font-size:13.5px}.names li{break-inside:avoid;padding:2px 0}
+/* questions */
+.ask{list-style:none;margin:8px 0 0;padding:0;counter-reset:q}
+.ask li{counter-increment:q;display:grid;grid-template-columns:48px 1fr;gap:0 8px;padding:18px 0;border-top:1px solid var(--line);font-size:17px;line-height:1.5;max-width:52em}
+.ask li:last-child{border-bottom:1px solid var(--line)}
+.ask li::before{content:counter(q);font:600 22px/1.2 var(--head);color:var(--accent)}.ask b{font-weight:600}
+/* planned */
+.later{margin-top:56px;border:1px dashed #94A3B8;border-radius:10px;padding:32px 36px;background:var(--soft)}
+.later>p.top{margin:0 0 28px;font-size:14px;color:var(--sec)}.later .sec{margin-top:36px;padding-top:32px;border-color:#CBD5E1}.later>.sec:first-of-type{margin-top:0;padding-top:0;border:0}
+.later table{background:var(--paper)}
+.dots{width:100%;height:auto;display:block;margin-top:8px}.dots text{font:12px var(--sans);fill:var(--mut)}.dots .lab{fill:var(--ink);font-weight:500}
+.dots circle{fill:var(--accent);fill-opacity:.28;stroke:var(--accent);stroke-width:1}.dots circle:hover{fill-opacity:.8}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 12px 8px 0;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;vertical-align:baseline}
+th:last-child,td:last-child{padding-right:0}th:first-child,td:first-child{text-align:left;white-space:normal}
+.later td,.later th{padding-left:12px;padding-right:12px}
+th{white-space:normal;line-height:1.3;font-weight:500;font-size:13px;color:var(--mut);vertical-align:bottom;border-bottom-color:var(--sec)}
+td.me{font-weight:600}.up{color:var(--need)}td.no{color:var(--mut)}tr.grp td{font-weight:600;color:var(--ink);padding-top:20px;text-align:left}
+tbody tr:hover td{background:var(--soft)}
+.sub{margin-top:44px}
+.fine{font-size:13px;color:var(--mut);margin:0;padding-left:16px;max-width:56em}.fine li{margin-bottom:4px}
+.field{font:inherit;font-size:15px;height:48px;padding:0 14px;border:1px solid #CBD5E1;border-radius:8px;background:var(--paper);color:var(--ink);width:100%}
+.field:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.tools{display:grid;grid-template-columns:1fr 220px;gap:12px;margin:16px 0 8px;align-items:center}
+/* landing */
+.intro{display:grid;grid-template-columns:1fr 464px;gap:52px;align-items:start;padding-top:56px;padding-bottom:56px}
+.intro h1{font-size:52px;line-height:1.06;margin-bottom:24px;max-width:none}.intro .deck{margin-bottom:28px}.intro .start{font-size:15px;color:var(--sec);margin:14px 0 0}
+.name-note{font-size:13px;color:var(--mut);margin:32px 0 0;max-width:34em}.name-note b{color:var(--accent);font-weight:600}
+.peek{display:block;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px 30px 24px;color:var(--ink);text-decoration:none;transition:border-color .16s,box-shadow .16s}
+.peek:hover{border-color:var(--accent);color:var(--ink);box-shadow:0 8px 24px -12px rgba(15,23,42,.25)}
+.peek .ph{font:600 22px/1.2 var(--head);margin:0 0 22px;text-wrap:balance}
+.peek .bars{grid-template-columns:112px 1fr;gap:6px 12px}.peek .bar{height:26px}.peek .legend{margin:10px 0 0;font-size:12px;gap:2px 12px}
+.peek .mx{grid-template-columns:88px 1fr 1fr;gap:6px}.peek .cell{min-height:0;padding:12px 14px}.peek .cell b{font-size:26px}.peek .cell span{font-size:13px}.peek .cell small{display:none}
+.peek .mx .ax{font-size:12px}
+.peek .ph{margin-bottom:0}.peek .memo{margin-bottom:14px;padding-bottom:14px}
+.peek .part+.part{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.peek .go{display:block;margin-top:20px;font-weight:500;color:var(--accent)}
+.band{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:64px 0}
+.band h2{font-size:30px;margin-bottom:10px}
+.who4{font-size:17px;color:var(--sec);max-width:44em;margin:0}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:36px 0 0;padding:0;list-style:none;counter-reset:s}
+.steps li{counter-increment:s;padding:24px 24px 26px;border:1px solid var(--line);border-radius:10px;color:var(--sec);font-size:15px;background:var(--paper)}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font:600 16px/1 var(--sans);margin-bottom:16px}
+.steps b{display:block;font:600 19px/1.3 var(--head);color:var(--ink);margin-bottom:8px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:32px}.cta span{font-size:14px;color:var(--mut)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-top:56px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px 32px}.card.next{background:transparent;border:1px dashed #94A3B8}
+.card h3{font:600 20px/1.3 var(--head);margin-bottom:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.card .note{margin-bottom:12px}
+.card ul{margin:0;padding-left:18px;color:var(--sec)}.card li{margin-bottom:8px}
+.prose p{max-width:46em;color:var(--sec);margin:8px 0 0}.prose ul,.prose ol{max-width:46em;color:var(--sec);padding-left:20px}.prose li{margin-bottom:6px}.prose h2{margin-top:44px}
+.m{display:inline-block;position:relative;width:112px;height:8px;background:var(--line);border-radius:2px;vertical-align:middle;margin-right:12px}
+.m i{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:2px}.m u{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.key{font-size:13px;color:var(--mut);margin:0}.key .m{margin:0 8px 0 0}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (max-width:960px){.intro{grid-template-columns:1fr;gap:36px}.steps,.two{grid-template-columns:1fr}.sheet{padding:44px 40px 48px}
+.engine{grid-template-columns:1fr;gap:24px;padding:28px 24px}.glance{grid-template-columns:1fr 1fr}.glance div:nth-child(3){padding-left:0;border-left:0}.glance div:nth-child(n+3){border-top:1px solid var(--line)}}
+@media (max-width:700px){.sheet{padding:28px 20px 36px;margin-top:16px;border-radius:8px}.intro{padding-top:32px;padding-bottom:36px}.intro h1{font-size:36px}h1{font-size:28px}
+.band{padding:44px 0}.band h2{font-size:24px}.in{padding:0 16px}.wrap{padding:0 12px}
+.bars{grid-template-columns:1fr;gap:4px}.bars .who{margin-top:8px}.legend{margin-left:0}.tools{grid-template-columns:1fr}
+.facts{grid-template-columns:1fr}.facts div,.facts div+div{padding:14px 0;border-left:0}.facts div+div{border-top:1px solid var(--line)}.facts b{font-size:28px}
+.mh{grid-template-columns:1fr;margin-bottom:28px}.mh div+div{border-left:0;border-top:1px solid var(--line)}.mh div{padding:10px 14px}.bl{font-size:18px}
+.acts>li{grid-template-columns:60px 1fr;gap:0 14px;padding:16px 0}.acts .cnt b{font-size:24px}.acts .lrn{grid-column:2;text-align:left;padding-top:8px}.acts .lrn b{display:inline;font-size:15px}
+.lat2{grid-template-columns:1fr;gap:16px}.supp{margin-top:48px}
+.mx,.peek .mx{grid-template-columns:72px 1fr 1fr;gap:6px}.cell{padding:12px;min-height:0}.cell b{font-size:26px}.cell small{display:none}.mx .ax{font-size:11.5px}
+.names{columns:1}
+.peek .bars{grid-template-columns:1fr;gap:4px}.bar span{font-size:11px}.ask li{grid-template-columns:32px 1fr;font-size:16px}.later{padding:22px 16px}.card{padding:22px 20px}.peek{padding:22px 18px}
+.intro h1{margin-bottom:22px;font-size:40px}.br-d{display:none}.pitch div{grid-template-columns:1fr;gap:2px}.pitch dd{font-size:16px}.find .row{flex-direction:column}.find .btn{justify-content:center}.exs a{height:36px;padding:0 14px}
+.hide-s{display:none}.rib .name{flex-direction:column;gap:4px}.rib .name span{font-size:11.5px}.rib nav{margin-left:-8px}.rib nav a{padding:6px 8px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+@media print{.org{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@media print{body{background:#fff;font-size:11pt}.rib nav,.noprint{display:none!important}.rib,.mx .cell,.bar span,.mh .dec{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wrap{padding:0}.sheet{border:0;max-width:none;margin:0;padding:16pt 0 0;animation:none}
+h2{break-after:avoid}table,.dots,.bars,.acts>li,.mx,.ask li,.later{break-inside:avoid}.appendix{break-before:page}a{color:inherit;text-decoration:none}summary{display:none}}
+</style></head><body><header class='rib'><div class='in'><a class='name' href='../index.html' aria-label='PISARA home'>PISARA<span><b>P</b>ublic <b>I</b>nformation for <b>S</b>chool <b>A</b>llocation and <b>R</b>esource <b>A</b>ccountability</span></a><nav><a href='../index.html#how'>How it works</a><a href='../index.html#find'>Find a locality</a><a href='../about.html'>Technical write-up</a></nav></div></header><div class='wrap'><main class='sheet'>
+<dl class='mh'><div><dt>For</dt><dd>Local School Board of City of Urdaneta, Pangasinan</dd></div>
+<div class='dec'><dt>Decision</dt><dd>How to share next year's Special Education Fund</dd></div>
+<div><dt>Data</dt><dd>School year 2025&ndash;26, 46 of 46 public elementary schools</dd></div></dl>
+<h1>2,592 early-grade learners in City of Urdaneta need the most help with reading</h1>
+<p class='deck bl'>Start with the 17 schools that need both reading help and more room.</p>
+<div class='facts'><div><b>39%</b><span>of Grades 1 to 3 learners are at the lowest reading level. Region I: 32%</span></div><div><b>31 <small>of 46</small></b><span>schools have more of these learners than Region I</span></div><div><b>23 <small>of 46</small></b><span>schools have more learners per classroom than Region I</span></div></div>
+
+<section class='sec'><h2><span class='sn'>1</span>Where to act</h2>
+<p class='lead'>Each school is compared with Region I on reading and on learners per classroom, then placed in one of four groups. Schools are grouped, never ranked.</p>
+<ol class='acts'><li class='' id='g1' style='--k:var(--g0);--kt:#fff'><div class='cnt'><b>17</b>schools</div><div><h3>Reading help and more room</h3><p>Put these schools first when the fund pays for classrooms or repairs, and send reading support with it.</p><details><summary>Show the 17 schools</summary><ul class='names'><li>Anonas East Elementary School</li><li>Bactad Community School</li><li>Badipa Elementary School</li><li>Calegu Integrated School</li><li>Camanang Elementary School</li><li>Catablan Integrated School</li><li>Don Alipio Fernandez, Sr. Integrated School</li><li>Don Amadeo Perez, Sr. Memorial Central School - East</li><li>Don Andres G. Maiquez Memorial School</li><li>Labit East Elementary School</li><li>Labit West Elementary School</li><li>Lananpin Elementary School</li><li>Nancalobasaan Elementary School</li><li>Palina East Elementary School</li><li>Sta. Lucia Elementary School</li><li>Tiposu Elementary School</li><li>Urdaneta I Central School</li></ul></details></div><div class='lrn'><b>1,693</b> learners at the lowest reading level</div></li><li class='' id='g2' style='--k:var(--g1);--kt:var(--ink)'><div class='cnt'><b>14</b>schools</div><div><h3>Reading help</h3><p>Space is not the pressure here. Look at reading materials, teacher training and remedial sessions.</p><details><summary>Show the 14 schools</summary><ul class='names'><li>Anonas Elementary School</li><li>Bactad East Elementary School</li><li>Cayambanan Elementary School</li><li>Don Amadeo Perez Sr. Memorial Central School - Main</li><li>Don Amadeo Perez, Sr. Memorial Central School - West</li><li>Don Clemente Blanco Memorial Elementary School</li><li>Don Valentin M. Ordonez Memorial School</li><li>Florentino B. Goce Community School</li><li>Lazaga Elementary School</li><li>Nanbacuran Elementary School</li><li>Pinmaludpod Elementary School</li><li>Tabuyoc Elementary School</li><li>Trinidad S. Perez Elementary School</li><li>Tulong Integrated School</li></ul></details></div><div class='lrn'><b>511</b> learners at the lowest reading level</div></li><li class='' id='g3' style='--k:var(--g2);--kt:var(--ink)'><div class='cnt'><b>6</b>schools</div><div><h3>More room</h3><p>Consider these schools for classroom works, and ask what keeps their reading up.</p><details><summary>Show the 6 schools</summary><ul class='names'><li>Cabuloan Elementary School</li><li>Camantiles Elementary School</li><li>Manan Elementary School</li><li>San Jose Elementary School</li><li>San Jose Leet Integrated School</li><li>Urdaneta City SPED Center</li></ul></details></div><div class='lrn'><b>200</b> learners at the lowest reading level</div></li><li class='' id='g4' style='--k:var(--g3);--kt:var(--ink)'><div class='cnt'><b>9</b>schools</div><div><h3>Neither</h3><p>Keep current support. These schools may have practice worth sharing with the others.</p><details><summary>Show the 9 schools</summary><ul class='names'><li>Bolaoen Elementary School</li><li>Cabaruan Elementary School</li><li>Casabula Elementary School</li><li>Consolacion Elementary School</li><li>Don Felipe Maramba Elementary School</li><li>Nancalobasaan Riverside Integrated School</li><li>Nancayasan Elementary School</li><li>Oltama Elementary School</li><li>Vicente Taaca Memorial School</li></ul></details></div><div class='lrn'><b>188</b> learners at the lowest reading level</div></li></ol></section>
+
+<section class='sec'><h2><span class='sn'>2</span>Questions for the meeting</h2>
+<p class='lead'>Settle these before the fund is shared. The board knows conditions the data does not.</p>
+<ol class='ask'><li><span><b>17 schools</b> need both reading help and more room. Are they first in line for next year's classroom and repair works?</span></li><li><span><b>14 schools</b> need reading help but are not crowded. What does the fund pay for there now: materials, training, or remedial sessions?</span></li><li><span><b>6 schools</b> read well but are crowded. Can classroom works there wait a year, or not?</span></li><li><span><b>2,592 learners</b> are at the lowest reading level. How much of the fund goes to learning support, compared with buildings and operations?</span></li></ol></section>
+
+<div class='later'><p class='top'><span class='plan'>Planned for the fellowship</span>Empty until real figures are connected. Nothing here is estimated.</p>
+<div class='lat2'><div><h3>Where the fund goes now</h3><p>City of Urdaneta's Special Education Fund by purpose, budgeted and spent, beside the groups above.</p></div>
+<div><h3>After the meeting</h3><p>What the board decided for each group, the amount set aside, and whether it was spent.</p></div></div></div>
+
+<section class='supp appendix'><h2 class='div'>Supporting detail</h2>
+<p class='note'>The figures behind the groups, for anyone who wants to check them.</p>
+<div class='sub first'><h3>How its learners read, against the region</h3><div class='bars'><div class='who'><b>City of Urdaneta</b></div><div class='bar' role='img' aria-label='Share of learners at each reading level'><span style='width:38.77%;background:#C2410C;color:#fff' title='Low Emerging: 38.8%'>39%</span><span style='width:11.19%;background:#EA9A62;color:#0F172A' title='High Emerging: 11.2%'>11%</span><span style='width:12.46%;background:#F3D9A4;color:#0F172A' title='Developing: 12.5%'>12%</span><span style='width:27.06%;background:#9DB7E4;color:#0F172A' title='Transitioning: 27.1%'>27%</span><span style='width:10.52%;background:#0038A8;color:#fff' title='At Grade Level: 10.5%'>11%</span></div><div class='who'>Region I</div><div class='bar' role='img' aria-label='Share of learners at each reading level'><span style='width:31.58%;background:#C2410C;color:#fff' title='Low Emerging: 31.6%'>32%</span><span style='width:10.18%;background:#EA9A62;color:#0F172A' title='High Emerging: 10.2%'>10%</span><span style='width:12.88%;background:#F3D9A4;color:#0F172A' title='Developing: 12.9%'>13%</span><span style='width:31.16%;background:#9DB7E4;color:#0F172A' title='Transitioning: 31.2%'>31%</span><span style='width:14.20%;background:#0038A8;color:#fff' title='At Grade Level: 14.2%'>14%</span></div></div><div class='legend'><span><i style='background:#C2410C'></i>Low Emerging</span><span><i style='background:#EA9A62'></i>High Emerging</span><span><i style='background:#F3D9A4'></i>Developing</span><span><i style='background:#9DB7E4'></i>Transitioning</span><span><i style='background:#0038A8'></i>At Grade Level</span></div>
+<p class='meta'>Reading: school year 2025&ndash;26. Teachers and classrooms: 2023&ndash;24. 6,685 learners assessed.</p></div>
+<div class='sub'><h3>How the schools are spread</h3><p class='note'>Each circle is one school, placed by its share of learners at the lowest level. Larger circles assessed more learners. Hover for the school</p>
+<svg class='dots' viewBox='0 0 760 136' role='img' aria-label='Each school by its share of learners at the lowest reading level'><line x1='16' x2='744' y1='112' y2='112' stroke='#64748B'/><line x1='16.0' x2='16.0' y1='112' y2='116' stroke='#64748B'/><text x='16.0' y='130' text-anchor='middle'>0%</text><line x1='198.0' x2='198.0' y1='112' y2='116' stroke='#64748B'/><text x='198.0' y='130' text-anchor='middle'>25%</text><line x1='380.0' x2='380.0' y1='112' y2='116' stroke='#64748B'/><text x='380.0' y='130' text-anchor='middle'>50%</text><line x1='562.0' x2='562.0' y1='112' y2='116' stroke='#64748B'/><text x='562.0' y='130' text-anchor='middle'>75%</text><line x1='744.0' x2='744.0' y1='112' y2='116' stroke='#64748B'/><text x='744.0' y='130' text-anchor='middle'>100%</text><line x1='245.9' x2='245.9' y1='4' y2='112' stroke='#0F172A' stroke-dasharray='3 3'/><text class='lab' x='251.9' y='14' text-anchor='start'>Region I, 31.6%</text><circle cx='322.4' cy='68.0' r='12.0'><title>Urdaneta I Central School: 42% of 853 learners</title></circle><circle cx='450.7' cy='84.3' r='10.7'><title>Badipa Elementary School: 60% of 618 learners</title></circle><circle cx='282.6' cy='58.7' r='8.8'><title>Lananpin Elementary School: 37% of 355 learners</title></circle><circle cx='16.0' cy='68.7' r='8.5'><title>Urdaneta City SPED Center: 0% of 317 learners</title></circle><circle cx='432.0' cy='91.9' r='7.7'><title>Palina East Elementary School: 57% of 231 learners</title></circle><circle cx='206.2' cy='61.5' r='7.6'><title>Nancayasan Elementary School: 26% of 222 learners</title></circle><circle cx='394.1' cy='75.1' r='7.4'><title>Don Amadeo Perez Sr. Memorial Central School - Main: 52% of 206 learners</title></circle><circle cx='284.0' cy='59.9' r='7.2'><title>Camanang Elementary School: 37% of 182 learners</title></circle><circle cx='295.1' cy='29.9' r='7.1'><title>Labit East Elementary School: 38% of 180 learners</title></circle><circle cx='276.9' cy='93.1' r='7.1'><title>Catablan Integrated School: 36% of 173 learners</title></circle><circle cx='240.0' cy='86.5' r='7.0'><title>Cabuloan Elementary School: 31% of 169 learners</title></circle><circle cx='179.7' cy='31.5' r='7.0'><title>San Jose Elementary School: 22% of 169 learners</title></circle><circle cx='199.1' cy='48.3' r='6.9'><title>Camantiles Elementary School: 25% of 163 learners</title></circle><circle cx='346.5' cy='52.5' r='6.9'><title>Cayambanan Elementary School: 45% of 163 learners</title></circle><circle cx='290.7' cy='59.9' r='6.9'><title>Don Andres G. Maiquez Memorial School: 38% of 159 learners</title></circle><circle cx='124.1' cy='48.6' r='6.5'><title>Cabaruan Elementary School: 15% of 128 learners</title></circle><circle cx='245.3' cy='64.9' r='6.5'><title>Manan Elementary School: 31% of 127 learners</title></circle><circle cx='300.1' cy='58.0' r='6.4'><title>Anonas Elementary School: 39% of 123 learners</title></circle><circle cx='347.4' cy='34.3' r='6.4'><title>Don Alipio Fernandez, Sr. Integrated School: 46% of 123 learners</title></circle><circle cx='432.0' cy='36.0' r='6.4'><title>Sta. Lucia Elementary School: 57% of 119 learners</title></circle><circle cx='184.0' cy='83.6' r='6.3'><title>Don Felipe Maramba Elementary School: 23% of 117 learners</title></circle><circle cx='367.4' cy='68.1' r='6.3'><title>Labit West Elementary School: 48% of 116 learners</title></circle><circle cx='469.4' cy='33.6' r='6.3'><title>Bactad Community School: 62% of 114 learners</title></circle><circle cx='307.2' cy='39.6' r='6.2'><title>Nancalobasaan Elementary School: 40% of 110 learners</title></circle><circle cx='231.4' cy='89.1' r='6.1'><title>San Jose Leet Integrated School: 30% of 98 learners</title></circle><circle cx='248.7' cy='45.1' r='6.0'><title>Anonas East Elementary School: 32% of 97 learners</title></circle><circle cx='266.2' cy='88.0' r='6.0'><title>Tiposu Elementary School: 34% of 96 learners</title></circle><circle cx='107.0' cy='75.8' r='6.0'><title>Vicente Taaca Memorial School: 12% of 96 learners</title></circle><circle cx='407.4' cy='31.7' r='6.0'><title>Don Amadeo Perez, Sr. Memorial Central School - East: 54% of 93 learners</title></circle><circle cx='328.0' cy='92.9' r='5.9'><title>Bactad East Elementary School: 43% of 91 learners</title></circle><circle cx='380.0' cy='53.4' r='5.9'><title>Pinmaludpod Elementary School: 50% of 86 learners</title></circle><circle cx='339.6' cy='54.2' r='5.8'><title>Calegu Integrated School: 44% of 81 learners</title></circle><circle cx='218.2' cy='73.8' r='5.6'><title>Bolaoen Elementary School: 28% of 72 learners</title></circle><circle cx='323.1' cy='33.2' r='5.5'><title>Tulong Integrated School: 42% of 64 learners</title></circle><circle cx='286.1' cy='69.8' r='5.4'><title>Florentino B. Goce Community School: 37% of 62 learners</title></circle><circle cx='218.9' cy='53.0' r='5.4'><title>Consolacion Elementary School: 28% of 61 learners</title></circle><circle cx='289.0' cy='35.1' r='5.3'><title>Lazaga Elementary School: 38% of 56 learners</title></circle><circle cx='483.0' cy='35.1' r='5.2'><title>Don Clemente Blanco Memorial Elementary School: 64% of 53 learners</title></circle><circle cx='315.8' cy='90.0' r='5.2'><title>Don Amadeo Perez, Sr. Memorial Central School - West: 41% of 51 learners</title></circle><circle cx='258.7' cy='77.8' r='5.2'><title>Don Valentin M. Ordonez Memorial School: 33% of 51 learners</title></circle><circle cx='205.9' cy='86.9' r='5.1'><title>Oltama Elementary School: 26% of 46 learners</title></circle><circle cx='226.3' cy='64.1' r='5.1'><title>Casabula Elementary School: 29% of 45 learners</title></circle><circle cx='456.2' cy='40.9' r='5.0'><title>Trinidad S. Perez Elementary School: 60% of 43 learners</title></circle><circle cx='314.7' cy='45.2' r='4.9'><title>Nanbacuran Elementary School: 41% of 39 learners</title></circle><circle cx='207.6' cy='71.7' r='4.9'><title>Nancalobasaan Riverside Integrated School: 26% of 38 learners</title></circle><circle cx='392.6' cy='72.8' r='4.7'><title>Tabuyoc Elementary School: 52% of 29 learners</title></circle></svg></div>
+<div class='sub'><h3>City of Urdaneta beside its region</h3><p class='note'>Figures in red show more need than Region I</p><div class='tw'><table><thead><tr><th>Measure</th><th>City of Urdaneta</th><th>Region I</th><th>All published schools</th></tr></thead><tbody><tr><td>Learners at the lowest reading level</td><td class='me up'>38.8%</td><td class=''>31.6%</td><td class=''>30.3%</td></tr><tr><td>Learners reading at grade level</td><td class='me up'>10.5%</td><td class=''>14.2%</td><td class=''>15.7%</td></tr><tr><td>Learners per teacher</td><td class='me up'>24</td><td class=''>21</td><td class=''>22</td></tr><tr><td>Learners per classroom</td><td class='me up'>26</td><td class=''>23</td><td class=''>27</td></tr></tbody></table></div></div>
+<div class='sub'><h3>All 46 schools</h3><p class='note'>Alphabetical within each group</p><input id='f' class='field noprint' type='search' placeholder='Filter schools' aria-label='Filter schools' style='max-width:320px;margin:12px 0 4px' oninput="for(const tr of document.querySelectorAll('#all tr:not(.grp)'))tr.hidden=!tr.cells[0].textContent.toLowerCase().includes(this.value.toLowerCase())"><div class='tw'><table><thead><tr><th>School</th><th>Learners assessed</th><th>At lowest level</th><th>Share at lowest level</th><th>At grade level</th><th>Learners per teacher</th><th>Learners per classroom</th></tr></thead><tbody id='all'><tr class='grp'><td colspan='7'>Reading help and more room, 17 schools</td></tr><tr><td>Anonas East Elementary School</td><td>97</td><td>31</td><td>32.0%</td><td>5.2%</td><td>22</td><td>24</td></tr><tr><td>Bactad Community School</td><td>114</td><td>71</td><td>62.3%</td><td>8.8%</td><td>22</td><td>24</td></tr><tr><td>Badipa Elementary School</td><td>618</td><td>369</td><td>59.7%</td><td>9.9%</td><td>28</td><td>32</td></tr><tr><td>Calegu Integrated School</td><td>81</td><td>36</td><td>44.4%</td><td>11.1%</td><td>22</td><td>29</td></tr><tr><td>Camanang Elementary School</td><td>182</td><td>67</td><td>36.8%</td><td>21.4%</td><td>24</td><td>34</td></tr><tr><td>Catablan Integrated School</td><td>173</td><td>62</td><td>35.8%</td><td>16.8%</td><td>28</td><td>28</td></tr><tr><td>Don Alipio Fernandez, Sr. Integrated School</td><td>123</td><td>56</td><td>45.5%</td><td>22.0%</td><td>21</td><td>62</td></tr><tr><td>Don Amadeo Perez, Sr. Memorial Central School - East</td><td>93</td><td>50</td><td>53.8%</td><td>14.0%</td><td>24</td><td>31</td></tr><tr><td>Don Andres G. Maiquez Memorial School</td><td>159</td><td>60</td><td>37.7%</td><td>11.9%</td><td>25</td><td>27</td></tr><tr><td>Labit East Elementary School</td><td>180</td><td>69</td><td>38.3%</td><td>13.3%</td><td>29</td><td>36</td></tr><tr><td>Labit West Elementary School</td><td>116</td><td>56</td><td>48.3%</td><td>13.8%</td><td>26</td><td>24</td></tr><tr><td>Lananpin Elementary School</td><td>355</td><td>130</td><td>36.6%</td><td>1.7%</td><td>28</td><td>55</td></tr><tr><td>Nancalobasaan Elementary School</td><td>110</td><td>44</td><td>40.0%</td><td>10.9%</td><td>21</td><td>30</td></tr><tr><td>Palina East Elementary School</td><td>231</td><td>132</td><td>57.1%</td><td>3.9%</td><td>30</td><td>31</td></tr><tr><td>Sta. Lucia Elementary School</td><td>119</td><td>68</td><td>57.1%</td><td>6.7%</td><td>29</td><td>26</td></tr><tr><td>Tiposu Elementary School</td><td>96</td><td>33</td><td>34.4%</td><td>26.0%</td><td>26</td><td>39</td></tr><tr><td>Urdaneta I Central School</td><td>853</td><td>359</td><td>42.1%</td><td>5.4%</td><td>26</td><td>28</td></tr><tr class='grp'><td colspan='7'>Reading help, 14 schools</td></tr><tr><td>Anonas Elementary School</td><td>123</td><td>48</td><td>39.0%</td><td>4.1%</td><td>23</td><td>21</td></tr><tr><td>Bactad East Elementary School</td><td>91</td><td>39</td><td>42.9%</td><td>8.8%</td><td>23</td><td>19</td></tr><tr><td>Cayambanan Elementary School</td><td>163</td><td>74</td><td>45.4%</td><td>6.7%</td><td>25</td><td>22</td></tr><tr><td>Don Amadeo Perez Sr. Memorial Central School - Main</td><td>206</td><td>107</td><td>51.9%</td><td>0.5%</td><td>20</td><td>21</td></tr><tr><td>Don Amadeo Perez, Sr. Memorial Central School - West</td><td>51</td><td>21</td><td>41.2%</td><td>0.0%</td><td>18</td><td>16</td></tr><tr><td>Don Clemente Blanco Memorial Elementary School</td><td>53</td><td>34</td><td>64.2%</td><td>17.0%</td><td>18</td><td>20</td></tr><tr><td>Don Valentin M. Ordonez Memorial School</td><td>51</td><td>17</td><td>33.3%</td><td>13.7%</td><td>14</td><td>16</td></tr><tr><td>Florentino B. Goce Community School</td><td>62</td><td>23</td><td>37.1%</td><td>8.1%</td><td>20</td><td>23</td></tr><tr><td>Lazaga Elementary School</td><td>56</td><td>21</td><td>37.5%</td><td>3.6%</td><td>15</td><td>17</td></tr><tr><td>Nanbacuran Elementary School</td><td>39</td><td>16</td><td>41.0%</td><td>17.9%</td><td>13</td><td>13</td></tr><tr><td>Pinmaludpod Elementary School</td><td>86</td><td>43</td><td>50.0%</td><td>8.1%</td><td>18</td><td>23</td></tr><tr><td>Tabuyoc Elementary School</td><td>29</td><td>15</td><td>51.7%</td><td>0.0%</td><td>9</td><td>7</td></tr><tr><td>Trinidad S. Perez Elementary School</td><td>43</td><td>26</td><td>60.5%</td><td>11.6%</td><td>13</td><td>21</td></tr><tr><td>Tulong Integrated School</td><td>64</td><td>27</td><td>42.2%</td><td>10.9%</td><td>15</td><td>13</td></tr><tr class='grp'><td colspan='7'>More room, 6 schools</td></tr><tr><td>Cabuloan Elementary School</td><td>169</td><td>52</td><td>30.8%</td><td>6.5%</td><td>26</td><td>46</td></tr><tr><td>Camantiles Elementary School</td><td>163</td><td>41</td><td>25.2%</td><td>5.5%</td><td>25</td><td>25</td></tr><tr><td>Manan Elementary School</td><td>127</td><td>40</td><td>31.5%</td><td>3.1%</td><td>22</td><td>28</td></tr><tr><td>San Jose Elementary School</td><td>169</td><td>38</td><td>22.5%</td><td>5.9%</td><td>25</td><td>28</td></tr><tr><td>San Jose Leet Integrated School</td><td>98</td><td>29</td><td>29.6%</td><td>8.2%</td><td>23</td><td>26</td></tr><tr><td>Urdaneta City SPED Center</td><td>317</td><td>0</td><td>0.0%</td><td>37.2%</td><td>26</td><td>29</td></tr><tr class='grp'><td colspan='7'>Neither, 9 schools</td></tr><tr><td>Bolaoen Elementary School</td><td>72</td><td>20</td><td>27.8%</td><td>5.6%</td><td>22</td><td>17</td></tr><tr><td>Cabaruan Elementary School</td><td>128</td><td>19</td><td>14.8%</td><td>10.9%</td><td>24</td><td>22</td></tr><tr><td>Casabula Elementary School</td><td>45</td><td>13</td><td>28.9%</td><td>33.3%</td><td>16</td><td>18</td></tr><tr><td>Consolacion Elementary School</td><td>61</td><td>17</td><td>27.9%</td><td>13.1%</td><td>17</td><td>20</td></tr><tr><td>Don Felipe Maramba Elementary School</td><td>117</td><td>27</td><td>23.1%</td><td>6.8%</td><td>20</td><td>20</td></tr><tr><td>Nancalobasaan Riverside Integrated School</td><td>38</td><td>10</td><td>26.3%</td><td>10.5%</td><td>14</td><td>16</td></tr><tr><td>Nancayasan Elementary School</td><td>222</td><td>58</td><td>26.1%</td><td>20.7%</td><td>26</td><td>20</td></tr><tr><td>Oltama Elementary School</td><td>46</td><td>12</td><td>26.1%</td><td>8.7%</td><td>15</td><td>15</td></tr><tr><td>Vicente Taaca Memorial School</td><td>96</td><td>12</td><td>12.5%</td><td>8.3%</td><td>19</td><td>23</td></tr></tbody></table></div></div>
+<div class='sub'><h3>For scale</h3><p class='note'>For scale, City of Urdaneta's National Tax Allotment for 2027 is <b>₱1.18 billion</b>, up 10.7% from 2026. That is the main national transfer to the locality and is not specific to education.</p></div>
+<div class='sub'><h3>How to read this brief</h3>
+<ul class='fine'><li>Schools are compared with a regional figure, not ranked. Schools work in different conditions, and DepEd's terms of use do not allow ranking.</li>
+<li>The groups point to a kind of help to look into. They do not show that crowding causes low reading, or that spending will fix it.</li>
+<li>Reading results are for school year 2025-26 only and are not compared across years. Classroom counts are from 2023-24; a school with no classroom count is treated as not crowded.</li>
+<li>Regional figures cover the schools in DepEd's public reading file: five regions, 6,113 schools.</li>
+<li>&dagger; Fewer than 20 learners assessed. Percentages for small groups move a lot with one or two learners.</li>
+<li>School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM.</li></ul></div>
+<p class='note noprint' style='margin-top:28px'><a href='javascript:print()'>Print this brief</a> &nbsp; <a href='../api/localities/pangasinan-urdaneta.json'>Download its data</a> &nbsp; <a href='../about.html'>Technical write-up</a></p></section>
+</main></div>
+<script>addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true))</script></body></html>

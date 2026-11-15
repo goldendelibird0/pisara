@@ -1,0 +1,687 @@
+{
+ "locality_id": "zamboanga-sibugay-tungawan",
+ "name": "Tungawan",
+ "province": "Zamboanga Sibugay",
+ "region": "Region IX",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 29,
+ "schools_with_reading": 29,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.4337065409546258,
+  "reading_grade_level": 0.11903358868591632,
+  "learners_per_teacher": 24.040372670807454,
+  "learners_per_classroom": 31.987603305785125,
+  "levels": {
+   "low_emerging": 0.4337065409546258,
+   "high_emerging": 0.08780200353565115,
+   "developing": 0.1437831467295227,
+   "transitioning": 0.21567472009428404,
+   "at_grade_level": 0.11903358868591632
+  },
+  "schools": 29,
+  "learners_assessed": 3394.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.34151150993812784,
+   "reading_grade_level": 0.1497506537301916,
+   "learners_per_teacher": 20.952071892161758,
+   "learners_per_classroom": 25.882343798570098,
+   "levels": {
+    "low_emerging": 0.34151150993812784,
+    "high_emerging": 0.07614706428704114,
+    "developing": 0.1290313361816441,
+    "transitioning": 0.3035594358629953,
+    "at_grade_level": 0.1497506537301916
+   },
+   "schools": 808,
+   "learners_assessed": 69983.0
+  },
+  "division": {
+   "reading_lowest": 0.32610401655133053,
+   "reading_grade_level": 0.16187486623385888,
+   "learners_per_teacher": 21.24497487437186,
+   "learners_per_classroom": 28.808184143222505,
+   "levels": {
+    "low_emerging": 0.32610401655133053,
+    "high_emerging": 0.07341085824356139,
+    "developing": 0.1331240636370122,
+    "transitioning": 0.305486195334237,
+    "at_grade_level": 0.16187486623385888
+   },
+   "schools": 166,
+   "learners_assessed": 14017.0,
+   "name": "Zamboanga Sibugay"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 3421.0,
+ "schools_above_region": 23,
+ "learners_in_schools_above_region": 2484.0,
+ "schools_above_region_on_reading_and_classrooms": 13,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 301492658.0,
+   "FY 2023": 257648556.0,
+   "FY 2024": 273708590.0,
+   "FY 2025": 324932043.0,
+   "FY 2026": 375013369.0,
+   "FY 2027": 416045363.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "125886",
+   "school_name": "Baluran Elementary School",
+   "learners_assessed": 31.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3548387096774194,
+    "reading_grade_level": 0.22580645161290322,
+    "learners_per_teacher": 13.428571428571429,
+    "learners_per_classroom": 15.666666666666666
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 1.3327199739291529
+  },
+  {
+   "school_id": "125887",
+   "school_name": "Batungan Elementary School",
+   "learners_assessed": 102.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3235294117647059,
+    "reading_grade_level": 0.12745098039215685,
+    "learners_per_teacher": 18.5,
+    "learners_per_classroom": 20.181818181818183
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.7982098173421945
+  },
+  {
+   "school_id": "125903",
+   "school_name": "Calon Elementary School",
+   "learners_assessed": 123.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5934959349593496,
+    "reading_grade_level": 0.1951219512195122,
+    "learners_per_teacher": 32.333333333333336,
+    "learners_per_classroom": 36.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 25.198442502122177
+  },
+  {
+   "school_id": "196524",
+   "school_name": "Campo Islam Elementary School",
+   "learners_assessed": 48.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.375,
+    "reading_grade_level": 0.08333333333333333,
+    "learners_per_teacher": 18.4,
+    "learners_per_classroom": 18.4
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 3.3488490061872156
+  },
+  {
+   "school_id": "125888",
+   "school_name": "Cayamcam Elementary School",
+   "learners_assessed": 113.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.37168141592920356,
+    "reading_grade_level": 0.1592920353982301,
+    "learners_per_teacher": 23.583333333333332,
+    "learners_per_classroom": 23.583333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 3.016990599107572
+  },
+  {
+   "school_id": "125889",
+   "school_name": "Datu Tumanggong Elementary School",
+   "learners_assessed": 147.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5102040816326531,
+    "reading_grade_level": 0.013605442176870748,
+    "learners_per_teacher": 31.90909090909091,
+    "learners_per_classroom": 39.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 16.869257169452524
+  },
+  {
+   "school_id": "125890",
+   "school_name": "Gaycon Elementary School",
+   "learners_assessed": 89.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6067415730337079,
+    "reading_grade_level": 0.1348314606741573,
+    "learners_per_teacher": 17.818181818181817,
+    "learners_per_classroom": 21.77777777777778
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 26.523006309558006
+  },
+  {
+   "school_id": "501384",
+   "school_name": "Lali Alam Integrated School",
+   "learners_assessed": 134.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6268656716417911,
+    "reading_grade_level": 0.029850746268656716,
+    "learners_per_teacher": 22.166666666666668,
+    "learners_per_classroom": 44.333333333333336
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 28.535416170366325
+  },
+  {
+   "school_id": "125891",
+   "school_name": "Langon Elementary School",
+   "learners_assessed": 103.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2621359223300971,
+    "reading_grade_level": 0.4854368932038835,
+    "learners_per_teacher": 19.75,
+    "learners_per_classroom": 22.571428571428573
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.937558760803077
+  },
+  {
+   "school_id": "196529",
+   "school_name": "Limanon 2 Primary School",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.34782608695652173,
+    "reading_grade_level": 0.043478260869565216,
+    "learners_per_teacher": 17.0,
+    "learners_per_classroom": 34.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 0.6314577018393885
+  },
+  {
+   "school_id": "125893",
+   "school_name": "Little Margos Elementary School",
+   "learners_assessed": 28.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6428571428571429,
+    "reading_grade_level": 0.25,
+    "learners_per_teacher": 17.25,
+    "learners_per_classroom": 17.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 30.134563291901507
+  },
+  {
+   "school_id": "125894",
+   "school_name": "Loboc Elementary School",
+   "learners_assessed": 113.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2920353982300885,
+    "reading_grade_level": 0.24778761061946902,
+    "learners_per_teacher": 20.076923076923077,
+    "learners_per_classroom": 87.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.947611170803934
+  },
+  {
+   "school_id": "125895",
+   "school_name": "Looc Labuan Elementary School",
+   "learners_assessed": 144.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4375,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 24.416666666666668,
+    "learners_per_classroom": 32.55555555555556
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 9.598849006187216
+  },
+  {
+   "school_id": "125896",
+   "school_name": "Lower Tungawan Elementary School",
+   "learners_assessed": 241.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5601659751037344,
+    "reading_grade_level": 0.07053941908713693,
+    "learners_per_teacher": 31.11111111111111,
+    "learners_per_classroom": 32.94117647058823
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 21.86544651656066
+  },
+  {
+   "school_id": "125897",
+   "school_name": "Malungon Elementary School",
+   "learners_assessed": 120.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.35,
+    "reading_grade_level": 0.041666666666666664,
+    "learners_per_teacher": 23.076923076923077,
+    "learners_per_classroom": 25.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.8488490061872134
+  },
+  {
+   "school_id": "196504",
+   "school_name": "Masao Elementary School",
+   "learners_assessed": 48.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4166666666666667,
+    "reading_grade_level": 0.10416666666666667,
+    "learners_per_teacher": 19.0,
+    "learners_per_classroom": 19.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 7.515515672853884
+  },
+  {
+   "school_id": "125898",
+   "school_name": "Ponciano Pagdanganan Elementary School",
+   "learners_assessed": 57.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.543859649122807,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 17.428571428571427,
+    "learners_per_classroom": 17.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 20.23481391846792
+  },
+  {
+   "school_id": "125899",
+   "school_name": "San Isidro Elementary School",
+   "learners_assessed": 128.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3984375,
+    "reading_grade_level": 0.203125,
+    "learners_per_teacher": 22.714285714285715,
+    "learners_per_classroom": 63.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 5.692599006187216
+  },
+  {
+   "school_id": "125900",
+   "school_name": "San Vicente Elementary School",
+   "learners_assessed": 160.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.63125,
+    "reading_grade_level": 0.01875,
+    "learners_per_teacher": 33.22222222222222,
+    "learners_per_classroom": 37.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 28.973849006187212
+  },
+  {
+   "school_id": "125901",
+   "school_name": "Sisay Elementary School",
+   "learners_assessed": 160.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.40625,
+    "reading_grade_level": 0.0375,
+    "learners_per_teacher": 27.0,
+    "learners_per_classroom": 94.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 6.473849006187216
+  },
+  {
+   "school_id": "125902",
+   "school_name": "Sto. Niño Elementary School",
+   "learners_assessed": 106.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.49056603773584906,
+    "reading_grade_level": 0.05660377358490566,
+    "learners_per_teacher": 23.0,
+    "learners_per_classroom": 38.333333333333336
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 14.905452779772121
+  },
+  {
+   "school_id": "196517",
+   "school_name": "Teras Elementary School",
+   "learners_assessed": 75.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6933333333333334,
+    "reading_grade_level": 0.09333333333333334,
+    "learners_per_teacher": 25.714285714285715,
+    "learners_per_classroom": 45.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 35.18218233952055
+  },
+  {
+   "school_id": "125904",
+   "school_name": "Tigbanuang Elementary School",
+   "learners_assessed": 154.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4090909090909091,
+    "reading_grade_level": 0.14935064935064934,
+    "learners_per_teacher": 32.81818181818182,
+    "learners_per_classroom": 32.81818181818182
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 6.757939915278127
+  },
+  {
+   "school_id": "125905",
+   "school_name": "Tigbucay Elementary School",
+   "learners_assessed": 88.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.75,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 22.0,
+    "learners_per_classroom": 25.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 40.848849006187216
+  },
+  {
+   "school_id": "125906",
+   "school_name": "Tigbungabong Elementary School",
+   "learners_assessed": 66.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24242424242424243,
+    "reading_grade_level": 0.18181818181818182,
+    "learners_per_teacher": 20.22222222222222,
+    "learners_per_classroom": 26.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -9.908726751388542
+  },
+  {
+   "school_id": "125907",
+   "school_name": "Tigpalay Elementary School",
+   "learners_assessed": 198.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.42424242424242425,
+    "reading_grade_level": 0.16161616161616163,
+    "learners_per_teacher": 25.058823529411764,
+    "learners_per_classroom": 30.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 8.273091430429641
+  },
+  {
+   "school_id": "125908",
+   "school_name": "Timbabawan Elementary School",
+   "learners_assessed": 84.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21428571428571427,
+    "reading_grade_level": 0.10714285714285714,
+    "learners_per_teacher": 19.0,
+    "learners_per_classroom": 24.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.722579565241357
+  },
+  {
+   "school_id": "125909",
+   "school_name": "Tungawan Central Elementary School",
+   "learners_assessed": 442.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21945701357466063,
+    "reading_grade_level": 0.15610859728506787,
+    "learners_per_teacher": 27.97142857142857,
+    "learners_per_classroom": 44.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -12.20544963634672
+  },
+  {
+   "school_id": "125910",
+   "school_name": "Upper Tungawan Elementary School",
+   "learners_assessed": 69.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5797101449275363,
+    "reading_grade_level": 0.2028985507246377,
+    "learners_per_teacher": 19.75,
+    "learners_per_classroom": 22.571428571428573
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 23.81986349894084
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

@@ -1,0 +1,402 @@
+{
+ "locality_id": "zamboanga-del-sur-josefina",
+ "name": "Josefina",
+ "province": "Zamboanga del Sur",
+ "region": "Region IX",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 14,
+ "schools_with_reading": 14,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2690972222222222,
+  "reading_grade_level": 0.2309027777777778,
+  "learners_per_teacher": 12.583333333333334,
+  "learners_per_classroom": 14.457446808510639,
+  "levels": {
+   "low_emerging": 0.2690972222222222,
+   "high_emerging": 0.09375,
+   "developing": 0.11631944444444445,
+   "transitioning": 0.2899305555555556,
+   "at_grade_level": 0.2309027777777778
+  },
+  "schools": 14,
+  "learners_assessed": 576.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.34151150993812784,
+   "reading_grade_level": 0.1497506537301916,
+   "learners_per_teacher": 20.952071892161758,
+   "learners_per_classroom": 25.882343798570098,
+   "levels": {
+    "low_emerging": 0.34151150993812784,
+    "high_emerging": 0.07614706428704114,
+    "developing": 0.1290313361816441,
+    "transitioning": 0.3035594358629953,
+    "at_grade_level": 0.1497506537301916
+   },
+   "schools": 808,
+   "learners_assessed": 69983.0
+  },
+  "division": {
+   "reading_lowest": 0.3350002293893655,
+   "reading_grade_level": 0.1556636234344176,
+   "learners_per_teacher": 19.087019579405368,
+   "learners_per_classroom": 22.008805031446542,
+   "levels": {
+    "low_emerging": 0.3350002293893655,
+    "high_emerging": 0.08088269027847869,
+    "developing": 0.12451254759829335,
+    "transitioning": 0.3039409092994449,
+    "at_grade_level": 0.1556636234344176
+   },
+   "schools": 292,
+   "learners_assessed": 21797.0,
+   "name": "Zamboanga del Sur"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 570.0,
+ "schools_above_region": 4,
+ "learners_in_schools_above_region": 157.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 101033321.0,
+   "FY 2023": 86340764.0,
+   "FY 2024": 91728606.0,
+   "FY 2025": 108737288.0,
+   "FY 2026": 121154658.0,
+   "FY 2027": 134410765.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "501159",
+   "school_name": "Bogo Calabat Integrated School",
+   "learners_assessed": 47.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.425531914893617,
+    "reading_grade_level": 0.14893617021276595,
+    "learners_per_teacher": 12.222222222222221,
+    "learners_per_classroom": 13.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 8.402040495548919
+  },
+  {
+   "school_id": "125078",
+   "school_name": "Dawa Elementary School",
+   "learners_assessed": 59.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.22033898305084745,
+    "reading_grade_level": 0.3559322033898305,
+    "learners_per_teacher": 15.555555555555555,
+    "learners_per_classroom": 15.555555555555555
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.117252688728039
+  },
+  {
+   "school_id": "125079",
+   "school_name": "Ebarle Elementary School",
+   "learners_assessed": 14.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.2857142857142857,
+    "reading_grade_level": 0.21428571428571427,
+    "learners_per_teacher": 10.5,
+    "learners_per_classroom": 8.4
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.579722422384215
+  },
+  {
+   "school_id": "125086",
+   "school_name": "INIGO G. MERCADO PS",
+   "learners_assessed": 15.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.26666666666666666,
+    "reading_grade_level": 0.26666666666666666,
+    "learners_per_teacher": 13.666666666666666,
+    "learners_per_classroom": 10.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.484484327146118
+  },
+  {
+   "school_id": "125080",
+   "school_name": "Josefina CES",
+   "learners_assessed": 163.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.26380368098159507,
+    "reading_grade_level": 0.22699386503067484,
+    "learners_per_teacher": 18.047619047619047,
+    "learners_per_classroom": 23.6875
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.770782895653277
+  },
+  {
+   "school_id": "125081",
+   "school_name": "Leonardo ES",
+   "learners_assessed": 37.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.43243243243243246,
+    "reading_grade_level": 0.21621621621621623,
+    "learners_per_teacher": 11.625,
+    "learners_per_classroom": 13.285714285714286
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 9.092092249430461
+  },
+  {
+   "school_id": "502671",
+   "school_name": "Litapan Integrated School",
+   "learners_assessed": 44.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20454545454545456,
+    "reading_grade_level": 0.1590909090909091,
+    "learners_per_teacher": 10.0,
+    "learners_per_classroom": 15.714285714285714
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -13.69660553926733
+  },
+  {
+   "school_id": "125083",
+   "school_name": "Lower Bag-ong Tudela IPS",
+   "learners_assessed": 11.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.09090909090909091,
+    "reading_grade_level": 0.09090909090909091,
+    "learners_per_teacher": 11.0,
+    "learners_per_classroom": 8.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -25.06024190290369
+  },
+  {
+   "school_id": "125084",
+   "school_name": "Mansanas ES",
+   "learners_assessed": 52.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.6923076923076923,
+    "learners_per_teacher": 11.272727272727273,
+    "learners_per_classroom": 13.777777777777779
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -34.151150993812784
+  },
+  {
+   "school_id": "125085",
+   "school_name": "Moradje Elementary School",
+   "learners_assessed": 17.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.17647058823529413,
+    "reading_grade_level": 0.11764705882352941,
+    "learners_per_teacher": 6.428571428571429,
+    "learners_per_classroom": 9.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -16.50409217028337
+  },
+  {
+   "school_id": "125087",
+   "school_name": "Nopulan ES",
+   "learners_assessed": 38.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.05263157894736842,
+    "reading_grade_level": 0.05263157894736842,
+    "learners_per_teacher": 10.25,
+    "learners_per_classroom": 11.714285714285714
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -28.887993099075942
+  },
+  {
+   "school_id": "125088",
+   "school_name": "Sibukang ES",
+   "learners_assessed": 21.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.42857142857142855,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 11.333333333333334,
+    "learners_per_classroom": 11.333333333333334
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 8.70599186333007
+  },
+  {
+   "school_id": "125089",
+   "school_name": "Tagaytay Hill IPS",
+   "learners_assessed": 6.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.3333333333333333,
+    "reading_grade_level": 0.16666666666666666,
+    "learners_per_teacher": 5.0,
+    "learners_per_classroom": 7.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.8178176604794529
+  },
+  {
+   "school_id": "125090",
+   "school_name": "Upper Bag-ong Tudela ES",
+   "learners_assessed": 52.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5576923076923077,
+    "reading_grade_level": 0.07692307692307693,
+    "learners_per_teacher": 13.875,
+    "learners_per_classroom": 13.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 21.618079775417986
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

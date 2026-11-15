@@ -1,0 +1,1105 @@
+{
+ "locality_id": "tarlac-concepcion",
+ "name": "Concepcion",
+ "province": "Tarlac",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 51,
+ "schools_with_reading": 51,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.21539243078486156,
+  "reading_grade_level": 0.3067056134112268,
+  "learners_per_teacher": 26.633501259445843,
+  "learners_per_classroom": 31.944108761329304,
+  "levels": {
+   "low_emerging": 0.21539243078486156,
+   "high_emerging": 0.08623317246634493,
+   "developing": 0.12344424688849377,
+   "transitioning": 0.2682245364490729,
+   "at_grade_level": 0.3067056134112268
+  },
+  "schools": 51,
+  "learners_assessed": 7874.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.28343710271538936,
+   "reading_grade_level": 0.21651400071714966,
+   "learners_per_teacher": 26.24146014735432,
+   "learners_per_classroom": 32.43236514522822,
+   "levels": {
+    "low_emerging": 0.28343710271538936,
+    "high_emerging": 0.0888287642207517,
+    "developing": 0.1319881344329628,
+    "transitioning": 0.2792319979137465,
+    "at_grade_level": 0.21651400071714966
+   },
+   "schools": 221,
+   "learners_assessed": 30677.0,
+   "name": "Tarlac"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 9221.0,
+ "schools_above_region": 13,
+ "learners_in_schools_above_region": 1768.0,
+ "schools_above_region_on_reading_and_classrooms": 7,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 551101420.0,
+   "FY 2023": 471559949.0,
+   "FY 2024": 501228900.0,
+   "FY 2025": 595229341.0,
+   "FY 2026": 696732241.0,
+   "FY 2027": 772965024.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "502820",
+   "school_name": "Alfonso Integrated School",
+   "learners_assessed": 245.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.08979591836734693,
+    "reading_grade_level": 0.46122448979591835,
+    "learners_per_teacher": null,
+    "learners_per_classroom": null
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -19.850670914879018
+  },
+  {
+   "school_id": "106418",
+   "school_name": "Almendras ES",
+   "learners_assessed": 96.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20833333333333334,
+    "reading_grade_level": 0.3645833333333333,
+    "learners_per_teacher": 27.266666666666666,
+    "learners_per_classroom": 21.526315789473685
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.996929418280377
+  },
+  {
+   "school_id": "106426",
+   "school_name": "Aurora Aquino ES",
+   "learners_assessed": 170.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.47058823529411764,
+    "reading_grade_level": 0.17058823529411765,
+    "learners_per_teacher": 25.90909090909091,
+    "learners_per_classroom": 51.81818181818182
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 18.22856077779805
+  },
+  {
+   "school_id": "106419",
+   "school_name": "Balutu ES",
+   "learners_assessed": 143.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3986013986013986,
+    "reading_grade_level": 0.16083916083916083,
+    "learners_per_teacher": 26.0,
+    "learners_per_classroom": 26.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 11.029877108526149
+  },
+  {
+   "school_id": "106393",
+   "school_name": "Cafe ES",
+   "learners_assessed": 170.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17647058823529413,
+    "reading_grade_level": 0.4,
+    "learners_per_teacher": 28.5,
+    "learners_per_classroom": 36.27272727272727
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -11.183203928084298
+  },
+  {
+   "school_id": "106420",
+   "school_name": "Calius-Gueco ES",
+   "learners_assessed": 56.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.42857142857142855,
+    "reading_grade_level": 0.19642857142857142,
+    "learners_per_teacher": 21.555555555555557,
+    "learners_per_classroom": 27.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 14.026880105529143
+  },
+  {
+   "school_id": "106394",
+   "school_name": "Castillo ES",
+   "learners_assessed": 233.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.27896995708154504,
+    "reading_grade_level": 0.1630901287553648,
+    "learners_per_teacher": 30.88888888888889,
+    "learners_per_classroom": 42.76923076923077
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -0.9332670434592072
+  },
+  {
+   "school_id": "106395",
+   "school_name": "Concepcion East CS",
+   "learners_assessed": 301.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16279069767441862,
+    "reading_grade_level": 0.33222591362126247,
+    "learners_per_teacher": 27.037037037037038,
+    "learners_per_classroom": 34.76190476190476
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -12.55119298417185
+  },
+  {
+   "school_id": "106404",
+   "school_name": "Concepcion North CES",
+   "learners_assessed": 260.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.07307692307692308,
+    "reading_grade_level": 0.2923076923076923,
+    "learners_per_teacher": 23.275,
+    "learners_per_classroom": 23.871794871794872
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -21.522570443921403
+  },
+  {
+   "school_id": "106421",
+   "school_name": "Concepcion South ES",
+   "learners_assessed": 188.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.425531914893617,
+    "reading_grade_level": 0.2712765957446808,
+    "learners_per_teacher": 27.0,
+    "learners_per_classroom": 29.38235294117647
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 13.722928737747992
+  },
+  {
+   "school_id": "229503",
+   "school_name": "Concepcion Special Education Center",
+   "learners_assessed": 75.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13333333333333333,
+    "reading_grade_level": 0.6533333333333333,
+    "learners_per_teacher": 15.25,
+    "learners_per_classroom": 15.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -15.496929418280377
+  },
+  {
+   "school_id": "106428",
+   "school_name": "Concepcion West Central ES",
+   "learners_assessed": 233.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.06866952789699571,
+    "reading_grade_level": 0.5278969957081545,
+    "learners_per_teacher": 23.0,
+    "learners_per_classroom": 26.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -21.963309961914142
+  },
+  {
+   "school_id": "106396",
+   "school_name": "Coral Cambing ES",
+   "learners_assessed": 169.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1952662721893491,
+    "reading_grade_level": 0.07692307692307693,
+    "learners_per_teacher": 24.176470588235293,
+    "learners_per_classroom": 29.357142857142858
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.3036355326788
+  },
+  {
+   "school_id": "502821",
+   "school_name": "Culatingan Integratedf School",
+   "learners_assessed": 209.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21052631578947367,
+    "reading_grade_level": 0.14832535885167464,
+    "learners_per_teacher": null,
+    "learners_per_classroom": null
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.777631172666344
+  },
+  {
+   "school_id": "106429",
+   "school_name": "Dungan ES",
+   "learners_assessed": 128.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3515625,
+    "reading_grade_level": 0.3125,
+    "learners_per_teacher": 26.7,
+    "learners_per_classroom": 33.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 6.325987248386289
+  },
+  {
+   "school_id": "106430",
+   "school_name": "Green Village ES",
+   "learners_assessed": 132.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.44696969696969696,
+    "learners_per_teacher": 32.2,
+    "learners_per_classroom": 46.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -28.83026275161371
+  },
+  {
+   "school_id": "106431",
+   "school_name": "Jefmin ES",
+   "learners_assessed": 323.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.07739938080495357,
+    "reading_grade_level": 0.34365325077399383,
+    "learners_per_teacher": 29.576923076923077,
+    "learners_per_classroom": 36.61904761904762
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -21.090324671118353
+  },
+  {
+   "school_id": "106432",
+   "school_name": "Ligaya ES",
+   "learners_assessed": 63.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.07936507936507936,
+    "reading_grade_level": 0.19047619047619047,
+    "learners_per_teacher": 22.125,
+    "learners_per_classroom": 59.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -20.893754815105776
+  },
+  {
+   "school_id": "106422",
+   "school_name": "Lilibangan ES",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2638888888888889,
+    "reading_grade_level": 0.2916666666666667,
+    "learners_per_teacher": 24.25,
+    "learners_per_classroom": 24.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -2.441373862724822
+  },
+  {
+   "school_id": "106405",
+   "school_name": "Lourdes Elementary School",
+   "learners_assessed": 125.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.296,
+    "reading_grade_level": 0.192,
+    "learners_per_teacher": 39.0,
+    "learners_per_classroom": 55.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 0.7697372483862874
+  },
+  {
+   "school_id": "106406",
+   "school_name": "Mabilog ES",
+   "learners_assessed": 156.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.32051282051282054,
+    "reading_grade_level": 0.22435897435897437,
+    "learners_per_teacher": 27.466666666666665,
+    "learners_per_classroom": 34.333333333333336
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 3.2210192996683427
+  },
+  {
+   "school_id": "106433",
+   "school_name": "Macabacle ES",
+   "learners_assessed": 81.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1111111111111111,
+    "reading_grade_level": 0.5308641975308642,
+    "learners_per_teacher": 22.555555555555557,
+    "learners_per_classroom": 29.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.719151640502602
+  },
+  {
+   "school_id": "106434",
+   "school_name": "Macangcong ES",
+   "learners_assessed": 68.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.47058823529411764,
+    "reading_grade_level": 0.08823529411764706,
+    "learners_per_teacher": 15.88888888888889,
+    "learners_per_classroom": 143.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 18.22856077779805
+  },
+  {
+   "school_id": "106398",
+   "school_name": "Magao ES",
+   "learners_assessed": 120.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2833333333333333,
+    "reading_grade_level": 0.23333333333333334,
+    "learners_per_teacher": 23.916666666666668,
+    "learners_per_classroom": 20.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.4969294182803785
+  },
+  {
+   "school_id": "106399",
+   "school_name": "Magunting ES",
+   "learners_assessed": 138.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17391304347826086,
+    "reading_grade_level": 0.07246376811594203,
+    "learners_per_teacher": 30.818181818181817,
+    "learners_per_classroom": 37.666666666666664
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -11.438958403787625
+  },
+  {
+   "school_id": "106400",
+   "school_name": "Malupa ES",
+   "learners_assessed": 69.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17391304347826086,
+    "reading_grade_level": 0.30434782608695654,
+    "learners_per_teacher": 23.375,
+    "learners_per_classroom": 31.166666666666668
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -11.438958403787625
+  },
+  {
+   "school_id": "106423",
+   "school_name": "Marimla ES",
+   "learners_assessed": 74.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.527027027027027,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 19.0,
+    "learners_per_classroom": 24.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 23.872439951088985
+  },
+  {
+   "school_id": "106435",
+   "school_name": "Minane ES",
+   "learners_assessed": 150.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.12666666666666668,
+    "reading_grade_level": 0.42,
+    "learners_per_teacher": 19.941176470588236,
+    "learners_per_classroom": 33.9
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -16.163596084947045
+  },
+  {
+   "school_id": "106424",
+   "school_name": "Panalicsican ES",
+   "learners_assessed": 87.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.28735632183908044,
+    "reading_grade_level": 0.3103448275862069,
+    "learners_per_teacher": 23.555555555555557,
+    "learners_per_classroom": 30.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.09463056770566691
+  },
+  {
+   "school_id": "106407",
+   "school_name": "Pao ES",
+   "learners_assessed": 109.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.27522935779816515,
+    "reading_grade_level": 0.11009174311926606,
+    "learners_per_teacher": 18.4,
+    "learners_per_classroom": 36.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -1.3073269717971958
+  },
+  {
+   "school_id": "106408",
+   "school_name": "Parang ES",
+   "learners_assessed": 139.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.04316546762589928,
+    "reading_grade_level": 0.11510791366906475,
+    "learners_per_teacher": 34.2,
+    "learners_per_classroom": 34.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -24.513715989023783
+  },
+  {
+   "school_id": "106401",
+   "school_name": "Parulung ES",
+   "learners_assessed": 109.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1926605504587156,
+    "reading_grade_level": 0.11009174311926606,
+    "learners_per_teacher": 24.6,
+    "learners_per_classroom": 30.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.56420770574215
+  },
+  {
+   "school_id": "106409",
+   "school_name": "Pitabunan ES",
+   "learners_assessed": 227.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2290748898678414,
+    "reading_grade_level": 0.23788546255506607,
+    "learners_per_teacher": 26.8,
+    "learners_per_classroom": 26.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.92277376482957
+  },
+  {
+   "school_id": "106410",
+   "school_name": "San Agustin ES",
+   "learners_assessed": 170.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.09411764705882353,
+    "reading_grade_level": 0.7941176470588235,
+    "learners_per_teacher": 32.83870967741935,
+    "learners_per_classroom": 33.93333333333333
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -19.418498045731358
+  },
+  {
+   "school_id": "106436",
+   "school_name": "San Antonio ES",
+   "learners_assessed": 136.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6544117647058824,
+    "reading_grade_level": 0.09558823529411764,
+    "learners_per_teacher": 31.2,
+    "learners_per_classroom": 46.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 36.61091371897452
+  },
+  {
+   "school_id": "106425",
+   "school_name": "San Bartolome ES",
+   "learners_assessed": 154.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2922077922077922,
+    "reading_grade_level": 0.16883116883116883,
+    "learners_per_teacher": 24.666666666666668,
+    "learners_per_classroom": 30.833333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.3905164691655083
+  },
+  {
+   "school_id": "106437",
+   "school_name": "San Francisco ES",
+   "learners_assessed": 203.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.10344827586206896,
+    "reading_grade_level": 0.7241379310344828,
+    "learners_per_teacher": 26.476190476190474,
+    "learners_per_classroom": 32.705882352941174
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -18.485435165406816
+  },
+  {
+   "school_id": "106411",
+   "school_name": "San Jose ES",
+   "learners_assessed": 229.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17903930131004367,
+    "reading_grade_level": 0.2663755458515284,
+    "learners_per_teacher": 28.894736842105264,
+    "learners_per_classroom": 34.3125
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.926332620609344
+  },
+  {
+   "school_id": "106438",
+   "school_name": "San Juan De Castro ES",
+   "learners_assessed": 156.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.46794871794871795,
+    "reading_grade_level": 0.14743589743589744,
+    "learners_per_teacher": 31.0,
+    "learners_per_classroom": 40.6875
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 17.964609043258083
+  },
+  {
+   "school_id": "106412",
+   "school_name": "San Miguel ES",
+   "learners_assessed": 94.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0851063829787234,
+    "reading_grade_level": 0.44680851063829785,
+    "learners_per_teacher": 20.615384615384617,
+    "learners_per_classroom": 22.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -20.31962445374137
+  },
+  {
+   "school_id": "106439",
+   "school_name": "San Nicolas Balas ES",
+   "learners_assessed": 93.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.26881720430107525,
+    "reading_grade_level": 0.3010752688172043,
+    "learners_per_teacher": 30.46153846153846,
+    "learners_per_classroom": 30.46153846153846
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.948542321506186
+  },
+  {
+   "school_id": "106440",
+   "school_name": "San Vicente Calius ES",
+   "learners_assessed": 65.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16923076923076924,
+    "reading_grade_level": 0.27692307692307694,
+    "learners_per_teacher": 20.375,
+    "learners_per_classroom": 32.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -11.907185828536788
+  },
+  {
+   "school_id": "106441",
+   "school_name": "San Vicente Corba ES",
+   "learners_assessed": 69.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15942028985507245,
+    "reading_grade_level": 0.2898550724637681,
+    "learners_per_teacher": 23.375,
+    "learners_per_classroom": 26.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.888233766106467
+  },
+  {
+   "school_id": "106402",
+   "school_name": "Sta. Cruz ES",
+   "learners_assessed": 228.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.07017543859649122,
+    "reading_grade_level": 0.34649122807017546,
+    "learners_per_teacher": 27.36842105263158,
+    "learners_per_classroom": 28.88888888888889
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -21.81271889196459
+  },
+  {
+   "school_id": "106413",
+   "school_name": "Sta. Maria ES",
+   "learners_assessed": 100.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2,
+    "reading_grade_level": 0.21,
+    "learners_per_teacher": 25.555555555555557,
+    "learners_per_classroom": 115.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -8.83026275161371
+  },
+  {
+   "school_id": "106403",
+   "school_name": "Sta. Monica ES",
+   "learners_assessed": 312.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21153846153846154,
+    "reading_grade_level": 0.1858974358974359,
+    "learners_per_teacher": 28.857142857142858,
+    "learners_per_classroom": 27.862068965517242
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -7.676416597767558
+  },
+  {
+   "school_id": "106414",
+   "school_name": "Sta. Rosa ES",
+   "learners_assessed": 305.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.08196721311475409,
+    "reading_grade_level": 0.5508196721311476,
+    "learners_per_teacher": 32.17391304347826,
+    "learners_per_classroom": 35.23809523809524
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -20.633541440138302
+  },
+  {
+   "school_id": "106415",
+   "school_name": "Sto. Cristo ES",
+   "learners_assessed": 33.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24242424242424243,
+    "reading_grade_level": 0.6060606060606061,
+    "learners_per_teacher": 14.222222222222221,
+    "learners_per_classroom": 16.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -4.587838509189468
+  },
+  {
+   "school_id": "106442",
+   "school_name": "Sto. Nino ES",
+   "learners_assessed": 258.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2558139534883721,
+    "reading_grade_level": 0.3875968992248062,
+    "learners_per_teacher": 31.25,
+    "learners_per_classroom": 32.89473684210526
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.2488674027765008
+  },
+  {
+   "school_id": "106416",
+   "school_name": "Talimundoc SM ES",
+   "learners_assessed": 137.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18248175182481752,
+    "reading_grade_level": 0.291970802919708,
+    "learners_per_teacher": 23.384615384615383,
+    "learners_per_classroom": 25.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -10.582087569131959
+  },
+  {
+   "school_id": "106417",
+   "school_name": "Tinang ES",
+   "learners_assessed": 214.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4532710280373832,
+    "reading_grade_level": 0.2897196261682243,
+    "learners_per_teacher": 29.321428571428573,
+    "learners_per_classroom": 45.611111111111114
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 16.496840052124607
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

@@ -1,0 +1,383 @@
+{
+ "locality_id": "bulacan-pulilan",
+ "name": "Pulilan",
+ "province": "Bulacan",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 13,
+ "schools_with_reading": 13,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.22571819425444598,
+  "reading_grade_level": 0.18780535470001955,
+  "learners_per_teacher": 30.925064599483203,
+  "learners_per_classroom": 36.266666666666666,
+  "levels": {
+   "low_emerging": 0.22571819425444598,
+   "high_emerging": 0.11041625952706664,
+   "developing": 0.15829587649013094,
+   "transitioning": 0.3177643150283369,
+   "at_grade_level": 0.18780535470001955
+  },
+  "schools": 13,
+  "learners_assessed": 5117.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.23583928571428572,
+   "reading_grade_level": 0.20948214285714287,
+   "learners_per_teacher": 31.23419041000695,
+   "learners_per_classroom": 40.046926046926046,
+   "levels": {
+    "low_emerging": 0.23583928571428572,
+    "high_emerging": 0.11007142857142857,
+    "developing": 0.13914285714285715,
+    "transitioning": 0.3054642857142857,
+    "at_grade_level": 0.20948214285714287
+   },
+   "schools": 176,
+   "learners_assessed": 56000.0,
+   "name": "Bulacan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 5072.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 1326.0,
+ "schools_above_region_on_reading_and_classrooms": 4,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 341067232.0,
+   "FY 2023": 291882062.0,
+   "FY 2024": 310269241.0,
+   "FY 2025": 368366606.0,
+   "FY 2026": 422349283.0,
+   "FY 2027": 468560524.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "105023",
+   "school_name": "Balatong B Elementary School",
+   "learners_assessed": 136.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.125,
+    "reading_grade_level": 0.1323529411764706,
+    "learners_per_teacher": 26.0,
+    "learners_per_classroom": 23.833333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -16.33026275161371
+  },
+  {
+   "school_id": "105015",
+   "school_name": "Balatong ES",
+   "learners_assessed": 459.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20915032679738563,
+    "reading_grade_level": 0.2440087145969499,
+    "learners_per_teacher": 31.96969696969697,
+    "learners_per_classroom": 52.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.915230071875149
+  },
+  {
+   "school_id": "105016",
+   "school_name": "Dampol B ES",
+   "learners_assessed": 214.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3037383177570093,
+    "reading_grade_level": 0.08411214953271028,
+    "learners_per_teacher": 31.875,
+    "learners_per_classroom": 34.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 1.5435690240872213
+  },
+  {
+   "school_id": "501659",
+   "school_name": "Dulong Malabon Integrated School",
+   "learners_assessed": 257.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2140077821011673,
+    "reading_grade_level": 0.14785992217898833,
+    "learners_per_teacher": 29.285714285714285,
+    "learners_per_classroom": 34.166666666666664
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.429484541496981
+  },
+  {
+   "school_id": "501660",
+   "school_name": "Inaon Integrated School",
+   "learners_assessed": 613.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.28711256117455136,
+    "reading_grade_level": 0.21207177814029363,
+    "learners_per_teacher": 31.325581395348838,
+    "learners_per_classroom": 36.4054054054054
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -0.11900663415857493
+  },
+  {
+   "school_id": "105026",
+   "school_name": "JOSE C. CASTRO MEMORIAL ELEMENTARY SCHOOL",
+   "learners_assessed": 179.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4860335195530726,
+    "reading_grade_level": 0.10614525139664804,
+    "learners_per_teacher": 27.857142857142858,
+    "learners_per_classroom": 30.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 19.77308920369355
+  },
+  {
+   "school_id": "105019",
+   "school_name": "M. Del Rosario MS",
+   "learners_assessed": 496.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3185483870967742,
+    "reading_grade_level": 0.15725806451612903,
+    "learners_per_teacher": 37.41935483870968,
+    "learners_per_classroom": 61.05263157894737
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 3.024575958063708
+  },
+  {
+   "school_id": "105020",
+   "school_name": "Pulilan Central School",
+   "learners_assessed": 1164.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1254295532646048,
+    "reading_grade_level": 0.20962199312714777,
+    "learners_per_teacher": 28.45,
+    "learners_per_classroom": 31.263736263736263
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -16.28730742515323
+  },
+  {
+   "school_id": "105021",
+   "school_name": "R. Cruz M. ES (Dampol 1St)",
+   "learners_assessed": 258.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24031007751937986,
+    "reading_grade_level": 0.26744186046511625,
+    "learners_per_teacher": 32.888888888888886,
+    "learners_per_classroom": 39.46666666666667
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.799254999675726
+  },
+  {
+   "school_id": "105022",
+   "school_name": "S. ESguerra Sr. MS",
+   "learners_assessed": 445.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.14606741573033707,
+    "reading_grade_level": 0.24719101123595505,
+    "learners_per_teacher": 33.0,
+    "learners_per_classroom": 29.43243243243243
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.223521178580004
+  },
+  {
+   "school_id": "105024",
+   "school_name": "Sta. Peregrina ES",
+   "learners_assessed": 180.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.35555555555555557,
+    "reading_grade_level": 0.3277777777777778,
+    "learners_per_teacher": 27.866666666666667,
+    "learners_per_classroom": 41.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 6.725292803941846
+  },
+  {
+   "school_id": "105025",
+   "school_name": "Sto. Cristo ES",
+   "learners_assessed": 459.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18518518518518517,
+    "reading_grade_level": 0.12200435729847495,
+    "learners_per_teacher": 29.8,
+    "learners_per_classroom": 37.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.311744233095194
+  },
+  {
+   "school_id": "105027",
+   "school_name": "Tabon ES",
+   "learners_assessed": 257.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.30739299610894943,
+    "reading_grade_level": 0.038910505836575876,
+    "learners_per_teacher": 36.35294117647059,
+    "learners_per_classroom": 41.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 1.9090368592812323
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

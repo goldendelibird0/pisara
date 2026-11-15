@@ -1,0 +1,402 @@
+{
+ "locality_id": "ilocos-sur-santa-lucia",
+ "name": "Santa Lucia",
+ "province": "Ilocos Sur",
+ "region": "Region I",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 14,
+ "schools_with_reading": 14,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.25026511134676566,
+  "reading_grade_level": 0.11346765641569459,
+  "learners_per_teacher": 16.916666666666668,
+  "learners_per_classroom": 17.933333333333334,
+  "levels": {
+   "low_emerging": 0.25026511134676566,
+   "high_emerging": 0.1357370095440085,
+   "developing": 0.12725344644750794,
+   "transitioning": 0.37327677624602335,
+   "at_grade_level": 0.11346765641569459
+  },
+  "schools": 14,
+  "learners_assessed": 943.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.3157558778680095,
+   "reading_grade_level": 0.14203517855243095,
+   "learners_per_teacher": 20.621333928837277,
+   "learners_per_classroom": 23.124034911043974,
+   "levels": {
+    "low_emerging": 0.3157558778680095,
+    "high_emerging": 0.10175892762154687,
+    "developing": 0.12880775914039505,
+    "transitioning": 0.31164225681761765,
+    "at_grade_level": 0.14203517855243095
+   },
+   "schools": 1131,
+   "learners_assessed": 112796.0
+  },
+  "division": {
+   "reading_lowest": 0.2497113466988559,
+   "reading_grade_level": 0.15797207935341662,
+   "learners_per_teacher": 16.145888594164457,
+   "learners_per_classroom": 16.35057862491491,
+   "levels": {
+    "low_emerging": 0.2497113466988559,
+    "high_emerging": 0.09698750918442321,
+    "developing": 0.13099611630103916,
+    "transitioning": 0.36433294846226516,
+    "at_grade_level": 0.15797207935341662
+   },
+   "schools": 195,
+   "learners_assessed": 9527.0,
+   "name": "Ilocos Sur"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 940.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 353.0,
+ "schools_above_region_on_reading_and_classrooms": 1,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 134047346.0,
+   "FY 2023": 114614215.0,
+   "FY 2024": 121791837.0,
+   "FY 2025": 144452826.0,
+   "FY 2026": 164867012.0,
+   "FY 2027": 182905895.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "100686",
+   "school_name": "Antero P. Hermosura Elementary School",
+   "learners_assessed": 54.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16666666666666666,
+    "reading_grade_level": 0.25925925925925924,
+    "learners_per_teacher": 16.0,
+    "learners_per_classroom": 16.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.908921120134286
+  },
+  {
+   "school_id": "100687",
+   "school_name": "Buliclic Elementary School",
+   "learners_assessed": 31.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1935483870967742,
+    "reading_grade_level": 0.22580645161290322,
+    "learners_per_teacher": 10.142857142857142,
+    "learners_per_classroom": 8.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.220749077123532
+  },
+  {
+   "school_id": "100688",
+   "school_name": "Cabaritan Elementary School",
+   "learners_assessed": 16.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 16.0,
+    "learners_per_classroom": 9.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.575587786800952
+  },
+  {
+   "school_id": "100689",
+   "school_name": "Conconig Elementary School",
+   "learners_assessed": 36.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.19444444444444445,
+    "reading_grade_level": 0.1111111111111111,
+    "learners_per_teacher": 11.333333333333334,
+    "learners_per_classroom": 14.571428571428571
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.131143342356507
+  },
+  {
+   "school_id": "100690",
+   "school_name": "Damacuag Elementary School",
+   "learners_assessed": 42.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.11904761904761904,
+    "reading_grade_level": 0.11904761904761904,
+    "learners_per_teacher": 10.5,
+    "learners_per_classroom": 12.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -19.670825882039047
+  },
+  {
+   "school_id": "100691",
+   "school_name": "Don Pedro Festejo Memorial School",
+   "learners_assessed": 60.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3333333333333333,
+    "reading_grade_level": 0.016666666666666666,
+    "learners_per_teacher": 16.545454545454547,
+    "learners_per_classroom": 18.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 1.75774554653238
+  },
+  {
+   "school_id": "100693",
+   "school_name": "Francisco Gat-eb I Elementary School",
+   "learners_assessed": 60.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4666666666666667,
+    "reading_grade_level": 0.15,
+    "learners_per_teacher": 19.875,
+    "learners_per_classroom": 15.9
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 15.091078879865716
+  },
+  {
+   "school_id": "100692",
+   "school_name": "Luba Elementary School",
+   "learners_assessed": 58.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3275862068965517,
+    "reading_grade_level": 0.017241379310344827,
+    "learners_per_teacher": 18.0,
+    "learners_per_classroom": 18.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 1.1830329028542197
+  },
+  {
+   "school_id": "100694",
+   "school_name": "Palali Elementary School",
+   "learners_assessed": 76.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15789473684210525,
+    "reading_grade_level": 0.06578947368421052,
+    "learners_per_teacher": 23.5,
+    "learners_per_classroom": 18.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -15.786114102590426
+  },
+  {
+   "school_id": "502099",
+   "school_name": "Paoc Integrated School",
+   "learners_assessed": 68.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3235294117647059,
+    "reading_grade_level": 0.1323529411764706,
+    "learners_per_teacher": 24.0,
+    "learners_per_classroom": 96.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 0.7773533896696383
+  },
+  {
+   "school_id": "100696",
+   "school_name": "Ronda Elementary School",
+   "learners_assessed": 45.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24444444444444444,
+    "reading_grade_level": 0.06666666666666667,
+    "learners_per_teacher": 16.5,
+    "learners_per_classroom": 24.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.131143342356508
+  },
+  {
+   "school_id": "100697",
+   "school_name": "Sabuanan Elementary School SPED Center",
+   "learners_assessed": 114.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.14912280701754385,
+    "reading_grade_level": 0.21929824561403508,
+    "learners_per_teacher": 15.944444444444445,
+    "learners_per_classroom": 16.88235294117647
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -16.663307085046565
+  },
+  {
+   "school_id": "100698",
+   "school_name": "Sta. Lucia North Central School",
+   "learners_assessed": 176.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2215909090909091,
+    "reading_grade_level": 0.06818181818181818,
+    "learners_per_teacher": 18.869565217391305,
+    "learners_per_classroom": 19.727272727272727
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.416496877710042
+  },
+  {
+   "school_id": "100699",
+   "school_name": "Sta. Lucia South Central School",
+   "learners_assessed": 107.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.38317757009345793,
+    "reading_grade_level": 0.11214953271028037,
+    "learners_per_teacher": 16.705882352941178,
+    "learners_per_classroom": null
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 6.742169222544842
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

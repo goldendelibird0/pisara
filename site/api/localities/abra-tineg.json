@@ -1,0 +1,383 @@
+{
+ "locality_id": "abra-tineg",
+ "name": "Tineg",
+ "province": "Abra",
+ "region": "CAR",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 13,
+ "schools_with_reading": 13,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2534562211981567,
+  "reading_grade_level": 0.12903225806451613,
+  "learners_per_teacher": 8.088235294117647,
+  "learners_per_classroom": 12.804878048780488,
+  "levels": {
+   "low_emerging": 0.2534562211981567,
+   "high_emerging": 0.14285714285714285,
+   "developing": 0.19815668202764977,
+   "transitioning": 0.2764976958525346,
+   "at_grade_level": 0.12903225806451613
+  },
+  "schools": 13,
+  "learners_assessed": 217.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.27604556049078677,
+   "reading_grade_level": 0.13793482562997494,
+   "learners_per_teacher": 18.029458853666345,
+   "learners_per_classroom": 20.657438169066076,
+   "levels": {
+    "low_emerging": 0.27604556049078677,
+    "high_emerging": 0.1071507102335195,
+    "developing": 0.12038787985399534,
+    "transitioning": 0.3584810237917235,
+    "at_grade_level": 0.13793482562997494
+   },
+   "schools": 772,
+   "learners_assessed": 45478.0
+  },
+  "division": {
+   "reading_lowest": 0.34713622291021673,
+   "reading_grade_level": 0.13944788441692466,
+   "learners_per_teacher": 14.817424242424243,
+   "learners_per_classroom": 17.206743566992014,
+   "levels": {
+    "low_emerging": 0.34713622291021673,
+    "high_emerging": 0.09004127966976264,
+    "developing": 0.12396800825593396,
+    "transitioning": 0.299406604747162,
+    "at_grade_level": 0.13944788441692466
+   },
+   "schools": 195,
+   "learners_assessed": 7752.0,
+   "name": "Abra"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 234.0,
+ "schools_above_region": 6,
+ "learners_in_schools_above_region": 69.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 270462863.0,
+   "FY 2023": 230861435.0,
+   "FY 2024": 245125957.0,
+   "FY 2025": 290975478.0,
+   "FY 2026": 335400896.0,
+   "FY 2027": 372098701.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "135196",
+   "school_name": "Alawa Elementary school",
+   "learners_assessed": 15.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.06666666666666667,
+    "reading_grade_level": 0.3333333333333333,
+    "learners_per_teacher": 6.4,
+    "learners_per_classroom": 16.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -20.93788938241201
+  },
+  {
+   "school_id": "135198",
+   "school_name": "Anayan Elementary School",
+   "learners_assessed": 11.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.2727272727272727,
+    "learners_per_teacher": 5.8,
+    "learners_per_classroom": 7.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -27.604556049078678
+  },
+  {
+   "school_id": "135199",
+   "school_name": "Apao Primary School",
+   "learners_assessed": 11.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.2727272727272727,
+    "reading_grade_level": 0.09090909090909091,
+    "learners_per_teacher": 8.333333333333334,
+    "learners_per_classroom": null
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.33182877635140606
+  },
+  {
+   "school_id": "135203",
+   "school_name": "Belaat Elementary School",
+   "learners_assessed": 6.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.3333333333333333,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 3.25,
+    "learners_per_classroom": 4.333333333333333
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 5.7287772842546545
+  },
+  {
+   "school_id": "135205",
+   "school_name": "Caganayan ES",
+   "learners_assessed": 36.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16666666666666666,
+    "reading_grade_level": 0.05555555555555555,
+    "learners_per_teacher": 11.444444444444445,
+    "learners_per_classroom": 14.714285714285714
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -10.937889382412012
+  },
+  {
+   "school_id": "135206",
+   "school_name": "Cogon Elementary School",
+   "learners_assessed": 7.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.5714285714285714,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 8.666666666666666,
+    "learners_per_classroom": 6.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 29.538301093778465
+  },
+  {
+   "school_id": "135211",
+   "school_name": "Laba PS",
+   "learners_assessed": 10.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.7,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 12.666666666666666,
+    "learners_per_classroom": 19.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 42.39544395092132
+  },
+  {
+   "school_id": "135215",
+   "school_name": "Magsalang PS",
+   "learners_assessed": 14.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.2857142857142857,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 8.75,
+    "learners_per_classroom": 17.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.9668725223498931
+  },
+  {
+   "school_id": "135216",
+   "school_name": "Makingag Elementary School",
+   "learners_assessed": 10.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.1,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 8.0,
+    "learners_per_classroom": 8.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.604556049078678
+  },
+  {
+   "school_id": "501106",
+   "school_name": "NAGLIBACAN INTEGRATED SCHOOL",
+   "learners_assessed": 7.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.2857142857142857,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 3.6666666666666665,
+    "learners_per_classroom": 5.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.9668725223498931
+  },
+  {
+   "school_id": "135222",
+   "school_name": "Sabangan Elementary School",
+   "learners_assessed": 25.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.52,
+    "reading_grade_level": 0.16,
+    "learners_per_teacher": 15.25,
+    "learners_per_classroom": 20.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 24.395443950921326
+  },
+  {
+   "school_id": "135226",
+   "school_name": "Tapayen Elementary School",
+   "learners_assessed": 26.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.23076923076923078,
+    "reading_grade_level": 0.038461538461538464,
+    "learners_per_teacher": 17.25,
+    "learners_per_classroom": 23.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.527632972155598
+  },
+  {
+   "school_id": "135227",
+   "school_name": "Tineg Central School",
+   "learners_assessed": 39.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15384615384615385,
+    "reading_grade_level": 0.3076923076923077,
+    "learners_per_teacher": 5.0625,
+    "learners_per_classroom": 16.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.21994066446329
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

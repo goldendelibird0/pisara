@@ -1,0 +1,478 @@
+{
+ "locality_id": "pangasinan-natividad",
+ "name": "Natividad",
+ "province": "Pangasinan",
+ "region": "Region I",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 18,
+ "schools_with_reading": 18,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.18892185954500496,
+  "reading_grade_level": 0.1404549950544016,
+  "learners_per_teacher": 16.391025641025642,
+  "learners_per_classroom": 17.046666666666667,
+  "levels": {
+   "low_emerging": 0.18892185954500496,
+   "high_emerging": 0.17408506429277942,
+   "developing": 0.1394658753709199,
+   "transitioning": 0.3570722057368942,
+   "at_grade_level": 0.1404549950544016
+  },
+  "schools": 18,
+  "learners_assessed": 1011.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.3157558778680095,
+   "reading_grade_level": 0.14203517855243095,
+   "learners_per_teacher": 20.621333928837277,
+   "learners_per_classroom": 23.124034911043974,
+   "levels": {
+    "low_emerging": 0.3157558778680095,
+    "high_emerging": 0.10175892762154687,
+    "developing": 0.12880775914039505,
+    "transitioning": 0.31164225681761765,
+    "at_grade_level": 0.14203517855243095
+   },
+   "schools": 1131,
+   "learners_assessed": 112796.0
+  },
+  "division": {
+   "reading_lowest": 0.3221821053819249,
+   "reading_grade_level": 0.16715559065779081,
+   "learners_per_teacher": 20.772145902415918,
+   "learners_per_classroom": 24.169707020453288,
+   "levels": {
+    "low_emerging": 0.3221821053819249,
+    "high_emerging": 0.09065779081575087,
+    "developing": 0.11739817217646395,
+    "transitioning": 0.3026063409680695,
+    "at_grade_level": 0.16715559065779081
+   },
+   "schools": 186,
+   "learners_assessed": 17726.0,
+   "name": "Pangasinan II, Binalonan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 1027.0,
+ "schools_above_region": 4,
+ "learners_in_schools_above_region": 84.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 156632709.0,
+   "FY 2023": 133884892.0,
+   "FY 2024": 142248842.0,
+   "FY 2025": 168756033.0,
+   "FY 2026": 195110017.0,
+   "FY 2027": 216457931.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "101831",
+   "school_name": "Barangobong ES",
+   "learners_assessed": 21.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.42857142857142855,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 10.0,
+    "learners_per_classroom": 8.333333333333334
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 11.281555070341904
+  },
+  {
+   "school_id": "101832",
+   "school_name": "Batchelor Elementary School",
+   "learners_assessed": 68.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1323529411764706,
+    "reading_grade_level": 0.16176470588235295,
+    "learners_per_teacher": 19.857142857142858,
+    "learners_per_classroom": 19.857142857142858
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -18.340293669153894
+  },
+  {
+   "school_id": "101833",
+   "school_name": "Calapugan ES",
+   "learners_assessed": 59.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.1016949152542373,
+    "reading_grade_level": 0.06779661016949153,
+    "learners_per_teacher": 17.875,
+    "learners_per_classroom": 20.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -21.406096261377222
+  },
+  {
+   "school_id": "101834",
+   "school_name": "Canarem ES",
+   "learners_assessed": 49.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.14285714285714285,
+    "reading_grade_level": 0.08163265306122448,
+    "learners_per_teacher": 15.5,
+    "learners_per_classroom": 17.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.289873501086667
+  },
+  {
+   "school_id": "101835",
+   "school_name": "Eulogio Arciaga ES",
+   "learners_assessed": 53.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2830188679245283,
+    "reading_grade_level": 0.24528301886792453,
+    "learners_per_teacher": 14.875,
+    "learners_per_classroom": 17.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.273700994348122
+  },
+  {
+   "school_id": "101836",
+   "school_name": "Luna ES",
+   "learners_assessed": 67.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.31343283582089554,
+    "reading_grade_level": 0.16417910447761194,
+    "learners_per_teacher": 15.909090909090908,
+    "learners_per_classroom": 15.909090909090908
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.23230420471139768
+  },
+  {
+   "school_id": "101837",
+   "school_name": "Natividad CS",
+   "learners_assessed": 197.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.06091370558375635,
+    "reading_grade_level": 0.14213197969543148,
+    "learners_per_teacher": 22.363636363636363,
+    "learners_per_classroom": 21.391304347826086
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -25.484217228425315
+  },
+  {
+   "school_id": "101838",
+   "school_name": "Rizal Elementary School",
+   "learners_assessed": 19.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.5789473684210527,
+    "reading_grade_level": 0.21052631578947367,
+    "learners_per_teacher": 9.8,
+    "learners_per_classroom": 9.8
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 26.319149055304315
+  },
+  {
+   "school_id": "101839",
+   "school_name": "Salud ES",
+   "learners_assessed": 57.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.15789473684210525,
+    "reading_grade_level": 0.017543859649122806,
+    "learners_per_teacher": 15.333333333333334,
+    "learners_per_classroom": 19.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -15.786114102590426
+  },
+  {
+   "school_id": "101840",
+   "school_name": "San Eugenio ES",
+   "learners_assessed": 84.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17857142857142858,
+    "reading_grade_level": 0.2261904761904762,
+    "learners_per_teacher": 25.25,
+    "learners_per_classroom": 25.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -13.718444929658094
+  },
+  {
+   "school_id": "101841",
+   "school_name": "San Jose ES",
+   "learners_assessed": 24.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.125,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 7.857142857142857,
+    "learners_per_classroom": 7.857142857142857
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -19.075587786800952
+  },
+  {
+   "school_id": "101842",
+   "school_name": "San Macario Norte Elementary School",
+   "learners_assessed": 45.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.044444444444444446,
+    "reading_grade_level": 0.15555555555555556,
+    "learners_per_teacher": 15.25,
+    "learners_per_classroom": 17.428571428571427
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -27.131143342356506
+  },
+  {
+   "school_id": "101843",
+   "school_name": "San Macario Sur ES",
+   "learners_assessed": 47.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2765957446808511,
+    "reading_grade_level": 0.2127659574468085,
+    "learners_per_teacher": 13.166666666666666,
+    "learners_per_classroom": 14.363636363636363
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.9160133187158443
+  },
+  {
+   "school_id": "101844",
+   "school_name": "San Maximo ES",
+   "learners_assessed": 74.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20270270270270271,
+    "reading_grade_level": 0.21621621621621623,
+    "learners_per_teacher": 18.11111111111111,
+    "learners_per_classroom": 23.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -11.30531751653068
+  },
+  {
+   "school_id": "101845",
+   "school_name": "San Miguel ES",
+   "learners_assessed": 75.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16,
+    "reading_grade_level": 0.17333333333333334,
+    "learners_per_teacher": 17.846153846153847,
+    "learners_per_classroom": 16.571428571428573
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -15.575587786800952
+  },
+  {
+   "school_id": "101846",
+   "school_name": "San Narciso Norte ES",
+   "learners_assessed": 21.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6666666666666666,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 13.2,
+    "learners_per_classroom": 13.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 35.09107887986571
+  },
+  {
+   "school_id": "101847",
+   "school_name": "San Narciso Sur ES",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.6086956521739131,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 9.166666666666666,
+    "learners_per_classroom": 7.857142857142857
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 29.293977430590356
+  },
+  {
+   "school_id": "101848",
+   "school_name": "Silag ES",
+   "learners_assessed": 28.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.14285714285714285,
+    "reading_grade_level": 0.03571428571428571,
+    "learners_per_teacher": 15.0,
+    "learners_per_classroom": 18.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.289873501086667
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

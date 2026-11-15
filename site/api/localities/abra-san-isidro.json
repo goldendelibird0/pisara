@@ -1,0 +1,269 @@
+{
+ "locality_id": "abra-san-isidro",
+ "name": "San Isidro",
+ "province": "Abra",
+ "region": "CAR",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 7,
+ "schools_with_reading": 7,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.37244897959183676,
+  "reading_grade_level": 0.1377551020408163,
+  "learners_per_teacher": 10.5,
+  "learners_per_classroom": 11.2,
+  "levels": {
+   "low_emerging": 0.37244897959183676,
+   "high_emerging": 0.05612244897959184,
+   "developing": 0.14285714285714285,
+   "transitioning": 0.29081632653061223,
+   "at_grade_level": 0.1377551020408163
+  },
+  "schools": 7,
+  "learners_assessed": 196.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.27604556049078677,
+   "reading_grade_level": 0.13793482562997494,
+   "learners_per_teacher": 18.029458853666345,
+   "learners_per_classroom": 20.657438169066076,
+   "levels": {
+    "low_emerging": 0.27604556049078677,
+    "high_emerging": 0.1071507102335195,
+    "developing": 0.12038787985399534,
+    "transitioning": 0.3584810237917235,
+    "at_grade_level": 0.13793482562997494
+   },
+   "schools": 772,
+   "learners_assessed": 45478.0
+  },
+  "division": {
+   "reading_lowest": 0.34713622291021673,
+   "reading_grade_level": 0.13944788441692466,
+   "learners_per_teacher": 14.817424242424243,
+   "learners_per_classroom": 17.206743566992014,
+   "levels": {
+    "low_emerging": 0.34713622291021673,
+    "high_emerging": 0.09004127966976264,
+    "developing": 0.12396800825593396,
+    "transitioning": 0.299406604747162,
+    "at_grade_level": 0.13944788441692466
+   },
+   "schools": 195,
+   "learners_assessed": 7752.0,
+   "name": "Abra"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 197.0,
+ "schools_above_region": 4,
+ "learners_in_schools_above_region": 133.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 79898289.0,
+   "FY 2023": 68250624.0,
+   "FY 2024": 72498027.0,
+   "FY 2025": 85891093.0,
+   "FY 2026": 98698982.0,
+   "FY 2027": 109498107.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "135119",
+   "school_name": "Dalimag ES",
+   "learners_assessed": 32.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21875,
+    "reading_grade_level": 0.15625,
+    "learners_per_teacher": 11.875,
+    "learners_per_classroom": 13.571428571428571
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -5.729556049078677
+  },
+  {
+   "school_id": "135123",
+   "school_name": "Manayday ES",
+   "learners_assessed": 33.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.48484848484848486,
+    "reading_grade_level": 0.24242424242424243,
+    "learners_per_teacher": 10.625,
+    "learners_per_classroom": 12.142857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 20.88029243576981
+  },
+  {
+   "school_id": "135124",
+   "school_name": "Maoay PS",
+   "learners_assessed": 9.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 6.5,
+    "learners_per_classroom": 6.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -27.604556049078678
+  },
+  {
+   "school_id": "135126",
+   "school_name": "Olo ES",
+   "learners_assessed": 8.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.375,
+    "reading_grade_level": 0.25,
+    "learners_per_teacher": 7.75,
+    "learners_per_classroom": 6.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 9.895443950921322
+  },
+  {
+   "school_id": "135128",
+   "school_name": "San Isidro CS",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5277777777777778,
+    "reading_grade_level": 0.08333333333333333,
+    "learners_per_teacher": 11.8,
+    "learners_per_classroom": 17.7
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 25.1732217286991
+  },
+  {
+   "school_id": "135129",
+   "school_name": "San Marcial ES",
+   "learners_assessed": 20.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.35,
+    "reading_grade_level": 0.15,
+    "learners_per_teacher": 8.714285714285714,
+    "learners_per_classroom": 7.625
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 7.395443950921321
+  },
+  {
+   "school_id": "135131",
+   "school_name": "Turod ES",
+   "learners_assessed": 22.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.09090909090909091,
+    "reading_grade_level": 0.13636363636363635,
+    "learners_per_teacher": 10.5,
+    "learners_per_classroom": 7.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -18.513646958169584
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

@@ -1,0 +1,51 @@
+{
+  "brief_rules": {
+    "min_coverage": 0.9,
+    "min_schools": 5,
+    "small_group": 20,
+    "headline": "reading_lowest",
+    "featured": ["pampanga-mabalacat", "leyte-ormoc"]
+  },
+  "indicators": [
+    {
+      "id": "reading_lowest",
+      "label": "Learners at the lowest reading level",
+      "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+      "numerator": "crla_low_emerging",
+      "denominator": "crla_assessed",
+      "format": "percent",
+      "higher_means": "more need",
+      "period": "SY 2025-26"
+    },
+    {
+      "id": "reading_grade_level",
+      "label": "Learners reading at grade level",
+      "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+      "numerator": "crla_at_grade_level",
+      "denominator": "crla_assessed",
+      "format": "percent",
+      "higher_means": "less need",
+      "period": "SY 2025-26"
+    },
+    {
+      "id": "learners_per_teacher",
+      "label": "Learners per teacher",
+      "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+      "numerator": "k6_enrollment",
+      "denominator": "es_teachers",
+      "format": "ratio",
+      "higher_means": "more need",
+      "period": "mixed years"
+    },
+    {
+      "id": "learners_per_classroom",
+      "label": "Learners per classroom",
+      "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+      "numerator": "k6_enrollment",
+      "denominator": "es_classrooms",
+      "format": "ratio",
+      "higher_means": "more need",
+      "period": "mixed years"
+    }
+  ]
+}

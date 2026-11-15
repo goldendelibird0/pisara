@@ -1,0 +1,10 @@
+# Raw downloads from DepEd and DBM (the pipeline fetches them; not republished here)
+/data/
+# Intermediate pipeline files
+/build/
+# Local working notes and tools
+/HANDOFF.md
+/scripts/
+/.claude/
+__pycache__/
+*.pyc

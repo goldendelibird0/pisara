@@ -1,0 +1,402 @@
+{
+ "locality_id": "eastern-samar-sulat",
+ "name": "Sulat",
+ "province": "Eastern Samar",
+ "region": "Region VIII",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 14,
+ "schools_with_reading": 14,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.2644110275689223,
+  "reading_grade_level": 0.17794486215538846,
+  "learners_per_teacher": 15.6484375,
+  "learners_per_classroom": 18.376146788990827,
+  "levels": {
+   "low_emerging": 0.2644110275689223,
+   "high_emerging": 0.12406015037593984,
+   "developing": 0.14786967418546365,
+   "transitioning": 0.2857142857142857,
+   "at_grade_level": 0.17794486215538846
+  },
+  "schools": 14,
+  "learners_assessed": 798.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.31221068562819143,
+   "reading_grade_level": 0.12686541726035055,
+   "learners_per_teacher": 19.41550053821313,
+   "learners_per_classroom": 23.004425914047467,
+   "levels": {
+    "low_emerging": 0.31221068562819143,
+    "high_emerging": 0.11257609947983066,
+    "developing": 0.1399480512397483,
+    "transitioning": 0.30839974639187906,
+    "at_grade_level": 0.12686541726035055
+   },
+   "schools": 2023,
+   "learners_assessed": 146683.0
+  },
+  "division": {
+   "reading_lowest": 0.2978258711406731,
+   "reading_grade_level": 0.13541149607862604,
+   "learners_per_teacher": 14.900588235294117,
+   "learners_per_classroom": 18.575735294117646,
+   "levels": {
+    "low_emerging": 0.2978258711406731,
+    "high_emerging": 0.09877891392832323,
+    "developing": 0.15496872828353023,
+    "transitioning": 0.3130149905688474,
+    "at_grade_level": 0.13541149607862604
+   },
+   "schools": 189,
+   "learners_assessed": 10073.0,
+   "name": "Eastern Samar"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 794.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 367.0,
+ "schools_above_region_on_reading_and_classrooms": 2,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 135562379.0,
+   "FY 2023": 115830941.0,
+   "FY 2024": 123047735.0,
+   "FY 2025": 145944850.0,
+   "FY 2026": 166896521.0,
+   "FY 2027": 185157462.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "122746",
+   "school_name": "A-et Elementary School",
+   "learners_assessed": 33.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2727272727272727,
+    "reading_grade_level": 0.18181818181818182,
+    "learners_per_teacher": 16.2,
+    "learners_per_classroom": 20.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.9483412900918724
+  },
+  {
+   "school_id": "122747",
+   "school_name": "Del Remedio ELementary School",
+   "learners_assessed": 95.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3157894736842105,
+    "reading_grade_level": 0.18947368421052632,
+    "learners_per_teacher": 22.0,
+    "learners_per_classroom": 26.88888888888889
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 0.35787880560190777
+  },
+  {
+   "school_id": "192510",
+   "school_name": "Hamorawon Elementary School",
+   "learners_assessed": 8.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.75,
+    "learners_per_teacher": 7.25,
+    "learners_per_classroom": 9.666666666666666
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.22106856281914
+  },
+  {
+   "school_id": "122748",
+   "school_name": "Kandalakit Elementary School",
+   "learners_assessed": 6.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.16666666666666666,
+    "reading_grade_level": 0.3333333333333333,
+    "learners_per_teacher": 4.666666666666667,
+    "learners_per_classroom": 4.666666666666667
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.554401896152477
+  },
+  {
+   "school_id": "122749",
+   "school_name": "Mabini Elementary School",
+   "learners_assessed": 21.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5714285714285714,
+    "reading_grade_level": 0.09523809523809523,
+    "learners_per_teacher": 11.75,
+    "learners_per_classroom": 23.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 25.921788580037997
+  },
+  {
+   "school_id": "122750",
+   "school_name": "Maglipay Elementary School",
+   "learners_assessed": 49.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2653061224489796,
+    "reading_grade_level": 0.16326530612244897,
+    "learners_per_teacher": 12.6,
+    "learners_per_classroom": 25.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.690456317921182
+  },
+  {
+   "school_id": "122751",
+   "school_name": "San Francisco Elementary School",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13043478260869565,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 16.0,
+    "learners_per_classroom": 21.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -18.17759030194958
+  },
+  {
+   "school_id": "122752",
+   "school_name": "San Isidro Elementary School",
+   "learners_assessed": 105.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3619047619047619,
+    "reading_grade_level": 0.12380952380952381,
+    "learners_per_teacher": 22.333333333333332,
+    "learners_per_classroom": 22.333333333333332
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 4.969407627657047
+  },
+  {
+   "school_id": "502437",
+   "school_name": "San Juan Integrated School",
+   "learners_assessed": 61.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21311475409836064,
+    "reading_grade_level": 0.04918032786885246,
+    "learners_per_teacher": 18.625,
+    "learners_per_classroom": 21.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -9.90959315298308
+  },
+  {
+   "school_id": "122754",
+   "school_name": "San Mateo Elementary School",
+   "learners_assessed": 23.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.0,
+    "reading_grade_level": 0.08695652173913043,
+    "learners_per_teacher": 16.666666666666668,
+    "learners_per_classroom": 12.5
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -31.22106856281914
+  },
+  {
+   "school_id": "500504",
+   "school_name": "San Vicente Integrated School",
+   "learners_assessed": 74.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.35135135135135137,
+    "reading_grade_level": 0.14864864864864866,
+    "learners_per_teacher": 17.1,
+    "learners_per_classroom": 21.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 3.9140665723159938
+  },
+  {
+   "school_id": "122756",
+   "school_name": "Sto. Nino Elementary School",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2777777777777778,
+    "reading_grade_level": 0.2777777777777778,
+    "learners_per_teacher": 16.3,
+    "learners_per_classroom": 20.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -3.443290785041364
+  },
+  {
+   "school_id": "122757",
+   "school_name": "Sto. Tomas Elementary School",
+   "learners_assessed": 72.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3888888888888889,
+    "reading_grade_level": 0.3194444444444444,
+    "learners_per_teacher": 22.375,
+    "learners_per_classroom": 22.375
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 7.667820326069746
+  },
+  {
+   "school_id": "122758",
+   "school_name": "Sulat Central Elementary School",
+   "learners_assessed": 156.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.11538461538461539,
+    "reading_grade_level": 0.1794871794871795,
+    "learners_per_teacher": 11.666666666666666,
+    "learners_per_classroom": 12.727272727272727
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -19.682607024357605
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

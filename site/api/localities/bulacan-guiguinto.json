@@ -1,0 +1,402 @@
+{
+ "locality_id": "bulacan-guiguinto",
+ "name": "Guiguinto",
+ "province": "Bulacan",
+ "region": "Region III",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 14,
+ "schools_with_reading": 14,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.24773596297041658,
+  "reading_grade_level": 0.30448782451197426,
+  "learners_per_teacher": 29.714285714285715,
+  "learners_per_classroom": 36.17391304347826,
+  "levels": {
+   "low_emerging": 0.24773596297041658,
+   "high_emerging": 0.09418394043067016,
+   "developing": 0.0843228013684846,
+   "transitioning": 0.2692694707184544,
+   "at_grade_level": 0.30448782451197426
+  },
+  "schools": 14,
+  "learners_assessed": 4969.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.2883026275161371,
+   "reading_grade_level": 0.1840143506197527,
+   "learners_per_teacher": 27.588255090021875,
+   "learners_per_classroom": 33.66961803768146,
+   "levels": {
+    "low_emerging": 0.2883026275161371,
+    "high_emerging": 0.09904647777565394,
+    "developing": 0.12634720853979503,
+    "transitioning": 0.3022893355486612,
+    "at_grade_level": 0.1840143506197527
+   },
+   "schools": 1379,
+   "learners_assessed": 272044.0
+  },
+  "division": {
+   "reading_lowest": 0.23583928571428572,
+   "reading_grade_level": 0.20948214285714287,
+   "learners_per_teacher": 31.23419041000695,
+   "learners_per_classroom": 40.046926046926046,
+   "levels": {
+    "low_emerging": 0.23583928571428572,
+    "high_emerging": 0.11007142857142857,
+    "developing": 0.13914285714285715,
+    "transitioning": 0.3054642857142857,
+    "at_grade_level": 0.20948214285714287
+   },
+   "schools": 176,
+   "learners_assessed": 56000.0,
+   "name": "Bulacan"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 4955.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 1292.0,
+ "schools_above_region_on_reading_and_classrooms": 4,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 349275881.0,
+   "FY 2023": 298920632.0,
+   "FY 2024": 317757411.0,
+   "FY 2025": 377262657.0,
+   "FY 2026": 438941682.0,
+   "FY 2027": 486968375.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "104820",
+   "school_name": "Cutcut ES",
+   "learners_assessed": 166.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18072289156626506,
+    "reading_grade_level": 0.12048192771084337,
+    "learners_per_teacher": 23.8125,
+    "learners_per_classroom": 29.307692307692307
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -10.757973594987206
+  },
+  {
+   "school_id": "104822",
+   "school_name": "DOÑA ESCOLASTICA ALDABA PUNONGBAYAN ES",
+   "learners_assessed": 168.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.17857142857142858,
+    "reading_grade_level": 0.30357142857142855,
+    "learners_per_teacher": 25.75,
+    "learners_per_classroom": 41.2
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.973119894470853
+  },
+  {
+   "school_id": "104821",
+   "school_name": "Daungan ES",
+   "learners_assessed": 123.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.5447154471544715,
+    "reading_grade_level": 0.15447154471544716,
+    "learners_per_teacher": 28.0,
+    "learners_per_classroom": 35.0
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 25.64128196383344
+  },
+  {
+   "school_id": "104824",
+   "school_name": "Dra. Ruperta G. Caluag ES (Ilang-Ilang)",
+   "learners_assessed": 191.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.44502617801047123,
+    "reading_grade_level": 0.1099476439790576,
+    "learners_per_teacher": 24.833333333333332,
+    "learners_per_classroom": 34.38461538461539
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 15.672355049433412
+  },
+  {
+   "school_id": "104823",
+   "school_name": "Guiguinto Central School",
+   "learners_assessed": 728.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18543956043956045,
+    "reading_grade_level": 0.33516483516483514,
+    "learners_per_teacher": 24.958333333333332,
+    "learners_per_classroom": 33.905660377358494
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -10.286306707657666
+  },
+  {
+   "school_id": "104825",
+   "school_name": "Malis ES",
+   "learners_assessed": 773.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.25097024579560157,
+    "reading_grade_level": 0.33764553686934023,
+    "learners_per_teacher": 33.666666666666664,
+    "learners_per_classroom": 36.36
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -3.7332381720535546
+  },
+  {
+   "school_id": "104826",
+   "school_name": "Pritil Elementary School",
+   "learners_assessed": 162.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.2962962962962963,
+    "reading_grade_level": 0.21604938271604937,
+    "learners_per_teacher": 26.8125,
+    "learners_per_classroom": 30.642857142857142
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 0.7993668780159169
+  },
+  {
+   "school_id": "104827",
+   "school_name": "Pulonggubat ES",
+   "learners_assessed": 116.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.27586206896551724,
+    "reading_grade_level": 0.2672413793103448,
+    "learners_per_teacher": 29.22222222222222,
+    "learners_per_classroom": 23.90909090909091
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -1.2440558550619873
+  },
+  {
+   "school_id": "104828",
+   "school_name": "STA.CRUZ ELEMENTARY",
+   "learners_assessed": 383.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.33159268929503916,
+    "reading_grade_level": 0.2950391644908616,
+    "learners_per_teacher": 32.03846153846154,
+    "learners_per_classroom": 36.21739130434783
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 4.3290061778902045
+  },
+  {
+   "school_id": "104829",
+   "school_name": "Sta. Rita ES",
+   "learners_assessed": 642.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20249221183800623,
+    "reading_grade_level": 0.37538940809968846,
+    "learners_per_teacher": 31.29787234042553,
+    "learners_per_classroom": 37.717948717948715
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -8.581041567813088
+  },
+  {
+   "school_id": "104830",
+   "school_name": "Tabang Elementary School",
+   "learners_assessed": 334.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.24550898203592814,
+    "reading_grade_level": 0.27844311377245506,
+    "learners_per_teacher": 33.958333333333336,
+    "learners_per_classroom": 35.43478260869565
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -4.279364548020897
+  },
+  {
+   "school_id": "104831",
+   "school_name": "Tabe Elementary School",
+   "learners_assessed": 251.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.21115537848605578,
+    "reading_grade_level": 0.5338645418326693,
+    "learners_per_teacher": 31.45,
+    "learners_per_classroom": 34.94444444444444
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -7.714724903008133
+  },
+  {
+   "school_id": "104832",
+   "school_name": "Tiaong Elementary School",
+   "learners_assessed": 433.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3117782909930716,
+    "reading_grade_level": 0.3302540415704388,
+    "learners_per_teacher": 32.7,
+    "learners_per_classroom": 40.875
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.347566347693447
+  },
+  {
+   "school_id": "104833",
+   "school_name": "Tuktukan Elementary School",
+   "learners_assessed": 499.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16633266533066132,
+    "reading_grade_level": 0.21442885771543085,
+    "learners_per_teacher": 32.11764705882353,
+    "learners_per_classroom": 47.47826086956522
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -12.196996218547579
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

@@ -1,0 +1,231 @@
+{
+ "locality_id": "southern-leyte-limasawa",
+ "name": "Limasawa",
+ "province": "Southern Leyte",
+ "region": "Region VIII",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 5,
+ "schools_with_reading": 5,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.16541353383458646,
+  "reading_grade_level": 0.20676691729323307,
+  "learners_per_teacher": 14.021739130434783,
+  "learners_per_classroom": 12.647058823529411,
+  "levels": {
+   "low_emerging": 0.16541353383458646,
+   "high_emerging": 0.15037593984962405,
+   "developing": 0.17293233082706766,
+   "transitioning": 0.30451127819548873,
+   "at_grade_level": 0.20676691729323307
+  },
+  "schools": 5,
+  "learners_assessed": 266.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.31221068562819143,
+   "reading_grade_level": 0.12686541726035055,
+   "learners_per_teacher": 19.41550053821313,
+   "learners_per_classroom": 23.004425914047467,
+   "levels": {
+    "low_emerging": 0.31221068562819143,
+    "high_emerging": 0.11257609947983066,
+    "developing": 0.1399480512397483,
+    "transitioning": 0.30839974639187906,
+    "at_grade_level": 0.12686541726035055
+   },
+   "schools": 2023,
+   "learners_assessed": 146683.0
+  },
+  "division": {
+   "reading_lowest": 0.2300926653054814,
+   "reading_grade_level": 0.17009580650227737,
+   "learners_per_teacher": 14.848513011152416,
+   "learners_per_classroom": 15.13770180436847,
+   "levels": {
+    "low_emerging": 0.2300926653054814,
+    "high_emerging": 0.10695775090309408,
+    "developing": 0.1468509502120308,
+    "transitioning": 0.3460028270771164,
+    "at_grade_level": 0.17009580650227737
+   },
+   "schools": 136,
+   "learners_assessed": 6367.0,
+   "name": "Southern Leyte"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 266.0,
+ "schools_above_region": 1,
+ "learners_in_schools_above_region": 25.0,
+ "schools_above_region_on_reading_and_classrooms": 0,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 72353334.0,
+   "FY 2023": 61823274.0,
+   "FY 2024": 65679840.0,
+   "FY 2025": 77790992.0,
+   "FY 2026": 90023848.0,
+   "FY 2027": 99873785.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "122221",
+   "school_name": "Lugsongan Elementary School",
+   "learners_assessed": 49.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.061224489795918366,
+    "reading_grade_level": 0.32653061224489793,
+    "learners_per_teacher": 17.285714285714285,
+    "learners_per_classroom": 15.125
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -25.098619583227304
+  },
+  {
+   "school_id": "122223",
+   "school_name": "Magallanes Elementary School",
+   "learners_assessed": 102.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13725490196078433,
+    "reading_grade_level": 0.09803921568627451,
+    "learners_per_teacher": 18.384615384615383,
+    "learners_per_classroom": 18.384615384615383
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.49557836674071
+  },
+  {
+   "school_id": "122225",
+   "school_name": "San Agustin Elementary School",
+   "learners_assessed": 30.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.13333333333333333,
+    "reading_grade_level": 0.43333333333333335,
+    "learners_per_teacher": 10.142857142857142,
+    "learners_per_classroom": 11.833333333333334
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -17.88773522948581
+  },
+  {
+   "school_id": "122226",
+   "school_name": "San Bernardo Elementary School",
+   "learners_assessed": 25.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.48,
+    "reading_grade_level": 0.2,
+    "learners_per_teacher": 9.666666666666666,
+    "learners_per_classroom": 8.285714285714286
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 16.778931437180855
+  },
+  {
+   "school_id": "122230",
+   "school_name": "Triana Elementary School",
+   "learners_assessed": 60.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.18333333333333332,
+    "reading_grade_level": 0.18333333333333332,
+    "learners_per_teacher": 12.0,
+    "learners_per_classroom": 9.176470588235293
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -12.887735229485811
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}

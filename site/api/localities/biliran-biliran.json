@@ -1,0 +1,364 @@
+{
+ "locality_id": "biliran-biliran",
+ "name": "Biliran",
+ "province": "Biliran",
+ "region": "Region VIII",
+ "type": "municipality",
+ "psgc": null,
+ "compass_matched": true,
+ "public_elementary_schools": 12,
+ "schools_with_reading": 12,
+ "coverage": 1.0,
+ "values": {
+  "reading_lowest": 0.25591216216216217,
+  "reading_grade_level": 0.1241554054054054,
+  "learners_per_teacher": 22.336,
+  "learners_per_classroom": 23.661016949152543,
+  "levels": {
+   "low_emerging": 0.25591216216216217,
+   "high_emerging": 0.1875,
+   "developing": 0.12246621621621621,
+   "transitioning": 0.30996621621621623,
+   "at_grade_level": 0.1241554054054054
+  },
+  "schools": 12,
+  "learners_assessed": 1184.0
+ },
+ "benchmarks": {
+  "region": {
+   "reading_lowest": 0.31221068562819143,
+   "reading_grade_level": 0.12686541726035055,
+   "learners_per_teacher": 19.41550053821313,
+   "learners_per_classroom": 23.004425914047467,
+   "levels": {
+    "low_emerging": 0.31221068562819143,
+    "high_emerging": 0.11257609947983066,
+    "developing": 0.1399480512397483,
+    "transitioning": 0.30839974639187906,
+    "at_grade_level": 0.12686541726035055
+   },
+   "schools": 2023,
+   "learners_assessed": 146683.0
+  },
+  "division": {
+   "reading_lowest": 0.22240039472061182,
+   "reading_grade_level": 0.11286542494140867,
+   "learners_per_teacher": 21.10475161987041,
+   "learners_per_classroom": 23.89119804400978,
+   "levels": {
+    "low_emerging": 0.22240039472061182,
+    "high_emerging": 0.16430245466880475,
+    "developing": 0.14641667694584926,
+    "transitioning": 0.3540150487233255,
+    "at_grade_level": 0.11286542494140867
+   },
+   "schools": 86,
+   "learners_assessed": 8107.0,
+   "name": "Biliran"
+  },
+  "all_published": {
+   "reading_lowest": 0.303403175349004,
+   "reading_grade_level": 0.15679367650513767,
+   "learners_per_teacher": 22.47266004225915,
+   "learners_per_classroom": 26.651810016330973,
+   "levels": {
+    "low_emerging": 0.303403175349004,
+    "high_emerging": 0.10067946038851038,
+    "developing": 0.12973118346048743,
+    "transitioning": 0.3093925042968605,
+    "at_grade_level": 0.15679367650513767
+   },
+   "schools": 6113,
+   "learners_assessed": 646984.0
+  }
+ },
+ "g1_3_enrolled": 1169.0,
+ "schools_above_region": 5,
+ "learners_in_schools_above_region": 438.0,
+ "schools_above_region_on_reading_and_classrooms": 3,
+ "money": {
+  "national_tax_allotment": {
+   "FY 2022": 118645858.0,
+   "FY 2023": 101410229.0,
+   "FY 2024": 107745426.0,
+   "FY 2025": 127765494.0,
+   "FY 2026": 148934073.0,
+   "FY 2027": 165229658.0
+  },
+  "special_education_fund": null,
+  "deped_regional_spending": null
+ },
+ "schools": [
+  {
+   "school_id": "120773",
+   "school_name": "Bato ES",
+   "learners_assessed": 138.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.39855072463768115,
+    "reading_grade_level": 0.11594202898550725,
+    "learners_per_teacher": 23.714285714285715,
+    "learners_per_classroom": 25.53846153846154
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 8.634003900948972
+  },
+  {
+   "school_id": "120774",
+   "school_name": "Biliran Central School",
+   "learners_assessed": 199.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.08542713567839195,
+    "reading_grade_level": 0.16080402010050251,
+    "learners_per_teacher": 21.347826086956523,
+    "learners_per_classroom": 23.38095238095238
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -22.678354994979948
+  },
+  {
+   "school_id": "120775",
+   "school_name": "Burabod ES",
+   "learners_assessed": 120.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3416666666666667,
+    "reading_grade_level": 0.2,
+    "learners_per_teacher": 22.142857142857142,
+    "learners_per_classroom": 38.75
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 2.9455981038475243
+  },
+  {
+   "school_id": "120776",
+   "school_name": "Busali ES",
+   "learners_assessed": 97.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.30927835051546393,
+    "reading_grade_level": 0.15463917525773196,
+    "learners_per_teacher": 22.555555555555557,
+    "learners_per_classroom": 20.3
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.2932335112727502
+  },
+  {
+   "school_id": "120777",
+   "school_name": "Canila ES",
+   "learners_assessed": 82.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.08536585365853659,
+    "reading_grade_level": 0.21951219512195122,
+    "learners_per_teacher": 24.25,
+    "learners_per_classroom": 24.25
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -22.684483196965484
+  },
+  {
+   "school_id": "120778",
+   "school_name": "Core Shelter ES",
+   "learners_assessed": 19.0,
+   "small_group": true,
+   "values": {
+    "reading_lowest": 0.47368421052631576,
+    "reading_grade_level": 0.0,
+    "learners_per_teacher": 8.6,
+    "learners_per_classroom": 7.166666666666667
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 16.147352489812434
+  },
+  {
+   "school_id": "120779",
+   "school_name": "FELIMON NIERRAS MEMORIAL ELEMENTARY SCHOOL",
+   "learners_assessed": 120.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.19166666666666668,
+    "reading_grade_level": 0.13333333333333333,
+    "learners_per_teacher": 30.625,
+    "learners_per_classroom": 30.625
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": -12.054401896152475
+  },
+  {
+   "school_id": "120780",
+   "school_name": "Hugpa ES",
+   "learners_assessed": 58.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.39655172413793105,
+    "reading_grade_level": 0.05172413793103448,
+    "learners_per_teacher": 19.428571428571427,
+    "learners_per_classroom": 22.666666666666668
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": 8.434103850973962
+  },
+  {
+   "school_id": "120781",
+   "school_name": "Julita ES",
+   "learners_assessed": 133.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.20300751879699247,
+    "reading_grade_level": 0.07518796992481203,
+    "learners_per_teacher": 20.071428571428573,
+    "learners_per_classroom": 20.071428571428573
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -10.920316683119896
+  },
+  {
+   "school_id": "120782",
+   "school_name": "Pinangomhan ES",
+   "learners_assessed": 62.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.3064516129032258,
+    "reading_grade_level": 0.03225806451612903,
+    "learners_per_teacher": 16.88888888888889,
+    "learners_per_classroom": 21.714285714285715
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": true,
+    "learners_per_teacher": false,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -0.5759072724965619
+  },
+  {
+   "school_id": "120783",
+   "school_name": "Sangalang Elementary School",
+   "learners_assessed": 53.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.16981132075471697,
+    "reading_grade_level": 0.1509433962264151,
+    "learners_per_teacher": 21.285714285714285,
+    "learners_per_classroom": 21.285714285714285
+   },
+   "more_need_than_region": {
+    "reading_lowest": false,
+    "reading_grade_level": false,
+    "learners_per_teacher": true,
+    "learners_per_classroom": false
+   },
+   "headline_gap_points": -14.239936487347446
+  },
+  {
+   "school_id": "120784",
+   "school_name": "Villa Enage Elemenetary School",
+   "learners_assessed": 103.0,
+   "small_group": false,
+   "values": {
+    "reading_lowest": 0.4174757281553398,
+    "reading_grade_level": 0.02912621359223301,
+    "learners_per_teacher": 36.57142857142857,
+    "learners_per_classroom": 25.6
+   },
+   "more_need_than_region": {
+    "reading_lowest": true,
+    "reading_grade_level": true,
+    "learners_per_teacher": true,
+    "learners_per_classroom": true
+   },
+   "headline_gap_points": 10.526504252714835
+  }
+ ],
+ "indicators": [
+  {
+   "id": "reading_lowest",
+   "label": "Learners at the lowest reading level",
+   "note": "Grades 1 to 3 learners assessed as Low Emerging in the CRLA",
+   "numerator": "crla_low_emerging",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "more need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "reading_grade_level",
+   "label": "Learners reading at grade level",
+   "note": "Grades 1 to 3 learners assessed as At Grade Level in the CRLA",
+   "numerator": "crla_at_grade_level",
+   "denominator": "crla_assessed",
+   "format": "percent",
+   "higher_means": "less need",
+   "period": "SY 2025-26"
+  },
+  {
+   "id": "learners_per_teacher",
+   "label": "Learners per teacher",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per elementary teaching post (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_teachers",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  },
+  {
+   "id": "learners_per_classroom",
+   "label": "Learners per classroom",
+   "note": "Kinder to Grade 6 enrolment (SY 2025-26) per instructional classroom (SY 2023-24)",
+   "numerator": "k6_enrollment",
+   "denominator": "es_classrooms",
+   "format": "ratio",
+   "higher_means": "more need",
+   "period": "mixed years"
+  }
+ ],
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd or DBM."
+}
