@@ -21,6 +21,9 @@ ATTRIBUTION = ("School data: Department of Education, Project Bukas machine-read
                "and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: "
                "Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. "
                "It is not produced, reviewed or endorsed by DepEd, DBM or BLGF.")
+BRIEF_ATTRIBUTION = ("School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use "
+                     "and Fair Use Policy. Tax allotment data: DBM COMPASS public export. This is an independent prototype. "
+                     "It is not produced, reviewed or endorsed by DepEd or DBM.")
 
 ORG_DEPED = ("<abbr class='org deped' title='Department of Education'><svg viewBox='0 0 24 24' fill='none' stroke-width='2' "
              "stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z'/></svg>DepEd</abbr>")
@@ -335,7 +338,7 @@ def dots(b, head):
         jitter = (zlib.crc32(r["school_id"].encode()) % 1000 / 1000 - .5) * 68
         rad = 3 + 9 * (r["learners_assessed"] / top) ** .5
         marks.append(f"<circle cx='{x(v):.1f}' cy='{mid + jitter:.1f}' r='{rad:.1f}'><title>{e(r['school_name'])}: "
-                     f"{v * 100:.0f}% of {r['learners_assessed']:,.0f} learners</title></circle>")
+                     f"{v * 100:.0f}% of {r['learners_assessed']:,.0f} {pl(r['learners_assessed'], 'learner', 'learners')}</title></circle>")
     ticks = "".join(f"<line x1='{x(t):.1f}' x2='{x(t):.1f}' y1='112' y2='116' stroke='#64748B'/>"
                     f"<text x='{x(t):.1f}' y='130' text-anchor='middle'>{t * 100:.0f}%</text>" for t in (0, .25, .5, .75, 1))
     rv = b["benchmarks"]["region"][head]
@@ -401,7 +404,7 @@ def brief_html(b, indicators, head):
             f"<td>{fmt(r['values']['learners_per_teacher'], 'ratio')}</td>"
             f"<td>{fmt(r['values']['learners_per_classroom'], 'ratio')}</td></tr>" for r in group)
 
-    all_rows = "".join(f"<tr class='grp'><td colspan='7'>{g['title']}, {len(g['schools'])} schools</td></tr>{school_rows(g['schools'])}"
+    all_rows = "".join(f"<tr class='grp'><td colspan='7'>{g['title']}, {len(g['schools'])} {pl(len(g['schools']), 'school', 'schools')}</td></tr>{school_rows(g['schools'])}"
                        for g in gs if g["schools"])
     appendix = (f"<input id='f' class='field noprint' type='search' placeholder='Filter schools' aria-label='Filter schools' style='max-width:320px;margin:12px 0 4px' "
                 f"oninput=\"for(const tr of document.querySelectorAll('#all tr:not(.grp)'))"
@@ -451,7 +454,7 @@ def brief_html(b, indicators, head):
 <li>Reading results are for school year 2025-26 only and are not compared across years. Classroom counts are from 2023-24; a school with no classroom count is treated as not crowded.</li>
 <li>Regional figures cover the schools in DepEd's public reading file: five regions, {allp['schools']:,} schools.</li>
 <li>&dagger; Fewer than 20 learners assessed. Percentages for small groups move a lot with one or two learners.</li>
-<li>{ATTRIBUTION}</li></ul></div>
+<li>{BRIEF_ATTRIBUTION}</li></ul></div>
 <p class='note noprint' style='margin-top:28px'><a href='javascript:print()'>Print this brief</a> &nbsp; <a href='../api/localities/{b['locality_id']}.json'>Download its data</a> &nbsp; <a href='{readme_link('../')}'>Technical write-up</a></p></section>
 </main></div>
 <script>addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true))</script>"""
@@ -514,7 +517,7 @@ def index_html(briefs, quality, manifest, featured):
 
 <section class='band' id='how'><div class='in'>
 <h2>How it works</h2>
-<p class='who4'>For the Local School Board: the mayor, the schools division superintendent and the other members who decide how the Special Education Fund is shared.</p>
+<p class='who4'>For the Local School Board, co-chaired by the mayor and a DepEd schools official, which decides how the Special Education Fund is shared.</p>
 <div class='engine'><div><p class='k'>Behind the scenes</p><h3>{NAME} does the groundwork no board has time for</h3>
 <p>Every brief starts from data the government already publishes. {NAME} turns it into something a board can act on, and keeps it current.</p></div>
 <ul><li><b>Gathers</b>the public files from DepEd, DBM and BLGF, so no one has to hunt for them</li>
@@ -597,7 +600,8 @@ def about_html(quality, briefs, manifest, indicators, rules):
 <div><b>{len(briefs)}</b><span>briefs, {schools:,} schools, {learners:,.0f} learners</span></div></div>
 
 <h2>1. The problem</h2>
-<p>Every city and municipality has a Local School Board that budgets the Special Education Fund (SEF), an extra 1% tax on real property, each year.
+<p>Every city and municipality has a Local School Board that budgets its share of the Special Education Fund (SEF) each year.
+The SEF comes from an additional 1% tax on the assessed value of real property, set by the Local Government Code.
 Boards decide with little school-by-school evidence. The evidence is public, but it sits in separate DepEd files from different years,
 and the money sits with DBM and BLGF. Nobody on a board has time to join them.</p>
 <p>{NAME} is that join, done once, the same way for every locality, and turned into the one thing a board uses: a short brief that sorts its schools

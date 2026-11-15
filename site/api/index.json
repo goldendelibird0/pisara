@@ -156,15 +156,15 @@
    "needs": "COMPASS API key"
   },
   {
-   "id": "sef_report",
-   "title": "Special Education Fund utilization report, by school and purpose",
-   "publisher": "Local government, under DepEd-DBM-DILG Joint Circular No. 1 s. 2017",
-   "period": "Quarterly",
-   "key": "city or municipality",
-   "licence": "Local government disclosure",
+   "id": "sef_by_school",
+   "title": "Special Education Fund allocation, by school and purpose",
+   "publisher": "Local School Board (pilot)",
+   "period": "Annual budget",
+   "key": "school_id",
+   "licence": "To agree with the pilot board",
    "url": null,
    "status": "planned",
-   "needs": "A pilot local government's quarterly SEF report"
+   "needs": "a pilot board's own school-by-school SEF budget and project records"
   }
  ],
  "localities": [
