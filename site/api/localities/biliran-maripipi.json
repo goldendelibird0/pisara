@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 6742000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agutay ES",
    "learners_assessed": 20.0,
    "small_group": false,
-   "k6_enrollment": 57.0,
-   "mooe_es_fy2026": 655000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.25,
@@ -143,8 +133,6 @@
    "school_name": "Bato-Banlas Elementary School",
    "learners_assessed": 51.0,
    "small_group": false,
-   "k6_enrollment": 116.0,
-   "mooe_es_fy2026": 717000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.13725490196078433,
@@ -164,8 +152,6 @@
    "school_name": "Binalayan ES",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 108.0,
-   "mooe_es_fy2026": 720000.0,
    "values": {
     "reading_lowest": 0.2127659574468085,
     "reading_grade_level": 0.0851063829787234,
@@ -185,8 +171,6 @@
    "school_name": "Calbani Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 42.0,
-   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.0,
@@ -206,8 +190,6 @@
    "school_name": "Canduhao ES",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 47.0,
-   "mooe_es_fy2026": 628000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.5,
@@ -227,8 +209,6 @@
    "school_name": "Casibang ES",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 50.0,
-   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.05263157894736842,
     "reading_grade_level": 0.47368421052631576,
@@ -248,8 +228,6 @@
    "school_name": "Danao ES",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 38.0,
-   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.2777777777777778,
     "reading_grade_level": 0.05555555555555555,
@@ -269,8 +247,6 @@
    "school_name": "Maripipi Central School",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 158.0,
-   "mooe_es_fy2026": 764000.0,
    "values": {
     "reading_lowest": 0.20967741935483872,
     "reading_grade_level": 0.24193548387096775,
@@ -290,8 +266,6 @@
    "school_name": "OL-OG ES",
    "learners_assessed": 32.0,
    "small_group": false,
-   "k6_enrollment": 68.0,
-   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.1875,
     "reading_grade_level": 0.0,
@@ -311,8 +285,6 @@
    "school_name": "Viga ES",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 128.0,
-   "mooe_es_fy2026": 714000.0,
    "values": {
     "reading_lowest": 0.14893617021276595,
     "reading_grade_level": 0.0,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

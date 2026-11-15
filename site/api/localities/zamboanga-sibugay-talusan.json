@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10747000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Aurora Primary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 32.0,
-   "mooe_es_fy2026": 615000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Baganipay Elementary School",
    "learners_assessed": 53.0,
    "small_group": false,
-   "k6_enrollment": 140.0,
-   "mooe_es_fy2026": 742000.0,
    "values": {
     "reading_lowest": 0.3018867924528302,
     "reading_grade_level": 0.1320754716981132,
@@ -164,8 +152,6 @@
    "school_name": "Bolingan  Elementary School",
    "learners_assessed": 17.0,
    "small_group": true,
-   "k6_enrollment": 39.0,
-   "mooe_es_fy2026": 626000.0,
    "values": {
     "reading_lowest": 0.5882352941176471,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Bualan Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 66.0,
-   "mooe_es_fy2026": 654000.0,
    "values": {
     "reading_lowest": 0.07407407407407407,
     "reading_grade_level": 0.4444444444444444,
@@ -206,8 +190,6 @@
    "school_name": "Florida Elementary School",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 116.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.38461538461538464,
     "reading_grade_level": 0.11538461538461539,
@@ -227,8 +209,6 @@
    "school_name": "Kasigpitan Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 104.0,
-   "mooe_es_fy2026": 699000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.06666666666666667,
@@ -248,8 +228,6 @@
    "school_name": "Kawilan Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 100.0,
-   "mooe_es_fy2026": 689000.0,
    "values": {
     "reading_lowest": 0.09090909090909091,
     "reading_grade_level": 0.5454545454545454,
@@ -269,8 +247,6 @@
    "school_name": "Laparay Elementary School",
    "learners_assessed": 93.0,
    "small_group": false,
-   "k6_enrollment": 271.0,
-   "mooe_es_fy2026": 885000.0,
    "values": {
     "reading_lowest": 0.40860215053763443,
     "reading_grade_level": 0.23655913978494625,
@@ -290,8 +266,6 @@
    "school_name": "Mahayahay Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 99.0,
-   "mooe_es_fy2026": 689000.0,
    "values": {
     "reading_lowest": 0.02857142857142857,
     "reading_grade_level": 0.08571428571428572,
@@ -311,8 +285,6 @@
    "school_name": "Moalboal Elementary School",
    "learners_assessed": 56.0,
    "small_group": false,
-   "k6_enrollment": 137.0,
-   "mooe_es_fy2026": 750000.0,
    "values": {
     "reading_lowest": 0.5357142857142857,
     "reading_grade_level": 0.14285714285714285,
@@ -332,8 +304,6 @@
    "school_name": "Sagay Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 100.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.3333333333333333,
@@ -353,8 +323,6 @@
    "school_name": "Samonte Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 75.0,
-   "mooe_es_fy2026": 672000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.18518518518518517,
@@ -374,8 +342,6 @@
    "school_name": "Talusan Central Elementary School",
    "learners_assessed": 369.0,
    "small_group": false,
-   "k6_enrollment": 810.0,
-   "mooe_es_fy2026": 1552000.0,
    "values": {
     "reading_lowest": 0.4146341463414634,
     "reading_grade_level": 0.06775067750677506,
@@ -395,8 +361,6 @@
    "school_name": "Tuburan Elementary School",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 137.0,
-   "mooe_es_fy2026": 728000.0,
    "values": {
     "reading_lowest": 0.14516129032258066,
     "reading_grade_level": 0.14516129032258066,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

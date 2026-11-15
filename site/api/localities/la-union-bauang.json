@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 22215000.0,
-   "schools_listed": 25,
-   "public_elementary_schools": 26,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Acao Elementary School",
    "learners_assessed": 117.0,
    "small_group": false,
-   "k6_enrollment": 271.0,
-   "mooe_es_fy2026": 894000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.2905982905982906,
@@ -143,8 +133,6 @@
    "school_name": "Baccuit Elementary School",
    "learners_assessed": 259.0,
    "small_group": false,
-   "k6_enrollment": 570.0,
-   "mooe_es_fy2026": 1262000.0,
    "values": {
     "reading_lowest": 0.43243243243243246,
     "reading_grade_level": 0.09266409266409266,
@@ -164,8 +152,6 @@
    "school_name": "Bagbag ES",
    "learners_assessed": 80.0,
    "small_group": false,
-   "k6_enrollment": 188.0,
-   "mooe_es_fy2026": 806000.0,
    "values": {
     "reading_lowest": 0.625,
     "reading_grade_level": 0.0625,
@@ -185,8 +171,6 @@
    "school_name": "Ballay ES",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 168.0,
-   "mooe_es_fy2026": 808000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.25,
@@ -206,8 +190,6 @@
    "school_name": "Baratao Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 44.0,
-   "mooe_es_fy2026": 624000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.0,
@@ -227,8 +209,6 @@
    "school_name": "Bauang North CS",
    "learners_assessed": 446.0,
    "small_group": false,
-   "k6_enrollment": 1105.0,
-   "mooe_es_fy2026": 1924000.0,
    "values": {
     "reading_lowest": 0.49327354260089684,
     "reading_grade_level": 0.03139013452914798,
@@ -248,8 +228,6 @@
    "school_name": "Bawanta ES",
    "learners_assessed": 184.0,
    "small_group": false,
-   "k6_enrollment": 415.0,
-   "mooe_es_fy2026": 1069000.0,
    "values": {
     "reading_lowest": 0.43478260869565216,
     "reading_grade_level": 0.04891304347826087,
@@ -269,8 +247,6 @@
    "school_name": "Bigbiga ES",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 98.0,
-   "mooe_es_fy2026": 689000.0,
    "values": {
     "reading_lowest": 0.5555555555555556,
     "reading_grade_level": 0.044444444444444446,
@@ -290,8 +266,6 @@
    "school_name": "Boy-utan ES",
    "learners_assessed": 59.0,
    "small_group": false,
-   "k6_enrollment": 136.0,
-   "mooe_es_fy2026": 739000.0,
    "values": {
     "reading_lowest": 0.2542372881355932,
     "reading_grade_level": 0.05084745762711865,
@@ -311,8 +285,6 @@
    "school_name": "Bucayab Integrated School",
    "learners_assessed": 43.0,
    "small_group": false,
-   "k6_enrollment": 123.0,
-   "mooe_es_fy2026": 559000.0,
    "values": {
     "reading_lowest": 0.3488372093023256,
     "reading_grade_level": 0.11627906976744186,
@@ -332,8 +304,6 @@
    "school_name": "Cabalayangan ES",
    "learners_assessed": 67.0,
    "small_group": false,
-   "k6_enrollment": 155.0,
-   "mooe_es_fy2026": 737000.0,
    "values": {
     "reading_lowest": 0.47761194029850745,
     "reading_grade_level": 0.029850746268656716,
@@ -353,8 +323,6 @@
    "school_name": "Calumbaya ES",
    "learners_assessed": 188.0,
    "small_group": false,
-   "k6_enrollment": 445.0,
-   "mooe_es_fy2026": 1118000.0,
    "values": {
     "reading_lowest": 0.26063829787234044,
     "reading_grade_level": 0.18617021276595744,
@@ -374,8 +342,6 @@
    "school_name": "Casilagan Integrated School",
    "learners_assessed": 56.0,
    "small_group": false,
-   "k6_enrollment": 142.0,
-   "mooe_es_fy2026": 604000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.10714285714285714,
@@ -395,8 +361,6 @@
    "school_name": "EULOGIO CLARENCE M. DE GUZMAN Jr. ELEMENTARY SCHOOL",
    "learners_assessed": 103.0,
    "small_group": false,
-   "k6_enrollment": 251.0,
-   "mooe_es_fy2026": 848000.0,
    "values": {
     "reading_lowest": 0.4563106796116505,
     "reading_grade_level": 0.038834951456310676,
@@ -416,8 +380,6 @@
    "school_name": "Guerrero Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 125.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.3191489361702128,
     "reading_grade_level": 0.10638297872340426,
@@ -437,8 +399,6 @@
    "school_name": "Parian Este Integrated School",
    "learners_assessed": 94.0,
    "small_group": false,
-   "k6_enrollment": 235.0,
-   "mooe_es_fy2026": 653000.0,
    "values": {
     "reading_lowest": 0.4148936170212766,
     "reading_grade_level": 0.19148936170212766,
@@ -458,8 +418,6 @@
    "school_name": "Parian Oeste ES",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 167.0,
-   "mooe_es_fy2026": 778000.0,
    "values": {
     "reading_lowest": 0.5147058823529411,
     "reading_grade_level": 0.058823529411764705,
@@ -479,8 +437,6 @@
    "school_name": "Paringao ES",
    "learners_assessed": 281.0,
    "small_group": false,
-   "k6_enrollment": 732.0,
-   "mooe_es_fy2026": 1415000.0,
    "values": {
     "reading_lowest": 0.4128113879003559,
     "reading_grade_level": 0.14590747330960854,
@@ -500,8 +456,6 @@
    "school_name": "Payocpoc ES",
    "learners_assessed": 124.0,
    "small_group": false,
-   "k6_enrollment": 316.0,
-   "mooe_es_fy2026": 976000.0,
    "values": {
     "reading_lowest": 0.1532258064516129,
     "reading_grade_level": 0.024193548387096774,
@@ -521,8 +475,6 @@
    "school_name": "Payocpoc Este ES",
    "learners_assessed": 50.0,
    "small_group": false,
-   "k6_enrollment": 143.0,
-   "mooe_es_fy2026": 770000.0,
    "values": {
     "reading_lowest": 0.42,
     "reading_grade_level": 0.1,
@@ -542,8 +494,6 @@
    "school_name": "Pudoc ES",
    "learners_assessed": 73.0,
    "small_group": false,
-   "k6_enrollment": 176.0,
-   "mooe_es_fy2026": 799000.0,
    "values": {
     "reading_lowest": 0.4794520547945205,
     "reading_grade_level": 0.0547945205479452,
@@ -563,8 +513,6 @@
    "school_name": "Quinavite Elementary School",
    "learners_assessed": 79.0,
    "small_group": false,
-   "k6_enrollment": 266.0,
-   "mooe_es_fy2026": 871000.0,
    "values": {
     "reading_lowest": 0.4050632911392405,
     "reading_grade_level": 0.0379746835443038,
@@ -584,8 +532,6 @@
    "school_name": "San Agustin Elementary School",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 136.0,
-   "mooe_es_fy2026": 742000.0,
    "values": {
     "reading_lowest": 0.3076923076923077,
     "reading_grade_level": 0.28846153846153844,
@@ -605,8 +551,6 @@
    "school_name": "Santiago ES",
    "learners_assessed": 198.0,
    "small_group": false,
-   "k6_enrollment": 431.0,
-   "mooe_es_fy2026": 1068000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.06565656565656566,
@@ -626,8 +570,6 @@
    "school_name": "Sta. Monica Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 136.0,
-   "mooe_es_fy2026": 728000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.08888888888888889,
@@ -685,5 +627,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

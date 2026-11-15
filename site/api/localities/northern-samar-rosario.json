@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 7737000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Aguada PS",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 41.0,
-   "mooe_es_fy2026": 624000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.18181818181818182,
@@ -143,8 +133,6 @@
    "school_name": "Bantolinao ES",
    "learners_assessed": 29.0,
    "small_group": false,
-   "k6_enrollment": 80.0,
-   "mooe_es_fy2026": 672000.0,
    "values": {
     "reading_lowest": 0.2413793103448276,
     "reading_grade_level": 0.3103448275862069,
@@ -164,8 +152,6 @@
    "school_name": "Buenavista ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 140.0,
-   "mooe_es_fy2026": 752000.0,
    "values": {
     "reading_lowest": 0.6491228070175439,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Guindaulan Elementary School",
    "learners_assessed": 76.0,
    "small_group": false,
-   "k6_enrollment": 185.0,
-   "mooe_es_fy2026": 799000.0,
    "values": {
     "reading_lowest": 0.3026315789473684,
     "reading_grade_level": 0.17105263157894737,
@@ -206,8 +190,6 @@
    "school_name": "Jamo-og ES",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 107.0,
-   "mooe_es_fy2026": 700000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.08571428571428572,
@@ -227,8 +209,6 @@
    "school_name": "Kailingan ES",
    "learners_assessed": 32.0,
    "small_group": false,
-   "k6_enrollment": 86.0,
-   "mooe_es_fy2026": 679000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Ligaya ES",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 106.0,
-   "mooe_es_fy2026": 693000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.10526315789473684,
@@ -269,8 +247,6 @@
    "school_name": "R.F. Tobes Mem. School",
    "learners_assessed": 6.0,
    "small_group": true,
-   "k6_enrollment": 12.0,
-   "mooe_es_fy2026": 598000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.16666666666666666,
@@ -290,8 +266,6 @@
    "school_name": "Rosario Central School",
    "learners_assessed": 249.0,
    "small_group": false,
-   "k6_enrollment": 668.0,
-   "mooe_es_fy2026": 1349000.0,
    "values": {
     "reading_lowest": 0.2891566265060241,
     "reading_grade_level": 0.17670682730923695,
@@ -311,8 +285,6 @@
    "school_name": "Salhag Elementary School",
    "learners_assessed": 106.0,
    "small_group": false,
-   "k6_enrollment": 270.0,
-   "mooe_es_fy2026": 871000.0,
    "values": {
     "reading_lowest": 0.330188679245283,
     "reading_grade_level": 0.22641509433962265,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

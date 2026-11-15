@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 20060000.0,
-   "schools_listed": 24,
-   "public_elementary_schools": 24,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agtangao ES",
    "learners_assessed": 137.0,
    "small_group": false,
-   "k6_enrollment": 334.0,
-   "mooe_es_fy2026": 988000.0,
    "values": {
     "reading_lowest": 0.49635036496350365,
     "reading_grade_level": 0.058394160583941604,
@@ -143,8 +133,6 @@
    "school_name": "Bacsil Elementary School",
    "learners_assessed": 85.0,
    "small_group": false,
-   "k6_enrollment": 200.0,
-   "mooe_es_fy2026": 841000.0,
    "values": {
     "reading_lowest": 0.5647058823529412,
     "reading_grade_level": 0.2,
@@ -164,8 +152,6 @@
    "school_name": "Bangbangar ES",
    "learners_assessed": 82.0,
    "small_group": false,
-   "k6_enrollment": 190.0,
-   "mooe_es_fy2026": 807000.0,
    "values": {
     "reading_lowest": 0.45121951219512196,
     "reading_grade_level": 0.15853658536585366,
@@ -185,8 +171,6 @@
    "school_name": "Bangued East Central School",
    "learners_assessed": 154.0,
    "small_group": false,
-   "k6_enrollment": 376.0,
-   "mooe_es_fy2026": 1023000.0,
    "values": {
     "reading_lowest": 0.33116883116883117,
     "reading_grade_level": 0.09740259740259741,
@@ -206,8 +190,6 @@
    "school_name": "Bangued North ES",
    "learners_assessed": 113.0,
    "small_group": false,
-   "k6_enrollment": 256.0,
-   "mooe_es_fy2026": 879000.0,
    "values": {
     "reading_lowest": 0.3185840707964602,
     "reading_grade_level": 0.3893805309734513,
@@ -227,8 +209,6 @@
    "school_name": "Bangued West CS",
    "learners_assessed": 284.0,
    "small_group": false,
-   "k6_enrollment": 948.0,
-   "mooe_es_fy2026": 1704000.0,
    "values": {
     "reading_lowest": 0.36971830985915494,
     "reading_grade_level": 0.15492957746478872,
@@ -248,8 +228,6 @@
    "school_name": "Bañacao ES",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 186.0,
-   "mooe_es_fy2026": 788000.0,
    "values": {
     "reading_lowest": 0.3472222222222222,
     "reading_grade_level": 0.2777777777777778,
@@ -269,8 +247,6 @@
    "school_name": "Calaba ES",
    "learners_assessed": 101.0,
    "small_group": false,
-   "k6_enrollment": 249.0,
-   "mooe_es_fy2026": 887000.0,
    "values": {
     "reading_lowest": 0.36633663366336633,
     "reading_grade_level": 0.37623762376237624,
@@ -290,8 +266,6 @@
    "school_name": "Calot Elementary School",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 159.0,
-   "mooe_es_fy2026": 775000.0,
    "values": {
     "reading_lowest": 0.2127659574468085,
     "reading_grade_level": 0.0,
@@ -311,8 +285,6 @@
    "school_name": "Cosili ES",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 206.0,
-   "mooe_es_fy2026": 829000.0,
    "values": {
     "reading_lowest": 0.4032258064516129,
     "reading_grade_level": 0.24193548387096775,
@@ -332,8 +304,6 @@
    "school_name": "Cosili West PS",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 53.0,
-   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.2777777777777778,
     "reading_grade_level": 0.16666666666666666,
@@ -353,8 +323,6 @@
    "school_name": "Dangdangla Elementary School",
    "learners_assessed": 28.0,
    "small_group": false,
-   "k6_enrollment": 90.0,
-   "mooe_es_fy2026": 713000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.21428571428571427,
@@ -374,8 +342,6 @@
    "school_name": "Lubong PS",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 68.0,
-   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.23333333333333334,
     "reading_grade_level": 0.16666666666666666,
@@ -395,8 +361,6 @@
    "school_name": "Macarcarmay ES",
    "learners_assessed": 32.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.3125,
     "reading_grade_level": 0.21875,
@@ -416,8 +380,6 @@
    "school_name": "Maoay Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 84.0,
-   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.0,
@@ -437,8 +399,6 @@
    "school_name": "Patucannay ES",
    "learners_assessed": 114.0,
    "small_group": false,
-   "k6_enrollment": 242.0,
-   "mooe_es_fy2026": 878000.0,
    "values": {
     "reading_lowest": 0.22807017543859648,
     "reading_grade_level": 0.2543859649122807,
@@ -458,8 +418,6 @@
    "school_name": "Sagap Elementary School",
    "learners_assessed": 54.0,
    "small_group": false,
-   "k6_enrollment": 125.0,
-   "mooe_es_fy2026": 724000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.12962962962962962,
@@ -479,8 +437,6 @@
    "school_name": "San Antonio ES",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 134.0,
-   "mooe_es_fy2026": 737000.0,
    "values": {
     "reading_lowest": 0.21153846153846154,
     "reading_grade_level": 0.17307692307692307,
@@ -500,8 +456,6 @@
    "school_name": "Sappaac ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 153.0,
-   "mooe_es_fy2026": 757000.0,
    "values": {
     "reading_lowest": 0.5087719298245614,
     "reading_grade_level": 0.15789473684210525,
@@ -521,8 +475,6 @@
    "school_name": "Sinalang Pilot ES",
    "learners_assessed": 209.0,
    "small_group": false,
-   "k6_enrollment": 500.0,
-   "mooe_es_fy2026": 1189000.0,
    "values": {
     "reading_lowest": 0.45933014354066987,
     "reading_grade_level": 0.11004784688995216,
@@ -542,8 +494,6 @@
    "school_name": "Sinapangan ES",
    "learners_assessed": 118.0,
    "small_group": false,
-   "k6_enrollment": 286.0,
-   "mooe_es_fy2026": 916000.0,
    "values": {
     "reading_lowest": 0.1864406779661017,
     "reading_grade_level": 0.288135593220339,
@@ -563,8 +513,6 @@
    "school_name": "Sta. Rosa PS",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 27.0,
-   "mooe_es_fy2026": 607000.0,
    "values": {
     "reading_lowest": 0.5833333333333334,
     "reading_grade_level": 0.0,
@@ -622,5 +570,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

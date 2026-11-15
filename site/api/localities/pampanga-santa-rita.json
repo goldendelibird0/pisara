@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10889000.0,
-   "schools_listed": 9,
-   "public_elementary_schools": 9,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Becuran ES",
    "learners_assessed": 310.0,
    "small_group": false,
-   "k6_enrollment": 673.0,
-   "mooe_es_fy2026": 1299000.0,
    "values": {
     "reading_lowest": 0.1870967741935484,
     "reading_grade_level": 0.12258064516129032,
@@ -143,8 +133,6 @@
    "school_name": "Diladila ES",
    "learners_assessed": 379.0,
    "small_group": false,
-   "k6_enrollment": 853.0,
-   "mooe_es_fy2026": 1509000.0,
    "values": {
     "reading_lowest": 0.33509234828496043,
     "reading_grade_level": 0.15303430079155672,
@@ -164,8 +152,6 @@
    "school_name": "Holy Family Village ES",
    "learners_assessed": 152.0,
    "small_group": false,
-   "k6_enrollment": 350.0,
-   "mooe_es_fy2026": 976000.0,
    "values": {
     "reading_lowest": 0.34210526315789475,
     "reading_grade_level": 0.3026315789473684,
@@ -185,8 +171,6 @@
    "school_name": "San Basilio ES",
    "learners_assessed": 413.0,
    "small_group": false,
-   "k6_enrollment": 909.0,
-   "mooe_es_fy2026": 1717000.0,
    "values": {
     "reading_lowest": 0.24213075060532688,
     "reading_grade_level": 0.22033898305084745,
@@ -206,8 +190,6 @@
    "school_name": "San Isidro ES",
    "learners_assessed": 134.0,
    "small_group": false,
-   "k6_enrollment": 348.0,
-   "mooe_es_fy2026": 1033000.0,
    "values": {
     "reading_lowest": 0.2835820895522388,
     "reading_grade_level": 0.14925373134328357,
@@ -227,8 +209,6 @@
    "school_name": "San Juan ES",
    "learners_assessed": 109.0,
    "small_group": false,
-   "k6_enrollment": 238.0,
-   "mooe_es_fy2026": 846000.0,
    "values": {
     "reading_lowest": 0.10091743119266056,
     "reading_grade_level": 0.45871559633027525,
@@ -248,8 +228,6 @@
    "school_name": "San Matias ES",
    "learners_assessed": 93.0,
    "small_group": false,
-   "k6_enrollment": 206.0,
-   "mooe_es_fy2026": 811000.0,
    "values": {
     "reading_lowest": 0.27956989247311825,
     "reading_grade_level": 0.2903225806451613,
@@ -269,8 +247,6 @@
    "school_name": "Sta. Rita CS",
    "learners_assessed": 315.0,
    "small_group": false,
-   "k6_enrollment": 761.0,
-   "mooe_es_fy2026": 1429000.0,
    "values": {
     "reading_lowest": 0.273015873015873,
     "reading_grade_level": 0.1619047619047619,
@@ -290,8 +266,6 @@
    "school_name": "V. De Castro ES",
    "learners_assessed": 255.0,
    "small_group": false,
-   "k6_enrollment": 589.0,
-   "mooe_es_fy2026": 1269000.0,
    "values": {
     "reading_lowest": 0.24313725490196078,
     "reading_grade_level": 0.16862745098039217,
@@ -349,5 +323,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

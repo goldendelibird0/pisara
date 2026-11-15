@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10153000.0,
-   "schools_listed": 12,
-   "public_elementary_schools": 12,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bato ES",
    "learners_assessed": 138.0,
    "small_group": false,
-   "k6_enrollment": 332.0,
-   "mooe_es_fy2026": 964000.0,
    "values": {
     "reading_lowest": 0.39855072463768115,
     "reading_grade_level": 0.11594202898550725,
@@ -143,8 +133,6 @@
    "school_name": "Biliran Central School",
    "learners_assessed": 199.0,
    "small_group": false,
-   "k6_enrollment": 491.0,
-   "mooe_es_fy2026": 1160000.0,
    "values": {
     "reading_lowest": 0.08542713567839195,
     "reading_grade_level": 0.16080402010050251,
@@ -164,8 +152,6 @@
    "school_name": "Burabod ES",
    "learners_assessed": 120.0,
    "small_group": false,
-   "k6_enrollment": 310.0,
-   "mooe_es_fy2026": 934000.0,
    "values": {
     "reading_lowest": 0.3416666666666667,
     "reading_grade_level": 0.2,
@@ -185,8 +171,6 @@
    "school_name": "Busali ES",
    "learners_assessed": 97.0,
    "small_group": false,
-   "k6_enrollment": 203.0,
-   "mooe_es_fy2026": 818000.0,
    "values": {
     "reading_lowest": 0.30927835051546393,
     "reading_grade_level": 0.15463917525773196,
@@ -206,8 +190,6 @@
    "school_name": "Canila ES",
    "learners_assessed": 82.0,
    "small_group": false,
-   "k6_enrollment": 194.0,
-   "mooe_es_fy2026": 794000.0,
    "values": {
     "reading_lowest": 0.08536585365853659,
     "reading_grade_level": 0.21951219512195122,
@@ -227,8 +209,6 @@
    "school_name": "Core Shelter ES",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 43.0,
-   "mooe_es_fy2026": 635000.0,
    "values": {
     "reading_lowest": 0.47368421052631576,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "FELIMON NIERRAS MEMORIAL ELEMENTARY SCHOOL",
    "learners_assessed": 120.0,
    "small_group": false,
-   "k6_enrollment": 245.0,
-   "mooe_es_fy2026": 854000.0,
    "values": {
     "reading_lowest": 0.19166666666666668,
     "reading_grade_level": 0.13333333333333333,
@@ -269,8 +247,6 @@
    "school_name": "Hugpa ES",
    "learners_assessed": 58.0,
    "small_group": false,
-   "k6_enrollment": 136.0,
-   "mooe_es_fy2026": 728000.0,
    "values": {
     "reading_lowest": 0.39655172413793105,
     "reading_grade_level": 0.05172413793103448,
@@ -290,8 +266,6 @@
    "school_name": "Julita ES",
    "learners_assessed": 133.0,
    "small_group": false,
-   "k6_enrollment": 281.0,
-   "mooe_es_fy2026": 902000.0,
    "values": {
     "reading_lowest": 0.20300751879699247,
     "reading_grade_level": 0.07518796992481203,
@@ -311,8 +285,6 @@
    "school_name": "Pinangomhan ES",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 152.0,
-   "mooe_es_fy2026": 755000.0,
    "values": {
     "reading_lowest": 0.3064516129032258,
     "reading_grade_level": 0.03225806451612903,
@@ -332,8 +304,6 @@
    "school_name": "Sangalang Elementary School",
    "learners_assessed": 53.0,
    "small_group": false,
-   "k6_enrollment": 149.0,
-   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.16981132075471697,
     "reading_grade_level": 0.1509433962264151,
@@ -353,8 +323,6 @@
    "school_name": "Villa Enage Elemenetary School",
    "learners_assessed": 103.0,
    "small_group": false,
-   "k6_enrollment": 256.0,
-   "mooe_es_fy2026": 864000.0,
    "values": {
     "reading_lowest": 0.4174757281553398,
     "reading_grade_level": 0.02912621359223301,
@@ -412,5 +380,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

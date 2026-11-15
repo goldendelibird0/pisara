@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 8362000.0,
-   "schools_listed": 13,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Aguiwas Elementary School",
    "learners_assessed": 5.0,
    "small_group": true,
-   "k6_enrollment": 21.0,
-   "mooe_es_fy2026": 604000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.4,
@@ -143,8 +133,6 @@
    "school_name": "Alilem Central School",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 153.0,
-   "mooe_es_fy2026": 760000.0,
    "values": {
     "reading_lowest": 0.24193548387096775,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Amilongan Elementary School",
    "learners_assessed": 34.0,
    "small_group": false,
-   "k6_enrollment": 75.0,
-   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.2647058823529412,
     "reading_grade_level": 0.2647058823529412,
@@ -185,8 +171,6 @@
    "school_name": "Anaao Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.0967741935483871,
     "reading_grade_level": 0.0967741935483871,
@@ -206,8 +190,6 @@
    "school_name": "Apang Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 60.0,
-   "mooe_es_fy2026": 644000.0,
    "values": {
     "reading_lowest": 0.043478260869565216,
     "reading_grade_level": 0.30434782608695654,
@@ -227,8 +209,6 @@
    "school_name": "Apaya Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 52.0,
-   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.875,
@@ -248,8 +228,6 @@
    "school_name": "Daddaay Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 38.0,
-   "mooe_es_fy2026": 624000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "Dagdag Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 31.0,
-   "mooe_es_fy2026": 614000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.3333333333333333,
@@ -290,8 +266,6 @@
    "school_name": "Dalawa Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 57.0,
-   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.2962962962962963,
@@ -311,8 +285,6 @@
    "school_name": "Guilong Primary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 19.0,
-   "mooe_es_fy2026": 601000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.08333333333333333,
@@ -332,8 +304,6 @@
    "school_name": "Kiat Elementary School",
    "learners_assessed": 10.0,
    "small_group": true,
-   "k6_enrollment": 31.0,
-   "mooe_es_fy2026": 614000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.1,
@@ -353,8 +323,6 @@
    "school_name": "Naonao Elementary School",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 23.0,
-   "mooe_es_fy2026": 601000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.0,
@@ -374,8 +342,6 @@
    "school_name": "Palasipas Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
-   "k6_enrollment": 44.0,
-   "mooe_es_fy2026": 645000.0,
    "values": {
     "reading_lowest": 0.07692307692307693,
     "reading_grade_level": 0.38461538461538464,
@@ -433,5 +399,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

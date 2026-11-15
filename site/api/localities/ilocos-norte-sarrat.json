@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 11188000.0,
-   "schools_listed": 15,
-   "public_elementary_schools": 15,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Binaratan ES",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 121.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.1346153846153846,
@@ -143,8 +133,6 @@
    "school_name": "Cabuloan Elementary School",
    "learners_assessed": 34.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 683000.0,
    "values": {
     "reading_lowest": 0.38235294117647056,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Golgol ES",
    "learners_assessed": 63.0,
    "small_group": false,
-   "k6_enrollment": 141.0,
-   "mooe_es_fy2026": 762000.0,
    "values": {
     "reading_lowest": 0.4603174603174603,
     "reading_grade_level": 0.047619047619047616,
@@ -185,8 +171,6 @@
    "school_name": "Pandan Integrated School",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 128.0,
-   "mooe_es_fy2026": 575000.0,
    "values": {
     "reading_lowest": 0.36538461538461536,
     "reading_grade_level": 0.019230769230769232,
@@ -206,8 +190,6 @@
    "school_name": "Parang ES",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 53.0,
-   "mooe_es_fy2026": 645000.0,
    "values": {
     "reading_lowest": 0.17391304347826086,
     "reading_grade_level": 0.08695652173913043,
@@ -227,8 +209,6 @@
    "school_name": "Patad ES",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 85.0,
-   "mooe_es_fy2026": 684000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.1388888888888889,
@@ -248,8 +228,6 @@
    "school_name": "Ruiz ES",
    "learners_assessed": 108.0,
    "small_group": false,
-   "k6_enrollment": 282.0,
-   "mooe_es_fy2026": 915000.0,
    "values": {
     "reading_lowest": 0.6388888888888888,
     "reading_grade_level": 0.027777777777777776,
@@ -269,8 +247,6 @@
    "school_name": "Sagpatan ES",
    "learners_assessed": 71.0,
    "small_group": false,
-   "k6_enrollment": 210.0,
-   "mooe_es_fy2026": 821000.0,
    "values": {
     "reading_lowest": 0.28169014084507044,
     "reading_grade_level": 0.09859154929577464,
@@ -290,8 +266,6 @@
    "school_name": "San Andres Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 27.0,
-   "mooe_es_fy2026": 611000.0,
    "values": {
     "reading_lowest": 0.08333333333333333,
     "reading_grade_level": 0.16666666666666666,
@@ -311,8 +285,6 @@
    "school_name": "San Antonio ES",
    "learners_assessed": 48.0,
    "small_group": false,
-   "k6_enrollment": 144.0,
-   "mooe_es_fy2026": 759000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.041666666666666664,
@@ -332,8 +304,6 @@
    "school_name": "San Bernabe ES",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 23.0,
-   "mooe_es_fy2026": 609000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.2222222222222222,
@@ -353,8 +323,6 @@
    "school_name": "San Pedro ES",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 675000.0,
    "values": {
     "reading_lowest": 0.3142857142857143,
     "reading_grade_level": 0.0,
@@ -374,8 +342,6 @@
    "school_name": "Sarrat Central School",
    "learners_assessed": 75.0,
    "small_group": false,
-   "k6_enrollment": 206.0,
-   "mooe_es_fy2026": 807000.0,
    "values": {
     "reading_lowest": 0.30666666666666664,
     "reading_grade_level": 0.09333333333333334,
@@ -395,8 +361,6 @@
    "school_name": "Sarrat North CS",
    "learners_assessed": 158.0,
    "small_group": false,
-   "k6_enrollment": 407.0,
-   "mooe_es_fy2026": 1093000.0,
    "values": {
     "reading_lowest": 0.45569620253164556,
     "reading_grade_level": 0.1962025316455696,
@@ -416,8 +380,6 @@
    "school_name": "Sta. Rosa ES",
    "learners_assessed": 87.0,
    "small_group": false,
-   "k6_enrollment": 209.0,
-   "mooe_es_fy2026": 826000.0,
    "values": {
     "reading_lowest": 0.20689655172413793,
     "reading_grade_level": 0.27586206896551724,
@@ -475,5 +437,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

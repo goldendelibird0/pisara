@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 7185000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Buenavista Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 48.0,
-   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.1875,
     "reading_grade_level": 0.1875,
@@ -143,8 +133,6 @@
    "school_name": "Bulawan Primary School",
    "learners_assessed": 5.0,
    "small_group": true,
-   "k6_enrollment": 8.0,
-   "mooe_es_fy2026": 593000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Catbawan Elementary School",
    "learners_assessed": 58.0,
    "small_group": false,
-   "k6_enrollment": 130.0,
-   "mooe_es_fy2026": 726000.0,
    "values": {
     "reading_lowest": 0.3103448275862069,
     "reading_grade_level": 0.25862068965517243,
@@ -185,8 +171,6 @@
    "school_name": "Cogon Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 64.0,
-   "mooe_es_fy2026": 654000.0,
    "values": {
     "reading_lowest": 0.26666666666666666,
     "reading_grade_level": 0.06666666666666667,
@@ -206,8 +190,6 @@
    "school_name": "Dan-an Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 69.0,
-   "mooe_es_fy2026": 657000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.3333333333333333,
@@ -227,8 +209,6 @@
    "school_name": "Manglit Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 91.0,
-   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.48717948717948717,
     "reading_grade_level": 0.1282051282051282,
@@ -248,8 +228,6 @@
    "school_name": "Nueva Estrella Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 112.0,
-   "mooe_es_fy2026": 708000.0,
    "values": {
     "reading_lowest": 0.3157894736842105,
     "reading_grade_level": 0.15789473684210525,
@@ -269,8 +247,6 @@
    "school_name": "Pintuyan Central School",
    "learners_assessed": 208.0,
    "small_group": false,
-   "k6_enrollment": 491.0,
-   "mooe_es_fy2026": 1167000.0,
    "values": {
     "reading_lowest": 0.4230769230769231,
     "reading_grade_level": 0.1778846153846154,
@@ -290,8 +266,6 @@
    "school_name": "Punod Primary School",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 70.0,
-   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.17307692307692307,
@@ -311,8 +285,6 @@
    "school_name": "Son-Ok Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 124.0,
-   "mooe_es_fy2026": 715000.0,
    "values": {
     "reading_lowest": 0.18421052631578946,
     "reading_grade_level": 0.23684210526315788,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

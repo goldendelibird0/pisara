@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 6703000.0,
-   "schools_listed": 9,
-   "public_elementary_schools": 9,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bessang Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
-   "k6_enrollment": 50.0,
-   "mooe_es_fy2026": 645000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Burgos Central School",
    "learners_assessed": 94.0,
    "small_group": false,
-   "k6_enrollment": 286.0,
-   "mooe_es_fy2026": 934000.0,
    "values": {
     "reading_lowest": 0.10638297872340426,
     "reading_grade_level": 0.13829787234042554,
@@ -164,8 +152,6 @@
    "school_name": "Cabcaburao Elementary School",
    "learners_assessed": 56.0,
    "small_group": false,
-   "k6_enrollment": 166.0,
-   "mooe_es_fy2026": 765000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Lubing Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 43.0,
-   "mooe_es_fy2026": 633000.0,
    "values": {
     "reading_lowest": 0.5333333333333333,
     "reading_grade_level": 0.13333333333333333,
@@ -206,8 +190,6 @@
    "school_name": "Luna Community School",
    "learners_assessed": 94.0,
    "small_group": false,
-   "k6_enrollment": 225.0,
-   "mooe_es_fy2026": 829000.0,
    "values": {
     "reading_lowest": 0.2765957446808511,
     "reading_grade_level": 0.06382978723404255,
@@ -227,8 +209,6 @@
    "school_name": "Macaoayan Community School",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 99.0,
-   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.044444444444444446,
     "reading_grade_level": 0.35555555555555557,
@@ -248,8 +228,6 @@
    "school_name": "Mambug Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 83.0,
-   "mooe_es_fy2026": 673000.0,
    "values": {
     "reading_lowest": 0.15151515151515152,
     "reading_grade_level": 0.06060606060606061,
@@ -269,8 +247,6 @@
    "school_name": "Padayao Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
-   "k6_enrollment": 149.0,
-   "mooe_es_fy2026": 754000.0,
    "values": {
     "reading_lowest": 0.1694915254237288,
     "reading_grade_level": 0.3050847457627119,
@@ -290,8 +266,6 @@
    "school_name": "Patac Elementary School",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 156.0,
-   "mooe_es_fy2026": 774000.0,
    "values": {
     "reading_lowest": 0.40350877192982454,
     "reading_grade_level": 0.14035087719298245,
@@ -349,5 +323,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

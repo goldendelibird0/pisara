@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10213000.0,
-   "schools_listed": 9,
-   "public_elementary_schools": 9,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Binuangan ES",
    "learners_assessed": 209.0,
    "small_group": false,
-   "k6_enrollment": 518.0,
-   "mooe_es_fy2026": 1200000.0,
    "values": {
     "reading_lowest": 0.15311004784688995,
     "reading_grade_level": 0.19617224880382775,
@@ -143,8 +133,6 @@
    "school_name": "Catanghalan ES",
    "learners_assessed": 111.0,
    "small_group": false,
-   "k6_enrollment": 265.0,
-   "mooe_es_fy2026": 878000.0,
    "values": {
     "reading_lowest": 0.15315315315315314,
     "reading_grade_level": 0.4774774774774775,
@@ -164,8 +152,6 @@
    "school_name": "LAWA ELEMENTARY SCHOOL",
    "learners_assessed": 55.0,
    "small_group": false,
-   "k6_enrollment": 135.0,
-   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.2909090909090909,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Obando Central School",
    "learners_assessed": 406.0,
    "small_group": false,
-   "k6_enrollment": 950.0,
-   "mooe_es_fy2026": 1793000.0,
    "values": {
     "reading_lowest": 0.23891625615763548,
     "reading_grade_level": 0.25862068965517243,
@@ -206,8 +190,6 @@
    "school_name": "Paco Elementary School",
    "learners_assessed": 316.0,
    "small_group": false,
-   "k6_enrollment": 796.0,
-   "mooe_es_fy2026": 1490000.0,
    "values": {
     "reading_lowest": 0.2689873417721519,
     "reading_grade_level": 0.35443037974683544,
@@ -227,8 +209,6 @@
    "school_name": "Panghulo Elementary School",
    "learners_assessed": 192.0,
    "small_group": false,
-   "k6_enrollment": 458.0,
-   "mooe_es_fy2026": 1086000.0,
    "values": {
     "reading_lowest": 0.15104166666666666,
     "reading_grade_level": 0.28125,
@@ -248,8 +228,6 @@
    "school_name": "Salambao Elementary School",
    "learners_assessed": 79.0,
    "small_group": false,
-   "k6_enrollment": 190.0,
-   "mooe_es_fy2026": 778000.0,
    "values": {
     "reading_lowest": 0.26582278481012656,
     "reading_grade_level": 0.20253164556962025,
@@ -269,8 +247,6 @@
    "school_name": "San Pascual ES",
    "learners_assessed": 306.0,
    "small_group": false,
-   "k6_enrollment": 753.0,
-   "mooe_es_fy2026": 1446000.0,
    "values": {
     "reading_lowest": 0.3006535947712418,
     "reading_grade_level": 0.5130718954248366,
@@ -290,8 +266,6 @@
    "school_name": "Tawiran Elementary School",
    "learners_assessed": 81.0,
    "small_group": false,
-   "k6_enrollment": 190.0,
-   "mooe_es_fy2026": 797000.0,
    "values": {
     "reading_lowest": 0.30864197530864196,
     "reading_grade_level": 0.13580246913580246,
@@ -349,5 +323,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

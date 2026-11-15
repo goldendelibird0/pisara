@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 11273000.0,
-   "schools_listed": 9,
-   "public_elementary_schools": 9,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Binaritan ES",
    "learners_assessed": 240.0,
    "small_group": false,
-   "k6_enrollment": 567.0,
-   "mooe_es_fy2026": 1212000.0,
    "values": {
     "reading_lowest": 0.36666666666666664,
     "reading_grade_level": 0.23333333333333334,
@@ -143,8 +133,6 @@
    "school_name": "Facundo Angeles MES",
    "learners_assessed": 218.0,
    "small_group": false,
-   "k6_enrollment": 566.0,
-   "mooe_es_fy2026": 1260000.0,
    "values": {
     "reading_lowest": 0.38073394495412843,
     "reading_grade_level": 0.0779816513761468,
@@ -164,8 +152,6 @@
    "school_name": "Kanawan Integrated School",
    "learners_assessed": 98.0,
    "small_group": false,
-   "k6_enrollment": 219.0,
-   "mooe_es_fy2026": 833000.0,
    "values": {
     "reading_lowest": 0.3673469387755102,
     "reading_grade_level": 0.02040816326530612,
@@ -185,8 +171,6 @@
    "school_name": "Mabayo ES",
    "learners_assessed": 291.0,
    "small_group": false,
-   "k6_enrollment": 685.0,
-   "mooe_es_fy2026": 1365000.0,
    "values": {
     "reading_lowest": 0.2646048109965636,
     "reading_grade_level": 0.16838487972508592,
@@ -206,8 +190,6 @@
    "school_name": "Minanga ES",
    "learners_assessed": 118.0,
    "small_group": false,
-   "k6_enrollment": 246.0,
-   "mooe_es_fy2026": 871000.0,
    "values": {
     "reading_lowest": 0.2711864406779661,
     "reading_grade_level": 0.1271186440677966,
@@ -227,8 +209,6 @@
    "school_name": "Morong ES",
    "learners_assessed": 470.0,
    "small_group": false,
-   "k6_enrollment": 1638.0,
-   "mooe_es_fy2026": 2452000.0,
    "values": {
     "reading_lowest": 0.42127659574468085,
     "reading_grade_level": 0.01702127659574468,
@@ -248,8 +228,6 @@
    "school_name": "Nagbalayong ES",
    "learners_assessed": 266.0,
    "small_group": false,
-   "k6_enrollment": 676.0,
-   "mooe_es_fy2026": 1385000.0,
    "values": {
     "reading_lowest": 0.22932330827067668,
     "reading_grade_level": 0.06766917293233082,
@@ -269,8 +247,6 @@
    "school_name": "Panibatuhan ES",
    "learners_assessed": 239.0,
    "small_group": false,
-   "k6_enrollment": 509.0,
-   "mooe_es_fy2026": 1160000.0,
    "values": {
     "reading_lowest": 0.3389121338912134,
     "reading_grade_level": 0.058577405857740586,
@@ -290,8 +266,6 @@
    "school_name": "Sampaloc Integrated School",
    "learners_assessed": 102.0,
    "small_group": false,
-   "k6_enrollment": 258.0,
-   "mooe_es_fy2026": 735000.0,
    "values": {
     "reading_lowest": 0.4019607843137255,
     "reading_grade_level": 0.10784313725490197,
@@ -349,5 +323,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

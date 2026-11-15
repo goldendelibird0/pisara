@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 19466000.0,
-   "schools_listed": 25,
-   "public_elementary_schools": 25,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bacayawan ES",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 157.0,
-   "mooe_es_fy2026": 762000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.07142857142857142,
@@ -143,8 +133,6 @@
    "school_name": "Baha elementary school",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 65.0,
-   "mooe_es_fy2026": 653000.0,
    "values": {
     "reading_lowest": 0.41935483870967744,
     "reading_grade_level": 0.06451612903225806,
@@ -164,8 +152,6 @@
    "school_name": "Balanagan ES",
    "learners_assessed": 54.0,
    "small_group": false,
-   "k6_enrollment": 148.0,
-   "mooe_es_fy2026": 766000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.12962962962962962,
@@ -185,8 +171,6 @@
    "school_name": "Baluno ES",
    "learners_assessed": 40.0,
    "small_group": false,
-   "k6_enrollment": 99.0,
-   "mooe_es_fy2026": 680000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.175,
@@ -206,8 +190,6 @@
    "school_name": "Binuay ES",
    "learners_assessed": 89.0,
    "small_group": false,
-   "k6_enrollment": 234.0,
-   "mooe_es_fy2026": 851000.0,
    "values": {
     "reading_lowest": 0.25842696629213485,
     "reading_grade_level": 0.10112359550561797,
@@ -227,8 +209,6 @@
    "school_name": "Buburay ES",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 153.0,
-   "mooe_es_fy2026": 779000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Codilog ES",
    "learners_assessed": 64.0,
    "small_group": false,
-   "k6_enrollment": 183.0,
-   "mooe_es_fy2026": 785000.0,
    "values": {
     "reading_lowest": 0.515625,
     "reading_grade_level": 0.015625,
@@ -269,8 +247,6 @@
    "school_name": "Dimataling CES",
    "learners_assessed": 310.0,
    "small_group": false,
-   "k6_enrollment": 721.0,
-   "mooe_es_fy2026": 1414000.0,
    "values": {
     "reading_lowest": 0.4161290322580645,
     "reading_grade_level": 0.0935483870967742,
@@ -290,8 +266,6 @@
    "school_name": "Grap ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 141.0,
-   "mooe_es_fy2026": 726000.0,
    "values": {
     "reading_lowest": 0.19298245614035087,
     "reading_grade_level": 0.017543859649122806,
@@ -311,8 +285,6 @@
    "school_name": "Josefina ES",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 85.0,
-   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.37142857142857144,
     "reading_grade_level": 0.2857142857142857,
@@ -332,8 +304,6 @@
    "school_name": "Lalab ES",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 72.0,
-   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.3684210526315789,
     "reading_grade_level": 0.42105263157894735,
@@ -353,8 +323,6 @@
    "school_name": "Libertad ES",
    "learners_assessed": 81.0,
    "small_group": false,
-   "k6_enrollment": 194.0,
-   "mooe_es_fy2026": 789000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.1728395061728395,
@@ -374,8 +342,6 @@
    "school_name": "Magahis Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 53.0,
-   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.04,
     "reading_grade_level": 0.16,
@@ -395,8 +361,6 @@
    "school_name": "Mahayag Elementary School",
    "learners_assessed": 70.0,
    "small_group": false,
-   "k6_enrollment": 167.0,
-   "mooe_es_fy2026": 762000.0,
    "values": {
     "reading_lowest": 0.5142857142857142,
     "reading_grade_level": 0.17142857142857143,
@@ -416,8 +380,6 @@
    "school_name": "Mercedes ES",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 41.0,
-   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.7894736842105263,
@@ -437,8 +399,6 @@
    "school_name": "Saloagan ES",
    "learners_assessed": 178.0,
    "small_group": false,
-   "k6_enrollment": 393.0,
-   "mooe_es_fy2026": 1010000.0,
    "values": {
     "reading_lowest": 0.6179775280898876,
     "reading_grade_level": 0.03932584269662921,
@@ -458,8 +418,6 @@
    "school_name": "San Miguel ES",
    "learners_assessed": 257.0,
    "small_group": false,
-   "k6_enrollment": 617.0,
-   "mooe_es_fy2026": 1287000.0,
    "values": {
     "reading_lowest": 0.3968871595330739,
     "reading_grade_level": 0.07392996108949416,
@@ -479,8 +437,6 @@
    "school_name": "San Roque Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 91.0,
-   "mooe_es_fy2026": 683000.0,
    "values": {
     "reading_lowest": 0.5142857142857142,
     "reading_grade_level": 0.08571428571428572,
@@ -500,8 +456,6 @@
    "school_name": "Sugbay Uno ES",
    "learners_assessed": 54.0,
    "small_group": false,
-   "k6_enrollment": 149.0,
-   "mooe_es_fy2026": 738000.0,
    "values": {
     "reading_lowest": 0.2037037037037037,
     "reading_grade_level": 0.0,
@@ -521,8 +475,6 @@
    "school_name": "Sumbato ES",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 100.0,
-   "mooe_es_fy2026": 714000.0,
    "values": {
     "reading_lowest": 0.3902439024390244,
     "reading_grade_level": 0.17073170731707318,
@@ -542,8 +494,6 @@
    "school_name": "Sumpot Integrated School",
    "learners_assessed": 110.0,
    "small_group": false,
-   "k6_enrollment": 264.0,
-   "mooe_es_fy2026": 679000.0,
    "values": {
     "reading_lowest": 0.43636363636363634,
     "reading_grade_level": 0.08181818181818182,
@@ -563,8 +513,6 @@
    "school_name": "Tinggabulong ES",
    "learners_assessed": 85.0,
    "small_group": false,
-   "k6_enrollment": 194.0,
-   "mooe_es_fy2026": 809000.0,
    "values": {
     "reading_lowest": 0.3411764705882353,
     "reading_grade_level": 0.15294117647058825,
@@ -584,8 +532,6 @@
    "school_name": "Tiniguangan ES",
    "learners_assessed": 32.0,
    "small_group": false,
-   "k6_enrollment": 87.0,
-   "mooe_es_fy2026": 676000.0,
    "values": {
     "reading_lowest": 0.4375,
     "reading_grade_level": 0.03125,
@@ -605,8 +551,6 @@
    "school_name": "Tipange ES",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 102.0,
-   "mooe_es_fy2026": 676000.0,
    "values": {
     "reading_lowest": 0.4090909090909091,
     "reading_grade_level": 0.022727272727272728,
@@ -626,8 +570,6 @@
    "school_name": "Upper Ludiong Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 42.0,
-   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.21739130434782608,
     "reading_grade_level": 0.2608695652173913,
@@ -685,5 +627,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

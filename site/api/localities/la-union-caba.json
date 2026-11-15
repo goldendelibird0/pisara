@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 8167000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Caba CES",
    "learners_assessed": 347.0,
    "small_group": false,
-   "k6_enrollment": 846.0,
-   "mooe_es_fy2026": 1592000.0,
    "values": {
     "reading_lowest": 0.3371757925072046,
     "reading_grade_level": 0.043227665706051875,
@@ -143,8 +133,6 @@
    "school_name": "Doña Antonia Maglaya ES",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 654000.0,
    "values": {
     "reading_lowest": 0.25806451612903225,
     "reading_grade_level": 0.1935483870967742,
@@ -164,8 +152,6 @@
    "school_name": "Labbon ES",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 90.0,
-   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.4166666666666667,
     "reading_grade_level": 0.08333333333333333,
@@ -185,8 +171,6 @@
    "school_name": "Liquicia Integrated School",
    "learners_assessed": 66.0,
    "small_group": false,
-   "k6_enrollment": 138.0,
-   "mooe_es_fy2026": 597000.0,
    "values": {
     "reading_lowest": 0.7424242424242424,
     "reading_grade_level": 0.015151515151515152,
@@ -206,8 +190,6 @@
    "school_name": "San Carlos ES",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 132.0,
-   "mooe_es_fy2026": 739000.0,
    "values": {
     "reading_lowest": 0.22448979591836735,
     "reading_grade_level": 0.16326530612244897,
@@ -227,8 +209,6 @@
    "school_name": "San Cornelio ES",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 120.0,
-   "mooe_es_fy2026": 730000.0,
    "values": {
     "reading_lowest": 0.10638297872340426,
     "reading_grade_level": 0.2127659574468085,
@@ -248,8 +228,6 @@
    "school_name": "San Gregorio ES",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 113.0,
-   "mooe_es_fy2026": 704000.0,
    "values": {
     "reading_lowest": 0.2619047619047619,
     "reading_grade_level": 0.11904761904761904,
@@ -269,8 +247,6 @@
    "school_name": "San Jose ES",
    "learners_assessed": 87.0,
    "small_group": false,
-   "k6_enrollment": 269.0,
-   "mooe_es_fy2026": 889000.0,
    "values": {
     "reading_lowest": 0.13793103448275862,
     "reading_grade_level": 0.3218390804597701,
@@ -290,8 +266,6 @@
    "school_name": "Santiago Sur Integrated School",
    "learners_assessed": 109.0,
    "small_group": false,
-   "k6_enrollment": 269.0,
-   "mooe_es_fy2026": 747000.0,
    "values": {
     "reading_lowest": 0.41284403669724773,
     "reading_grade_level": 0.045871559633027525,
@@ -311,8 +285,6 @@
    "school_name": "Wenceslao Elementary School",
    "learners_assessed": 98.0,
    "small_group": false,
-   "k6_enrollment": 215.0,
-   "mooe_es_fy2026": 837000.0,
    "values": {
     "reading_lowest": 0.336734693877551,
     "reading_grade_level": 0.09183673469387756,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

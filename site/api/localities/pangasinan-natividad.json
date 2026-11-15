@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 13430000.0,
-   "schools_listed": 18,
-   "public_elementary_schools": 18,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Barangobong ES",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 50.0,
-   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Batchelor Elementary School",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 139.0,
-   "mooe_es_fy2026": 739000.0,
    "values": {
     "reading_lowest": 0.1323529411764706,
     "reading_grade_level": 0.16176470588235295,
@@ -164,8 +152,6 @@
    "school_name": "Calapugan ES",
    "learners_assessed": 59.0,
    "small_group": false,
-   "k6_enrollment": 143.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.1016949152542373,
     "reading_grade_level": 0.06779661016949153,
@@ -185,8 +171,6 @@
    "school_name": "Canarem ES",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 124.0,
-   "mooe_es_fy2026": 719000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.08163265306122448,
@@ -206,8 +190,6 @@
    "school_name": "Eulogio Arciaga ES",
    "learners_assessed": 53.0,
    "small_group": false,
-   "k6_enrollment": 119.0,
-   "mooe_es_fy2026": 717000.0,
    "values": {
     "reading_lowest": 0.2830188679245283,
     "reading_grade_level": 0.24528301886792453,
@@ -227,8 +209,6 @@
    "school_name": "Luna ES",
    "learners_assessed": 67.0,
    "small_group": false,
-   "k6_enrollment": 175.0,
-   "mooe_es_fy2026": 794000.0,
    "values": {
     "reading_lowest": 0.31343283582089554,
     "reading_grade_level": 0.16417910447761194,
@@ -248,8 +228,6 @@
    "school_name": "Natividad CS",
    "learners_assessed": 197.0,
    "small_group": false,
-   "k6_enrollment": 492.0,
-   "mooe_es_fy2026": 1121000.0,
    "values": {
     "reading_lowest": 0.06091370558375635,
     "reading_grade_level": 0.14213197969543148,
@@ -269,8 +247,6 @@
    "school_name": "Rizal Elementary School",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.5789473684210527,
     "reading_grade_level": 0.21052631578947367,
@@ -290,8 +266,6 @@
    "school_name": "Salud ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 138.0,
-   "mooe_es_fy2026": 749000.0,
    "values": {
     "reading_lowest": 0.15789473684210525,
     "reading_grade_level": 0.017543859649122806,
@@ -311,8 +285,6 @@
    "school_name": "San Eugenio ES",
    "learners_assessed": 84.0,
    "small_group": false,
-   "k6_enrollment": 202.0,
-   "mooe_es_fy2026": 814000.0,
    "values": {
     "reading_lowest": 0.17857142857142858,
     "reading_grade_level": 0.2261904761904762,
@@ -332,8 +304,6 @@
    "school_name": "San Jose ES",
    "learners_assessed": 24.0,
    "small_group": false,
-   "k6_enrollment": 55.0,
-   "mooe_es_fy2026": 655000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.0,
@@ -353,8 +323,6 @@
    "school_name": "San Macario Norte Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 122.0,
-   "mooe_es_fy2026": 710000.0,
    "values": {
     "reading_lowest": 0.044444444444444446,
     "reading_grade_level": 0.15555555555555556,
@@ -374,8 +342,6 @@
    "school_name": "San Macario Sur ES",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 158.0,
-   "mooe_es_fy2026": 780000.0,
    "values": {
     "reading_lowest": 0.2765957446808511,
     "reading_grade_level": 0.2127659574468085,
@@ -395,8 +361,6 @@
    "school_name": "San Maximo ES",
    "learners_assessed": 74.0,
    "small_group": false,
-   "k6_enrollment": 163.0,
-   "mooe_es_fy2026": 778000.0,
    "values": {
     "reading_lowest": 0.20270270270270271,
     "reading_grade_level": 0.21621621621621623,
@@ -416,8 +380,6 @@
    "school_name": "San Miguel ES",
    "learners_assessed": 75.0,
    "small_group": false,
-   "k6_enrollment": 232.0,
-   "mooe_es_fy2026": 881000.0,
    "values": {
     "reading_lowest": 0.16,
     "reading_grade_level": 0.17333333333333334,
@@ -437,8 +399,6 @@
    "school_name": "San Narciso Norte ES",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 66.0,
-   "mooe_es_fy2026": 645000.0,
    "values": {
     "reading_lowest": 0.6666666666666666,
     "reading_grade_level": 0.0,
@@ -458,8 +418,6 @@
    "school_name": "San Narciso Sur ES",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 55.0,
-   "mooe_es_fy2026": 659000.0,
    "values": {
     "reading_lowest": 0.6086956521739131,
     "reading_grade_level": 0.0,
@@ -479,8 +437,6 @@
    "school_name": "Silag ES",
    "learners_assessed": 28.0,
    "small_group": false,
-   "k6_enrollment": 75.0,
-   "mooe_es_fy2026": 659000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.03571428571428571,
@@ -538,5 +494,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

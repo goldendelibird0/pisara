@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 5162000.0,
-   "schools_listed": 8,
-   "public_elementary_schools": 8,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Ba-i Integrated School",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 120.0,
-   "mooe_es_fy2026": 548000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.20454545454545456,
@@ -143,8 +133,6 @@
    "school_name": "Baybayatin ES",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 63.0,
-   "mooe_es_fy2026": 653000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.03333333333333333,
@@ -164,8 +152,6 @@
    "school_name": "Collago ES",
    "learners_assessed": 34.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.029411764705882353,
     "reading_grade_level": 0.3235294117647059,
@@ -185,8 +171,6 @@
    "school_name": "Kiwas PS",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 36.0,
-   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0625,
@@ -206,8 +190,6 @@
    "school_name": "Lagayan CS",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 165.0,
-   "mooe_es_fy2026": 770000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.07352941176470588,
@@ -227,8 +209,6 @@
    "school_name": "Lukgay PS",
    "learners_assessed": 5.0,
    "small_group": true,
-   "k6_enrollment": 8.0,
-   "mooe_es_fy2026": 593000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Pang-ot Primary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 15.0,
-   "mooe_es_fy2026": 596000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.25,
@@ -269,8 +247,6 @@
    "school_name": "Pulot ES",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 116.0,
-   "mooe_es_fy2026": 707000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.044444444444444446,
@@ -328,5 +304,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

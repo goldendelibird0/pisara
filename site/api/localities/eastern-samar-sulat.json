@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10062000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "A-et Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 81.0,
-   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.18181818181818182,
@@ -143,8 +133,6 @@
    "school_name": "Del Remedio ELementary School",
    "learners_assessed": 95.0,
    "small_group": false,
-   "k6_enrollment": 242.0,
-   "mooe_es_fy2026": 829000.0,
    "values": {
     "reading_lowest": 0.3157894736842105,
     "reading_grade_level": 0.18947368421052632,
@@ -164,8 +152,6 @@
    "school_name": "Hamorawon Elementary School",
    "learners_assessed": 8.0,
    "small_group": true,
-   "k6_enrollment": 29.0,
-   "mooe_es_fy2026": 615000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.75,
@@ -185,8 +171,6 @@
    "school_name": "Kandalakit Elementary School",
    "learners_assessed": 6.0,
    "small_group": true,
-   "k6_enrollment": 14.0,
-   "mooe_es_fy2026": 595000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.3333333333333333,
@@ -206,8 +190,6 @@
    "school_name": "Mabini Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 47.0,
-   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.5714285714285714,
     "reading_grade_level": 0.09523809523809523,
@@ -227,8 +209,6 @@
    "school_name": "Maglipay Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 126.0,
-   "mooe_es_fy2026": 720000.0,
    "values": {
     "reading_lowest": 0.2653061224489796,
     "reading_grade_level": 0.16326530612244897,
@@ -248,8 +228,6 @@
    "school_name": "San Francisco Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 64.0,
-   "mooe_es_fy2026": 669000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 105.0,
    "small_group": false,
-   "k6_enrollment": 268.0,
-   "mooe_es_fy2026": 880000.0,
    "values": {
     "reading_lowest": 0.3619047619047619,
     "reading_grade_level": 0.12380952380952381,
@@ -290,8 +266,6 @@
    "school_name": "San Juan Integrated School",
    "learners_assessed": 61.0,
    "small_group": false,
-   "k6_enrollment": 149.0,
-   "mooe_es_fy2026": 563000.0,
    "values": {
     "reading_lowest": 0.21311475409836064,
     "reading_grade_level": 0.04918032786885246,
@@ -311,8 +285,6 @@
    "school_name": "San Mateo Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 50.0,
-   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.08695652173913043,
@@ -332,8 +304,6 @@
    "school_name": "San Vicente Integrated School",
    "learners_assessed": 74.0,
    "small_group": false,
-   "k6_enrollment": 171.0,
-   "mooe_es_fy2026": 598000.0,
    "values": {
     "reading_lowest": 0.35135135135135137,
     "reading_grade_level": 0.14864864864864866,
@@ -353,8 +323,6 @@
    "school_name": "Sto. Nino Elementary School",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 163.0,
-   "mooe_es_fy2026": 767000.0,
    "values": {
     "reading_lowest": 0.2777777777777778,
     "reading_grade_level": 0.2777777777777778,
@@ -374,8 +342,6 @@
    "school_name": "Sto. Tomas Elementary School",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 179.0,
-   "mooe_es_fy2026": 786000.0,
    "values": {
     "reading_lowest": 0.3888888888888889,
     "reading_grade_level": 0.3194444444444444,
@@ -395,8 +361,6 @@
    "school_name": "Sulat Central Elementary School",
    "learners_assessed": 156.0,
    "small_group": false,
-   "k6_enrollment": 420.0,
-   "mooe_es_fy2026": 1090000.0,
    "values": {
     "reading_lowest": 0.11538461538461539,
     "reading_grade_level": 0.1794871794871795,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 10238000.0,
-   "schools_listed": 15,
-   "public_elementary_schools": 15,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Angyap Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
-   "k6_enrollment": 43.0,
-   "mooe_es_fy2026": 626000.0,
    "values": {
     "reading_lowest": 0.6923076923076923,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Bag-otan Elementary School",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 123.0,
-   "mooe_es_fy2026": 716000.0,
    "values": {
     "reading_lowest": 0.5769230769230769,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Barruz Elementary School",
    "learners_assessed": 51.0,
    "small_group": false,
-   "k6_enrollment": 123.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.4117647058823529,
     "reading_grade_level": 0.0196078431372549,
@@ -185,8 +171,6 @@
    "school_name": "Camonoan Elementary School",
    "learners_assessed": 6.0,
    "small_group": true,
-   "k6_enrollment": 17.0,
-   "mooe_es_fy2026": 603000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -206,8 +190,6 @@
    "school_name": "De-it Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 44.0,
-   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.7777777777777778,
     "reading_grade_level": 0.0,
@@ -227,8 +209,6 @@
    "school_name": "Del Rosario Elementary School",
    "learners_assessed": 4.0,
    "small_group": true,
-   "k6_enrollment": 18.0,
-   "mooe_es_fy2026": 606000.0,
    "values": {
     "reading_lowest": 0.75,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Inubod Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 41.0,
-   "mooe_es_fy2026": 628000.0,
    "values": {
     "reading_lowest": 0.5625,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "Libertad Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 47.0,
-   "mooe_es_fy2026": 628000.0,
    "values": {
     "reading_lowest": 0.6190476190476191,
     "reading_grade_level": 0.0,
@@ -290,8 +266,6 @@
    "school_name": "Mahanud Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 68.0,
-   "mooe_es_fy2026": 648000.0,
    "values": {
     "reading_lowest": 0.7692307692307693,
     "reading_grade_level": 0.0,
@@ -311,8 +285,6 @@
    "school_name": "Matuguinao Central Elementary School",
    "learners_assessed": 274.0,
    "small_group": false,
-   "k6_enrollment": 649.0,
-   "mooe_es_fy2026": 1298000.0,
    "values": {
     "reading_lowest": 0.4343065693430657,
     "reading_grade_level": 0.17883211678832117,
@@ -332,8 +304,6 @@
    "school_name": "Nagpapacao Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 69.0,
-   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.6388888888888888,
     "reading_grade_level": 0.0,
@@ -353,8 +323,6 @@
    "school_name": "Rizal II Elementary School",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 24.0,
-   "mooe_es_fy2026": 607000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -374,8 +342,6 @@
    "school_name": "Salvacion Elementary School",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 40.0,
-   "mooe_es_fy2026": 627000.0,
    "values": {
     "reading_lowest": 0.9090909090909091,
     "reading_grade_level": 0.0,
@@ -395,8 +361,6 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 10.0,
    "small_group": true,
-   "k6_enrollment": 33.0,
-   "mooe_es_fy2026": 616000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.0,
@@ -416,8 +380,6 @@
    "school_name": "Sta. Cruz Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 632000.0,
    "values": {
     "reading_lowest": 0.75,
     "reading_grade_level": 0.0,
@@ -475,5 +437,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

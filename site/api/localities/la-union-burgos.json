@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 5417000.0,
-   "schools_listed": 8,
-   "public_elementary_schools": 8,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agpay Elementary School",
    "learners_assessed": 37.0,
    "small_group": false,
-   "k6_enrollment": 86.0,
-   "mooe_es_fy2026": 684000.0,
    "values": {
     "reading_lowest": 0.24324324324324326,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Bilis ES",
    "learners_assessed": 63.0,
    "small_group": false,
-   "k6_enrollment": 177.0,
-   "mooe_es_fy2026": 785000.0,
    "values": {
     "reading_lowest": 0.14285714285714285,
     "reading_grade_level": 0.6349206349206349,
@@ -164,8 +152,6 @@
    "school_name": "Burgos CS",
    "learners_assessed": 67.0,
    "small_group": false,
-   "k6_enrollment": 171.0,
-   "mooe_es_fy2026": 788000.0,
    "values": {
     "reading_lowest": 0.16417910447761194,
     "reading_grade_level": 0.26865671641791045,
@@ -185,8 +171,6 @@
    "school_name": "Delles Integrated School",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 105.0,
-   "mooe_es_fy2026": 536000.0,
    "values": {
     "reading_lowest": 0.24390243902439024,
     "reading_grade_level": 0.0,
@@ -206,8 +190,6 @@
    "school_name": "Libtong Integrated School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 112.0,
-   "mooe_es_fy2026": 564000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.0,
@@ -227,8 +209,6 @@
    "school_name": "Linuan ES",
    "learners_assessed": 17.0,
    "small_group": true,
-   "k6_enrollment": 44.0,
-   "mooe_es_fy2026": 629000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Tumapoc ES",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.06666666666666667,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "Upper Tumapoc ES",
    "learners_assessed": 53.0,
    "small_group": false,
-   "k6_enrollment": 154.0,
-   "mooe_es_fy2026": 767000.0,
    "values": {
     "reading_lowest": 0.1509433962264151,
     "reading_grade_level": 0.11320754716981132,
@@ -328,5 +304,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

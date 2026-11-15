@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 5249000.0,
-   "schools_listed": 7,
-   "public_elementary_schools": 7,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bernardo P. Ragasa Elementary School",
    "learners_assessed": 50.0,
    "small_group": false,
-   "k6_enrollment": 134.0,
-   "mooe_es_fy2026": 744000.0,
    "values": {
     "reading_lowest": 0.26,
     "reading_grade_level": 0.28,
@@ -143,8 +133,6 @@
    "school_name": "Cabittaogan Elementary School",
    "learners_assessed": 99.0,
    "small_group": false,
-   "k6_enrollment": 247.0,
-   "mooe_es_fy2026": 869000.0,
    "values": {
     "reading_lowest": 0.25252525252525254,
     "reading_grade_level": 0.31313131313131315,
@@ -164,8 +152,6 @@
    "school_name": "Cabuloan Elementary School",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 113.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.17777777777777778,
     "reading_grade_level": 0.08888888888888889,
@@ -185,8 +171,6 @@
    "school_name": "Calawaan Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 97.0,
-   "mooe_es_fy2026": 697000.0,
    "values": {
     "reading_lowest": 0.3142857142857143,
     "reading_grade_level": 0.42857142857142855,
@@ -206,8 +190,6 @@
    "school_name": "Pangada-Cabaroan Integrated School",
    "learners_assessed": 80.0,
    "small_group": false,
-   "k6_enrollment": 178.0,
-   "mooe_es_fy2026": 640000.0,
    "values": {
     "reading_lowest": 0.1,
     "reading_grade_level": 0.1875,
@@ -227,8 +209,6 @@
    "school_name": "Paratong Elementary School",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 161.0,
-   "mooe_es_fy2026": 787000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.22058823529411764,
@@ -248,8 +228,6 @@
    "school_name": "Sta. Catalina Central School",
    "learners_assessed": 74.0,
    "small_group": false,
-   "k6_enrollment": 196.0,
-   "mooe_es_fy2026": 800000.0,
    "values": {
     "reading_lowest": 0.05405405405405406,
     "reading_grade_level": 0.16216216216216217,
@@ -307,5 +285,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

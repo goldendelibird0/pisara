@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 12618000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Alegria ES",
    "learners_assessed": 435.0,
    "small_group": false,
-   "k6_enrollment": 1007.0,
-   "mooe_es_fy2026": 1701000.0,
    "values": {
     "reading_lowest": 0.4528735632183908,
     "reading_grade_level": 0.12183908045977011,
@@ -143,8 +133,6 @@
    "school_name": "Buenavista ES",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 136.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.14285714285714285,
@@ -164,8 +152,6 @@
    "school_name": "Cabalwa Primary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 32.0,
-   "mooe_es_fy2026": 617000.0,
    "values": {
     "reading_lowest": 0.13333333333333333,
     "reading_grade_level": 0.13333333333333333,
@@ -185,8 +171,6 @@
    "school_name": "Caglanipao ES",
    "learners_assessed": 64.0,
    "small_group": false,
-   "k6_enrollment": 153.0,
-   "mooe_es_fy2026": 754000.0,
    "values": {
     "reading_lowest": 0.21875,
     "reading_grade_level": 0.046875,
@@ -206,8 +190,6 @@
    "school_name": "Happy Valley Elementary School",
    "learners_assessed": 137.0,
    "small_group": false,
-   "k6_enrollment": 275.0,
-   "mooe_es_fy2026": 897000.0,
    "values": {
     "reading_lowest": 0.5328467153284672,
     "reading_grade_level": 0.0948905109489051,
@@ -227,8 +209,6 @@
    "school_name": "Mabuhay ES",
    "learners_assessed": 75.0,
    "small_group": false,
-   "k6_enrollment": 165.0,
-   "mooe_es_fy2026": 763000.0,
    "values": {
     "reading_lowest": 0.4666666666666667,
     "reading_grade_level": 0.09333333333333334,
@@ -248,8 +228,6 @@
    "school_name": "Palanit ES",
    "learners_assessed": 205.0,
    "small_group": false,
-   "k6_enrollment": 528.0,
-   "mooe_es_fy2026": 1157000.0,
    "values": {
     "reading_lowest": 0.6731707317073171,
     "reading_grade_level": 0.024390243902439025,
@@ -269,8 +247,6 @@
    "school_name": "Salvacion ES",
    "learners_assessed": 80.0,
    "small_group": false,
-   "k6_enrollment": 229.0,
-   "mooe_es_fy2026": 847000.0,
    "values": {
     "reading_lowest": 0.5125,
     "reading_grade_level": 0.0625,
@@ -290,8 +266,6 @@
    "school_name": "San Isidro CES",
    "learners_assessed": 167.0,
    "small_group": false,
-   "k6_enrollment": 416.0,
-   "mooe_es_fy2026": 1052000.0,
    "values": {
     "reading_lowest": 0.3652694610778443,
     "reading_grade_level": 0.11377245508982035,
@@ -311,8 +285,6 @@
    "school_name": "San Juan Elementary School",
    "learners_assessed": 131.0,
    "small_group": false,
-   "k6_enrollment": 306.0,
-   "mooe_es_fy2026": 936000.0,
    "values": {
     "reading_lowest": 0.5419847328244275,
     "reading_grade_level": 0.08396946564885496,
@@ -332,8 +304,6 @@
    "school_name": "San Roque ES",
    "learners_assessed": 73.0,
    "small_group": false,
-   "k6_enrollment": 174.0,
-   "mooe_es_fy2026": 793000.0,
    "values": {
     "reading_lowest": 0.3424657534246575,
     "reading_grade_level": 0.2054794520547945,
@@ -353,8 +323,6 @@
    "school_name": "Seven Hills ES",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 133.0,
-   "mooe_es_fy2026": 726000.0,
    "values": {
     "reading_lowest": 0.3673469387755102,
     "reading_grade_level": 0.061224489795918366,
@@ -374,8 +342,6 @@
    "school_name": "Sto. Niño Elementary School",
    "learners_assessed": 60.0,
    "small_group": false,
-   "k6_enrollment": 152.0,
-   "mooe_es_fy2026": 732000.0,
    "values": {
     "reading_lowest": 0.6,
     "reading_grade_level": 0.016666666666666666,
@@ -395,8 +361,6 @@
    "school_name": "Veriato ES",
    "learners_assessed": 123.0,
    "small_group": false,
-   "k6_enrollment": 280.0,
-   "mooe_es_fy2026": 909000.0,
    "values": {
     "reading_lowest": 0.5772357723577236,
     "reading_grade_level": 0.04878048780487805,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

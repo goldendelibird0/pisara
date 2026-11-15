@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 14896000.0,
-   "schools_listed": 18,
-   "public_elementary_schools": 18,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Batayan Elementary School",
    "learners_assessed": 121.0,
    "small_group": false,
-   "k6_enrollment": 340.0,
-   "mooe_es_fy2026": 995000.0,
    "values": {
     "reading_lowest": 0.47107438016528924,
     "reading_grade_level": 0.14049586776859505,
@@ -143,8 +133,6 @@
    "school_name": "Bayanihan Elementary School",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 132.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.2631578947368421,
     "reading_grade_level": 0.15789473684210525,
@@ -164,8 +152,6 @@
    "school_name": "Botong ES",
    "learners_assessed": 92.0,
    "small_group": false,
-   "k6_enrollment": 209.0,
-   "mooe_es_fy2026": 789000.0,
    "values": {
     "reading_lowest": 0.5652173913043478,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Concepcion ES",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 111.0,
-   "mooe_es_fy2026": 702000.0,
    "values": {
     "reading_lowest": 0.5853658536585366,
     "reading_grade_level": 0.024390243902439025,
@@ -206,8 +190,6 @@
    "school_name": "Daniel Maing Integrated School",
    "learners_assessed": 161.0,
    "small_group": false,
-   "k6_enrollment": 389.0,
-   "mooe_es_fy2026": 792000.0,
    "values": {
     "reading_lowest": 0.5403726708074534,
     "reading_grade_level": 0.09937888198757763,
@@ -227,8 +209,6 @@
    "school_name": "Fatima ES",
    "learners_assessed": 83.0,
    "small_group": false,
-   "k6_enrollment": 196.0,
-   "mooe_es_fy2026": 811000.0,
    "values": {
     "reading_lowest": 0.27710843373493976,
     "reading_grade_level": 0.012048192771084338,
@@ -248,8 +228,6 @@
    "school_name": "Gatas ES",
    "learners_assessed": 75.0,
    "small_group": false,
-   "k6_enrollment": 183.0,
-   "mooe_es_fy2026": 809000.0,
    "values": {
     "reading_lowest": 0.38666666666666666,
     "reading_grade_level": 0.06666666666666667,
@@ -269,8 +247,6 @@
    "school_name": "Kalawit CS",
    "learners_assessed": 342.0,
    "small_group": false,
-   "k6_enrollment": 788.0,
-   "mooe_es_fy2026": 1485000.0,
    "values": {
     "reading_lowest": 0.5906432748538012,
     "reading_grade_level": 0.09649122807017543,
@@ -290,8 +266,6 @@
    "school_name": "Lumanon ES",
    "learners_assessed": 60.0,
    "small_group": false,
-   "k6_enrollment": 146.0,
-   "mooe_es_fy2026": 732000.0,
    "values": {
     "reading_lowest": 0.3,
     "reading_grade_level": 0.16666666666666666,
@@ -311,8 +285,6 @@
    "school_name": "Marcelo ES",
    "learners_assessed": 54.0,
    "small_group": false,
-   "k6_enrollment": 129.0,
-   "mooe_es_fy2026": 730000.0,
    "values": {
     "reading_lowest": 0.4074074074074074,
     "reading_grade_level": 0.2962962962962963,
@@ -332,8 +304,6 @@
    "school_name": "New Calamba ES",
    "learners_assessed": 76.0,
    "small_group": false,
-   "k6_enrollment": 200.0,
-   "mooe_es_fy2026": 846000.0,
    "values": {
     "reading_lowest": 0.3815789473684211,
     "reading_grade_level": 0.27631578947368424,
@@ -353,8 +323,6 @@
    "school_name": "Palalian ES",
    "learners_assessed": 81.0,
    "small_group": false,
-   "k6_enrollment": 172.0,
-   "mooe_es_fy2026": 770000.0,
    "values": {
     "reading_lowest": 0.5061728395061729,
     "reading_grade_level": 0.06172839506172839,
@@ -374,8 +342,6 @@
    "school_name": "Palalihan ES",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 81.0,
-   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.5853658536585366,
     "reading_grade_level": 0.0,
@@ -395,8 +361,6 @@
    "school_name": "Paraiso ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 141.0,
-   "mooe_es_fy2026": 737000.0,
    "values": {
     "reading_lowest": 0.45614035087719296,
     "reading_grade_level": 0.07017543859649122,
@@ -416,8 +380,6 @@
    "school_name": "Pianon ES",
    "learners_assessed": 105.0,
    "small_group": false,
-   "k6_enrollment": 264.0,
-   "mooe_es_fy2026": 889000.0,
    "values": {
     "reading_lowest": 0.3619047619047619,
     "reading_grade_level": 0.17142857142857143,
@@ -437,8 +399,6 @@
    "school_name": "San Jose ES",
    "learners_assessed": 131.0,
    "small_group": false,
-   "k6_enrollment": 277.0,
-   "mooe_es_fy2026": 888000.0,
    "values": {
     "reading_lowest": 0.4122137404580153,
     "reading_grade_level": 0.030534351145038167,
@@ -458,8 +418,6 @@
    "school_name": "San Roque ES",
    "learners_assessed": 48.0,
    "small_group": false,
-   "k6_enrollment": 135.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.6458333333333334,
     "reading_grade_level": 0.041666666666666664,
@@ -479,8 +437,6 @@
    "school_name": "Tugop ES",
    "learners_assessed": 61.0,
    "small_group": false,
-   "k6_enrollment": 165.0,
-   "mooe_es_fy2026": 778000.0,
    "values": {
     "reading_lowest": 0.4262295081967213,
     "reading_grade_level": 0.01639344262295082,
@@ -538,5 +494,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

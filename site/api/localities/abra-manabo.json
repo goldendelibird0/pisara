@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 7342000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Banat ES",
    "learners_assessed": 48.0,
    "small_group": false,
-   "k6_enrollment": 173.0,
-   "mooe_es_fy2026": 780000.0,
    "values": {
     "reading_lowest": 0.2916666666666667,
     "reading_grade_level": 0.25,
@@ -143,8 +133,6 @@
    "school_name": "Casakgudan PS",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 44.0,
-   "mooe_es_fy2026": 612000.0,
    "values": {
     "reading_lowest": 0.5789473684210527,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Catacdegan ES",
    "learners_assessed": 51.0,
    "small_group": false,
-   "k6_enrollment": 115.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.3137254901960784,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Liagan PS",
    "learners_assessed": 8.0,
    "small_group": true,
-   "k6_enrollment": 22.0,
-   "mooe_es_fy2026": 611000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.625,
@@ -206,8 +190,6 @@
    "school_name": "Madago Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 33.0,
-   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.07142857142857142,
@@ -227,8 +209,6 @@
    "school_name": "Manabo Pilot ES",
    "learners_assessed": 101.0,
    "small_group": false,
-   "k6_enrollment": 402.0,
-   "mooe_es_fy2026": 1063000.0,
    "values": {
     "reading_lowest": 0.46534653465346537,
     "reading_grade_level": 0.06930693069306931,
@@ -248,8 +228,6 @@
    "school_name": "San Jose ES",
    "learners_assessed": 45.0,
    "small_group": false,
-   "k6_enrollment": 124.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.15555555555555556,
@@ -269,8 +247,6 @@
    "school_name": "San Ramon ES",
    "learners_assessed": 95.0,
    "small_group": false,
-   "k6_enrollment": 207.0,
-   "mooe_es_fy2026": 859000.0,
    "values": {
     "reading_lowest": 0.3473684210526316,
     "reading_grade_level": 0.12631578947368421,
@@ -290,8 +266,6 @@
    "school_name": "Sapdaan Elementary School",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 130.0,
-   "mooe_es_fy2026": 722000.0,
    "values": {
     "reading_lowest": 0.40350877192982454,
     "reading_grade_level": 0.08771929824561403,
@@ -311,8 +285,6 @@
    "school_name": "Sto. Tomas Barrio School",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 57.0,
-   "mooe_es_fy2026": 641000.0,
    "values": {
     "reading_lowest": 0.45454545454545453,
     "reading_grade_level": 0.2727272727272727,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

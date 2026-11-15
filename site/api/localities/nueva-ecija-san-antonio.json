@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 21909000.0,
-   "schools_listed": 20,
-   "public_elementary_schools": 20,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Buliran Elementary School",
    "learners_assessed": 196.0,
    "small_group": false,
-   "k6_enrollment": 494.0,
-   "mooe_es_fy2026": 1144000.0,
    "values": {
     "reading_lowest": 0.17346938775510204,
     "reading_grade_level": 0.4642857142857143,
@@ -143,8 +133,6 @@
    "school_name": "Cama Juan Elementary School",
    "learners_assessed": 126.0,
    "small_group": false,
-   "k6_enrollment": 291.0,
-   "mooe_es_fy2026": 921000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.07936507936507936,
@@ -164,8 +152,6 @@
    "school_name": "Faustino P. De Leon Elementary School",
    "learners_assessed": 153.0,
    "small_group": false,
-   "k6_enrollment": 373.0,
-   "mooe_es_fy2026": 1000000.0,
    "values": {
     "reading_lowest": 0.28104575163398693,
     "reading_grade_level": 0.26143790849673204,
@@ -185,8 +171,6 @@
    "school_name": "Hacienda Elementary School",
    "learners_assessed": 98.0,
    "small_group": false,
-   "k6_enrollment": 231.0,
-   "mooe_es_fy2026": 836000.0,
    "values": {
     "reading_lowest": 0.336734693877551,
     "reading_grade_level": 0.01020408163265306,
@@ -206,8 +190,6 @@
    "school_name": "Lawang Kupang Elementary School",
    "learners_assessed": 141.0,
    "small_group": false,
-   "k6_enrollment": 356.0,
-   "mooe_es_fy2026": 991000.0,
    "values": {
     "reading_lowest": 0.3262411347517731,
     "reading_grade_level": 0.3475177304964539,
@@ -227,8 +209,6 @@
    "school_name": "Lorenza M. Tinio Elementary School",
    "learners_assessed": 138.0,
    "small_group": false,
-   "k6_enrollment": 319.0,
-   "mooe_es_fy2026": 930000.0,
    "values": {
     "reading_lowest": 0.1956521739130435,
     "reading_grade_level": 0.15942028985507245,
@@ -248,8 +228,6 @@
    "school_name": "Luyos Elementary School",
    "learners_assessed": 146.0,
    "small_group": false,
-   "k6_enrollment": 324.0,
-   "mooe_es_fy2026": 950000.0,
    "values": {
     "reading_lowest": 0.19863013698630136,
     "reading_grade_level": 0.3972602739726027,
@@ -269,8 +247,6 @@
    "school_name": "Maugat Elementary School",
    "learners_assessed": 69.0,
    "small_group": false,
-   "k6_enrollment": 162.0,
-   "mooe_es_fy2026": 776000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.11594202898550725,
@@ -290,8 +266,6 @@
    "school_name": "Panabingan Elementary School",
    "learners_assessed": 164.0,
    "small_group": false,
-   "k6_enrollment": 382.0,
-   "mooe_es_fy2026": 1009000.0,
    "values": {
     "reading_lowest": 0.2804878048780488,
     "reading_grade_level": 0.27439024390243905,
@@ -311,8 +285,6 @@
    "school_name": "Papaya Elementary School",
    "learners_assessed": 291.0,
    "small_group": false,
-   "k6_enrollment": 739.0,
-   "mooe_es_fy2026": 1421000.0,
    "values": {
     "reading_lowest": 0.17525773195876287,
     "reading_grade_level": 0.3642611683848797,
@@ -332,8 +304,6 @@
    "school_name": "San Antonio Central School",
    "learners_assessed": 443.0,
    "small_group": false,
-   "k6_enrollment": 1111.0,
-   "mooe_es_fy2026": 1915000.0,
    "values": {
     "reading_lowest": 0.14672686230248308,
     "reading_grade_level": 0.2505643340857788,
@@ -353,8 +323,6 @@
    "school_name": "San Francisco Elementary School",
    "learners_assessed": 615.0,
    "small_group": false,
-   "k6_enrollment": 1499.0,
-   "mooe_es_fy2026": 2283000.0,
    "values": {
     "reading_lowest": 0.12520325203252033,
     "reading_grade_level": 0.40487804878048783,
@@ -374,8 +342,6 @@
    "school_name": "San Jose Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 62.0,
-   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.03333333333333333,
@@ -395,8 +361,6 @@
    "school_name": "San Mariano East Elementary School",
    "learners_assessed": 238.0,
    "small_group": false,
-   "k6_enrollment": 615.0,
-   "mooe_es_fy2026": 1291000.0,
    "values": {
     "reading_lowest": 0.31512605042016806,
     "reading_grade_level": 0.11764705882352941,
@@ -416,8 +380,6 @@
    "school_name": "Sanggalang Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 110.0,
-   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.38095238095238093,
     "reading_grade_level": 0.2857142857142857,
@@ -437,8 +399,6 @@
    "school_name": "Sta. Barbara North Elementary School",
    "learners_assessed": 247.0,
    "small_group": false,
-   "k6_enrollment": 573.0,
-   "mooe_es_fy2026": 1240000.0,
    "values": {
     "reading_lowest": 0.3522267206477733,
     "reading_grade_level": 0.22267206477732793,
@@ -458,8 +418,6 @@
    "school_name": "Sta. Barbara South Elementary School",
    "learners_assessed": 177.0,
    "small_group": false,
-   "k6_enrollment": 430.0,
-   "mooe_es_fy2026": 1083000.0,
    "values": {
     "reading_lowest": 0.519774011299435,
     "reading_grade_level": 0.3107344632768362,
@@ -479,8 +437,6 @@
    "school_name": "Sto. Cristo East Elementary School",
    "learners_assessed": 167.0,
    "small_group": false,
-   "k6_enrollment": 391.0,
-   "mooe_es_fy2026": 1089000.0,
    "values": {
     "reading_lowest": 0.33532934131736525,
     "reading_grade_level": 0.41317365269461076,
@@ -500,8 +456,6 @@
    "school_name": "Sto. Cristo West Elementary School",
    "learners_assessed": 135.0,
    "small_group": false,
-   "k6_enrollment": 310.0,
-   "mooe_es_fy2026": 951000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.15555555555555556,
@@ -521,8 +475,6 @@
    "school_name": "Tikiw Elementary School",
    "learners_assessed": 53.0,
    "small_group": false,
-   "k6_enrollment": 151.0,
-   "mooe_es_fy2026": 745000.0,
    "values": {
     "reading_lowest": 0.32075471698113206,
     "reading_grade_level": 0.05660377358490566,
@@ -580,5 +532,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

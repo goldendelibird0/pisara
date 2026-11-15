@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 12119000.0,
-   "schools_listed": 15,
-   "public_elementary_schools": 15,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agues ES",
    "learners_assessed": 4.0,
    "small_group": true,
-   "k6_enrollment": 17.0,
-   "mooe_es_fy2026": 596000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.75,
@@ -143,8 +133,6 @@
    "school_name": "Bianoan ES",
    "learners_assessed": 259.0,
    "small_group": false,
-   "k6_enrollment": 676.0,
-   "mooe_es_fy2026": 1358000.0,
    "values": {
     "reading_lowest": 0.18532818532818532,
     "reading_grade_level": 0.23552123552123552,
@@ -164,8 +152,6 @@
    "school_name": "C. J. Torre ES",
    "learners_assessed": 26.0,
    "small_group": false,
-   "k6_enrollment": 75.0,
-   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.19230769230769232,
@@ -185,8 +171,6 @@
    "school_name": "Calabgan-Ditinagyan ES",
    "learners_assessed": 73.0,
    "small_group": false,
-   "k6_enrollment": 165.0,
-   "mooe_es_fy2026": 763000.0,
    "values": {
     "reading_lowest": 0.3150684931506849,
     "reading_grade_level": 0.3013698630136986,
@@ -206,8 +190,6 @@
    "school_name": "Calantas Integrated School",
    "learners_assessed": 43.0,
    "small_group": false,
-   "k6_enrollment": 97.0,
-   "mooe_es_fy2026": 538000.0,
    "values": {
     "reading_lowest": 0.27906976744186046,
     "reading_grade_level": 0.0,
@@ -227,8 +209,6 @@
    "school_name": "Casiguran CS",
    "learners_assessed": 399.0,
    "small_group": false,
-   "k6_enrollment": 982.0,
-   "mooe_es_fy2026": 1738000.0,
    "values": {
     "reading_lowest": 0.2581453634085213,
     "reading_grade_level": 0.24812030075187969,
@@ -248,8 +228,6 @@
    "school_name": "Dibacong ES",
    "learners_assessed": 124.0,
    "small_group": false,
-   "k6_enrollment": 295.0,
-   "mooe_es_fy2026": 936000.0,
    "values": {
     "reading_lowest": 0.25806451612903225,
     "reading_grade_level": 0.18548387096774194,
@@ -269,8 +247,6 @@
    "school_name": "Dibet ES",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 68.0,
-   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.24,
@@ -290,8 +266,6 @@
    "school_name": "Dumaguipo ES",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 84.0,
-   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.3157894736842105,
     "reading_grade_level": 0.21052631578947367,
@@ -311,8 +285,6 @@
    "school_name": "Esperanza ES",
    "learners_assessed": 26.0,
    "small_group": false,
-   "k6_enrollment": 64.0,
-   "mooe_es_fy2026": 659000.0,
    "values": {
     "reading_lowest": 0.07692307692307693,
     "reading_grade_level": 0.19230769230769232,
@@ -332,8 +304,6 @@
    "school_name": "Francisco Benitez ES",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 117.0,
-   "mooe_es_fy2026": 683000.0,
    "values": {
     "reading_lowest": 0.3076923076923077,
     "reading_grade_level": 0.11538461538461539,
@@ -353,8 +323,6 @@
    "school_name": "Martin Esteves ES",
    "learners_assessed": 118.0,
    "small_group": false,
-   "k6_enrollment": 252.0,
-   "mooe_es_fy2026": 834000.0,
    "values": {
     "reading_lowest": 0.4152542372881356,
     "reading_grade_level": 0.0847457627118644,
@@ -374,8 +342,6 @@
    "school_name": "Paraiso ES",
    "learners_assessed": 20.0,
    "small_group": false,
-   "k6_enrollment": 56.0,
-   "mooe_es_fy2026": 646000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.0,
@@ -395,8 +361,6 @@
    "school_name": "San Ildefonso ES",
    "learners_assessed": 48.0,
    "small_group": false,
-   "k6_enrollment": 101.0,
-   "mooe_es_fy2026": 699000.0,
    "values": {
     "reading_lowest": 0.375,
     "reading_grade_level": 0.14583333333333334,
@@ -416,8 +380,6 @@
    "school_name": "Tinib-Calangcuasan IS",
    "learners_assessed": 70.0,
    "small_group": false,
-   "k6_enrollment": 206.0,
-   "mooe_es_fy2026": 670000.0,
    "values": {
     "reading_lowest": 0.2714285714285714,
     "reading_grade_level": 0.14285714285714285,
@@ -475,5 +437,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

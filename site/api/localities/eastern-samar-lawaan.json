@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 6043000.0,
-   "schools_listed": 7,
-   "public_elementary_schools": 7,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Beta-og Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 108.0,
-   "mooe_es_fy2026": 706000.0,
    "values": {
     "reading_lowest": 0.41025641025641024,
     "reading_grade_level": 0.02564102564102564,
@@ -143,8 +133,6 @@
    "school_name": "Bolusao Elementary School",
    "learners_assessed": 71.0,
    "small_group": false,
-   "k6_enrollment": 196.0,
-   "mooe_es_fy2026": 808000.0,
    "values": {
     "reading_lowest": 0.15492957746478872,
     "reading_grade_level": 0.04225352112676056,
@@ -164,8 +152,6 @@
    "school_name": "Guinob-an Elementary School",
    "learners_assessed": 66.0,
    "small_group": false,
-   "k6_enrollment": 151.0,
-   "mooe_es_fy2026": 742000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Lawaan Central Elementary School",
    "learners_assessed": 347.0,
    "small_group": false,
-   "k6_enrollment": 876.0,
-   "mooe_es_fy2026": 1590000.0,
    "values": {
     "reading_lowest": 0.3314121037463977,
     "reading_grade_level": 0.10951008645533142,
@@ -206,8 +190,6 @@
    "school_name": "Maslog Elementary School",
    "learners_assessed": 94.0,
    "small_group": false,
-   "k6_enrollment": 231.0,
-   "mooe_es_fy2026": 828000.0,
    "values": {
     "reading_lowest": 0.26595744680851063,
     "reading_grade_level": 0.19148936170212766,
@@ -227,8 +209,6 @@
    "school_name": "San Isidro Primary School",
    "learners_assessed": 13.0,
    "small_group": true,
-   "k6_enrollment": 29.0,
-   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.3076923076923077,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Taguite Elementary School",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 156.0,
-   "mooe_es_fy2026": 756000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.0,
@@ -307,5 +285,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

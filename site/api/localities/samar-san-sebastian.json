@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 7073000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Balogo Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 82.0,
-   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.25925925925925924,
     "reading_grade_level": 0.1111111111111111,
@@ -143,8 +133,6 @@
    "school_name": "Bontod Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
-   "k6_enrollment": 107.0,
-   "mooe_es_fy2026": 709000.0,
    "values": {
     "reading_lowest": 0.6,
     "reading_grade_level": 0.10909090909090909,
@@ -164,8 +152,6 @@
    "school_name": "Cabaywa Elementary School",
    "learners_assessed": 13.0,
    "small_group": true,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 631000.0,
    "values": {
     "reading_lowest": 0.23076923076923078,
     "reading_grade_level": 0.0,
@@ -185,8 +171,6 @@
    "school_name": "Camanhagay Elementary School",
    "learners_assessed": 34.0,
    "small_group": false,
-   "k6_enrollment": 80.0,
-   "mooe_es_fy2026": 680000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.058823529411764705,
@@ -206,8 +190,6 @@
    "school_name": "Campiyak Elementary School",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 142.0,
-   "mooe_es_fy2026": 747000.0,
    "values": {
     "reading_lowest": 0.42105263157894735,
     "reading_grade_level": 0.10526315789473684,
@@ -227,8 +209,6 @@
    "school_name": "Canduyocan Elementary School",
    "learners_assessed": 51.0,
    "small_group": false,
-   "k6_enrollment": 156.0,
-   "mooe_es_fy2026": 760000.0,
    "values": {
     "reading_lowest": 0.39215686274509803,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Dolores Elementary School",
    "learners_assessed": 46.0,
    "small_group": false,
-   "k6_enrollment": 116.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.391304347826087,
     "reading_grade_level": 0.2826086956521739,
@@ -269,8 +247,6 @@
    "school_name": "Hitaasan Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 112.0,
-   "mooe_es_fy2026": 684000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.027777777777777776,
@@ -290,8 +266,6 @@
    "school_name": "Inobongan Integrated School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 86.0,
-   "mooe_es_fy2026": 532000.0,
    "values": {
     "reading_lowest": 0.43333333333333335,
     "reading_grade_level": 0.03333333333333333,
@@ -311,8 +285,6 @@
    "school_name": "San Sebastian Central Elementary School",
    "learners_assessed": 128.0,
    "small_group": false,
-   "k6_enrollment": 298.0,
-   "mooe_es_fy2026": 941000.0,
    "values": {
     "reading_lowest": 0.453125,
     "reading_grade_level": 0.03125,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

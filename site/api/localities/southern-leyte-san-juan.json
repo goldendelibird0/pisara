@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 8330000.0,
-   "schools_listed": 11,
-   "public_elementary_schools": 11,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agay-Ay Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.4,
@@ -143,8 +133,6 @@
    "school_name": "Basak Elementary School",
    "learners_assessed": 34.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 670000.0,
    "values": {
     "reading_lowest": 0.029411764705882353,
     "reading_grade_level": 0.058823529411764705,
@@ -164,8 +152,6 @@
    "school_name": "Bobon Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 87.0,
-   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.2857142857142857,
@@ -185,8 +171,6 @@
    "school_name": "Dayanog Elementary School",
    "learners_assessed": 61.0,
    "small_group": false,
-   "k6_enrollment": 128.0,
-   "mooe_es_fy2026": 732000.0,
    "values": {
     "reading_lowest": 0.18032786885245902,
     "reading_grade_level": 0.0,
@@ -206,8 +190,6 @@
    "school_name": "Garsavic Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
-   "k6_enrollment": 119.0,
-   "mooe_es_fy2026": 715000.0,
    "values": {
     "reading_lowest": 0.2558139534883721,
     "reading_grade_level": 0.16279069767441862,
@@ -227,8 +209,6 @@
    "school_name": "Pong-oy Elementary School",
    "learners_assessed": 63.0,
    "small_group": false,
-   "k6_enrollment": 183.0,
-   "mooe_es_fy2026": 793000.0,
    "values": {
     "reading_lowest": 0.06349206349206349,
     "reading_grade_level": 0.1111111111111111,
@@ -248,8 +228,6 @@
    "school_name": "San Juan Central Elementary School with SPED CENTER",
    "learners_assessed": 283.0,
    "small_group": false,
-   "k6_enrollment": 703.0,
-   "mooe_es_fy2026": 1429000.0,
    "values": {
     "reading_lowest": 0.11307420494699646,
     "reading_grade_level": 0.20141342756183744,
@@ -269,8 +247,6 @@
    "school_name": "Somoje Elementary School",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 102.0,
-   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.06818181818181818,
     "reading_grade_level": 0.11363636363636363,
@@ -290,8 +266,6 @@
    "school_name": "Sta. Filomena Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 59.0,
-   "mooe_es_fy2026": 652000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.30434782608695654,
@@ -311,8 +285,6 @@
    "school_name": "Sua Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
-   "k6_enrollment": 109.0,
-   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.18604651162790697,
     "reading_grade_level": 0.20930232558139536,
@@ -332,8 +304,6 @@
    "school_name": "Timba Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
-   "k6_enrollment": 40.0,
-   "mooe_es_fy2026": 639000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.05,
@@ -391,5 +361,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

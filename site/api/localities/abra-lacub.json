@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 4656000.0,
-   "schools_listed": 7,
-   "public_elementary_schools": 7,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bacag ES",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 56.0,
-   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Buneg PS",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 39.0,
-   "mooe_es_fy2026": 638000.0,
    "values": {
     "reading_lowest": 0.41935483870967744,
     "reading_grade_level": 0.0,
@@ -164,8 +152,6 @@
    "school_name": "Lacub CS",
    "learners_assessed": 66.0,
    "small_group": false,
-   "k6_enrollment": 201.0,
-   "mooe_es_fy2026": 811000.0,
    "values": {
     "reading_lowest": 0.5757575757575758,
     "reading_grade_level": 0.10606060606060606,
@@ -185,8 +171,6 @@
    "school_name": "Lan-ag ES",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 74.0,
-   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.4074074074074074,
     "reading_grade_level": 0.07407407407407407,
@@ -206,8 +190,6 @@
    "school_name": "Pacoc ES",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 63.0,
-   "mooe_es_fy2026": 662000.0,
    "values": {
     "reading_lowest": 0.72,
     "reading_grade_level": 0.16,
@@ -227,8 +209,6 @@
    "school_name": "Sap-al Elementary School",
    "learners_assessed": 8.0,
    "small_group": true,
-   "k6_enrollment": 26.0,
-   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Talipugo Elementary School",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 40.0,
-   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.4444444444444444,
@@ -307,5 +285,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

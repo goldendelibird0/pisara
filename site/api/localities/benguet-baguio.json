@@ -91,14 +91,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 59838000.0,
-   "schools_listed": 43,
-   "public_elementary_schools": 45,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -107,8 +99,6 @@
    "school_name": "Aguinaldo Elementary School",
    "learners_assessed": 369.0,
    "small_group": false,
-   "k6_enrollment": 881.0,
-   "mooe_es_fy2026": 1531000.0,
    "values": {
     "reading_lowest": 0.2981029810298103,
     "reading_grade_level": 0.16531165311653118,
@@ -128,8 +118,6 @@
    "school_name": "Alfonso Tabora ES",
    "learners_assessed": 101.0,
    "small_group": false,
-   "k6_enrollment": 256.0,
-   "mooe_es_fy2026": 888000.0,
    "values": {
     "reading_lowest": 0.33663366336633666,
     "reading_grade_level": 0.19801980198019803,
@@ -149,8 +137,6 @@
    "school_name": "Apolinario Mabini ES",
    "learners_assessed": 653.0,
    "small_group": false,
-   "k6_enrollment": 1537.0,
-   "mooe_es_fy2026": 2454000.0,
    "values": {
     "reading_lowest": 0.15007656967840735,
     "reading_grade_level": 0.1638591117917305,
@@ -170,8 +156,6 @@
    "school_name": "Baguio Central school",
    "learners_assessed": 1034.0,
    "small_group": false,
-   "k6_enrollment": 2742.0,
-   "mooe_es_fy2026": 3903000.0,
    "values": {
     "reading_lowest": 0.2988394584139265,
     "reading_grade_level": 0.1450676982591876,
@@ -191,8 +175,6 @@
    "school_name": "Baguio Country Club Village Elementary School",
    "learners_assessed": 76.0,
    "small_group": false,
-   "k6_enrollment": 212.0,
-   "mooe_es_fy2026": 814000.0,
    "values": {
     "reading_lowest": 0.13157894736842105,
     "reading_grade_level": 0.09210526315789473,
@@ -212,8 +194,6 @@
    "school_name": "Bakakeng Elementary School",
    "learners_assessed": 293.0,
    "small_group": false,
-   "k6_enrollment": 748.0,
-   "mooe_es_fy2026": 1409000.0,
    "values": {
     "reading_lowest": 0.23890784982935154,
     "reading_grade_level": 0.08532423208191127,
@@ -233,8 +213,6 @@
    "school_name": "Bonifacio Elementary school",
    "learners_assessed": 349.0,
    "small_group": false,
-   "k6_enrollment": 811.0,
-   "mooe_es_fy2026": 1567000.0,
    "values": {
     "reading_lowest": 0.3151862464183381,
     "reading_grade_level": 0.10315186246418338,
@@ -254,8 +232,6 @@
    "school_name": "Brookspoint Elementary School",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 185.0,
-   "mooe_es_fy2026": 787000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.2638888888888889,
@@ -275,8 +251,6 @@
    "school_name": "CRYSTAL CAVE INTEGRATED SCHOOL",
    "learners_assessed": 237.0,
    "small_group": false,
-   "k6_enrollment": 569.0,
-   "mooe_es_fy2026": 928000.0,
    "values": {
     "reading_lowest": 0.4008438818565401,
     "reading_grade_level": 0.21518987341772153,
@@ -296,8 +270,6 @@
    "school_name": "Camp 7 Elementary School",
    "learners_assessed": 183.0,
    "small_group": false,
-   "k6_enrollment": 483.0,
-   "mooe_es_fy2026": 1159000.0,
    "values": {
     "reading_lowest": 0.5956284153005464,
     "reading_grade_level": 0.30601092896174864,
@@ -317,8 +289,6 @@
    "school_name": "Dominican-Mirador Elementary School",
    "learners_assessed": 206.0,
    "small_group": false,
-   "k6_enrollment": 467.0,
-   "mooe_es_fy2026": 1102000.0,
    "values": {
     "reading_lowest": 0.33980582524271846,
     "reading_grade_level": 0.07766990291262135,
@@ -338,8 +308,6 @@
    "school_name": "Don Mariano Marcos Elementary School",
    "learners_assessed": 77.0,
    "small_group": false,
-   "k6_enrollment": 260.0,
-   "mooe_es_fy2026": 881000.0,
    "values": {
     "reading_lowest": 0.37662337662337664,
     "reading_grade_level": 0.07792207792207792,
@@ -359,8 +327,6 @@
    "school_name": "Dona Aurora Elementary School",
    "learners_assessed": 430.0,
    "small_group": false,
-   "k6_enrollment": 1060.0,
-   "mooe_es_fy2026": 1806000.0,
    "values": {
     "reading_lowest": 0.23953488372093024,
     "reading_grade_level": 0.08837209302325581,
@@ -380,8 +346,6 @@
    "school_name": "Dona Aurora H. Bueno Elementary School",
    "learners_assessed": 187.0,
    "small_group": false,
-   "k6_enrollment": 490.0,
-   "mooe_es_fy2026": 1172000.0,
    "values": {
     "reading_lowest": 0.45454545454545453,
     "reading_grade_level": 0.06417112299465241,
@@ -401,8 +365,6 @@
    "school_name": "Dontogan Elementary School",
    "learners_assessed": 313.0,
    "small_group": false,
-   "k6_enrollment": 802.0,
-   "mooe_es_fy2026": 1485000.0,
    "values": {
     "reading_lowest": 0.3258785942492013,
     "reading_grade_level": 0.2268370607028754,
@@ -422,8 +384,6 @@
    "school_name": "Doña Nicasia Puyat ES",
    "learners_assessed": 149.0,
    "small_group": false,
-   "k6_enrollment": 357.0,
-   "mooe_es_fy2026": 1010000.0,
    "values": {
     "reading_lowest": 0.09395973154362416,
     "reading_grade_level": 0.10738255033557047,
@@ -443,8 +403,6 @@
    "school_name": "Elpidio R. Quirino Elementary School",
    "learners_assessed": 550.0,
    "small_group": false,
-   "k6_enrollment": 1360.0,
-   "mooe_es_fy2026": 2218000.0,
    "values": {
     "reading_lowest": 0.4109090909090909,
     "reading_grade_level": 0.12727272727272726,
@@ -464,8 +422,6 @@
    "school_name": "Fairview Elementary School",
    "learners_assessed": 112.0,
    "small_group": false,
-   "k6_enrollment": 281.0,
-   "mooe_es_fy2026": 908000.0,
    "values": {
     "reading_lowest": 0.2767857142857143,
     "reading_grade_level": 0.19642857142857142,
@@ -485,8 +441,6 @@
    "school_name": "Fort del Pilar Elementary School",
    "learners_assessed": 435.0,
    "small_group": false,
-   "k6_enrollment": 1081.0,
-   "mooe_es_fy2026": 1916000.0,
    "values": {
     "reading_lowest": 0.19310344827586207,
     "reading_grade_level": 0.1793103448275862,
@@ -506,8 +460,6 @@
    "school_name": "Gibraltar Elementary School",
    "learners_assessed": 219.0,
    "small_group": false,
-   "k6_enrollment": 477.0,
-   "mooe_es_fy2026": 1107000.0,
    "values": {
     "reading_lowest": 0.3881278538812785,
     "reading_grade_level": 0.1689497716894977,
@@ -527,8 +479,6 @@
    "school_name": "Happy Hollow Elementary School",
    "learners_assessed": 70.0,
    "small_group": false,
-   "k6_enrollment": 180.0,
-   "mooe_es_fy2026": 785000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.2571428571428571,
@@ -548,8 +498,6 @@
    "school_name": "Holy Ghost Extension ES",
    "learners_assessed": 116.0,
    "small_group": false,
-   "k6_enrollment": 242.0,
-   "mooe_es_fy2026": 854000.0,
    "values": {
     "reading_lowest": 0.39655172413793105,
     "reading_grade_level": 0.0,
@@ -569,8 +517,6 @@
    "school_name": "Irisan Elementary School",
    "learners_assessed": 183.0,
    "small_group": false,
-   "k6_enrollment": 476.0,
-   "mooe_es_fy2026": 1100000.0,
    "values": {
     "reading_lowest": 0.30601092896174864,
     "reading_grade_level": 0.07103825136612021,
@@ -590,8 +536,6 @@
    "school_name": "Jose P. Laurel Elementary School",
    "learners_assessed": 124.0,
    "small_group": false,
-   "k6_enrollment": 317.0,
-   "mooe_es_fy2026": 954000.0,
    "values": {
     "reading_lowest": 0.13709677419354838,
     "reading_grade_level": 0.14516129032258066,
@@ -611,8 +555,6 @@
    "school_name": "Josefa Cariño Elementary School",
    "learners_assessed": 503.0,
    "small_group": false,
-   "k6_enrollment": 1198.0,
-   "mooe_es_fy2026": 1951000.0,
    "values": {
     "reading_lowest": 0.3996023856858847,
     "reading_grade_level": 0.19284294234592445,
@@ -632,8 +574,6 @@
    "school_name": "Kias Elementary School",
    "learners_assessed": 290.0,
    "small_group": false,
-   "k6_enrollment": 661.0,
-   "mooe_es_fy2026": 1324000.0,
    "values": {
     "reading_lowest": 0.2896551724137931,
     "reading_grade_level": 0.16206896551724137,
@@ -653,8 +593,6 @@
    "school_name": "Lindawan Elementary School",
    "learners_assessed": 114.0,
    "small_group": false,
-   "k6_enrollment": 275.0,
-   "mooe_es_fy2026": 915000.0,
    "values": {
     "reading_lowest": 0.09649122807017543,
     "reading_grade_level": 0.08771929824561403,
@@ -674,8 +612,6 @@
    "school_name": "Loakan Elementary School",
    "learners_assessed": 437.0,
    "small_group": false,
-   "k6_enrollment": 1107.0,
-   "mooe_es_fy2026": 1858000.0,
    "values": {
     "reading_lowest": 0.3135011441647597,
     "reading_grade_level": 0.21739130434782608,
@@ -695,8 +631,6 @@
    "school_name": "Magsaysay Elementary School",
    "learners_assessed": 158.0,
    "small_group": false,
-   "k6_enrollment": 365.0,
-   "mooe_es_fy2026": 1029000.0,
    "values": {
     "reading_lowest": 0.27848101265822783,
     "reading_grade_level": 0.11392405063291139,
@@ -716,8 +650,6 @@
    "school_name": "Manuel A. Roxas Elementary School",
    "learners_assessed": 375.0,
    "small_group": false,
-   "k6_enrollment": 917.0,
-   "mooe_es_fy2026": 1593000.0,
    "values": {
     "reading_lowest": 0.44533333333333336,
     "reading_grade_level": 0.09066666666666667,
@@ -737,8 +669,6 @@
    "school_name": "Manuel L. Quezon Elementary School",
    "learners_assessed": 221.0,
    "small_group": false,
-   "k6_enrollment": 574.0,
-   "mooe_es_fy2026": 1228000.0,
    "values": {
     "reading_lowest": 0.2850678733031674,
     "reading_grade_level": 0.2081447963800905,
@@ -758,8 +688,6 @@
    "school_name": "Pacday Quinio Elementary School",
    "learners_assessed": 243.0,
    "small_group": false,
-   "k6_enrollment": 836.0,
-   "mooe_es_fy2026": 1563000.0,
    "values": {
     "reading_lowest": 0.09876543209876543,
     "reading_grade_level": 0.3045267489711934,
@@ -779,8 +707,6 @@
    "school_name": "Pinget Elementary School",
    "learners_assessed": 309.0,
    "small_group": false,
-   "k6_enrollment": 736.0,
-   "mooe_es_fy2026": 1433000.0,
    "values": {
     "reading_lowest": 0.32362459546925565,
     "reading_grade_level": 0.06796116504854369,
@@ -800,8 +726,6 @@
    "school_name": "Pinsao Elementary School",
    "learners_assessed": 212.0,
    "small_group": false,
-   "k6_enrollment": 532.0,
-   "mooe_es_fy2026": 1240000.0,
    "values": {
     "reading_lowest": 0.46226415094339623,
     "reading_grade_level": 0.08962264150943396,
@@ -821,8 +745,6 @@
    "school_name": "Quezon Hill Elementary School",
    "learners_assessed": 592.0,
    "small_group": false,
-   "k6_enrollment": 1433.0,
-   "mooe_es_fy2026": 2212000.0,
    "values": {
     "reading_lowest": 0.3564189189189189,
     "reading_grade_level": 0.09121621621621621,
@@ -842,8 +764,6 @@
    "school_name": "Quirino Hill ES",
    "learners_assessed": 194.0,
    "small_group": false,
-   "k6_enrollment": 412.0,
-   "mooe_es_fy2026": 1069000.0,
    "values": {
     "reading_lowest": 0.2422680412371134,
     "reading_grade_level": 0.06701030927835051,
@@ -863,8 +783,6 @@
    "school_name": "Rizal Elementary School",
    "learners_assessed": 592.0,
    "small_group": false,
-   "k6_enrollment": 1455.0,
-   "mooe_es_fy2026": 2309000.0,
    "values": {
     "reading_lowest": 0.30236486486486486,
     "reading_grade_level": 0.18243243243243243,
@@ -884,8 +802,6 @@
    "school_name": "SPED Center (FL)",
    "learners_assessed": 243.0,
    "small_group": false,
-   "k6_enrollment": 571.0,
-   "mooe_es_fy2026": 1581000.0,
    "values": {
     "reading_lowest": 0.012345679012345678,
     "reading_grade_level": 0.6666666666666666,
@@ -905,8 +821,6 @@
    "school_name": "San Carlos Heights Elementary School",
    "learners_assessed": 302.0,
    "small_group": false,
-   "k6_enrollment": 710.0,
-   "mooe_es_fy2026": 1373000.0,
    "values": {
     "reading_lowest": 0.23178807947019867,
     "reading_grade_level": 0.2119205298013245,
@@ -926,8 +840,6 @@
    "school_name": "San Luis Elementary School",
    "learners_assessed": 204.0,
    "small_group": false,
-   "k6_enrollment": 466.0,
-   "mooe_es_fy2026": 1111000.0,
    "values": {
     "reading_lowest": 0.3137254901960784,
     "reading_grade_level": 0.2696078431372549,
@@ -947,8 +859,6 @@
    "school_name": "San Vicente Elementary School",
    "learners_assessed": 312.0,
    "small_group": false,
-   "k6_enrollment": 779.0,
-   "mooe_es_fy2026": 1494000.0,
    "values": {
     "reading_lowest": 0.24358974358974358,
     "reading_grade_level": 0.20192307692307693,
@@ -968,8 +878,6 @@
    "school_name": "Springhills Elementary School",
    "learners_assessed": 90.0,
    "small_group": false,
-   "k6_enrollment": 265.0,
-   "mooe_es_fy2026": 875000.0,
    "values": {
     "reading_lowest": 0.2777777777777778,
     "reading_grade_level": 0.18888888888888888,
@@ -989,8 +897,6 @@
    "school_name": "Sto. Tomas Elementary School",
    "learners_assessed": 112.0,
    "small_group": false,
-   "k6_enrollment": 315.0,
-   "mooe_es_fy2026": 942000.0,
    "values": {
     "reading_lowest": 0.17857142857142858,
     "reading_grade_level": 0.08035714285714286,
@@ -1048,5 +954,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 21806000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Cutcut ES",
    "learners_assessed": 166.0,
    "small_group": false,
-   "k6_enrollment": 381.0,
-   "mooe_es_fy2026": 1019000.0,
    "values": {
     "reading_lowest": 0.18072289156626506,
     "reading_grade_level": 0.12048192771084337,
@@ -143,8 +133,6 @@
    "school_name": "DOÑA ESCOLASTICA ALDABA PUNONGBAYAN ES",
    "learners_assessed": 168.0,
    "small_group": false,
-   "k6_enrollment": 412.0,
-   "mooe_es_fy2026": 1068000.0,
    "values": {
     "reading_lowest": 0.17857142857142858,
     "reading_grade_level": 0.30357142857142855,
@@ -164,8 +152,6 @@
    "school_name": "Daungan ES",
    "learners_assessed": 123.0,
    "small_group": false,
-   "k6_enrollment": 280.0,
-   "mooe_es_fy2026": 886000.0,
    "values": {
     "reading_lowest": 0.5447154471544715,
     "reading_grade_level": 0.15447154471544716,
@@ -185,8 +171,6 @@
    "school_name": "Dra. Ruperta G. Caluag ES (Ilang-Ilang)",
    "learners_assessed": 191.0,
    "small_group": false,
-   "k6_enrollment": 447.0,
-   "mooe_es_fy2026": 1166000.0,
    "values": {
     "reading_lowest": 0.44502617801047123,
     "reading_grade_level": 0.1099476439790576,
@@ -206,8 +190,6 @@
    "school_name": "Guiguinto Central School",
    "learners_assessed": 728.0,
    "small_group": false,
-   "k6_enrollment": 1797.0,
-   "mooe_es_fy2026": 2882000.0,
    "values": {
     "reading_lowest": 0.18543956043956045,
     "reading_grade_level": 0.33516483516483514,
@@ -227,8 +209,6 @@
    "school_name": "Malis ES",
    "learners_assessed": 773.0,
    "small_group": false,
-   "k6_enrollment": 1818.0,
-   "mooe_es_fy2026": 2657000.0,
    "values": {
     "reading_lowest": 0.25097024579560157,
     "reading_grade_level": 0.33764553686934023,
@@ -248,8 +228,6 @@
    "school_name": "Pritil Elementary School",
    "learners_assessed": 162.0,
    "small_group": false,
-   "k6_enrollment": 429.0,
-   "mooe_es_fy2026": 1092000.0,
    "values": {
     "reading_lowest": 0.2962962962962963,
     "reading_grade_level": 0.21604938271604937,
@@ -269,8 +247,6 @@
    "school_name": "Pulonggubat ES",
    "learners_assessed": 116.0,
    "small_group": false,
-   "k6_enrollment": 263.0,
-   "mooe_es_fy2026": 873000.0,
    "values": {
     "reading_lowest": 0.27586206896551724,
     "reading_grade_level": 0.2672413793103448,
@@ -290,8 +266,6 @@
    "school_name": "STA.CRUZ ELEMENTARY",
    "learners_assessed": 383.0,
    "small_group": false,
-   "k6_enrollment": 833.0,
-   "mooe_es_fy2026": 1541000.0,
    "values": {
     "reading_lowest": 0.33159268929503916,
     "reading_grade_level": 0.2950391644908616,
@@ -311,8 +285,6 @@
    "school_name": "Sta. Rita ES",
    "learners_assessed": 642.0,
    "small_group": false,
-   "k6_enrollment": 1471.0,
-   "mooe_es_fy2026": 2272000.0,
    "values": {
     "reading_lowest": 0.20249221183800623,
     "reading_grade_level": 0.37538940809968846,
@@ -332,8 +304,6 @@
    "school_name": "Tabang Elementary School",
    "learners_assessed": 334.0,
    "small_group": false,
-   "k6_enrollment": 815.0,
-   "mooe_es_fy2026": 1487000.0,
    "values": {
     "reading_lowest": 0.24550898203592814,
     "reading_grade_level": 0.27844311377245506,
@@ -353,8 +323,6 @@
    "school_name": "Tabe Elementary School",
    "learners_assessed": 251.0,
    "small_group": false,
-   "k6_enrollment": 629.0,
-   "mooe_es_fy2026": 1251000.0,
    "values": {
     "reading_lowest": 0.21115537848605578,
     "reading_grade_level": 0.5338645418326693,
@@ -374,8 +342,6 @@
    "school_name": "Tiaong Elementary School",
    "learners_assessed": 433.0,
    "small_group": false,
-   "k6_enrollment": 981.0,
-   "mooe_es_fy2026": 1729000.0,
    "values": {
     "reading_lowest": 0.3117782909930716,
     "reading_grade_level": 0.3302540415704388,
@@ -395,8 +361,6 @@
    "school_name": "Tuktukan Elementary School",
    "learners_assessed": 499.0,
    "small_group": false,
-   "k6_enrollment": 1092.0,
-   "mooe_es_fy2026": 1883000.0,
    "values": {
     "reading_lowest": 0.16633266533066132,
     "reading_grade_level": 0.21442885771543085,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 6979000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Batang Elementary School",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 79.0,
-   "mooe_es_fy2026": 674000.0,
    "values": {
     "reading_lowest": 0.21951219512195122,
     "reading_grade_level": 0.21951219512195122,
@@ -143,8 +133,6 @@
    "school_name": "Cacatmonan Primary School",
    "learners_assessed": 1.0,
    "small_group": true,
-   "k6_enrollment": 6.0,
-   "mooe_es_fy2026": 593000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 1.0,
@@ -164,8 +152,6 @@
    "school_name": "Canciledes Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
-   "k6_enrollment": 144.0,
-   "mooe_es_fy2026": 747000.0,
    "values": {
     "reading_lowest": 0.09090909090909091,
     "reading_grade_level": 0.14545454545454545,
@@ -185,8 +171,6 @@
    "school_name": "Carmen Elementary School",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 129.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.20454545454545456,
@@ -206,8 +190,6 @@
    "school_name": "Garawon Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 71.0,
-   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.25806451612903225,
     "reading_grade_level": 0.03225806451612903,
@@ -227,8 +209,6 @@
    "school_name": "Hernani Central Elementary School",
    "learners_assessed": 81.0,
    "small_group": false,
-   "k6_enrollment": 252.0,
-   "mooe_es_fy2026": 896000.0,
    "values": {
     "reading_lowest": 0.24691358024691357,
     "reading_grade_level": 0.14814814814814814,
@@ -248,8 +228,6 @@
    "school_name": "Nagaja Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 69.0,
-   "mooe_es_fy2026": 663000.0,
    "values": {
     "reading_lowest": 0.043478260869565216,
     "reading_grade_level": 0.391304347826087,
@@ -269,8 +247,6 @@
    "school_name": "Padang Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 87.0,
-   "mooe_es_fy2026": 667000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.06060606060606061,
@@ -290,8 +266,6 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 57.0,
-   "mooe_es_fy2026": 636000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.0,
@@ -311,8 +285,6 @@
    "school_name": "San Miguel Elementary School",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 123.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.29545454545454547,
     "reading_grade_level": 0.3409090909090909,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

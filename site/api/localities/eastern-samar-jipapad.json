@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 8187000.0,
-   "schools_listed": 12,
-   "public_elementary_schools": 12,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Agsaman Elementary School",
    "learners_assessed": 37.0,
    "small_group": false,
-   "k6_enrollment": 78.0,
-   "mooe_es_fy2026": 663000.0,
    "values": {
     "reading_lowest": 0.5405405405405406,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Cagmanaba Elementary School",
    "learners_assessed": 58.0,
    "small_group": false,
-   "k6_enrollment": 142.0,
-   "mooe_es_fy2026": 729000.0,
    "values": {
     "reading_lowest": 0.4482758620689655,
     "reading_grade_level": 0.034482758620689655,
@@ -164,8 +152,6 @@
    "school_name": "Casapa Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 45.0,
-   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.06666666666666667,
@@ -185,8 +171,6 @@
    "school_name": "Dorillo Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 33.0,
-   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.5,
     "reading_grade_level": 0.0,
@@ -206,8 +190,6 @@
    "school_name": "Jipapad Central School",
    "learners_assessed": 219.0,
    "small_group": false,
-   "k6_enrollment": 535.0,
-   "mooe_es_fy2026": 1149000.0,
    "values": {
     "reading_lowest": 0.3470319634703196,
     "reading_grade_level": 0.0867579908675799,
@@ -227,8 +209,6 @@
    "school_name": "Jiwaran Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 46.0,
-   "mooe_es_fy2026": 634000.0,
    "values": {
     "reading_lowest": 0.5555555555555556,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Mabuhay Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 693000.0,
    "values": {
     "reading_lowest": 0.47368421052631576,
     "reading_grade_level": 0.05263157894736842,
@@ -269,8 +247,6 @@
    "school_name": "Magsaysay Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 68.0,
-   "mooe_es_fy2026": 653000.0,
    "values": {
     "reading_lowest": 0.1111111111111111,
     "reading_grade_level": 0.037037037037037035,
@@ -290,8 +266,6 @@
    "school_name": "Maylimon Elementary School",
    "learners_assessed": 10.0,
    "small_group": true,
-   "k6_enrollment": 20.0,
-   "mooe_es_fy2026": 602000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.2,
@@ -311,8 +285,6 @@
    "school_name": "Recare Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 79.0,
-   "mooe_es_fy2026": 657000.0,
    "values": {
     "reading_lowest": 0.6,
     "reading_grade_level": 0.03333333333333333,
@@ -332,8 +304,6 @@
    "school_name": "Roxas Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 54.0,
-   "mooe_es_fy2026": 633000.0,
    "values": {
     "reading_lowest": 0.28,
     "reading_grade_level": 0.0,
@@ -353,8 +323,6 @@
    "school_name": "San Roque Integrated School",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 106.0,
-   "mooe_es_fy2026": 532000.0,
    "values": {
     "reading_lowest": 0.4634146341463415,
     "reading_grade_level": 0.024390243902439025,
@@ -412,5 +380,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

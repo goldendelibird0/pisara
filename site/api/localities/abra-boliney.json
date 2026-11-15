@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 5052000.0,
-   "schools_listed": 8,
-   "public_elementary_schools": 8,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Amti ES",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 28.0,
-   "mooe_es_fy2026": 623000.0,
    "values": {
     "reading_lowest": 0.18181818181818182,
     "reading_grade_level": 0.36363636363636365,
@@ -143,8 +133,6 @@
    "school_name": "Baoyan ES",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 72.0,
-   "mooe_es_fy2026": 664000.0,
    "values": {
     "reading_lowest": 0.5666666666666667,
     "reading_grade_level": 0.1,
@@ -164,8 +152,6 @@
    "school_name": "Boliney CS",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 110.0,
-   "mooe_es_fy2026": 708000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.4772727272727273,
@@ -185,8 +171,6 @@
    "school_name": "Danac Integrated School",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 129.0,
-   "mooe_es_fy2026": 571000.0,
    "values": {
     "reading_lowest": 0.4897959183673469,
     "reading_grade_level": 0.061224489795918366,
@@ -206,8 +190,6 @@
    "school_name": "Dao-angan PS",
    "learners_assessed": 17.0,
    "small_group": true,
-   "k6_enrollment": 29.0,
-   "mooe_es_fy2026": 605000.0,
    "values": {
     "reading_lowest": 0.23529411764705882,
     "reading_grade_level": 0.4117647058823529,
@@ -227,8 +209,6 @@
    "school_name": "Dumagas ES",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 69.0,
-   "mooe_es_fy2026": 666000.0,
    "values": {
     "reading_lowest": 0.13333333333333333,
     "reading_grade_level": 0.03333333333333333,
@@ -248,8 +228,6 @@
    "school_name": "Kilong-olao E/S",
    "learners_assessed": 8.0,
    "small_group": true,
-   "k6_enrollment": 36.0,
-   "mooe_es_fy2026": 628000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.125,
@@ -269,8 +247,6 @@
    "school_name": "Lawigan PS",
    "learners_assessed": 4.0,
    "small_group": true,
-   "k6_enrollment": 8.0,
-   "mooe_es_fy2026": 587000.0,
    "values": {
     "reading_lowest": 0.25,
     "reading_grade_level": 0.0,
@@ -328,5 +304,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

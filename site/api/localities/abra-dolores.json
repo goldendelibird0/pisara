@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 7150000.0,
-   "schools_listed": 10,
-   "public_elementary_schools": 10,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Cabaroan ES",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 53.0,
-   "mooe_es_fy2026": 643000.0,
    "values": {
     "reading_lowest": 0.2962962962962963,
     "reading_grade_level": 0.3333333333333333,
@@ -143,8 +133,6 @@
    "school_name": "Cardona Elementary School",
    "learners_assessed": 32.0,
    "small_group": false,
-   "k6_enrollment": 80.0,
-   "mooe_es_fy2026": 674000.0,
    "values": {
     "reading_lowest": 0.65625,
     "reading_grade_level": 0.03125,
@@ -164,8 +152,6 @@
    "school_name": "Dolores CS",
    "learners_assessed": 134.0,
    "small_group": false,
-   "k6_enrollment": 275.0,
-   "mooe_es_fy2026": 902000.0,
    "values": {
     "reading_lowest": 0.41044776119402987,
     "reading_grade_level": 0.11194029850746269,
@@ -185,8 +171,6 @@
    "school_name": "Don Rosalio Eduarte ES",
    "learners_assessed": 76.0,
    "small_group": false,
-   "k6_enrollment": 221.0,
-   "mooe_es_fy2026": 834000.0,
    "values": {
     "reading_lowest": 0.4473684210526316,
     "reading_grade_level": 0.10526315789473684,
@@ -206,8 +190,6 @@
    "school_name": "Kimmalaba ES",
    "learners_assessed": 37.0,
    "small_group": false,
-   "k6_enrollment": 97.0,
-   "mooe_es_fy2026": 690000.0,
    "values": {
     "reading_lowest": 0.32432432432432434,
     "reading_grade_level": 0.05405405405405406,
@@ -227,8 +209,6 @@
    "school_name": "Libtec Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 90.0,
-   "mooe_es_fy2026": 704000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.2894736842105263,
@@ -248,8 +228,6 @@
    "school_name": "Lourdes Zapata Elementary School",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 57.0,
-   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.3157894736842105,
     "reading_grade_level": 0.05263157894736842,
@@ -269,8 +247,6 @@
    "school_name": "Mudiit ES",
    "learners_assessed": 51.0,
    "small_group": false,
-   "k6_enrollment": 119.0,
-   "mooe_es_fy2026": 718000.0,
    "values": {
     "reading_lowest": 0.47058823529411764,
     "reading_grade_level": 0.1568627450980392,
@@ -290,8 +266,6 @@
    "school_name": "Pacac ES",
    "learners_assessed": 29.0,
    "small_group": false,
-   "k6_enrollment": 55.0,
-   "mooe_es_fy2026": 649000.0,
    "values": {
     "reading_lowest": 0.8275862068965517,
     "reading_grade_level": 0.034482758620689655,
@@ -311,8 +285,6 @@
    "school_name": "Taping Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 685000.0,
    "values": {
     "reading_lowest": 0.22857142857142856,
     "reading_grade_level": 0.08571428571428572,
@@ -370,5 +342,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

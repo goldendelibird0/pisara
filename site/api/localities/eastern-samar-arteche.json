@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 12304000.0,
-   "schools_listed": 17,
-   "public_elementary_schools": 17,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Aguinaldo Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 24.0,
-   "mooe_es_fy2026": 605000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.21428571428571427,
@@ -143,8 +133,6 @@
    "school_name": "Arteche Central Elementary School",
    "learners_assessed": 320.0,
    "small_group": false,
-   "k6_enrollment": 757.0,
-   "mooe_es_fy2026": 1419000.0,
    "values": {
     "reading_lowest": 0.221875,
     "reading_grade_level": 0.175,
@@ -164,8 +152,6 @@
    "school_name": "Bato Elementary School",
    "learners_assessed": 19.0,
    "small_group": true,
-   "k6_enrollment": 42.0,
-   "mooe_es_fy2026": 633000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.05263157894736842,
@@ -185,8 +171,6 @@
    "school_name": "Beri Elementary School",
    "learners_assessed": 48.0,
    "small_group": false,
-   "k6_enrollment": 106.0,
-   "mooe_es_fy2026": 705000.0,
    "values": {
     "reading_lowest": 0.22916666666666666,
     "reading_grade_level": 0.041666666666666664,
@@ -206,8 +190,6 @@
    "school_name": "Bigo Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 73.0,
-   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.24,
     "reading_grade_level": 0.2,
@@ -227,8 +209,6 @@
    "school_name": "Buenavista Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 79.0,
-   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -248,8 +228,6 @@
    "school_name": "Cagsalay Elementary School",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 637000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.047619047619047616,
@@ -269,8 +247,6 @@
    "school_name": "Campacion Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 35.0,
-   "mooe_es_fy2026": 628000.0,
    "values": {
     "reading_lowest": 0.8,
     "reading_grade_level": 0.0,
@@ -290,8 +266,6 @@
    "school_name": "Carapdapan Elementary School",
    "learners_assessed": 76.0,
    "small_group": false,
-   "k6_enrollment": 257.0,
-   "mooe_es_fy2026": 871000.0,
    "values": {
     "reading_lowest": 0.23684210526315788,
     "reading_grade_level": 0.19736842105263158,
@@ -311,8 +285,6 @@
    "school_name": "Casidman Elementary School",
    "learners_assessed": 18.0,
    "small_group": true,
-   "k6_enrollment": 40.0,
-   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.0,
@@ -332,8 +304,6 @@
    "school_name": "Catumsan Integrated School",
    "learners_assessed": 84.0,
    "small_group": false,
-   "k6_enrollment": 210.0,
-   "mooe_es_fy2026": 609000.0,
    "values": {
     "reading_lowest": 0.21428571428571427,
     "reading_grade_level": 0.30952380952380953,
@@ -353,8 +323,6 @@
    "school_name": "Concepcion Elementary School",
    "learners_assessed": 84.0,
    "small_group": false,
-   "k6_enrollment": 206.0,
-   "mooe_es_fy2026": 837000.0,
    "values": {
     "reading_lowest": 0.20238095238095238,
     "reading_grade_level": 0.09523809523809523,
@@ -374,8 +342,6 @@
    "school_name": "Inayawan Elementary School",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 23.0,
-   "mooe_es_fy2026": 614000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.0,
@@ -395,8 +361,6 @@
    "school_name": "MacArthur Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 77.0,
-   "mooe_es_fy2026": 666000.0,
    "values": {
     "reading_lowest": 0.22580645161290322,
     "reading_grade_level": 0.16129032258064516,
@@ -416,8 +380,6 @@
    "school_name": "Tangbo Elementary School",
    "learners_assessed": 89.0,
    "small_group": false,
-   "k6_enrollment": 201.0,
-   "mooe_es_fy2026": 830000.0,
    "values": {
     "reading_lowest": 0.16853932584269662,
     "reading_grade_level": 0.29213483146067415,
@@ -437,8 +399,6 @@
    "school_name": "Tawagan Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 88.0,
-   "mooe_es_fy2026": 677000.0,
    "values": {
     "reading_lowest": 0.10526315789473684,
     "reading_grade_level": 0.13157894736842105,
@@ -458,8 +418,6 @@
    "school_name": "Tibalawon Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 27.0,
-   "mooe_es_fy2026": 615000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.0,
@@ -517,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 16265000.0,
-   "schools_listed": 12,
-   "public_elementary_schools": 12,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "BOROL 2ND ELEMENTARY SCHOOL",
    "learners_assessed": 186.0,
    "small_group": false,
-   "k6_enrollment": 442.0,
-   "mooe_es_fy2026": 1096000.0,
    "values": {
     "reading_lowest": 0.3602150537634409,
     "reading_grade_level": 0.15591397849462366,
@@ -143,8 +133,6 @@
    "school_name": "Balagtas Central School",
    "learners_assessed": 558.0,
    "small_group": false,
-   "k6_enrollment": 1260.0,
-   "mooe_es_fy2026": 2100000.0,
    "values": {
     "reading_lowest": 0.3781362007168459,
     "reading_grade_level": 0.16845878136200718,
@@ -164,8 +152,6 @@
    "school_name": "Balagtas Heights  Elementary School",
    "learners_assessed": 261.0,
    "small_group": false,
-   "k6_enrollment": 532.0,
-   "mooe_es_fy2026": 1204000.0,
    "values": {
     "reading_lowest": 0.24521072796934865,
     "reading_grade_level": 0.034482758620689655,
@@ -185,8 +171,6 @@
    "school_name": "Burol 1St ES",
    "learners_assessed": 343.0,
    "small_group": false,
-   "k6_enrollment": 850.0,
-   "mooe_es_fy2026": 1517000.0,
    "values": {
     "reading_lowest": 0.3760932944606414,
     "reading_grade_level": 0.029154518950437316,
@@ -206,8 +190,6 @@
    "school_name": "Dalig Elementary School",
    "learners_assessed": 74.0,
    "small_group": false,
-   "k6_enrollment": 176.0,
-   "mooe_es_fy2026": 784000.0,
    "values": {
     "reading_lowest": 0.5405405405405406,
     "reading_grade_level": 0.0,
@@ -227,8 +209,6 @@
    "school_name": "Francisco Balagtas Memorial School",
    "learners_assessed": 346.0,
    "small_group": false,
-   "k6_enrollment": 805.0,
-   "mooe_es_fy2026": 1545000.0,
    "values": {
     "reading_lowest": 0.23699421965317918,
     "reading_grade_level": 0.15895953757225434,
@@ -248,8 +228,6 @@
    "school_name": "Longos ES",
    "learners_assessed": 125.0,
    "small_group": false,
-   "k6_enrollment": 325.0,
-   "mooe_es_fy2026": 925000.0,
    "values": {
     "reading_lowest": 0.272,
     "reading_grade_level": 0.088,
@@ -269,8 +247,6 @@
    "school_name": "M.C. Rivera ES",
    "learners_assessed": 422.0,
    "small_group": false,
-   "k6_enrollment": 1014.0,
-   "mooe_es_fy2026": 1724000.0,
    "values": {
     "reading_lowest": 0.3104265402843602,
     "reading_grade_level": 0.13033175355450238,
@@ -290,8 +266,6 @@
    "school_name": "Northville VI Elementary School",
    "learners_assessed": 422.0,
    "small_group": false,
-   "k6_enrollment": 989.0,
-   "mooe_es_fy2026": 1767000.0,
    "values": {
     "reading_lowest": 0.2156398104265403,
     "reading_grade_level": 0.28199052132701424,
@@ -311,8 +285,6 @@
    "school_name": "San Juan ES",
    "learners_assessed": 183.0,
    "small_group": false,
-   "k6_enrollment": 411.0,
-   "mooe_es_fy2026": 1061000.0,
    "values": {
     "reading_lowest": 0.28415300546448086,
     "reading_grade_level": 0.22950819672131148,
@@ -332,8 +304,6 @@
    "school_name": "Santol Elementary School",
    "learners_assessed": 278.0,
    "small_group": false,
-   "k6_enrollment": 687.0,
-   "mooe_es_fy2026": 1381000.0,
    "values": {
     "reading_lowest": 0.2014388489208633,
     "reading_grade_level": 0.2949640287769784,
@@ -353,8 +323,6 @@
    "school_name": "Sulok Elementary School",
    "learners_assessed": 212.0,
    "small_group": false,
-   "k6_enrollment": 482.0,
-   "mooe_es_fy2026": 1161000.0,
    "values": {
     "reading_lowest": 0.22169811320754718,
     "reading_grade_level": 0.24528301886792453,
@@ -412,5 +380,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

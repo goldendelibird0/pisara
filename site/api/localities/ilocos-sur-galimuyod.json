@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 5367000.0,
-   "schools_listed": 8,
-   "public_elementary_schools": 8,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Baracbac Elementary School",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 29.0,
-   "mooe_es_fy2026": 613000.0,
    "values": {
     "reading_lowest": 0.5454545454545454,
     "reading_grade_level": 0.0,
@@ -143,8 +133,6 @@
    "school_name": "Bidbiday Elementary School",
    "learners_assessed": 50.0,
    "small_group": false,
-   "k6_enrollment": 107.0,
-   "mooe_es_fy2026": 715000.0,
    "values": {
     "reading_lowest": 0.26,
     "reading_grade_level": 0.28,
@@ -164,8 +152,6 @@
    "school_name": "Bitong Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 81.0,
-   "mooe_es_fy2026": 668000.0,
    "values": {
     "reading_lowest": 0.06060606060606061,
     "reading_grade_level": 0.12121212121212122,
@@ -185,8 +171,6 @@
    "school_name": "Calimugtong Elementary School",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 51.0,
-   "mooe_es_fy2026": 637000.0,
    "values": {
     "reading_lowest": 0.06666666666666667,
     "reading_grade_level": 0.2,
@@ -206,8 +190,6 @@
    "school_name": "Galimuyod Integrated School",
    "learners_assessed": 96.0,
    "small_group": false,
-   "k6_enrollment": 275.0,
-   "mooe_es_fy2026": 694000.0,
    "values": {
     "reading_lowest": 0.19791666666666666,
     "reading_grade_level": 0.28125,
@@ -227,8 +209,6 @@
    "school_name": "Mckinley Primary School",
    "learners_assessed": 13.0,
    "small_group": true,
-   "k6_enrollment": 39.0,
-   "mooe_es_fy2026": 632000.0,
    "values": {
     "reading_lowest": 0.6153846153846154,
     "reading_grade_level": 0.07692307692307693,
@@ -248,8 +228,6 @@
    "school_name": "Pagangpang Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 122.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.5510204081632653,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "Patac Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 91.0,
-   "mooe_es_fy2026": 685000.0,
    "values": {
     "reading_lowest": 0.21052631578947367,
     "reading_grade_level": 0.15789473684210525,
@@ -328,5 +304,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

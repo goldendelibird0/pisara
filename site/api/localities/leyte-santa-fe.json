@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 13537000.0,
-   "schools_listed": 17,
-   "public_elementary_schools": 17,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Baculanad Elementary School",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 123.0,
-   "mooe_es_fy2026": 710000.0,
    "values": {
     "reading_lowest": 0.17073170731707318,
     "reading_grade_level": 0.12195121951219512,
@@ -143,8 +133,6 @@
    "school_name": "Badiangay Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 87.0,
-   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.18518518518518517,
     "reading_grade_level": 0.1111111111111111,
@@ -164,8 +152,6 @@
    "school_name": "Bulod Elementary School",
    "learners_assessed": 137.0,
    "small_group": false,
-   "k6_enrollment": 289.0,
-   "mooe_es_fy2026": 911000.0,
    "values": {
     "reading_lowest": 0.24087591240875914,
     "reading_grade_level": 0.014598540145985401,
@@ -185,8 +171,6 @@
    "school_name": "Catoogan Elementary School",
    "learners_assessed": 41.0,
    "small_group": false,
-   "k6_enrollment": 115.0,
-   "mooe_es_fy2026": 712000.0,
    "values": {
     "reading_lowest": 0.2682926829268293,
     "reading_grade_level": 0.2682926829268293,
@@ -206,8 +190,6 @@
    "school_name": "Cutay Elementary School",
    "learners_assessed": 40.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 697000.0,
    "values": {
     "reading_lowest": 0.1,
     "reading_grade_level": 0.05,
@@ -227,8 +209,6 @@
    "school_name": "Gapas Elementary School",
    "learners_assessed": 55.0,
    "small_group": false,
-   "k6_enrollment": 134.0,
-   "mooe_es_fy2026": 730000.0,
    "values": {
     "reading_lowest": 0.03636363636363636,
     "reading_grade_level": 0.14545454545454545,
@@ -248,8 +228,6 @@
    "school_name": "Katipunan Elementary School",
    "learners_assessed": 73.0,
    "small_group": false,
-   "k6_enrollment": 156.0,
-   "mooe_es_fy2026": 739000.0,
    "values": {
     "reading_lowest": 0.2328767123287671,
     "reading_grade_level": 0.1095890410958904,
@@ -269,8 +247,6 @@
    "school_name": "Milagrosa Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 110.0,
-   "mooe_es_fy2026": 707000.0,
    "values": {
     "reading_lowest": 0.02631578947368421,
     "reading_grade_level": 0.05263157894736842,
@@ -290,8 +266,6 @@
    "school_name": "Pilit Elementary School",
    "learners_assessed": 85.0,
    "small_group": false,
-   "k6_enrollment": 215.0,
-   "mooe_es_fy2026": 824000.0,
    "values": {
     "reading_lowest": 0.11764705882352941,
     "reading_grade_level": 0.03529411764705882,
@@ -311,8 +285,6 @@
    "school_name": "Pitogo Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 98.0,
-   "mooe_es_fy2026": 707000.0,
    "values": {
     "reading_lowest": 0.2631578947368421,
     "reading_grade_level": 0.07894736842105263,
@@ -332,8 +304,6 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 110.0,
    "small_group": false,
-   "k6_enrollment": 268.0,
-   "mooe_es_fy2026": 884000.0,
    "values": {
     "reading_lowest": 0.07272727272727272,
     "reading_grade_level": 0.12727272727272726,
@@ -353,8 +323,6 @@
    "school_name": "San Juan Elementary Shool",
    "learners_assessed": 78.0,
    "small_group": false,
-   "k6_enrollment": 212.0,
-   "mooe_es_fy2026": 817000.0,
    "values": {
     "reading_lowest": 0.07692307692307693,
     "reading_grade_level": 0.1794871794871795,
@@ -374,8 +342,6 @@
    "school_name": "San Miguelay Elementary School",
    "learners_assessed": 25.0,
    "small_group": false,
-   "k6_enrollment": 66.0,
-   "mooe_es_fy2026": 659000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.04,
@@ -395,8 +361,6 @@
    "school_name": "San Roque Elementary School",
    "learners_assessed": 134.0,
    "small_group": false,
-   "k6_enrollment": 314.0,
-   "mooe_es_fy2026": 931000.0,
    "values": {
     "reading_lowest": 0.21641791044776118,
     "reading_grade_level": 0.007462686567164179,
@@ -416,8 +380,6 @@
    "school_name": "Sta. Fe Central School",
    "learners_assessed": 270.0,
    "small_group": false,
-   "k6_enrollment": 688.0,
-   "mooe_es_fy2026": 1354000.0,
    "values": {
     "reading_lowest": 0.12222222222222222,
     "reading_grade_level": 0.1259259259259259,
@@ -437,8 +399,6 @@
    "school_name": "Tibak Elementary School",
    "learners_assessed": 67.0,
    "small_group": false,
-   "k6_enrollment": 152.0,
-   "mooe_es_fy2026": 783000.0,
    "values": {
     "reading_lowest": 0.29850746268656714,
     "reading_grade_level": 0.0,
@@ -458,8 +418,6 @@
    "school_name": "Victoria Elementary School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 80.0,
-   "mooe_es_fy2026": 686000.0,
    "values": {
     "reading_lowest": 0.25925925925925924,
     "reading_grade_level": 0.0,
@@ -517,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

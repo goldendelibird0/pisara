@@ -14,7 +14,7 @@ Special Education Fund (SEF). It is built entirely from data the government alre
 ## The problem
 
 Boards decide on the SEF every year, but the evidence sits in separate files: reading results, enrolment,
-teachers, classrooms and school budgets from DepEd, other money from DBM and BLGF. No one joins them school by school, so a board rarely
+teachers and classrooms from DepEd, money from DBM and BLGF. No one joins them school by school, so a board rarely
 sees which schools need what.
 
 ## What a brief contains
@@ -25,11 +25,9 @@ sees which schools need what.
    groups: needs reading help and more room, reading help only, more room only, or neither. Each group comes with
    what the board could look into.
 3. **Questions for the meeting.**
-4. **The money for these schools.** The two kinds of public money side by side: the SEF, which the board decides,
-   and DepEd's school MOOE (maintenance and operating budget), which DepEd sets by formula and the board cannot
-   change. Then what the fund's 2025 spending was charged to (elementary schools, secondary schools, general
-   administration and so on), from BLGF's FY2025 preliminary figures, and how the 2026 MOOE allocation is spread
-   across the four groups compared with their share of learners. SEF figures are town-wide totals, not per school.
+4. **What the fund paid for in 2025.** What the city or town collected for its SEF and what its reported spending
+   was charged to (elementary schools, secondary schools, general administration and so on), from BLGF's FY2025
+   preliminary figures. These are town-wide totals, not per school.
 5. **Planned:** where the SEF goes school by school, and follow-up after the meeting (needs a local government's
    quarterly SEF utilisation report).
 6. **Supporting detail:** the reading distribution, every school's figures, and how to read them.
@@ -40,8 +38,6 @@ sees which schools need what.
 - 6,113 of 6,121 schools in the reading file joined to the other files by DepEd School ID (99.9%)
 - 1,565 of 1,644 localities matched by name to DBM COMPASS (95.2%)
 - 1,570 of 1,644 localities matched by name to BLGF's SEF figures (95.5%), including all 256 with a brief
-- 37,421 of 39,468 public elementary schools joined to DepEd's FY 2026 school MOOE allocation by School ID (94.8%),
-  including all 6,113 schools in the reading data
 - A locality gets a brief only if at least 90% of its public elementary schools are in the reading data, and at
   least 5 schools
 
@@ -69,9 +65,7 @@ python pipeline/run.py --accept-deped-terms
 The flag is needed on the first run, which downloads DepEd's files; by passing it you agree to DepEd's Terms of
 Use (https://www.deped.gov.ph/machine-ready-files/). BLGF's workbook has no stable download link, so download
 "FY2025 SEF Income and Expenditures" from https://blgf.gov.ph/lgu-fiscal-data/ and save it in
-`data/raw/blgf_sef/` first. Do the same for DepEd's school MOOE allocation for FY 2026
-(`DepEd-School-MOOE-Allocation-FY-2026.xlsx`), saved in `data/raw/deped_mooe/`. Raw downloads are not stored in
-this repository. To rebuild pages only, run
+`data/raw/blgf_sef/` first. Raw downloads are not stored in this repository. To rebuild pages only, run
 `python pipeline/s5_publish.py`. To view the site, run `python -m http.server 8765 --directory site`.
 
 ### Outputs in `site/`
@@ -89,7 +83,6 @@ this repository. To rebuild pages only, run
 | Comprehensive Rapid Literacy Assessment (CRLA) | DepEd, Project Bukas machine-ready files | SY 2025-26 |
 | Enrolment | DepEd | SY 2025-26 |
 | School personnel, school facilities | DepEd | SY 2023-24 |
-| School MOOE allocation (elementary) | DepEd | FY 2026, General Appropriations Act |
 | National Tax Allotment | DBM COMPASS public export | FY 2022-2027 |
 | Special Education Fund income and expenditures | Bureau of Local Government Finance (BLGF), LIFT system | FY 2025, preliminary |
 
@@ -99,9 +92,6 @@ this repository. To rebuild pages only, run
 - The SEF figures are the treasurer's FY2025 statement as reported to BLGF, and are marked preliminary. They are
   town-wide, not per school, and do not include the province's share of the fund. "General administration" can
   include costs that support schools. A town that reported no spending may simply not have filed in time.
-- School MOOE is DepEd's FY 2026 allocation, the amount set for each school, not what it spent. Most elementary
-  schools receive it through the division office. It is a year ahead of the SEF figures; each is the latest
-  published.
 - The tax allotment shown "for scale" is not specific to education.
 - Teacher and classroom counts are from SY 2023-24; reading and enrolment are from SY 2025-26.
 - Localities are matched to COMPASS and BLGF by name, because DepEd's files carry no location code (PSGC).
@@ -120,7 +110,6 @@ this repository. To rebuild pages only, run
 
 - Schools are never ranked. They are listed alphabetically and compared with a regional benchmark.
 - Test results are not compared across school years.
-- MOOE is shown by group, never per learner beside a school's reading results, and schools are never ordered by it.
 - DepEd is credited as the source; the DepEd logo is not used; no endorsement is implied.
 - Data derived from DepEd's files (`site/data`, `site/api`) is shared under the same terms as the source files.
 - BLGF is credited for the SEF figures. They appear in the briefs and the JSON files only; BLGF's full workbook is
@@ -128,7 +117,6 @@ this repository. To rebuild pages only, run
 
 ## Credits
 
-School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation.
-Tax allotment data: Department of Budget
+School data: Department of Education, Project Bukas machine-ready files. Tax allotment data: Department of Budget
 and Management, COMPASS. Special Education Fund data: Bureau of Local Government Finance, FY2025 preliminary. This
 is an independent prototype, not produced, reviewed or endorsed by DepEd, DBM or BLGF.

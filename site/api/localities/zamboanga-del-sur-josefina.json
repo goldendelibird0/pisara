@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 9384000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Bogo Calabat Integrated School",
    "learners_assessed": 47.0,
    "small_group": false,
-   "k6_enrollment": 110.0,
-   "mooe_es_fy2026": 569000.0,
    "values": {
     "reading_lowest": 0.425531914893617,
     "reading_grade_level": 0.14893617021276595,
@@ -143,8 +133,6 @@
    "school_name": "Dawa Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
-   "k6_enrollment": 140.0,
-   "mooe_es_fy2026": 734000.0,
    "values": {
     "reading_lowest": 0.22033898305084745,
     "reading_grade_level": 0.3559322033898305,
@@ -164,8 +152,6 @@
    "school_name": "Ebarle Elementary School",
    "learners_assessed": 14.0,
    "small_group": true,
-   "k6_enrollment": 42.0,
-   "mooe_es_fy2026": 625000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.21428571428571427,
@@ -185,8 +171,6 @@
    "school_name": "INIGO G. MERCADO PS",
    "learners_assessed": 15.0,
    "small_group": true,
-   "k6_enrollment": 41.0,
-   "mooe_es_fy2026": 622000.0,
    "values": {
     "reading_lowest": 0.26666666666666666,
     "reading_grade_level": 0.26666666666666666,
@@ -206,8 +190,6 @@
    "school_name": "Josefina CES",
    "learners_assessed": 163.0,
    "small_group": false,
-   "k6_enrollment": 379.0,
-   "mooe_es_fy2026": 1025000.0,
    "values": {
     "reading_lowest": 0.26380368098159507,
     "reading_grade_level": 0.22699386503067484,
@@ -227,8 +209,6 @@
    "school_name": "Leonardo ES",
    "learners_assessed": 37.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.43243243243243246,
     "reading_grade_level": 0.21621621621621623,
@@ -248,8 +228,6 @@
    "school_name": "Litapan Integrated School",
    "learners_assessed": 44.0,
    "small_group": false,
-   "k6_enrollment": 110.0,
-   "mooe_es_fy2026": 543000.0,
    "values": {
     "reading_lowest": 0.20454545454545456,
     "reading_grade_level": 0.1590909090909091,
@@ -269,8 +247,6 @@
    "school_name": "Lower Bag-ong Tudela IPS",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 33.0,
-   "mooe_es_fy2026": 618000.0,
    "values": {
     "reading_lowest": 0.09090909090909091,
     "reading_grade_level": 0.09090909090909091,
@@ -290,8 +266,6 @@
    "school_name": "Mansanas ES",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 124.0,
-   "mooe_es_fy2026": 719000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.6923076923076923,
@@ -311,8 +285,6 @@
    "school_name": "Moradje Elementary School",
    "learners_assessed": 17.0,
    "small_group": true,
-   "k6_enrollment": 45.0,
-   "mooe_es_fy2026": 637000.0,
    "values": {
     "reading_lowest": 0.17647058823529413,
     "reading_grade_level": 0.11764705882352941,
@@ -332,8 +304,6 @@
    "school_name": "Nopulan ES",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 82.0,
-   "mooe_es_fy2026": 670000.0,
    "values": {
     "reading_lowest": 0.05263157894736842,
     "reading_grade_level": 0.05263157894736842,
@@ -353,8 +323,6 @@
    "school_name": "Sibukang ES",
    "learners_assessed": 21.0,
    "small_group": false,
-   "k6_enrollment": 34.0,
-   "mooe_es_fy2026": 624000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.0,
@@ -374,8 +342,6 @@
    "school_name": "Tagaytay Hill IPS",
    "learners_assessed": 6.0,
    "small_group": true,
-   "k6_enrollment": 15.0,
-   "mooe_es_fy2026": 597000.0,
    "values": {
     "reading_lowest": 0.3333333333333333,
     "reading_grade_level": 0.16666666666666666,
@@ -395,8 +361,6 @@
    "school_name": "Upper Bag-ong Tudela ES",
    "learners_assessed": 52.0,
    "small_group": false,
-   "k6_enrollment": 111.0,
-   "mooe_es_fy2026": 714000.0,
    "values": {
     "reading_lowest": 0.5576923076923077,
     "reading_grade_level": 0.07692307692307693,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

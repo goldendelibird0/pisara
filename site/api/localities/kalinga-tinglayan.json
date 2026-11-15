@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 13861000.0,
-   "schools_listed": 21,
-   "public_elementary_schools": 22,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Ambato-Legleg Elementary School",
    "learners_assessed": 26.0,
    "small_group": false,
-   "k6_enrollment": 75.0,
-   "mooe_es_fy2026": 670000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.3076923076923077,
@@ -143,8 +133,6 @@
    "school_name": "Balay Elementary School",
    "learners_assessed": 6.0,
    "small_group": true,
-   "k6_enrollment": 14.0,
-   "mooe_es_fy2026": 598000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.16666666666666666,
@@ -164,8 +152,6 @@
    "school_name": "Bangad Centro Elementary School",
    "learners_assessed": 56.0,
    "small_group": false,
-   "k6_enrollment": 130.0,
-   "mooe_es_fy2026": 708000.0,
    "values": {
     "reading_lowest": 0.32142857142857145,
     "reading_grade_level": 0.21428571428571427,
@@ -185,8 +171,6 @@
    "school_name": "Bangad Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 141.0,
-   "mooe_es_fy2026": 740000.0,
    "values": {
     "reading_lowest": 0.35714285714285715,
     "reading_grade_level": 0.11904761904761904,
@@ -206,8 +190,6 @@
    "school_name": "Basao Elementary School",
    "learners_assessed": 42.0,
    "small_group": false,
-   "k6_enrollment": 104.0,
-   "mooe_es_fy2026": 698000.0,
    "values": {
     "reading_lowest": 0.19047619047619047,
     "reading_grade_level": 0.21428571428571427,
@@ -227,8 +209,6 @@
    "school_name": "Belong Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 65.0,
-   "mooe_es_fy2026": 651000.0,
    "values": {
     "reading_lowest": 0.043478260869565216,
     "reading_grade_level": 0.5652173913043478,
@@ -248,8 +228,6 @@
    "school_name": "Bugnay Elementary School",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 164.0,
-   "mooe_es_fy2026": 779000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.0,
@@ -269,8 +247,6 @@
    "school_name": "Buscalan Elementary School",
    "learners_assessed": 54.0,
    "small_group": false,
-   "k6_enrollment": 115.0,
-   "mooe_es_fy2026": 707000.0,
    "values": {
     "reading_lowest": 0.12962962962962962,
     "reading_grade_level": 0.37037037037037035,
@@ -290,8 +266,6 @@
    "school_name": "Dalkinsan Elementary School",
    "learners_assessed": 12.0,
    "small_group": true,
-   "k6_enrollment": 31.0,
-   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.08333333333333333,
@@ -311,8 +285,6 @@
    "school_name": "Dananao Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 70.0,
-   "mooe_es_fy2026": 669000.0,
    "values": {
     "reading_lowest": 0.23333333333333334,
     "reading_grade_level": 0.3,
@@ -332,8 +304,6 @@
    "school_name": "Loccong Elementary School",
    "learners_assessed": 38.0,
    "small_group": false,
-   "k6_enrollment": 93.0,
-   "mooe_es_fy2026": 682000.0,
    "values": {
     "reading_lowest": 0.10526315789473684,
     "reading_grade_level": 0.42105263157894735,
@@ -353,8 +323,6 @@
    "school_name": "Luplupa Elementary School",
    "learners_assessed": 43.0,
    "small_group": false,
-   "k6_enrollment": 102.0,
-   "mooe_es_fy2026": 696000.0,
    "values": {
     "reading_lowest": 0.18604651162790697,
     "reading_grade_level": 0.13953488372093023,
@@ -374,8 +342,6 @@
    "school_name": "Mallango Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 69.0,
-   "mooe_es_fy2026": 665000.0,
    "values": {
     "reading_lowest": 0.16666666666666666,
     "reading_grade_level": 0.05555555555555555,
@@ -395,8 +361,6 @@
    "school_name": "Manubal Elementary School",
    "learners_assessed": 7.0,
    "small_group": true,
-   "k6_enrollment": 22.0,
-   "mooe_es_fy2026": 611000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.7142857142857143,
@@ -416,8 +380,6 @@
    "school_name": "Maswa Elementary School",
    "learners_assessed": 8.0,
    "small_group": true,
-   "k6_enrollment": 15.0,
-   "mooe_es_fy2026": 594000.0,
    "values": {
     "reading_lowest": 0.125,
     "reading_grade_level": 0.625,
@@ -437,8 +399,6 @@
    "school_name": "Ngibat Elementary School",
    "learners_assessed": 23.0,
    "small_group": false,
-   "k6_enrollment": 49.0,
-   "mooe_es_fy2026": 629000.0,
    "values": {
     "reading_lowest": 0.13043478260869565,
     "reading_grade_level": 0.2608695652173913,
@@ -458,8 +418,6 @@
    "school_name": "Sumadel Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 99.0,
-   "mooe_es_fy2026": 687000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.5897435897435898,
@@ -479,8 +437,6 @@
    "school_name": "TULGAO WEST INTEGRATED SCHOOL",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 73.0,
-   "mooe_es_fy2026": 508000.0,
    "values": {
     "reading_lowest": 0.06666666666666667,
     "reading_grade_level": 0.3333333333333333,
@@ -500,8 +456,6 @@
    "school_name": "Tinglayan Central School",
    "learners_assessed": 27.0,
    "small_group": false,
-   "k6_enrollment": 62.0,
-   "mooe_es_fy2026": 663000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.14814814814814814,
@@ -521,8 +475,6 @@
    "school_name": "Tinglayan Elementary School",
    "learners_assessed": 20.0,
    "small_group": false,
-   "k6_enrollment": 41.0,
-   "mooe_es_fy2026": 627000.0,
    "values": {
     "reading_lowest": 0.35,
     "reading_grade_level": 0.1,
@@ -542,8 +494,6 @@
    "school_name": "Tulgao Elementary School",
    "learners_assessed": 28.0,
    "small_group": false,
-   "k6_enrollment": 66.0,
-   "mooe_es_fy2026": 658000.0,
    "values": {
     "reading_lowest": 0.2857142857142857,
     "reading_grade_level": 0.07142857142857142,
@@ -601,5 +551,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

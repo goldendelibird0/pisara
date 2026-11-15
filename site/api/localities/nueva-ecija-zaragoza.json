@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 16945000.0,
-   "schools_listed": 17,
-   "public_elementary_schools": 17,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Batitang Elementary School",
    "learners_assessed": 200.0,
    "small_group": false,
-   "k6_enrollment": 501.0,
-   "mooe_es_fy2026": 1203000.0,
    "values": {
     "reading_lowest": 0.2,
     "reading_grade_level": 0.11,
@@ -143,8 +133,6 @@
    "school_name": "Carmen Elementary School",
    "learners_assessed": 228.0,
    "small_group": false,
-   "k6_enrollment": 579.0,
-   "mooe_es_fy2026": 1244000.0,
    "values": {
     "reading_lowest": 0.09649122807017543,
     "reading_grade_level": 0.5614035087719298,
@@ -164,8 +152,6 @@
    "school_name": "Concepcion East Elementary School",
    "learners_assessed": 65.0,
    "small_group": false,
-   "k6_enrollment": 195.0,
-   "mooe_es_fy2026": 805000.0,
    "values": {
     "reading_lowest": 0.15384615384615385,
     "reading_grade_level": 0.47692307692307695,
@@ -185,8 +171,6 @@
    "school_name": "Concepcion West Elementary School",
    "learners_assessed": 117.0,
    "small_group": false,
-   "k6_enrollment": 281.0,
-   "mooe_es_fy2026": 895000.0,
    "values": {
     "reading_lowest": 0.3418803418803419,
     "reading_grade_level": 0.10256410256410256,
@@ -206,8 +190,6 @@
    "school_name": "Don Cirilo B. Acosta Elementary School",
    "learners_assessed": 175.0,
    "small_group": false,
-   "k6_enrollment": 428.0,
-   "mooe_es_fy2026": 1103000.0,
    "values": {
     "reading_lowest": 0.18857142857142858,
     "reading_grade_level": 0.18285714285714286,
@@ -227,8 +209,6 @@
    "school_name": "F.B. Mesina Elementary School",
    "learners_assessed": 133.0,
    "small_group": false,
-   "k6_enrollment": 416.0,
-   "mooe_es_fy2026": 1082000.0,
    "values": {
     "reading_lowest": 0.2706766917293233,
     "reading_grade_level": 0.2556390977443609,
@@ -248,8 +228,6 @@
    "school_name": "Felicidad V. Buendia Elementary School",
    "learners_assessed": 49.0,
    "small_group": false,
-   "k6_enrollment": 121.0,
-   "mooe_es_fy2026": 723000.0,
    "values": {
     "reading_lowest": 0.5918367346938775,
     "reading_grade_level": 0.04081632653061224,
@@ -269,8 +247,6 @@
    "school_name": "Gen. Luna Elementary School",
    "learners_assessed": 111.0,
    "small_group": false,
-   "k6_enrollment": 247.0,
-   "mooe_es_fy2026": 855000.0,
    "values": {
     "reading_lowest": 0.25225225225225223,
     "reading_grade_level": 0.32432432432432434,
@@ -290,8 +266,6 @@
    "school_name": "H. ROMERO Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 116.0,
-   "mooe_es_fy2026": 690000.0,
    "values": {
     "reading_lowest": 0.08333333333333333,
     "reading_grade_level": 0.3888888888888889,
@@ -311,8 +285,6 @@
    "school_name": "Manaol Elementary School",
    "learners_assessed": 79.0,
    "small_group": false,
-   "k6_enrollment": 180.0,
-   "mooe_es_fy2026": 780000.0,
    "values": {
     "reading_lowest": 0.4430379746835443,
     "reading_grade_level": 0.17721518987341772,
@@ -332,8 +304,6 @@
    "school_name": "Mayamot Elementary School",
    "learners_assessed": 61.0,
    "small_group": false,
-   "k6_enrollment": 154.0,
-   "mooe_es_fy2026": 764000.0,
    "values": {
     "reading_lowest": 0.26229508196721313,
     "reading_grade_level": 0.3442622950819672,
@@ -353,8 +323,6 @@
    "school_name": "San Isidro Elementary School",
    "learners_assessed": 320.0,
    "small_group": false,
-   "k6_enrollment": 806.0,
-   "mooe_es_fy2026": 1548000.0,
    "values": {
     "reading_lowest": 0.296875,
     "reading_grade_level": 0.021875,
@@ -374,8 +342,6 @@
    "school_name": "Sta. Cruz Elementary School",
    "learners_assessed": 58.0,
    "small_group": false,
-   "k6_enrollment": 142.0,
-   "mooe_es_fy2026": 747000.0,
    "values": {
     "reading_lowest": 0.10344827586206896,
     "reading_grade_level": 0.10344827586206896,
@@ -395,8 +361,6 @@
    "school_name": "Sta. Lucia (O) Integrated School",
    "learners_assessed": 98.0,
    "small_group": false,
-   "k6_enrollment": 270.0,
-   "mooe_es_fy2026": 685000.0,
    "values": {
     "reading_lowest": 0.40816326530612246,
     "reading_grade_level": 0.030612244897959183,
@@ -416,8 +380,6 @@
    "school_name": "Sta. Lucia (Y) Elementary School",
    "learners_assessed": 121.0,
    "small_group": false,
-   "k6_enrollment": 299.0,
-   "mooe_es_fy2026": 907000.0,
    "values": {
     "reading_lowest": 0.4297520661157025,
     "reading_grade_level": 0.0743801652892562,
@@ -437,8 +399,6 @@
    "school_name": "Sto. Rosario (Y) Elementary School",
    "learners_assessed": 162.0,
    "small_group": false,
-   "k6_enrollment": 366.0,
-   "mooe_es_fy2026": 1010000.0,
    "values": {
     "reading_lowest": 0.3148148148148148,
     "reading_grade_level": 0.0,
@@ -458,8 +418,6 @@
    "school_name": "Zaragoza Central School",
    "learners_assessed": 450.0,
    "small_group": false,
-   "k6_enrollment": 1100.0,
-   "mooe_es_fy2026": 1904000.0,
    "values": {
     "reading_lowest": 0.22666666666666666,
     "reading_grade_level": 0.25555555555555554,
@@ -517,5 +475,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 16565000.0,
-   "schools_listed": 14,
-   "public_elementary_schools": 14,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Arellano Elementary School",
    "learners_assessed": 606.0,
    "small_group": false,
-   "k6_enrollment": 1488.0,
-   "mooe_es_fy2026": 2363000.0,
    "values": {
     "reading_lowest": 0.34983498349834985,
     "reading_grade_level": 0.12871287128712872,
@@ -143,8 +133,6 @@
    "school_name": "Bantan ES",
    "learners_assessed": 35.0,
    "small_group": false,
-   "k6_enrollment": 87.0,
-   "mooe_es_fy2026": 695000.0,
    "values": {
     "reading_lowest": 0.34285714285714286,
     "reading_grade_level": 0.2,
@@ -164,8 +152,6 @@
    "school_name": "Bilolo ES",
    "learners_assessed": 383.0,
    "small_group": false,
-   "k6_enrollment": 896.0,
-   "mooe_es_fy2026": 1571000.0,
    "values": {
     "reading_lowest": 0.3577023498694517,
     "reading_grade_level": 0.4516971279373368,
@@ -185,8 +171,6 @@
    "school_name": "Calungusan ES",
    "learners_assessed": 72.0,
    "small_group": false,
-   "k6_enrollment": 173.0,
-   "mooe_es_fy2026": 777000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.2222222222222222,
@@ -206,8 +190,6 @@
    "school_name": "Camachile ES",
    "learners_assessed": 57.0,
    "small_group": false,
-   "k6_enrollment": 121.0,
-   "mooe_es_fy2026": 717000.0,
    "values": {
     "reading_lowest": 0.12280701754385964,
     "reading_grade_level": 0.17543859649122806,
@@ -227,8 +209,6 @@
    "school_name": "Capunitan ES",
    "learners_assessed": 345.0,
    "small_group": false,
-   "k6_enrollment": 799.0,
-   "mooe_es_fy2026": 1511000.0,
    "values": {
     "reading_lowest": 0.3188405797101449,
     "reading_grade_level": 0.002898550724637681,
@@ -248,8 +228,6 @@
    "school_name": "Daan Pare ES",
    "learners_assessed": 374.0,
    "small_group": false,
-   "k6_enrollment": 888.0,
-   "mooe_es_fy2026": 1576000.0,
    "values": {
     "reading_lowest": 0.3048128342245989,
     "reading_grade_level": 0.058823529411764705,
@@ -269,8 +247,6 @@
    "school_name": "Eva Aeta ES",
    "learners_assessed": 50.0,
    "small_group": false,
-   "k6_enrollment": 99.0,
-   "mooe_es_fy2026": 717000.0,
    "values": {
     "reading_lowest": 0.4,
     "reading_grade_level": 0.08,
@@ -290,8 +266,6 @@
    "school_name": "General Lim ES",
    "learners_assessed": 327.0,
    "small_group": false,
-   "k6_enrollment": 798.0,
-   "mooe_es_fy2026": 1470000.0,
    "values": {
     "reading_lowest": 0.36085626911314983,
     "reading_grade_level": 0.05198776758409786,
@@ -311,8 +285,6 @@
    "school_name": "Pablo R. Roman ES",
    "learners_assessed": 139.0,
    "small_group": false,
-   "k6_enrollment": 340.0,
-   "mooe_es_fy2026": 1006000.0,
    "values": {
     "reading_lowest": 0.2446043165467626,
     "reading_grade_level": 0.1079136690647482,
@@ -332,8 +304,6 @@
    "school_name": "Puting Buhangin ES",
    "learners_assessed": 161.0,
    "small_group": false,
-   "k6_enrollment": 384.0,
-   "mooe_es_fy2026": 1025000.0,
    "values": {
     "reading_lowest": 0.2670807453416149,
     "reading_grade_level": 0.11180124223602485,
@@ -353,8 +323,6 @@
    "school_name": "Sabatan ES",
    "learners_assessed": 239.0,
    "small_group": false,
-   "k6_enrollment": 554.0,
-   "mooe_es_fy2026": 1203000.0,
    "values": {
     "reading_lowest": 0.26778242677824265,
     "reading_grade_level": 0.21338912133891214,
@@ -374,8 +342,6 @@
    "school_name": "Sta. Elena ES",
    "learners_assessed": 95.0,
    "small_group": false,
-   "k6_enrollment": 207.0,
-   "mooe_es_fy2026": 796000.0,
    "values": {
     "reading_lowest": 0.35789473684210527,
     "reading_grade_level": 0.17894736842105263,
@@ -395,8 +361,6 @@
    "school_name": "Sto. Domingo ES",
    "learners_assessed": 203.0,
    "small_group": false,
-   "k6_enrollment": 484.0,
-   "mooe_es_fy2026": 1138000.0,
    "values": {
     "reading_lowest": 0.2512315270935961,
     "reading_grade_level": 0.22660098522167488,
@@ -454,5 +418,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }

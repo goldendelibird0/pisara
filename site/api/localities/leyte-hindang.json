@@ -106,14 +106,6 @@
    "status": "preliminary",
    "source": "Bureau of Local Government Finance"
   },
-  "deped_school_mooe": {
-   "elementary_allocation": 13120000.0,
-   "schools_listed": 18,
-   "public_elementary_schools": 18,
-   "fiscal_year": "FY 2026",
-   "basis": "allocation under the General Appropriations Act, not spending",
-   "source": "Department of Education"
-  },
   "deped_regional_spending": null
  },
  "schools": [
@@ -122,8 +114,6 @@
    "school_name": "Anahaw Elementary School",
    "learners_assessed": 30.0,
    "small_group": false,
-   "k6_enrollment": 62.0,
-   "mooe_es_fy2026": 648000.0,
    "values": {
     "reading_lowest": 0.26666666666666666,
     "reading_grade_level": 0.03333333333333333,
@@ -143,8 +133,6 @@
    "school_name": "Anolon Elementary School",
    "learners_assessed": 33.0,
    "small_group": false,
-   "k6_enrollment": 88.0,
-   "mooe_es_fy2026": 684000.0,
    "values": {
     "reading_lowest": 0.06060606060606061,
     "reading_grade_level": 0.24242424242424243,
@@ -164,8 +152,6 @@
    "school_name": "Baldoza Elementary School",
    "learners_assessed": 16.0,
    "small_group": true,
-   "k6_enrollment": 35.0,
-   "mooe_es_fy2026": 621000.0,
    "values": {
     "reading_lowest": 0.1875,
     "reading_grade_level": 0.375,
@@ -185,8 +171,6 @@
    "school_name": "Bontoc Elementary School",
    "learners_assessed": 65.0,
    "small_group": false,
-   "k6_enrollment": 154.0,
-   "mooe_es_fy2026": 769000.0,
    "values": {
     "reading_lowest": 0.18461538461538463,
     "reading_grade_level": 0.09230769230769231,
@@ -206,8 +190,6 @@
    "school_name": "Bulacan Elementary School",
    "learners_assessed": 31.0,
    "small_group": false,
-   "k6_enrollment": 84.0,
-   "mooe_es_fy2026": 678000.0,
    "values": {
     "reading_lowest": 0.1935483870967742,
     "reading_grade_level": 0.0967741935483871,
@@ -227,8 +209,6 @@
    "school_name": "Canha-ayon Elementary School",
    "learners_assessed": 28.0,
    "small_group": false,
-   "k6_enrollment": 61.0,
-   "mooe_es_fy2026": 656000.0,
    "values": {
     "reading_lowest": 0.42857142857142855,
     "reading_grade_level": 0.03571428571428571,
@@ -248,8 +228,6 @@
    "school_name": "Capudlosan Elementary School",
    "learners_assessed": 36.0,
    "small_group": false,
-   "k6_enrollment": 85.0,
-   "mooe_es_fy2026": 680000.0,
    "values": {
     "reading_lowest": 0.2222222222222222,
     "reading_grade_level": 0.05555555555555555,
@@ -269,8 +247,6 @@
    "school_name": "Doos Elementary School",
    "learners_assessed": 82.0,
    "small_group": false,
-   "k6_enrollment": 205.0,
-   "mooe_es_fy2026": 828000.0,
    "values": {
     "reading_lowest": 0.0975609756097561,
     "reading_grade_level": 0.012195121951219513,
@@ -290,8 +266,6 @@
    "school_name": "Doos Sur Elementary School",
    "learners_assessed": 68.0,
    "small_group": false,
-   "k6_enrollment": 182.0,
-   "mooe_es_fy2026": 807000.0,
    "values": {
     "reading_lowest": 0.058823529411764705,
     "reading_grade_level": 0.1323529411764706,
@@ -311,8 +285,6 @@
    "school_name": "Himacugo Elementary School",
    "learners_assessed": 11.0,
    "small_group": true,
-   "k6_enrollment": 34.0,
-   "mooe_es_fy2026": 619000.0,
    "values": {
     "reading_lowest": 0.2727272727272727,
     "reading_grade_level": 0.0,
@@ -332,8 +304,6 @@
    "school_name": "Himokilan Integrated School",
    "learners_assessed": 28.0,
    "small_group": false,
-   "k6_enrollment": 80.0,
-   "mooe_es_fy2026": 520000.0,
    "values": {
     "reading_lowest": 0.07142857142857142,
     "reading_grade_level": 0.17857142857142858,
@@ -353,8 +323,6 @@
    "school_name": "Hindang Central School",
    "learners_assessed": 247.0,
    "small_group": false,
-   "k6_enrollment": 680.0,
-   "mooe_es_fy2026": 1338000.0,
    "values": {
     "reading_lowest": 0.17813765182186234,
     "reading_grade_level": 0.08097165991902834,
@@ -374,8 +342,6 @@
    "school_name": "Katipunan Elementary School",
    "learners_assessed": 9.0,
    "small_group": true,
-   "k6_enrollment": 27.0,
-   "mooe_es_fy2026": 603000.0,
    "values": {
     "reading_lowest": 0.4444444444444444,
     "reading_grade_level": 0.1111111111111111,
@@ -395,8 +361,6 @@
    "school_name": "Ma-asin Elementary School",
    "learners_assessed": 59.0,
    "small_group": false,
-   "k6_enrollment": 134.0,
-   "mooe_es_fy2026": 737000.0,
    "values": {
     "reading_lowest": 0.3898305084745763,
     "reading_grade_level": 0.03389830508474576,
@@ -416,8 +380,6 @@
    "school_name": "Mabagon Elementary School",
    "learners_assessed": 39.0,
    "small_group": false,
-   "k6_enrollment": 104.0,
-   "mooe_es_fy2026": 705000.0,
    "values": {
     "reading_lowest": 0.3076923076923077,
     "reading_grade_level": 0.02564102564102564,
@@ -437,8 +399,6 @@
    "school_name": "Mahilum Elementary School",
    "learners_assessed": 7.0,
    "small_group": true,
-   "k6_enrollment": 18.0,
-   "mooe_es_fy2026": 607000.0,
    "values": {
     "reading_lowest": 0.0,
     "reading_grade_level": 0.0,
@@ -458,8 +418,6 @@
    "school_name": "Tabok Elementary School",
    "learners_assessed": 84.0,
    "small_group": false,
-   "k6_enrollment": 227.0,
-   "mooe_es_fy2026": 839000.0,
    "values": {
     "reading_lowest": 0.13095238095238096,
     "reading_grade_level": 0.047619047619047616,
@@ -479,8 +437,6 @@
    "school_name": "Tagbibi Elementary School",
    "learners_assessed": 62.0,
    "small_group": false,
-   "k6_enrollment": 155.0,
-   "mooe_es_fy2026": 781000.0,
    "values": {
     "reading_lowest": 0.24193548387096775,
     "reading_grade_level": 0.11290322580645161,
@@ -538,5 +494,5 @@
    "period": "mixed years"
   }
  ],
- "attribution": "School data: Department of Education, Project Bukas machine-ready files and the FY 2026 school MOOE allocation, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
+ "attribution": "School data: Department of Education, Project Bukas machine-ready files, used under DepEd's Terms of Use and Fair Use Policy. Tax allotment data: DBM COMPASS public export. Special Education Fund data: Bureau of Local Government Finance (BLGF), FY2025 preliminary. This is an independent prototype. It is not produced, reviewed or endorsed by DepEd, DBM or BLGF."
 }
